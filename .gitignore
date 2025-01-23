@@ -1,0 +1,11 @@
+node_modules/
+.*/
+⋆/
+∤/
+
+!*/result/
+**/result
+/result
+
+bun.lockb
+.DS_Store

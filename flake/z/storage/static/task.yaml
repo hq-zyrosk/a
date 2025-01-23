@@ -1,0 +1,20 @@
+---
+includes:
+  a:
+    dir: ./a
+    taskfile: ./a
+  c:
+    dir: ./c
+    taskfile: ./c
+  e:
+    dir: ./e
+    taskfile: ./e
+  x:
+    dir: ./x
+    taskfile: ./x
+  z:
+    dir: ./z
+    taskfile: ./z
+silent: true
+tasks: null
+version: '3'
