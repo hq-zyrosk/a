@@ -29,5 +29,5 @@ yaml
   "git.decorations.enabled" = false;
   "git.confirmSync" = false;
   "git.autorefresh" = true;
-  "git.autofetch" = false;
+  "git.autofetch" = true;
 }

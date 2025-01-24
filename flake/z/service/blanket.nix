@@ -1,7 +1,0 @@
-{
-  services = {
-    blanket = {
-      enable = true;
-    };
-  };
-}

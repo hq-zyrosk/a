@@ -2,7 +2,7 @@ let
   letter-spacing = 0;
   word-wrap = 96;
   text-type = "'PragmataPro Mono Liga', monospace";
-  text-size = 13;
+  text-size = 16;
   text-high = 1;
   tab-width = 99;
 in

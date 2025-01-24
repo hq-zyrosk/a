@@ -62,8 +62,7 @@
     };
   };
   const style=   z=>{
-    // eslint-disable-next-line functional/immutable-data
-    z.style= `font-size: 13px;`;
+    z.style= `font-size: 16px;`;
 
     return z;
   };
@@ -88,11 +87,9 @@
       Text.push (z.textContent.replaceAll (/^switch$/gu, ``)) (z);
 
       return Element.text (_z=>{
-        // eslint-disable-next-line functional/immutable-data
         _z.style= `font-size: 0`;
 
         return Element.next (__z=>{
-          // eslint-disable-next-line functional/immutable-data
           __z.style= `font-size: 0`;
 
           return __z;
@@ -216,7 +213,6 @@
   };
   const Text=    {
     push: v=>z=>{
-      // eslint-disable-next-line functional/immutable-data
       z.textContent= v;
 
       return z;
@@ -228,7 +224,6 @@
 
       z.setAttribute (`text`, z.textContent);
       switch (true) {
-      // eslint-disable-next-line unicorn/no-null
       case eq (null) (next):
         return f (z);
       default:
@@ -246,7 +241,6 @@
     next: f=>z=>{
       const next= z.nextSibling;
       switch (true) {
-      // eslint-disable-next-line unicorn/no-null
       case eq (null) (next):
         return true;
       default:
@@ -271,9 +265,7 @@
     },
     loop: f=>e=>{
       const back= [];
-      // eslint-disable-next-line functional/no-loop-statements
       for (const node of e) {
-      // eslint-disable-next-line functional/immutable-data
         back.push (f (node));
       }
       return back;
@@ -296,9 +288,7 @@
   };
   const loop= f=>e=>{
     const back= [];
-    // eslint-disable-next-line functional/no-loop-statements
     for (const node of e) {
-      // eslint-disable-next-line functional/immutable-data
       back.push (f (node));
     }
     return back;

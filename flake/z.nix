@@ -7,8 +7,6 @@
     ./z/storage/static.nix
     ./z/service/remmina.nix
     ./z/service/mako.nix
-    ./z/service/glance.nix
-    ./z/service/blanket.nix
     ./z/program/xdg.nix
     ./z/program/git.nix
     ./z/program/bun.nix

@@ -15,7 +15,9 @@
             use_nearest_neighbor = false;
             force_zero_scaling = false;
           };
-          workspace = [ "name:special, rounding:false, gapsout:0, gapsin:0, decorate:false, border:false" ];
+          workspace = [
+            "name:special, rounding:false, gapsout:0, gapsin:0, decorate:false, border:false"
+          ];
           windowrulev2 = [
             "fullscreenstate 0 2,class:^.+$"
             "noinitialfocus,class:^.+$"
