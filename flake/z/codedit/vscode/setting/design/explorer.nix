@@ -2,7 +2,7 @@
   "files.associations" = { };
   "explorer.fileNesting.patterns" = {
     "taskfile.yaml" =
-      "*.code-workspace, .gitattributes, .gitignore, *.minder, *.yaml, *.toml, *.json, *.mjs, *.cjs, *.js";
+      "*.code-workspace, .gitattributes, .gitignore, *.minder, *.yaml, *.toml, *.json, *.tsx, *.mjs, *.cjs, *.ts, *.js";
   };
   "explorer.autoRevealExclude" = {
     "**/node_modules" = true;
