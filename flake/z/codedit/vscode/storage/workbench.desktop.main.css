@@ -1,19 +1,8 @@
 @import url("workbench.desktop.main.backup.css");
 
 /*--------------------------------------------------------------------------------------------*/
-.view-line > span > span:focus ~ span {
-  text-decoration: none !important;
-  opacity: calc(1 / 1) !important;
-  width: auto !important;
-}
-
-.view-line > span > span {
-  opacity: calc(1 / 4);
-}
-
 .mtku {
   text-decoration: none !important;
-  opacity: calc(0 / 1) !important;
   display: inline-flex !important;
   width: 7px !important;
   overflow: hidden;
@@ -27,12 +16,11 @@
 }
 
 .mtki {
-  opacity: calc(1 / 1) !important;
   font-style: normal !important;
 }
 
 .mtkb {
-  opacity: calc(1 / 1) !important;
+  font-weight: bold !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -68,17 +56,9 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*explorer-rows*/
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
-  opacity: 0;
-}
-
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-selected="true"] {
-  font-weight: bold;
-}
-
+/*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
-  color: #0047003F;
+  color: #0047007F;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="true"] {
@@ -87,6 +67,16 @@
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
   color: #7F0000FF;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*explorer-rows*/
+.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
+  opacity: calc(1 / 2);
+}
+
+.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-selected="true"] {
+  font-weight: bolder;
 }
 
 /*--------------------------------------------------------------------------------------------*/
