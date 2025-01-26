@@ -1,5 +1,5 @@
 let
-  text-size = 16 * (38.00 / 45.00);
+  text-size = 16.00 * (38.00 / 45.00);
   text-high = 1;
 in
 {

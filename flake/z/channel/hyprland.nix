@@ -89,7 +89,7 @@
           exec-once = [
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
             "[workspace special:command silent] foot btop"
-            "[workspace special:manager silent] minder"
+            "[workspace special:manager silent] obsidian"
 
             "[workspace 1 silent] code-insiders --ozone-platform=wayland"
             "[workspace 1 silent] foot"
