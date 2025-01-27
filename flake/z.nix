@@ -54,11 +54,13 @@
   home = {
     sessionVariables = { };
     packages = with pkgs; [
+      httptoolkit
+      obsidian
+
       brightnessctl
       pavucontrol
-      xdg-utils
       libnotify
-      obsidian
+      xdg-utils
     ];
     language = { };
     keyboard = {
