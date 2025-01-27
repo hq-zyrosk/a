@@ -4,7 +4,7 @@ let
   text-type = "'PragmataPro Mono Liga', monospace";
   text-size = 16;
   text-high = 1;
-  tab-width = 99;
+  tab-width = 98;
 in
 {
   "editor.unicodeHighlight.allowedLocales" = { };

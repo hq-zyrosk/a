@@ -72,7 +72,7 @@
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
-  opacity: calc(1 / 2);
+  font-weight: normal;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-selected="true"] {
@@ -98,7 +98,7 @@
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows {
-  margin-left: calc(var(--text-size) * 2 * -1);
+  margin-left: calc(var(--text-size) * 2 * -0.8);
 }
 
 .explorer-folders-view .monaco-list-row {
