@@ -1,6 +1,6 @@
 let
   text-size = 16.00 * (38.00 / 45.00);
-  text-high = 1;
+  text-high = 1.00;
 in
 {
   programs = {

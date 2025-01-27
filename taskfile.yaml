@@ -25,7 +25,7 @@ tasks:
     dir: /nix/store/
   flake-a:
     cmds:
-      - sudo nixos-rebuild switch {{.CLI_ARGS}}
+      - sudo nixos-rebuild switch -I nixos-config=/etc/nixos/configuration.nix {{.CLI_ARGS}}
   flake-c:
     cmds:
       - home-manager switch {{.CLI_ARGS}}

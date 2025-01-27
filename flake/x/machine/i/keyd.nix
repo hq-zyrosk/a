@@ -12,6 +12,8 @@
 
               "right" = "end";
               "left" = "home";
+
+              "'" = "′";
             };
             "main" = {
               "leftcontrol" = "layer(leftcontrol)";
