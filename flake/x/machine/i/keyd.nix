@@ -5,15 +5,15 @@
         default = {
           settings = {
             "leftcontrol:M" = { };
-            "leftmeta:A" = { };
+            "leftmeta:A" = {
+              "'" = "write ′";
+            };
             "leftalt:C" = {
               "down" = "pagedown";
               "up" = "pageup";
 
               "right" = "end";
               "left" = "home";
-
-              "'" = "′";
             };
             "main" = {
               "leftcontrol" = "layer(leftcontrol)";
