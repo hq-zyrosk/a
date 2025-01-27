@@ -170,16 +170,18 @@
             allow_workspace_cycles = false;
           };
           bindm = [
-            "mod4      , mouse:273, resizewindow"
-            "mod4      , mouse:272, movewindow"
+            "mod4,       mouse:273, resizewindow"
+            "mod4,       mouse:272, movewindow"
           ];
           bindl = [
-            "mod4 shift, v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%+"
-            "mod4,       v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 4%-"
-            "mod4 shift, m, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
-            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-            "mod4 shift, b, exec, brightnessctl set 4%+"
-            "mod4,       b, exec, brightnessctl set 4%-"
+            "mod4 shift, v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01+"
+            "mod4,       v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01-"
+            "mod4 shift, n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 1"
+            "mod4,       n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
+            "mod4 shift, m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
+            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
+            "mod4 shift, b, exec, brightnessctl set 1+"
+            "mod4,       b, exec, brightnessctl set 1-"
           ];
           bind = [
             "mod4 shift, backspace, movetoworkspace, special:command"
