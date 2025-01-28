@@ -102,14 +102,14 @@
     variables = { };
     defaultPackages = with pkgs; [
       fishPlugins.pure
-      curlHTTP3
-
       home-manager
+
       clang-tools
       nodejs_23
-
+      curlHTTP3
       gnumake
       cmake
+      gdb
       gcc
     ];
     systemPackages = with pkgs; [
