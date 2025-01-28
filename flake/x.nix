@@ -100,7 +100,7 @@
 
   environment = {
     variables = {
-      VCPKG_ROOT = "${pkgs.vcpkg}";
+      VCPKG_ROOT = "${pkgs.vcpkg}/vcpkg/";
     };
     defaultPackages = with pkgs; [
       fishPlugins.pure
