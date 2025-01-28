@@ -106,6 +106,9 @@
       libressl
       killall
 
+      p7zip
+      ldns
+
       nixfmt-rfc-style
       nixd
     ];
@@ -120,12 +123,13 @@
       nodejs_23
 
       clang-tools
+      gnumake
+
       vcpkg-tool
       vcpkg
-      gcc
 
-      p7zip
-      ldns
+      gdb
+      gcc
     ];
   };
 }
