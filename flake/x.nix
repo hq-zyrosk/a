@@ -119,6 +119,11 @@
       home-manager
       nodejs_23
 
+      clang-tools
+      vcpkg-tool
+      vcpkg
+      gcc
+
       p7zip
       ldns
     ];
