@@ -99,19 +99,9 @@
   };
 
   environment = {
-    sessionVariables = { };
-    systemPackages = with pkgs; [
-      timelimit
-      parallel
-      libressl
-      killall
-
-      p7zip
-      ldns
-
-      nixfmt-rfc-style
-      nixd
-    ];
+    variables = {
+      VCPKG_ROOT = "${pkgs.vcpkg}";
+    };
     defaultPackages = with pkgs; [
       fishPlugins.pure
       curlHTTP3
@@ -130,6 +120,18 @@
 
       gdb
       gcc
+    ];
+    systemPackages = with pkgs; [
+      timelimit
+      parallel
+      libressl
+      killall
+
+      p7zip
+      ldns
+
+      nixfmt-rfc-style
+      nixd
     ];
   };
 }
