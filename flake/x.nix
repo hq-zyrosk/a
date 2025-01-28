@@ -99,26 +99,17 @@
   };
 
   environment = {
-    variables = {
-      VCPKG_ROOT = "${pkgs.vcpkg}/vcpkg/";
-    };
+    variables = { };
     defaultPackages = with pkgs; [
       fishPlugins.pure
       curlHTTP3
 
-      libimobiledevice
-      ifuse
-
       home-manager
+      clang-tools
       nodejs_23
 
-      clang-tools
       gnumake
-
-      vcpkg-tool
-      vcpkg
-
-      gdb
+      cmake
       gcc
     ];
     systemPackages = with pkgs; [
@@ -129,6 +120,9 @@
 
       p7zip
       ldns
+
+      libimobiledevice
+      ifuse
 
       nixfmt-rfc-style
       nixd
