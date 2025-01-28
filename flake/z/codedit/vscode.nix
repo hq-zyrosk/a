@@ -34,7 +34,7 @@
         redhat.vscode-yaml
         pascalreitermann93.vscode-yaml-sort
         ms-vscode.live-server
-        ms-python.python
+        ms-vscode.cpptools
         likebot.vscode-empty-themes
         jnoortheen.nix-ide
         dbaeumer.vscode-eslint

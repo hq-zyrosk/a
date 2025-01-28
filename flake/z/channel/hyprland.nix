@@ -179,7 +179,7 @@
             "mod4 shift, n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 1"
             "mod4,       n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
             "mod4 shift, m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
-            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
+            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 0"
             "mod4 shift, b, exec, brightnessctl set 1+"
             "mod4,       b, exec, brightnessctl set 1-"
           ];

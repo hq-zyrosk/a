@@ -3,6 +3,8 @@
   "explorer.fileNesting.patterns" = {
     "taskfile.yaml" =
       "*.code-workspace, .gitattributes, .gitignore, *.yaml, *.json, *.tsx, *.mjs, *.ts, *.js";
+    "*.tsx" = "\${capture}.d.tsx, \${capture}.tsx.map";
+    "*.ts" = "\${capture}.d.ts, \${capture}.ts.map";
   };
   "explorer.autoRevealExclude" = {
     "**/node_modules" = true;
