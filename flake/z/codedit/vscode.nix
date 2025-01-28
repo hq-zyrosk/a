@@ -30,11 +30,12 @@
       keybindings = import ./vscode/keybind.nix;
       globalSnippets = { };
       extensions = with extensions.vscode-marketplace; [
+        pkgs.vscode-extensions.ms-vscode.cpptools
+
         tyriar.sort-lines
         redhat.vscode-yaml
         pascalreitermann93.vscode-yaml-sort
         ms-vscode.live-server
-        ms-vscode.cpptools
         likebot.vscode-empty-themes
         jnoortheen.nix-ide
         dbaeumer.vscode-eslint
