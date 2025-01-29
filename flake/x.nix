@@ -99,7 +99,6 @@
   };
 
   environment = {
-    variables = { };
     defaultPackages = with pkgs; [
       fishPlugins.pure
       home-manager
