@@ -6,7 +6,7 @@
   "extensions.webWorker" = true;
   "extensions.supportVirtualWorkspaces" = { };
   "extensions.supportUntrustedWorkspaces" = { };
-  "extensions.ignoreRecommendations" = false;
+  "extensions.ignoreRecommendations" = true;
   "extensions.gallery.useUnpkgResourceApi" = true;
   "extensions.experimental.issueQuickAccess" = true;
   "extensions.experimental.deferredStartupFinishedActivation" = false;

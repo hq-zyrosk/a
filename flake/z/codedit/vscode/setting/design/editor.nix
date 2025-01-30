@@ -175,6 +175,7 @@ in
   "editor.multiCursorModifier" = "alt";
   "editor.mouseWheelZoom" = false;
   "editor.mouseWheelScrollSensitivity" = 1;
+  "editor.minimap.sectionHeaderFontSize" = text-size;
   "editor.minimap.enabled" = false;
   "editor.maxTokenizationLineLength" = 20000;
   "editor.matchBrackets" = "always";
