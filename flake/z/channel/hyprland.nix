@@ -52,7 +52,7 @@
             special_scale_factor = 0.8;
             orientation = "right";
             new_on_top = false;
-            mfact = 0.625;
+            mfact = 0.6875;
             allow_small_split = false;
           };
           input = {
