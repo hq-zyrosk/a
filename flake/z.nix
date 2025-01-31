@@ -56,6 +56,7 @@
 
   home = {
     packages = with pkgs; [
+      jetbrains.clion
       android-studio
       httptoolkit
       obsidian
