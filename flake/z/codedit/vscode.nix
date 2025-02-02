@@ -32,6 +32,7 @@
       extensions = with extensions.vscode-marketplace; [
         pkgs.vscode-extensions.ms-vscode.cpptools
 
+        ziglang.vscode-zig
         tyriar.sort-lines
         redhat.vscode-yaml
         pascalreitermann93.vscode-yaml-sort

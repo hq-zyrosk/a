@@ -101,7 +101,6 @@
             "NIXOS_OZONE_WL,1"
             "HYPRCURSOR_THEME,dot-red"
             "HYPRCURSOR_SIZE,5"
-            "GTK_USE_PORTAL,1"
           ];
           dwindle = {
             use_active_for_splits = false;

@@ -108,6 +108,7 @@
       curlHTTP3
       gnumake
       cmake
+      zig
       gdb
       gcc
     ];

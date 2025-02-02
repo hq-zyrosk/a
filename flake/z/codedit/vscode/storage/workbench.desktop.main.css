@@ -1,7 +1,7 @@
 @import url("workbench.desktop.main.backup.css");
 
 /*--------------------------------------------------------------------------------------------*/
-.mtku {
+/* .mtku {
   text-decoration: none !important;
   display: inline-flex !important;
   width: 7px !important;
@@ -21,8 +21,7 @@
 
 .mtkb {
   font-weight: bold !important;
-}
-
+} */
 /*--------------------------------------------------------------------------------------------*/
 /*widget*/
 .monaco-editor .peekview-widget .head .peekview-title {
