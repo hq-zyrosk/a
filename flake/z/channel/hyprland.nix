@@ -87,6 +87,9 @@
             allow_tearing = false;
           };
           exec-once = [
+            "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+            "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
+
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
             "[workspace special:command silent] foot btop"
             "[workspace special:manager silent] obsidian"
