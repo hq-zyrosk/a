@@ -231,6 +231,7 @@
             enabled = false;
           };
         };
+        portalPackage = pkgs.xdg-desktop-portal-hyprland;
         extraConfig = "";
         enable = true;
       };
