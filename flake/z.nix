@@ -10,6 +10,7 @@
     ./z/program/xdg.nix
     ./z/program/git.nix
     ./z/program/bun.nix
+    ./z/program/act.nix
     ./z/monitor/btop.nix
     ./z/contact/ssh.nix
     ./z/command/foot.nix

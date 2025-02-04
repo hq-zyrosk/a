@@ -32,7 +32,7 @@ in
           initial-window-mode = "fullscreen";
           font-size-adjustment = 0;
           font = "monospace:size=${builtins.toString text-size}";
-          dpi-aware = "no";
+          dpi-aware = "yes";
           box-drawings-uses-font-glyphs = "yes";
           bold-text-in-bright = "no";
         };
