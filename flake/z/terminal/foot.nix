@@ -85,7 +85,7 @@ in
           flash-alpha = 0.5;
           flash = "FFFF00";
           foreground = "000000";
-          background = "FFFFFF";
+          background = "F3EDE0";
           alpha = 1.0;
         };
       };

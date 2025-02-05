@@ -15,7 +15,7 @@
     keyMap = "us";
     font = "${pkgs.terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     colors = [
-      "FFFFFF"
+      "F3EDE0"
       "C90000"
       "007400"
       "666600"
@@ -24,7 +24,7 @@
       "004444"
       "898989"
 
-      "FFFFFF"
+      "F3EDE0"
       "C90000"
       "007400"
       "666600"
