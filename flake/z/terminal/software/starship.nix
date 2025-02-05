@@ -1,6 +1,6 @@
 {
   programs = {
-    tmux = {
+    starship = {
       enable = true;
     };
   };
