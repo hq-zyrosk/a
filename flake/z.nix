@@ -5,9 +5,7 @@
     ./z/utility/lsd.nix
     ./z/utility/fastfetch.nix
     ./z/terminal/software/tmux.nix
-    ./z/terminal/software/foot.nix
-    ./z/terminal/software/fish.nix
-    ./z/terminal/alacritty.nix
+    ./z/terminal/foot.nix
     ./z/storage/static.nix
     ./z/service/remmina.nix
     ./z/service/mako.nix
@@ -59,8 +57,11 @@
 
   home = {
     packages = with pkgs; [
-      jetbrains.clion
+      android-studio-tools
       android-studio
+      android-tools
+
+      jetbrains.clion
       httptoolkit
       obsidian
 

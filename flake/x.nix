@@ -102,13 +102,14 @@
     defaultPackages = with pkgs; [
       fishPlugins.pure
       home-manager
+      unzip
+      ldns
 
       clang-tools
       nodejs_23
       curlHTTP3
       gnumake
       cmake
-      zig
       gdb
       gcc
     ];
@@ -117,9 +118,6 @@
       parallel
       libressl
       killall
-
-      p7zip
-      ldns
 
       libimobiledevice
       ifuse
