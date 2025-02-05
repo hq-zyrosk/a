@@ -79,8 +79,8 @@
             resize_on_border = true;
             no_border_on_floating = false;
             layout = "master";
-            gaps_out = 2.0;
-            gaps_in = 1.0;
+            gaps_out = 1.0;
+            gaps_in = 0.5;
             "col.inactive_border" = "rgba(BFBFBFFF)";
             "col.active_border" = "rgba(BFBFBFFF)";
             border_size = 0;
