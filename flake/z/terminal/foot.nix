@@ -22,7 +22,7 @@ in
         };
         main = {
           term = "foot";
-          shell = "nushell";
+          shell = "nu";
           selection-target = "primary";
           pad = "0x0";
           login-shell = "no";

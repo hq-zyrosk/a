@@ -82,7 +82,7 @@ in
   "terminal.integrated.fontFamily" = text-type;
   "terminal.integrated.enableImages" = true;
   "terminal.integrated.enableFileLinks" = "on";
-  "terminal.integrated.defaultProfile.linux" = "nushell";
+  "terminal.integrated.defaultProfile.linux" = "bash";
   "terminal.integrated.customGlyphs" = true;
   "terminal.integrated.cursorStyleInactive" = "line";
   "terminal.integrated.cursorStyle" = "line";
