@@ -57,18 +57,17 @@
 
   home = {
     packages = with pkgs; [
-      android-studio-tools
+      jetbrains.clion
+      obsidian
+
       android-studio
       android-tools
 
-      jetbrains.clion
-      httptoolkit
-      obsidian
-
       brightnessctl
       pavucontrol
-      libnotify
+
       xdg-utils
+      libnotify
     ];
     language = { };
     keyboard = {
