@@ -7,6 +7,7 @@
     ./z/terminal/software/starship.nix
     ./z/terminal/software/nushell.nix
     ./z/terminal/foot.nix
+    ./z/terminal/alacritty.nix
     ./z/storage/static.nix
     ./z/service/remmina.nix
     ./z/service/mako.nix
