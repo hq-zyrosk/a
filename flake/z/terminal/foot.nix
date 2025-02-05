@@ -34,7 +34,7 @@ in
           font = "monospace:size=${builtins.toString text-size}";
           dpi-aware = "yes";
           box-drawings-uses-font-glyphs = "yes";
-          bold-text-in-bright = "no";
+          bold-text-in-bright = "yes";
         };
         key-bindings = {
           spawn-terminal = "Control+t";
