@@ -145,7 +145,7 @@
 .monaco-workbench .part > .title {
   line-height: calc(var(--text-size) * 2);
   height: calc(var(--text-size) * 2);
-  background-color: #F3EDE0FF;
+  background-color: #FFEFDFFF;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -275,5 +275,5 @@ hint:
   property  = FF00FFFF
   parameter = 00FF00FF
   function  = 0000FFFF
-  method    = 00F3EDE0
+  method    = 00FFEFDF
 */
