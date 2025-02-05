@@ -1,7 +1,11 @@
 {
   programs = {
     alacritty = {
-      settings = { };
+      settings = {
+        terminal = {
+          shell = "nu";
+        };
+      };
       enable = true;
     };
   };
