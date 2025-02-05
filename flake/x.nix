@@ -48,7 +48,6 @@
       };
     };
     mutableUsers = false;
-    defaultUserShell = pkgs.fish;
   };
 
   services = {
@@ -67,31 +66,6 @@
     };
   };
 
-  programs = {
-    fish = {
-      interactiveShellInit = ''
-        set pure_threshold_command_duration 4
-        set pure_shorten_window_title_current_directory_length 4
-        set pure_shorten_prompt_current_directory_length 4
-        set pure_begin_prompt_with_current_directory true
-
-        set pure_symbol_prefix_root_prompt "₹"
-        set pure_symbol_container_prefix "¢"
-        set pure_symbol_ssh_prefix "\$"
-        set pure_symbol_prompt "/"
-
-        set pure_show_prefix_root_prompt true
-        set pure_show_system_time falsetext-size
-
-        set pure_enable_single_line_prompt true
-        set pure_enable_git false
-
-        set fish_greeting
-      '';
-      enable = true;
-    };
-  };
-
   nixpkgs = {
     config = {
       permittedInsecurePackages = [ ];
@@ -100,13 +74,8 @@
 
   environment = {
     defaultPackages = with pkgs; [
-      fishPlugins.pure
-      home-manager
-      unzip
-      ldns
-
+      nodejs_latest
       clang-tools
-      nodejs_23
       curlHTTP3
       gnumake
       cmake
@@ -114,10 +83,12 @@
       gcc
     ];
     systemPackages = with pkgs; [
+      home-manager
       timelimit
       parallel
       libressl
       killall
+      unzip
 
       libimobiledevice
       ifuse
