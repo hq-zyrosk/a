@@ -91,11 +91,11 @@
             "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
 
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
-            "[workspace special:command silent] foot btop"
+            "[workspace special:command silent] alacritty --command btop"
             "[workspace special:manager silent] obsidian"
 
             "[workspace 1 silent] code-insiders --ozone-platform=wayland"
-            "[workspace 1 silent] foot"
+            "[workspace 1 silent] alacritty --command fastfetch"
           ];
           env = [
             "XDG_SESSION_TYPE,wayland"
@@ -206,8 +206,8 @@
             "mod4 shift, up, movewindow, u"
             "mod4,       up, movefocus, u"
 
-            "mod4 shift, t, exec, foot sh"
-            "mod4,       t, exec, foot"
+            "mod4 shift, t, exec, alacritty --command sh"
+            "mod4,       t, exec, alacritty"
             "mod4 shift, f, fullscreen, 1"
             "mod4,       f, fullscreen, 0"
             "mod4 shift, q, exit"
