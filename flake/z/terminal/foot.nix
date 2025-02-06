@@ -1,5 +1,5 @@
 let
-  text-size = 13;
+  text-size = 10;
   text-high = 1;
 in
 {
@@ -65,6 +65,7 @@ in
           regular5 = "6F006F";
           regular6 = "004444";
           regular7 = "898989";
+
           bright0 = "888888";
           bright1 = "C90000";
           bright2 = "007400";
@@ -73,6 +74,7 @@ in
           bright5 = "6F006F";
           bright6 = "004444";
           bright7 = "898989";
+
           dim0 = "888888";
           dim1 = "C90000";
           dim2 = "007400";
