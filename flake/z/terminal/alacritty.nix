@@ -10,8 +10,7 @@
             {
               key = "Q";
               mods = "Control";
-              action = "ReceiveChar";
-              char = "\\\\x03";
+              chars = "\\u0003";
             }
             {
               key = "T";
@@ -20,8 +19,13 @@
             }
             {
               key = "F";
+              mods = "Control|Shift";
+              action = "SearchBackward";
+            }
+            {
+              key = "F";
               mods = "Control";
-              action = "SearchStart";
+              action = "SearchForward";
             }
             {
               key = "V";
