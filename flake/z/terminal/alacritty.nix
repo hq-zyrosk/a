@@ -40,6 +40,23 @@
           ];
         };
         font = {
+          bold_italic = {
+            family = "PragmataPro Mono Liga";
+            style = "Bold Italic";
+          };
+          italic = {
+            family = "PragmataPro Mono Liga";
+            style = "Italic";
+          };
+          bold = {
+            family = "PragmataPro Mono Liga";
+            style = "Bold";
+          };
+          normal = {
+            family = "PragmataPro Mono Liga";
+            style = "Regular";
+          };
+          builtin_box_drawing = true;
           size = 10;
         };
         cursor = {
