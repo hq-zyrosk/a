@@ -95,7 +95,7 @@
             "[workspace special:manager silent] obsidian"
 
             "[workspace 1 silent] code-insiders --ozone-platform=wayland"
-            "[workspace 1 silent] alacritty --command fastfetch"
+            "[workspace 1 silent] alacritty"
           ];
           env = [
             "XDG_SESSION_TYPE,wayland"
