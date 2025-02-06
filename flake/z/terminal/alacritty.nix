@@ -1,3 +1,6 @@
+let
+  text-size = 10;
+in
 {
   programs = {
     alacritty = {
@@ -57,7 +60,7 @@
             style = "Regular";
           };
           builtin_box_drawing = true;
-          size = 10;
+          size = text-size;
         };
         cursor = {
           style = {

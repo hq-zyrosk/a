@@ -33,6 +33,7 @@
         pkgs.vscode-extensions.ms-vscode.cpptools
 
         tyriar.sort-lines
+        rust-lang.rust-analyzer
         redhat.vscode-yaml
         pascalreitermann93.vscode-yaml-sort
         ms-vscode.live-server

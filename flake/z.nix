@@ -4,7 +4,6 @@
     ./z/utility/waybar.nix
     ./z/utility/rofi.nix
     ./z/terminal/software/nushell.nix
-    ./z/terminal/foot.nix
     ./z/terminal/alacritty.nix
     ./z/storage/static.nix
     ./z/service/remmina.nix
