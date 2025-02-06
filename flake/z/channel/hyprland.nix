@@ -42,7 +42,7 @@
             disable_hyprland_logo = true;
             disable_autoreload = false;
             close_special_on_empty = true;
-            background_color = "rgba(000000FF)";
+            background_color = "rgba(ADADADFF)";
             animate_mouse_windowdragging = false;
             animate_manual_resizes = false;
             always_follow_on_dnd = false;
@@ -80,7 +80,7 @@
             no_border_on_floating = false;
             layout = "master";
             gaps_out = 1.0;
-            gaps_in = 0.5;
+            gaps_in = 1.0;
             "col.inactive_border" = "rgba(BFBFBFFF)";
             "col.active_border" = "rgba(BFBFBFFF)";
             border_size = 0;
@@ -182,6 +182,8 @@
             "mod4,       n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
             "mod4 shift, m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
             "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 0"
+            "mod4 shift, l, exec, sleep 1; hyprctl dispatch dpms off"
+            "mod4,       l, exec, loginctl lock-session"
             "mod4 shift, b, exec, brightnessctl set 1+"
             "mod4,       b, exec, brightnessctl set 1-"
           ];
@@ -194,8 +196,7 @@
             "mod4,       tab, togglespecialworkspace, manager"
             "mod4 shift, return, exec, rofi -show window"
             "mod4,       return, exec, rofi -show drun"
-            "mod4 shift, escape, exec, sleep 1; hyprctl dispatch dpms off"
-            "mod4,       escape, exec, loginctl lock-session"
+
             "mod4 shift, right, movewindow, r"
             "mod4,       right, movefocus, r"
             "mod4 shift, left, movewindow, l"
@@ -204,6 +205,9 @@
             "mod4,       down, movefocus, d"
             "mod4 shift, up, movewindow, u"
             "mod4,       up, movefocus, u"
+
+            "mod4 shift, t, exec, foot sh"
+            "mod4,       t, exec, foot"
             "mod4 shift, f, fullscreen, 1"
             "mod4,       f, fullscreen, 0"
             "mod4 shift, q, exit"
