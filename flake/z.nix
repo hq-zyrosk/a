@@ -56,7 +56,9 @@
 
   home = {
     packages = with pkgs; [
+      jetbrains.rust-rover
       jetbrains.clion
+
       obsidian
 
       android-studio
