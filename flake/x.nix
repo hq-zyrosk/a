@@ -40,8 +40,17 @@
           # proxychains
           # proxify
 
-          go-task
-          file
+          nodejs_latest
+          curlHTTP3
+
+          rustc
+          cargo
+
+          clang-tools
+          gnumake
+          cmake
+          gdb
+          gcc
         ];
         isNormalUser = true;
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
@@ -74,13 +83,11 @@
 
   environment = {
     defaultPackages = with pkgs; [
-      nodejs_latest
-      clang-tools
-      curlHTTP3
-      gnumake
-      cmake
-      gdb
-      gcc
+      libimobiledevice
+      ifuse
+
+      nixfmt-rfc-style
+      nixd
     ];
     systemPackages = with pkgs; [
       home-manager
@@ -88,13 +95,9 @@
       parallel
       libressl
       killall
+      go-task
       unzip
-
-      libimobiledevice
-      ifuse
-
-      nixfmt-rfc-style
-      nixd
+      file
     ];
   };
 }
