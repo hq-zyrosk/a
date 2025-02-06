@@ -4,6 +4,7 @@
     ./z/utility/rofi.nix
     ./z/utility/lsd.nix
     ./z/utility/fastfetch.nix
+    ./z/terminal/software/zellij.nix
     ./z/terminal/software/starship.nix
     ./z/terminal/software/nushell.nix
     ./z/terminal/foot.nix
