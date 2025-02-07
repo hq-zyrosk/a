@@ -43,6 +43,7 @@
           nodejs_latest
           curlHTTP3
 
+          rustfmt
           rustc
           cargo
 
