@@ -57,12 +57,14 @@
   home = {
     packages = with pkgs; [
       jetbrains.rust-rover
+      android-studio
+      android-tools
+      obsidian
 
       # rust-analyzer
       # rustfmt
-      # rustc
       rustup
-
+      # rustc
       # clippy
       # cargo
 
@@ -70,12 +72,7 @@
       # gnumake
       # cmake
       # gdb
-      # gcc
-
-      obsidian
-
-      android-studio
-      android-tools
+      gcc
 
       brightnessctl
       pavucontrol
