@@ -41,17 +41,6 @@
           # proxify
 
           nodejs_latest
-          curlHTTP3
-
-          rustfmt
-          rustc
-          cargo
-
-          clang-tools
-          gnumake
-          cmake
-          gdb
-          gcc
         ];
         isNormalUser = true;
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
@@ -84,14 +73,9 @@
 
   environment = {
     defaultPackages = with pkgs; [
-      libimobiledevice
-      ifuse
-
-      nixfmt-rfc-style
-      nixd
-    ];
-    systemPackages = with pkgs; [
       home-manager
+      curlHTTP3
+
       timelimit
       parallel
       libressl
@@ -99,6 +83,13 @@
       go-task
       unzip
       file
+    ];
+    systemPackages = with pkgs; [
+      libimobiledevice
+      ifuse
+
+      nixfmt-rfc-style
+      nixd
     ];
   };
 }

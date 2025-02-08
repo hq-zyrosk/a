@@ -57,7 +57,20 @@
   home = {
     packages = with pkgs; [
       jetbrains.rust-rover
-      jetbrains.clion
+
+      # rust-analyzer
+      # rustfmt
+      # rustc
+      rustup
+
+      # clippy
+      # cargo
+
+      # clang-tools
+      # gnumake
+      # cmake
+      # gdb
+      # gcc
 
       obsidian
 
