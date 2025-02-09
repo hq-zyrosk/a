@@ -73,14 +73,20 @@
 
   environment = {
     defaultPackages = with pkgs; [
+      home-manager
+
+      brightnessctl
+      pavucontrol
+
+      xdg-utils
+      libnotify
+      curlHTTP3
+
       libimobiledevice
       ifuse
 
       nixfmt-rfc-style
       nixd
-
-      home-manager
-      curlHTTP3
     ];
     systemPackages = with pkgs; [
       rust-parallel

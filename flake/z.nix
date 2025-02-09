@@ -65,25 +65,7 @@
       obsidian
 
       rustup
-
-      # rust-analyzer
-      # rustfmt
-      # rustc
-
-      # clippy
-      # cargo
-
-      # clang-tools
-      # gnumake
-      # cmake
-      # gdb
       gcc
-
-      brightnessctl
-      pavucontrol
-
-      xdg-utils
-      libnotify
     ];
     language = { };
     keyboard = {
@@ -104,3 +86,15 @@
     };
   };
 }
+
+# rust-analyzer
+# rustfmt
+# rustc
+
+# clippy
+# cargo
+
+# clang-tools
+# gnumake
+# cmake
+# gdb
