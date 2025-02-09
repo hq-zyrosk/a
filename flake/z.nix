@@ -59,20 +59,16 @@
       enableShellIntegration = true;
     };
     packages = with pkgs; [
-      jetbrains.writerside
-      jetbrains.rust-rover
-
       android-studio
       android-tools
 
       brightnessctl
       pavucontrol
 
-      rustscan
       obsidian
 
+      rustscan
       rustup
-      gcc
     ];
     language = { };
     keyboard = {
@@ -105,3 +101,4 @@
 # gnumake
 # cmake
 # gdb
+# gcc

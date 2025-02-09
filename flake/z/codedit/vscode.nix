@@ -38,6 +38,8 @@
         ms-vscode.live-server
         likebot.vscode-empty-themes
         jnoortheen.nix-ide
+        github.copilot-chat
+        github.copilot
         dbaeumer.vscode-eslint
       ];
       enableExtensionUpdateCheck = false;

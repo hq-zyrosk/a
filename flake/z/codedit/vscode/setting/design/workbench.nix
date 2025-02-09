@@ -30,7 +30,7 @@
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
-  "workbench.sash.size" = 1;
+  "workbench.sash.size" = 2;
   "workbench.sash.hoverDelay" = 250;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;
   "workbench.reduceMotion" = "on";
