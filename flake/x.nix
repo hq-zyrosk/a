@@ -41,6 +41,7 @@
           # proxify
 
           nodejs_latest
+          home-manager
         ];
         isNormalUser = true;
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
@@ -73,15 +74,6 @@
 
   environment = {
     defaultPackages = with pkgs; [
-      home-manager
-
-      brightnessctl
-      pavucontrol
-
-      xdg-utils
-      libnotify
-      curlHTTP3
-
       libimobiledevice
       ifuse
 
@@ -90,11 +82,11 @@
     ];
     systemPackages = with pkgs; [
       rust-parallel
-      rustscan
+      curlHTTP3
 
+      xdg-utils
       timelimit
-      parallel
-      libressl
+      libnotify
       killall
       go-task
       unzip
