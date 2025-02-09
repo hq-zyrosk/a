@@ -69,6 +69,9 @@
 
       rustscan
       rustup
+
+      gdb
+      gcc
     ];
     language = { };
     keyboard = {
@@ -100,5 +103,3 @@
 # clang-tools
 # gnumake
 # cmake
-# gdb
-# gcc
