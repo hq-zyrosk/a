@@ -73,8 +73,18 @@
 
   environment = {
     defaultPackages = with pkgs; [
+      libimobiledevice
+      ifuse
+
+      nixfmt-rfc-style
+      nixd
+
       home-manager
       curlHTTP3
+    ];
+    systemPackages = with pkgs; [
+      rust-parallel
+      rustscan
 
       timelimit
       parallel
@@ -83,13 +93,6 @@
       go-task
       unzip
       file
-    ];
-    systemPackages = with pkgs; [
-      libimobiledevice
-      ifuse
-
-      nixfmt-rfc-style
-      nixd
     ];
   };
 }

@@ -55,16 +55,21 @@
   };
 
   home = {
+    shell = {
+      enableShellIntegration = true;
+    };
     packages = with pkgs; [
       jetbrains.rust-rover
       android-studio
       android-tools
       obsidian
 
+      rustup
+
       # rust-analyzer
       # rustfmt
-      rustup
       # rustc
+
       # clippy
       # cargo
 
