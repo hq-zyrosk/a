@@ -66,25 +66,6 @@
   "workbench.editor.closeEmptyGroups" = false;
   "workbench.editor.centeredLayoutAutoResize" = true;
   "workbench.editor.alwaysShowEditorActions" = true;
-  "terminal.integrated.smoothScrolling" = true;
-  "terminal.integrated.scrollback" = 1000;
-  "terminal.integrated.mouseWheelScrollSensitivity" = 1;
-  "terminal.integrated.ignoreBracketedPasteMode" = false;
-  "terminal.integrated.gpuAcceleration" = "on";
-  "terminal.integrated.fontWeightBold" = "normal";
-  "terminal.integrated.fontWeight" = "normal";
-  "terminal.integrated.enableImages" = true;
-  "terminal.integrated.enableFileLinks" = "on";
-  "terminal.integrated.defaultProfile.linux" = "bash";
-  "terminal.integrated.customGlyphs" = true;
-  "terminal.integrated.cursorStyleInactive" = "line";
-  "terminal.integrated.cursorStyle" = "line";
-  "terminal.integrated.accessibleViewPreserveCursorPosition" = true;
-  "terminal.explorerKind" = "integrated";
-  "notebook.output.lineHeight" = 0;
-  "notebook.output.fontSize" = 0;
-  "notebook.output.fontFamily" = "";
-  "notebook.diff.overviewRuler" = false;
   "editor.wrappingStrategy" = "simple";
   "editor.wrappingIndent" = "none";
   "editor.wordWrap" = "off";
@@ -107,7 +88,6 @@
   "editor.suggestSelection" = "first";
   "editor.suggestOnTriggerCharacters" = true;
   "editor.suggestLineHeight" = 0;
-  "editor.suggestFontSize" = 0;
   "editor.suggest.snippetsPreventQuickSuggestions" = false;
   "editor.suggest.selectionMode" = "always";
   "editor.suggest.preview" = false;
@@ -174,12 +154,9 @@
   "editor.insertSpaces" = true;
   "editor.inlineSuggest.suppressSuggestions" = true;
   "editor.inlineSuggest.showToolbar" = "always";
-  "editor.inlineSuggest.fontFamily" = "default";
   "editor.inlineSuggest.enabled" = true;
   "editor.inlineCompletionsAccessibilityVerbose" = true;
   "editor.inlayHints.padding" = false;
-  "editor.inlayHints.fontSize" = 0;
-  "editor.inlayHints.fontFamily" = "";
   "editor.inlayHints.enabled" = "offUnlessPressed";
   "editor.indentSize" = "tabSize";
   "editor.hover.sticky" = false;
@@ -198,9 +175,6 @@
   "editor.formatOnSaveMode" = "file";
   "editor.formatOnSave" = true;
   "editor.formatOnPaste" = false;
-  "editor.fontWeight" = "normal";
-  "editor.fontVariations" = true;
-  "editor.fontLigatures" = true;
   "editor.foldingStrategy" = "indentation";
   "editor.foldingMaximumRegions" = 1024;
   "editor.foldingImportsByDefault" = true;
@@ -213,7 +187,6 @@
   "editor.find.autoFindInSelection" = "never";
   "editor.find.addExtraSpaceOnTop" = false;
   "editor.fastScrollSensitivity" = 5;
-  "editor.experimentalWhitespaceRendering" = "font";
   "editor.experimentalGpuAcceleration" = "off";
   "editor.experimentalEditContextEnabled" = true;
   "editor.experimental.treeSitterTelemetry" = true;
@@ -241,7 +214,6 @@
   "editor.colorDecoratorsLimit" = 1024;
   "editor.colorDecoratorsActivatedOn" = "clickAndHover";
   "editor.colorDecorators" = true;
-  "editor.codeLensFontSize" = 0;
   "editor.codeLens" = false;
   "editor.codeActions.triggerOnFocusChange" = true;
   "editor.codeActionWidget.showHeaders" = true;
@@ -263,13 +235,8 @@
   "screencastMode.verticalOffset" = 24;
   "screencastMode.mouseIndicatorSize" = 24;
   "screencastMode.mouseIndicatorColor" = "#FF0000FF";
-  "screencastMode.fontSize" = 24;
-  "scm.inputFontFamily" = "editor";
   "debug.showBreakpointsInOverviewRuler" = false;
   "debug.console.lineHeight" = 0;
-  "debug.console.fontFamily" = "default";
   "chat.editor.wordWrap" = "off";
   "chat.editor.lineHeight" = 0;
-  "chat.editor.fontWeight" = "default";
-  "chat.editor.fontFamily" = "default";
 }

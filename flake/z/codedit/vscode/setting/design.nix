@@ -1,6 +1,8 @@
 let
   workbench = import ./design/workbench.nix;
   window = import ./design/window.nix;
+  terminal = import ./design/terminal.nix;
+  notebook = import ./design/notebook.nix;
   font = import ./design/font.nix;
   extension = import ./design/extension.nix;
   explorer = import ./design/explorer.nix;
@@ -11,6 +13,8 @@ let
 in
 workbench
 // window
+// terminal
+// notebook
 // font
 // extension
 // explorer
