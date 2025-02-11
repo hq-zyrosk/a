@@ -5,7 +5,6 @@ let
   javascript = import ./source/javascript.nix;
   html = import ./source/html.nix;
   css = import ./source/css.nix;
-  c = import ./source/c.nix;
   comment = import ./source/comment.nix;
 in
 yaml
@@ -14,7 +13,6 @@ yaml
 // javascript
 // html
 // css
-// c
 // comment
 // {
   "sortLines.sortEntireFile" = true;

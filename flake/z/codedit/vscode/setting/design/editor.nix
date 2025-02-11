@@ -1,17 +1,17 @@
-let
-  letter-spacing = 0;
-  word-wrap = 96;
-  text-type = "'PragmataPro Mono Liga', monospace";
-  text-size = 16;
-  text-high = 1;
-  tab-width = 98;
-in
 {
+  "workbench.editor.customLabels.patterns" = {
+    "**/{9}/**/*.tsx" = "9 \${filename}";
+    "**/{8}/**/*.tsx" = "8 \${filename}";
+    "**/{7}/**/*.tsx" = "7 \${filename}";
+    "**/{6}/**/*.tsx" = "6 \${filename}";
+    "**/{5}/**/*.tsx" = "5 \${filename}";
+    "**/{4}/**/*.tsx" = "4 \${filename}";
+    "**/{3}/**/*.tsx" = "3 \${filename}";
+    "**/{2}/**/*.tsx" = "2 \${filename}";
+    "**/{1}/**/*.tsx" = "1 \${filename}";
+  };
   "editor.unicodeHighlight.allowedLocales" = { };
   "editor.unicodeHighlight.allowedCharacters" = { };
-  "editor.rulers" = [
-    word-wrap
-  ];
   "editor.quickSuggestions" = {
     "strings" = "off";
     "other" = "on";
@@ -27,14 +27,11 @@ in
     "text.plain"
   ];
   "editor.codeActionsOnSave" = { };
-  "workbench.tree.indent" = text-size;
   "workbench.startupEditor" = "none";
   "workbench.settings.editor" = "json";
   "workbench.editorLargeFileConfirmation" = 1;
   "workbench.editor.wrapTabs" = true;
   "workbench.editor.untitled.labelFormat" = "name";
-  "workbench.editor.tabSizingFixedMinWidth" = tab-width;
-  "workbench.editor.tabSizingFixedMaxWidth" = tab-width;
   "workbench.editor.tabSizing" = "fixed";
   "workbench.editor.tabActionUnpinVisibility" = false;
   "workbench.editor.tabActionLocation" = "left";
@@ -72,14 +69,10 @@ in
   "terminal.integrated.smoothScrolling" = true;
   "terminal.integrated.scrollback" = 1000;
   "terminal.integrated.mouseWheelScrollSensitivity" = 1;
-  "terminal.integrated.lineHeight" = text-high;
-  "terminal.integrated.letterSpacing" = letter-spacing;
   "terminal.integrated.ignoreBracketedPasteMode" = false;
   "terminal.integrated.gpuAcceleration" = "on";
   "terminal.integrated.fontWeightBold" = "normal";
   "terminal.integrated.fontWeight" = "normal";
-  "terminal.integrated.fontSize" = text-size;
-  "terminal.integrated.fontFamily" = text-type;
   "terminal.integrated.enableImages" = true;
   "terminal.integrated.enableFileLinks" = "on";
   "terminal.integrated.defaultProfile.linux" = "bash";
@@ -91,16 +84,9 @@ in
   "notebook.output.lineHeight" = 0;
   "notebook.output.fontSize" = 0;
   "notebook.output.fontFamily" = "";
-  "markdown.preview.lineHeight" = text-high;
-  "markdown.preview.fontSize" = text-size;
-  "markdown.preview.fontFamily" =
-    "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif";
-  "notebook.markup.fontSize" = text-size;
   "notebook.diff.overviewRuler" = false;
-  "html.format.wrapLineLength" = letter-spacing;
   "editor.wrappingStrategy" = "simple";
   "editor.wrappingIndent" = "none";
-  "editor.wordWrapColumn" = word-wrap;
   "editor.wordWrap" = "off";
   "editor.wordSeparators" = "~!@#^&*()+{}|:\"<>?`-=[]\\;',./";
   "editor.wordSegmenterLocales" = "en-US";
@@ -175,16 +161,13 @@ in
   "editor.multiCursorModifier" = "alt";
   "editor.mouseWheelZoom" = false;
   "editor.mouseWheelScrollSensitivity" = 1;
-  "editor.minimap.sectionHeaderFontSize" = text-size;
   "editor.minimap.enabled" = false;
   "editor.maxTokenizationLineLength" = 20000;
   "editor.matchBrackets" = "always";
   "editor.links" = true;
   "editor.linkedEditing" = true;
   "editor.lineNumbers" = "off";
-  "editor.lineHeight" = text-high;
   "editor.lightbulb.enabled" = "off";
-  "editor.letterSpacing" = letter-spacing;
   "editor.largeFileOptimizations" = true;
   "editor.language.colorizedBracketPairs" = null;
   "editor.language.brackets" = null;
@@ -217,9 +200,7 @@ in
   "editor.formatOnPaste" = false;
   "editor.fontWeight" = "normal";
   "editor.fontVariations" = true;
-  "editor.fontSize" = text-size;
   "editor.fontLigatures" = true;
-  "editor.fontFamily" = text-type;
   "editor.foldingStrategy" = "indentation";
   "editor.foldingMaximumRegions" = 1024;
   "editor.foldingImportsByDefault" = true;
@@ -261,7 +242,6 @@ in
   "editor.colorDecoratorsActivatedOn" = "clickAndHover";
   "editor.colorDecorators" = true;
   "editor.codeLensFontSize" = 0;
-  "editor.codeLensFontFamily" = text-type;
   "editor.codeLens" = false;
   "editor.codeActions.triggerOnFocusChange" = true;
   "editor.codeActionWidget.showHeaders" = true;
@@ -284,15 +264,12 @@ in
   "screencastMode.mouseIndicatorSize" = 24;
   "screencastMode.mouseIndicatorColor" = "#FF0000FF";
   "screencastMode.fontSize" = 24;
-  "scm.inputFontSize" = text-size;
   "scm.inputFontFamily" = "editor";
   "debug.showBreakpointsInOverviewRuler" = false;
   "debug.console.lineHeight" = 0;
-  "debug.console.fontSize" = text-size;
   "debug.console.fontFamily" = "default";
   "chat.editor.wordWrap" = "off";
   "chat.editor.lineHeight" = 0;
   "chat.editor.fontWeight" = "default";
-  "chat.editor.fontSize" = text-size;
   "chat.editor.fontFamily" = "default";
 }

@@ -1,14 +1,6 @@
 {
-  "workbench.editor.customLabels.patterns" = {
-    "**/{9}/**/*.tsx" = "9 \${filename}";
-    "**/{8}/**/*.tsx" = "8 \${filename}";
-    "**/{7}/**/*.tsx" = "7 \${filename}";
-    "**/{6}/**/*.tsx" = "6 \${filename}";
-    "**/{5}/**/*.tsx" = "5 \${filename}";
-    "**/{4}/**/*.tsx" = "4 \${filename}";
-    "**/{3}/**/*.tsx" = "3 \${filename}";
-    "**/{2}/**/*.tsx" = "2 \${filename}";
-    "**/{1}/**/*.tsx" = "1 \${filename}";
+  "workbench.view.showQuietly" = {
+    "workbench.panel.output" = true;
   };
   "zenMode.silentNotifications" = false;
   "zenMode.showTabs" = "none";
@@ -30,7 +22,7 @@
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
-  "workbench.sash.size" = 2;
+  "workbench.sash.size" = 4;
   "workbench.sash.hoverDelay" = 250;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;
   "workbench.reduceMotion" = "on";

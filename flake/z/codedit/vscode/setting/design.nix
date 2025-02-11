@@ -1,17 +1,23 @@
 let
   workbench = import ./design/workbench.nix;
   window = import ./design/window.nix;
+  font = import ./design/font.nix;
   extension = import ./design/extension.nix;
   explorer = import ./design/explorer.nix;
   editor = import ./design/editor.nix;
   colour = import ./design/colour.nix;
+  chat_inline = import ./design/chat/inline.nix;
+  chat = import ./design/chat.nix;
 in
 workbench
 // window
+// font
 // extension
 // explorer
 // editor
 // colour
+// chat_inline
+// chat
 // {
   "screencastMode.keyboardOptions" = {
     "showCommandGroups" = false;
@@ -20,9 +26,6 @@ workbench
     "showKeys" = true;
     "showSingleEditorCursorMoves" = true;
   };
-  "inlineChat.holdToSpeech" = true;
-  "inlineChat.finishOnType" = false;
-  "inlineChat.accessibleDiffView" = "on";
   "http.experimental.systemCertificatesV2" = true;
   "breadcrumbs.enabled" = false;
   "application.experimental.rendererProfiling" = true;
