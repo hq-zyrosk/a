@@ -9,6 +9,7 @@ let
   editor = import ./design/editor.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
+  chat_github = import ./design/chat/github.nix;
   chat = import ./design/chat.nix;
 in
 workbench
@@ -21,6 +22,7 @@ workbench
 // editor
 // colour
 // chat_inline
+// chat_github
 // chat
 // {
   "screencastMode.keyboardOptions" = {
