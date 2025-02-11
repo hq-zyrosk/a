@@ -4,6 +4,7 @@
     "*" = true;
   };
   "extensions.webWorker" = true;
+  "extensions.verifySignature" = true;
   "extensions.supportVirtualWorkspaces" = { };
   "extensions.supportUntrustedWorkspaces" = { };
   "extensions.ignoreRecommendations" = true;

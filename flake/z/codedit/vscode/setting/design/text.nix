@@ -1,18 +1,15 @@
 let
-  word-wrap = 96;
+  text-wrap = 96;
   text-type = "'PragmataPro Mono Liga', monospace";
   text-tall = 0;
   text-size = 16;
   text-high = 1;
-  tab-width = 98;
 in
 {
   "editor.rulers" = [
-    word-wrap
+    text-wrap
   ];
   "workbench.tree.indent" = text-size;
-  "workbench.editor.tabSizingFixedMinWidth" = tab-width;
-  "workbench.editor.tabSizingFixedMaxWidth" = tab-width;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
   "terminal.integrated.fontWeightBold" = "normal";
@@ -30,7 +27,7 @@ in
   "markdown.preview.fontFamily" =
     "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif";
   "html.format.wrapLineLength" = text-tall;
-  "editor.wordWrapColumn" = word-wrap;
+  "editor.wordWrapColumn" = text-wrap;
   "editor.suggestFontSize" = 0;
   "editor.minimap.sectionHeaderFontSize" = text-size;
   "editor.lineHeight" = text-high;

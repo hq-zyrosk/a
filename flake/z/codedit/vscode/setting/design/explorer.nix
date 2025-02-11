@@ -13,6 +13,7 @@
   "files.trimTrailingWhitespaceInRegexAndStrings" = true;
   "files.trimTrailingWhitespace" = false;
   "files.trimFinalNewlines" = false;
+  "files.simpleDialog.enable" = true;
   "files.saveConflictResolution" = "askUser";
   "files.restoreUndoStack" = true;
   "files.refactoring.autoSave" = true;
