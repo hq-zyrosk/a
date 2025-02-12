@@ -207,10 +207,6 @@
   "editor.colorDecoratorsLimit" = 1024;
   "editor.colorDecoratorsActivatedOn" = "clickAndHover";
   "editor.colorDecorators" = true;
-  "editor.codeLens" = false;
-  "editor.codeActions.triggerOnFocusChange" = true;
-  "editor.codeActionWidget.showHeaders" = true;
-  "editor.codeActionWidget.includeNearbyQuickFixes" = true;
   "editor.bracketPairColorization.independentColorPoolPerBracketType" = true;
   "editor.bracketPairColorization.enabled" = false;
   "editor.autoSurround" = "languageDefined";

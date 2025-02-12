@@ -7,6 +7,7 @@ let
   extension = import ./design/extension.nix;
   explorer = import ./design/explorer.nix;
   editor_inline = import ./design/editor/inline.nix;
+  editor_code = import ./design/editor/code.nix;
   editor = import ./design/editor.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
@@ -21,6 +22,7 @@ workbench
 // extension
 // explorer
 // editor_inline
+// editor_code
 // editor
 // colour
 // chat_inline
