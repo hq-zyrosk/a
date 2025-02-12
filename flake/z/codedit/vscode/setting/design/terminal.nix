@@ -1,4 +1,5 @@
 {
+  "terminal.integrated.tabs.location" = "left";
   "terminal.integrated.smoothScrolling" = true;
   "terminal.integrated.scrollback" = 1000;
   "terminal.integrated.mouseWheelScrollSensitivity" = 1;

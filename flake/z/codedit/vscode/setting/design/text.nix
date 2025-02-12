@@ -10,6 +10,7 @@ in
     text-wrap
   ];
   "workbench.tree.indent" = text-size;
+  "workbench.editor.wrapTabs" = true;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
   "terminal.integrated.fontWeightBold" = "normal";
@@ -27,7 +28,11 @@ in
   "markdown.preview.fontFamily" =
     "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif";
   "html.format.wrapLineLength" = text-tall;
+  "editor.wrappingStrategy" = "simple";
+  "editor.wrappingIndent" = "none";
   "editor.wordWrapColumn" = text-wrap;
+  "editor.wordWrap" = "off";
+  "editor.suggestLineHeight" = 0;
   "editor.suggestFontSize" = 0;
   "editor.minimap.sectionHeaderFontSize" = text-size;
   "editor.lineHeight" = text-high;
@@ -43,8 +48,11 @@ in
   "editor.experimentalWhitespaceRendering" = "font";
   "editor.codeLensFontSize" = 0;
   "editor.codeLensFontFamily" = text-type;
+  "debug.console.lineHeight" = 0;
   "debug.console.fontSize" = text-size;
   "debug.console.fontFamily" = "default";
+  "chat.editor.wordWrap" = "off";
+  "chat.editor.lineHeight" = 0;
   "chat.editor.fontWeight" = "default";
   "chat.editor.fontSize" = text-size;
   "chat.editor.fontFamily" = "default";

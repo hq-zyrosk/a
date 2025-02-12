@@ -30,7 +30,6 @@
   "workbench.startupEditor" = "none";
   "workbench.settings.editor" = "json";
   "workbench.editorLargeFileConfirmation" = 1;
-  "workbench.editor.wrapTabs" = true;
   "workbench.editor.untitled.labelFormat" = "name";
   "workbench.editor.tabSizing" = "fixed";
   "workbench.editor.tabActionUnpinVisibility" = false;
@@ -66,9 +65,9 @@
   "workbench.editor.closeEmptyGroups" = false;
   "workbench.editor.centeredLayoutAutoResize" = true;
   "workbench.editor.alwaysShowEditorActions" = true;
-  "editor.wrappingStrategy" = "simple";
-  "editor.wrappingIndent" = "none";
-  "editor.wordWrap" = "off";
+  "screencastMode.verticalOffset" = 24;
+  "screencastMode.mouseIndicatorSize" = 24;
+  "screencastMode.mouseIndicatorColor" = "#FF0000FF";
   "editor.wordSeparators" = "~!@#^&*()+{}|:\"<>?`-=[]\\;',./";
   "editor.wordSegmenterLocales" = "en-US";
   "editor.wordBreak" = "keepAll";
@@ -87,7 +86,6 @@
   "editor.tabCompletion" = "onlySnippets";
   "editor.suggestSelection" = "first";
   "editor.suggestOnTriggerCharacters" = true;
-  "editor.suggestLineHeight" = 0;
   "editor.suggest.snippetsPreventQuickSuggestions" = false;
   "editor.suggest.selectionMode" = "always";
   "editor.suggest.preview" = false;
@@ -152,12 +150,6 @@
   "editor.language.colorizedBracketPairs" = null;
   "editor.language.brackets" = null;
   "editor.insertSpaces" = true;
-  "editor.inlineSuggest.suppressSuggestions" = true;
-  "editor.inlineSuggest.showToolbar" = "always";
-  "editor.inlineSuggest.enabled" = true;
-  "editor.inlineCompletionsAccessibilityVerbose" = true;
-  "editor.inlayHints.padding" = false;
-  "editor.inlayHints.enabled" = "offUnlessPressed";
   "editor.indentSize" = "tabSize";
   "editor.hover.sticky" = false;
   "editor.hover.hidingDelay" = 250;
@@ -231,12 +223,5 @@
   "editor.accessibilityPageSize" = 10;
   "editor.acceptSuggestionOnEnter" = "on";
   "editor.acceptSuggestionOnCommitCharacter" = true;
-  "terminal.integrated.tabs.location" = "left";
-  "screencastMode.verticalOffset" = 24;
-  "screencastMode.mouseIndicatorSize" = 24;
-  "screencastMode.mouseIndicatorColor" = "#FF0000FF";
   "debug.showBreakpointsInOverviewRuler" = false;
-  "debug.console.lineHeight" = 0;
-  "chat.editor.wordWrap" = "off";
-  "chat.editor.lineHeight" = 0;
 }
