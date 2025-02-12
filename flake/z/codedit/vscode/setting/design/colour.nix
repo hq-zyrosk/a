@@ -891,11 +891,9 @@
         "foreground" = "#004700FF";
       };
       "method" = {
-        "fontStyle" = "italic";
         "foreground" = "#0000CFFF";
       };
       "function" = {
-        "fontStyle" = "italic";
         "foreground" = "#0000CFFF";
       };
       "*.declaration" = {
