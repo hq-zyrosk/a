@@ -13,11 +13,11 @@ tasks:
   config:
     cmds:
       - sudo chown --recursive   --no-dereference x             ~/.config/Code\ -\ Insiders/User/
-      - sudo chmod --recursive                    0777          ~/.config/Code\ -\ Insiders/User/
+      - sudo chmod --recursive                    0755          ~/.config/Code\ -\ Insiders/User/
       - sudo chown --recursive   --no-dereference x             ~/.config/hypr/hyprland.conf
-      - sudo chmod --recursive                    0777          ~/.config/hypr/hyprland.conf
+      - sudo chmod --recursive                    0755          ~/.config/hypr/hyprland.conf
       - sudo chown --recursive   --no-dereference x             ~/.config/hypr/shading.glsl
-      - sudo chmod --recursive                    0777          ~/.config/hypr/shading.glsl
+      - sudo chmod --recursive                    0755          ~/.config/hypr/shading.glsl
       - clear
   finder:
     cmds:
