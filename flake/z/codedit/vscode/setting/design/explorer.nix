@@ -1,14 +1,12 @@
 {
   "files.associations" = { };
   "explorer.fileNesting.patterns" = {
-    "taskfile.yaml" =
-      "*.code-workspace, .gitattributes, .gitignore, CMakeLists.txt, .clang-format, *.toml, *.json, *.ps1, *.sh, *.tsx, *.mjs, *.ts, *.js";
+    "taskfile.yaml" = "*.code-workspace, .gitattributes, .gitignore, *.toml, *.json, *.ps1, *.sh";
     "*.tsx" = "\${capture}.d.tsx, \${capture}.tsx.map";
     "*.ts" = "\${capture}.d.ts, \${capture}.ts.map";
   };
   "explorer.autoRevealExclude" = {
     "**/node_modules" = true;
-    "**/bower_components" = true;
   };
   "files.trimTrailingWhitespaceInRegexAndStrings" = true;
   "files.trimTrailingWhitespace" = false;
