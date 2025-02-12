@@ -173,6 +173,7 @@
   "editor.foldingHighlight" = true;
   "editor.folding" = true;
   "editor.find.seedSearchStringFromSelection" = "always";
+  "editor.find.replaceHistory" = "never";
   "editor.find.loop" = true;
   "editor.find.history" = "workspace";
   "editor.find.cursorMoveOnType" = true;
