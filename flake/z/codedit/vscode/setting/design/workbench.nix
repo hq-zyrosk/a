@@ -28,7 +28,7 @@ in
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
   "workbench.sash.size" = 4;
-  "workbench.sash.hoverDelay" = 250;
+  "workbench.sash.hoverDelay" = 0;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;
   "workbench.reduceMotion" = "on";
   "workbench.quickOpen.preserveInput" = false;
@@ -44,7 +44,7 @@ in
   "workbench.layoutControl.type" = "menu";
   "workbench.layoutControl.enabled" = false;
   "workbench.iconTheme" = null;
-  "workbench.hover.delay" = 250;
+  "workbench.hover.delay" = 0;
   "workbench.experimental.share.enabled" = true;
   "workbench.enableExperiments" = true;
   "workbench.commandPalette.preserveInput" = false;

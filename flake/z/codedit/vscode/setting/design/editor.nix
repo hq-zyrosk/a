@@ -124,7 +124,7 @@
   "editor.renderFinalNewline" = "dimmed";
   "editor.renderControlCharacters" = true;
   "editor.rename.enablePreview" = true;
-  "editor.quickSuggestionsDelay" = 250;
+  "editor.quickSuggestionsDelay" = 0;
   "editor.peekWidgetDefaultFocus" = "editor";
   "editor.pasteAs.showPasteSelector" = "afterPaste";
   "editor.pasteAs.enabled" = true;
@@ -152,9 +152,9 @@
   "editor.insertSpaces" = true;
   "editor.indentSize" = "tabSize";
   "editor.hover.sticky" = false;
-  "editor.hover.hidingDelay" = 250;
+  "editor.hover.hidingDelay" = 0;
   "editor.hover.enabled" = false;
-  "editor.hover.delay" = 250;
+  "editor.hover.delay" = 0;
   "editor.hover.above" = true;
   "editor.hideCursorInOverviewRuler" = true;
   "editor.guides.indentation" = true;

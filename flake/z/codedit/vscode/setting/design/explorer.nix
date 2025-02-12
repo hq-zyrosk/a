@@ -25,7 +25,7 @@
   "files.dialog.defaultPath" = "";
   "files.autoSaveWorkspaceFilesOnly" = true;
   "files.autoSaveWhenNoErrors" = true;
-  "files.autoSaveDelay" = 250;
+  "files.autoSaveDelay" = 0;
   "files.autoSave" = "onFocusChange";
   "files.autoGuessEncoding" = true;
   "explorer.sortOrderReverse" = true;
