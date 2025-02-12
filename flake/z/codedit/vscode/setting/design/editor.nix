@@ -151,7 +151,7 @@
   "editor.language.brackets" = null;
   "editor.insertSpaces" = true;
   "editor.indentSize" = "tabSize";
-  "editor.hover.sticky" = false;
+  "editor.hover.sticky" = true;
   "editor.hover.hidingDelay" = 0;
   "editor.hover.enabled" = false;
   "editor.hover.delay" = 0;
