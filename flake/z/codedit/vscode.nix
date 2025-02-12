@@ -30,6 +30,7 @@
       keybindings = import ./vscode/keybind.nix;
       globalSnippets = { };
       extensions = with extensions.vscode-marketplace; [
+        vadimcn.vscode-lldb
         tyriar.sort-lines
         tamasfe.even-better-toml
         rust-lang.rust-analyzer
