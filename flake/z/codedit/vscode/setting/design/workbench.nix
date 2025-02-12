@@ -36,7 +36,7 @@ in
   "workbench.productIconTheme" = "Default";
   "workbench.panel.showLabels" = false;
   "workbench.panel.opensMaximized" = "preserve";
-  "workbench.panel.defaultLocation" = "bottom";
+  "workbench.panel.defaultLocation" = "top";
   "workbench.navigationControl.enabled" = false;
   "workbench.localHistory.enabled" = true;
   "workbench.list.smoothScrolling" = true;
