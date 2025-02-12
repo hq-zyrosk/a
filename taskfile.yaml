@@ -9,13 +9,12 @@ tasks:
       - git add --all
       - git commit --all --message='changes'
       - git push
-      - clear
   config:
     cmds:
-      - sudo chown --recursive   --no-dereference x             ~/.config/Code\ -\ Insiders/User/*
-      - sudo chmod --recursive                    0755          ~/.config/Code\ -\ Insiders/User/*
-      - sudo chown --recursive   --no-dereference x             ~/.config/hypr/*
-      - sudo chmod --recursive                    0755          ~/.config/hypr/*
+      - sudo chown --recursive --no-dereference x:x  ~/.config/Code\ -\ Insiders/User/*
+      - sudo chmod --recursive                  0755 ~/.config/Code\ -\ Insiders/User/*
+      - sudo chown --recursive --no-dereference x:x  ~/.config/hypr/*
+      - sudo chmod --recursive                  0755 ~/.config/hypr/*
   finder:
     cmds:
       - ls | grep "vscode-insiders" | grep -v '.drv$'
@@ -33,7 +32,6 @@ tasks:
     cmds:
       - task flake-c -- {{.CLI_ARGS}} --impure --flake .#z@x
       - task config
-      - clear
   format:
     cmds:
       - nix fmt **/*.nix
