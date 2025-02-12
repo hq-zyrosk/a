@@ -11,10 +11,10 @@ tasks:
       - git push
   config:
     cmds:
-      - sudo chown --recursive --no-dereference x:x  ~/.config/Code\ -\ Insiders/User/*
-      - sudo chmod --recursive                  0755 ~/.config/Code\ -\ Insiders/User/*
-      - sudo chown --recursive --no-dereference x:x  ~/.config/hypr/*
-      - sudo chmod --recursive                  0755 ~/.config/hypr/*
+      - sudo chown --recursive --no-dereference x    ~/.config/Code\ -\ Insiders/User/*
+      - sudo chmod --recursive                  0777 ~/.config/Code\ -\ Insiders/User/*
+      - sudo chown --recursive --no-dereference x    ~/.config/hypr/*
+      - sudo chmod --recursive                  0777 ~/.config/hypr/*
   finder:
     cmds:
       - ls | grep "vscode-insiders" | grep -v '.drv$'
