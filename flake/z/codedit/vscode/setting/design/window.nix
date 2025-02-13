@@ -13,7 +13,6 @@
   "window.newWindowProfile" = "Default";
   "window.newWindowDimensions" = "default";
   "window.menuBarVisibility" = "toggle";
-  "window.experimentalControlOverlay" = false;
   "window.enableMenuBarMnemonics" = true;
   "window.doubleClickIconToClose" = false;
   "window.dialogStyle" = "custom";

@@ -879,15 +879,12 @@
     "enabled" = true;
     "rules" = {
       "variable" = {
-        "fontStyle" = "";
         "foreground" = "#004700FF";
       };
       "property" = {
-        "fontStyle" = "";
         "foreground" = "#004700FF";
       };
       "parameter" = {
-        "fontStyle" = "";
         "foreground" = "#004700FF";
       };
       "method" = {
