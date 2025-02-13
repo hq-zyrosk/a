@@ -65,7 +65,6 @@
       brightnessctl
       pavucontrol
 
-      notion-app
       obsidian
 
       rustup
