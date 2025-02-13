@@ -874,7 +874,6 @@
     "activityBar.activeBackground" = "#FFEFDFFF";
     "actionBar.toggledBackground" = "#FFEFDFFF";
   };
-
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
