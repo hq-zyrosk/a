@@ -59,15 +59,16 @@
       enableShellIntegration = true;
     };
     packages = with pkgs; [
+      android-studio-tools
       android-studio
       android-tools
 
       brightnessctl
       pavucontrol
-
       obsidian
 
       rustup
+      bacon
       gcc
     ];
     language = { };

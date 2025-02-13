@@ -74,17 +74,16 @@
 
   environment = {
     defaultPackages = with pkgs; [
+      watchexec
+      curlHTTP3
+    ];
+    systemPackages = with pkgs; [
       libimobiledevice
       ifuse
 
       nixfmt-rfc-style
       nixd
-    ];
-    systemPackages = with pkgs; [
-      rust-parallel
-      curlHTTP3
 
-      watchexec
       xdg-utils
       timelimit
       libnotify
