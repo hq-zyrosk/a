@@ -68,9 +68,6 @@
       obsidian
 
       rustup
-      bacon
-
-      gdb
       gcc
     ];
     language = { };

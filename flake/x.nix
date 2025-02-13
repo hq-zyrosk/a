@@ -84,6 +84,7 @@
       rust-parallel
       curlHTTP3
 
+      watchexec
       xdg-utils
       timelimit
       libnotify
