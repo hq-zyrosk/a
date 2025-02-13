@@ -65,10 +65,11 @@
       brightnessctl
       pavucontrol
 
+      notion-app
       obsidian
 
-      rustscan
       rustup
+      bacon
 
       gdb
       gcc
@@ -92,13 +93,6 @@
     };
   };
 }
-
-# rust-analyzer
-# rustfmt
-# rustc
-
-# clippy
-# cargo
 
 # clang-tools
 # gnumake
