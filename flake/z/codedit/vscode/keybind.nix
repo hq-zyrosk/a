@@ -99,7 +99,7 @@
   {
     when = "focusedView == 'workbench.panel.chat.view.copilot'";
     key = "ctrl+shift+a";
-    command = "workbench.action.toggleSidebarVisibility";
+    command = "workbench.action.closeAuxiliaryBar";
   }
   {
     when = "focusedView != 'workbench.panel.chat.view.copilot'";

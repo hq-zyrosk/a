@@ -94,7 +94,10 @@
   "editor.suggest.insertMode" = "insert";
   "editor.suggest.filterGraceful" = true;
   "editor.stickyTabStops" = false;
+  "editor.stickyScroll.scrollWithEditor" = true;
+  "editor.stickyScroll.maxLineCount" = 5;
   "editor.stickyScroll.enabled" = false;
+  "editor.stickyScroll.defaultModel" = "outlineModel";
   "editor.stablePeek" = true;
   "editor.snippets.codeActions.enabled" = true;
   "editor.snippetSuggestions" = "inline";
@@ -183,6 +186,8 @@
   "editor.experimentalGpuAcceleration" = "off";
   "editor.experimentalEditContextEnabled" = true;
   "editor.experimental.treeSitterTelemetry" = true;
+  "editor.experimental.preferTreeSitter.typescript" = true;
+  "editor.experimental.preferTreeSitter.ini" = true;
   "editor.experimental.asyncTokenizationVerification" = false;
   "editor.experimental.asyncTokenizationLogging" = false;
   "editor.experimental.asyncTokenization" = true;
@@ -204,6 +209,7 @@
   "editor.copyWithSyntaxHighlighting" = true;
   "editor.comments.insertSpace" = true;
   "editor.comments.ignoreEmptyLines" = true;
+  "editor.columnSelection" = false;
   "editor.colorDecoratorsLimit" = 1024;
   "editor.colorDecoratorsActivatedOn" = "clickAndHover";
   "editor.colorDecorators" = true;

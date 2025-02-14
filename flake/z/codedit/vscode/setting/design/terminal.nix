@@ -1,5 +1,7 @@
 {
   "terminal.integrated.tabs.location" = "left";
+  "terminal.integrated.stickyScroll.maxLineCount" = 5;
+  "terminal.integrated.stickyScroll.enabled" = true;
   "terminal.integrated.smoothScrolling" = true;
   "terminal.integrated.scrollback" = 1000;
   "terminal.integrated.mouseWheelScrollSensitivity" = 1;

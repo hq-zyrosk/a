@@ -1,5 +1,8 @@
 {
-  "chat.promptFiles" = true;
+  "chat.promptFiles" = {
+    ".github/prompts" = true;
+    "./" = true;
+  };
   "chat.editing.confirmEditRequestRetry" = true;
   "chat.editing.confirmEditRequestRemoval" = true;
   "chat.editing.autoAcceptDelay" = 0;
