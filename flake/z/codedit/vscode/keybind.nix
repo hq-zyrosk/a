@@ -3,6 +3,10 @@
     key = "ctrl+9";
     command = "workbench.action.openEditorAtIndex9";
   }
+  {
+    key = "ctrl+9";
+    command = "-workbench.action.lastEditorInGroup";
+  }
 
   {
     key = "ctrl+8";
@@ -78,13 +82,29 @@
 
   {
     when = "focusedView == 'workbench.explorer.fileView'";
-    key = "ctrl+shift+a";
+    key = "ctrl+shift+e";
     command = "workbench.action.focusActiveEditorGroup";
   }
   {
     when = "focusedView != 'workbench.explorer.fileView'";
-    key = "ctrl+shift+a";
+    key = "ctrl+shift+e";
     command = "workbench.files.action.showActiveFileInExplorer";
+  }
+  {
+    "key" = "ctrl+shift+e";
+    "command" = "workbench.view.explorer";
+    "when" = "-viewContainer.workbench.view.explorer.enabled";
+  }
+
+  {
+    when = "focusedView == 'workbench.panel.chat.view.copilot'";
+    key = "ctrl+shift+a";
+    command = "workbench.action.toggleSidebarVisibility";
+  }
+  {
+    when = "focusedView != 'workbench.panel.chat.view.copilot'";
+    key = "ctrl+shift+a";
+    command = "workbench.action.chat.open";
   }
   {
     when = "editorTextFocus && !editorReadonly";
