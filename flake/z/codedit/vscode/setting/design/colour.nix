@@ -479,6 +479,7 @@
     "input.border" = "#ADADADFF";
     "input.background" = "#FFEFDFFF";
     "inlineEdit.wordReplacementView.background" = "#FF00FFFF";
+    "inlineEdit.tabWillAcceptBorder" = "#ADADADFF";
     "inlineEdit.originalChangedTextBackground" = "#FF00FF3F";
     "inlineEdit.originalChangedLineBackground" = "#FF00FF3F";
     "inlineEdit.originalBorder" = "#FF00FFFF";
