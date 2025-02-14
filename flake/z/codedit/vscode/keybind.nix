@@ -93,7 +93,7 @@
   {
     "key" = "ctrl+shift+e";
     "command" = "workbench.view.explorer";
-    "when" = "-viewContainer.workbench.view.explorer.enabled";
+    "when" = "viewContainer.workbench.view.explorer.enabled";
   }
 
   {
