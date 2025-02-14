@@ -17,9 +17,6 @@
     "other" = "on";
     "comments" = "off";
   };
-  "editor.experimental.preferTreeSitter" = [
-    "typescript"
-  ];
   "editor.dropIntoEditor.preferences" = [
     "uri.path.relative"
     "uri.path.absolute"
