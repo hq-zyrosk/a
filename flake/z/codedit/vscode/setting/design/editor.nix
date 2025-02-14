@@ -1,15 +1,5 @@
 {
-  "workbench.editor.customLabels.patterns" = {
-    "**/{9}/**/*.tsx" = "9 \${filename}";
-    "**/{8}/**/*.tsx" = "8 \${filename}";
-    "**/{7}/**/*.tsx" = "7 \${filename}";
-    "**/{6}/**/*.tsx" = "6 \${filename}";
-    "**/{5}/**/*.tsx" = "5 \${filename}";
-    "**/{4}/**/*.tsx" = "4 \${filename}";
-    "**/{3}/**/*.tsx" = "3 \${filename}";
-    "**/{2}/**/*.tsx" = "2 \${filename}";
-    "**/{1}/**/*.tsx" = "1 \${filename}";
-  };
+  "workbench.editor.customLabels.patterns" = { };
   "editor.unicodeHighlight.allowedLocales" = { };
   "editor.unicodeHighlight.allowedCharacters" = { };
   "editor.quickSuggestions" = {
