@@ -1,5 +1,6 @@
 let
-  background = "#FFEFDFFF";
+  background = _.rgba 1 1 1 1; # "#FFEFDFFF";
+  _ = import ./_.nix;
 in
 {
   "actionBar.toggledBackground" = background;

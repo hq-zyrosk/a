@@ -40,5 +40,9 @@ in
 {
   rgba =
     r: g: b: a:
-    "#" + (toHex r) + (toHex g) + (toHex b) + (toHex a);
+    let
+      floor = x: builtins.floor x;
+      convert = x: floor (x * 255);
+    in
+    "#" + (toHex (convert r)) + (toHex (convert g)) + (toHex (convert b)) + (toHex (convert a));
 }
