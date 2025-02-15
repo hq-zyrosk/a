@@ -1,5 +1,6 @@
 let
-  foreground = "#3C3C3CFF";
+  foreground = _.rgba 1 1 1 1; # "#3C3C3CFF";
+  _ = import ./_.nix;
 in
 {
   "scmGraph.foreground1" = foreground;
