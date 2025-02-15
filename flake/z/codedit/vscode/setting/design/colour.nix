@@ -19,6 +19,8 @@ in
     // border
     // background
     // {
+      "panelTitle.activeForeground" = "#0000FFFF";
+      "panelTitle.activeBorder" = "#0000FFFF";
       # "toolbar.hoverOutline" = "#888888FF";
       # "titleBar.activeForeground" = "#0000FFFF";
       # "textSeparator.foreground" = "#888888FF";
@@ -54,8 +56,6 @@ in
       # "peekViewResult.lineForeground" = "#0000FFFF";
       # "peekViewResult.fileForeground" = "#0000FFFF";
       # "peekViewEditorStickyScroll.background" = "#FFFF00FF";
-      # "panelTitle.activeForeground" = "#0000FFFF";
-      # "panelTitle.activeBorder" = "#0000FFFF";
       # "notificationLink.foreground" = "#0000BFFF";
       # "notebookScrollbarSlider.hoverBackground" = "#D0D0D0FF";
       # "notebookScrollbarSlider.background" = "#D0D0D0FF";
