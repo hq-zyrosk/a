@@ -82,8 +82,10 @@ in
       # "debugConsole.infoForeground" = "#0000BFFF";
       # "search.resultsInfoForeground" = "#0000BFFF";
       # "testing.message.info.decorationForeground" = "#0000BFFF";
-      # "editorLink.activeForeground" = "#0000BFFF";
+
+      # "editorLink.activeForeground" = "#00007FFF";
       # "textLink.activeForeground" = "#00007FFF";
+
       # "button.separator" = "#888888FF";
       # "extensionButton.separator" = "#888888FF";
       # "listFilterWidget.outline" = "#888888FF";
@@ -92,6 +94,7 @@ in
       # "toolbar.hoverOutline" = "#888888FF";
       # "menu.separatorBackground" = "#888888FF";
       # "textSeparator.foreground" = "#888888FF";
+
       # "editorCommentsWidget.replyInputBackground" = "#F6F6F6FF";
       # "editorCommentsWidget.rangeBackground" = "#F6F6F6FF";
       # "editorGhostText.foreground" = "#F6F6F6FF";
@@ -101,10 +104,13 @@ in
       # "gitDecoration.ignoredResourceForeground" = "#F6F6F6FF";
       # "list.deemphasizedForeground" = "#F6F6F6FF";
       # "disabledForeground" = "#F6F6F6FF";
+
       # "tab.activeModifiedBorder" = "#003535FF";
       # "gitDecoration.modifiedResourceForeground" = "#003535FF";
       # "gitDecoration.stageModifiedResourceForeground" = "#003535FF";
+
       # "gitDecoration.untrackedResourceForeground" = "#002121FF";
+
       # "notebookScrollbarSlider.background" = "#D0D0D0FF";
       # "minimapSlider.background" = "#D0D0D0FF";
       # "progressBar.background" = "#D0D0D0FF";
@@ -112,6 +118,7 @@ in
       # "minimapSlider.hoverBackground" = "#D0D0D0FF";
       # "notebookScrollbarSlider.activeBackground" = "#D0D0D0FF";
       # "minimapSlider.activeBackground" = "#D0D0D0FF";
+
       # "editorGhostText.background" = "#FFFF00FF";
       # "editorStickyScrollHover.background" = "#FFFF00FF";
       # "editorStickyScroll.background" = "#FFFF00FF";
@@ -122,10 +129,13 @@ in
       # "editorInlayHint.parameterForeground" = "#00FF00FF";
       # "diffEditorOverview.insertedForeground" = "#00FF00FF";
       # "inlineChatDiff.inserted" = "#00FF00FF";
+
       # "editorGhostText.border" = "#F7F700FF";
       # "editor.findMatchBorder" = "#F7F700FF";
       # "searchEditor.findMatchBorder" = "#F7F700FF";
+
       # "editorInlayHint.typeForeground" = "#5D0000FF";
+
       # "inlineEdit.originalChangedTextBackground" = "#FF00FF3F";
       # "inlineEdit.modifiedChangedTextBackground" = "#FF00FF3F";
       # "merge.currentContentBackground" = "#FF00FF3F";
@@ -142,7 +152,9 @@ in
       # "inlineEdit.modifiedChangedLineBackground" = "#FF00FF3F";
       # "inlineEdit.acceptedBackground" = "#FF00FF3F";
       # "inlineEdit.modifiedBackground" = "#FF00FF3F";
+
       # "editor.placeholder.foreground" = "#3C3C3C3F";
+
       # "editorWatermark.foreground" = "#3C3C3C3F";
       # "extensionIcon.sponsorForeground" = "#3C3C3C3F";
       # "editor.foldPlaceholderForeground" = "#3C3C3C3F";
@@ -151,7 +163,9 @@ in
       # "activityBarTop.inactiveForeground" = "#3C3C3C3F";
       # "extensionIcon.preReleaseForeground" = "#3C3C3C3F";
       # "extensionIcon.verifiedForeground" = "#3C3C3C3F";
+
       # "minimap.foregroundOpacity" = "#F6F6F63F";
+
       # "editorInfo.background" = "#FFFF003F";
       # "list.filterMatchBackground" = "#FFFF003F";
       # "diffEditor.insertedTextBackground" = "#00FF003F";
@@ -171,10 +185,14 @@ in
       # "editorGutter.deletedBackground" = "#FF00003F";
       # "minimapGutter.deletedBackground" = "#FF00003F";
       # "inlineChatDiff.removed" = "#FF00003F";
+
       # "editor.selectionForeground" = "#0000003F";
+
       # "selection.background" = "#00000029";
       # "editor.selectionBackground" = "#00000029";
+
       # "editorHint.foreground" = "#0000FF01";
+
       # "scrollbarSlider.background" = "#F6F6F680";
       # "scrollbarSlider.hoverBackground" = "#F6F6F680";
       # "scrollbarSlider.activeBackground" = "#F6F6F680";
