@@ -76,6 +76,18 @@ in
       "debugConsole.warningForeground" = "#FF0000FF";
       "debugConsole.errorForeground" = "#FF0000FF";
 
+      "editorError.background" = "#FF00003F";
+      "editorWarning.background" = "#FF00003F";
+      "diffEditor.removedTextBackground" = "#FF00003F";
+      "terminalCommandDecoration.errorBackground" = "#FF00003F";
+      "testing.message.error.lineBackground" = "#FF00003F";
+      "diffEditor.removedLineBackground" = "#FF00003F";
+      "diffEditorGutter.removedLineBackground" = "#FF00003F";
+      "diffEditor.insertedLineBackground" = "#FF00003F";
+      "editorGutter.deletedBackground" = "#FF00003F";
+      "minimapGutter.deletedBackground" = "#FF00003F";
+      "inlineChatDiff.removed" = "#FF00003F";
+
       # "textLink.foreground" = "#0000BFFF";
       # "notificationLink.foreground" = "#0000BFFF";
       # "inputValidation.infoForeground" = "#0000BFFF";
@@ -168,23 +180,14 @@ in
 
       # "editorInfo.background" = "#FFFF003F";
       # "list.filterMatchBackground" = "#FFFF003F";
+
       # "diffEditor.insertedTextBackground" = "#00FF003F";
       # "diffEditorGutter.insertedLineBackground" = "#00FF003F";
       # "minimapGutter.modifiedBackground" = "#00FF003F";
       # "minimapGutter.addedBackground" = "#00FF003F";
+
       # "list.filterMatchBorder" = "#F7F7003F";
       # "testing.message.info.lineBackground" = "#F7F7003F";
-      # "editorError.background" = "#FF00003F";
-      # "editorWarning.background" = "#FF00003F";
-      # "diffEditor.removedTextBackground" = "#FF00003F";
-      # "terminalCommandDecoration.errorBackground" = "#FF00003F";
-      # "testing.message.error.lineBackground" = "#FF00003F";
-      # "diffEditor.removedLineBackground" = "#FF00003F";
-      # "diffEditorGutter.removedLineBackground" = "#FF00003F";
-      # "diffEditor.insertedLineBackground" = "#FF00003F";
-      # "editorGutter.deletedBackground" = "#FF00003F";
-      # "minimapGutter.deletedBackground" = "#FF00003F";
-      # "inlineChatDiff.removed" = "#FF00003F";
 
       # "editor.selectionForeground" = "#0000003F";
 
