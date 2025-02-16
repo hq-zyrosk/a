@@ -41,6 +41,7 @@
         jnoortheen.nix-ide
         github.copilot-chat
         github.copilot
+        fill-labs.dependi
         dbaeumer.vscode-eslint
       ];
       enableExtensionUpdateCheck = false;
