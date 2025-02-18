@@ -72,8 +72,8 @@ in
         colors = {
           primary = {
             dim_foreground = "#808080";
-            foreground = "#000000";
-            background = "#FFEFDF";
+            foreground = "#FFFFFF";
+            background = "#000000";
           };
           normal = {
             black = "#888888";
