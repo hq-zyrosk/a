@@ -1,12 +1,12 @@
 let
-  w5 = _.rgba 1.00 1.00 0.00 1.00;
-  w1 = _.rgba 1.00 1.00 0.00 0.50;
-  i5 = _.rgba 0.00 1.00 0.00 1.00;
-  i1 = _.rgba 0.00 1.00 0.00 0.50;
-  e5 = _.rgba 1.00 0.00 0.00 1.00;
-  e1 = _.rgba 1.00 0.00 0.00 0.50;
-  c5 = _.rgba 1.00 0.00 0.00 1.00;
-  c1 = _.rgba 0.00 0.00 0.00 0.00;
+  w5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
+  w1 = _.rgba 1.00000 1.00000 0.00000 0.50000;
+  i5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
+  i1 = _.rgba 0.00000 1.00000 0.00000 0.50000;
+  e5 = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  e1 = _.rgba 1.00000 0.00000 0.00000 0.50000;
+  c5 = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  c1 = _.rgba 0.00000 0.00000 0.00000 0.00000;
   _ = import ./_.nix;
 in
 {
@@ -45,6 +45,7 @@ in
   "editorLightBulb.foreground" = i5;
   "editorInfo.foreground" = i5;
   "editorInfo.border" = i5;
+  "editorHint.foreground" = i5;
   "debugConsole.infoForeground" = i5;
 
   "testing.message.info.lineBackground" = i1;
