@@ -1,13 +1,36 @@
 let
   undecided = "default";
+  # white = _.rgba 1 0 0 1;
+  yellow = _.rgba 1 1 0 1;
+  # blue = _.rgba 1 0 0 1;
+  green = _.rgba 0 1 0 1;
+  red = _.rgba 1 0 0 1;
+  _ = import ./_.nix;
 in
 {
   "terminalOverviewRuler.findMatchForeground" = undecided;
+  "terminal.ansiYellow" = "#3E3E00FF";
+  "terminal.ansiWhite" = "#888888FF";
+  "terminal.ansiRed" = "#7F0000FF";
+  "terminal.ansiMagenta" = "#6F006FFF";
+  "terminal.ansiGreen" = "#3E3E00FF";
+  "terminal.ansiCyan" = "#004700FF";
+  "terminal.ansiBrightYellow" = "#3E3E00FF";
+  "terminal.ansiBrightWhite" = "#888888FF";
+  "terminal.ansiBrightRed" = "#7F0000FF";
+  "terminal.ansiBrightMagenta" = "#6F006FFF";
+  "terminal.ansiBrightGreen" = "#3E3E00FF";
+  "terminal.ansiBrightCyan" = "#004700FF";
+  "terminal.ansiBrightBlue" = "#004700FF";
+  "terminal.ansiBlue" = "#004700FF";
   "tab.unfocusedInactiveModifiedBorder" = undecided;
   "tab.unfocusedActiveModifiedBorder" = undecided;
   "tab.inactiveModifiedBorder" = undecided;
   "tab.activeModifiedBorder" = undecided;
   "settings.modifiedItemIndicator" = undecided;
+  "scm.historyGraph.yellow" = yellow;
+  "scm.historyGraph.red" = red;
+  "scm.historyGraph.green" = green;
   "notebookEditorOverviewRuler.runningCellForeground" = undecided;
   "notebook.cellInsertionIndicator" = undecided;
   "minimapGutter.modifiedBackground" = undecided;
@@ -66,25 +89,10 @@ in
   "diffEditor.insertedTextBorder" = undecided;
   "diffEditor.insertedTextBackground" = undecided;
   "diffEditor.insertedLineBackground" = undecided;
-
   "charts.yellow" = "#3E3E00FF";
   "charts.red" = "#7F0000FF";
   "charts.purple" = "#6F006FFF";
   "charts.orange" = "#7F00003F";
   "charts.green" = "#3E3E00FF";
   "charts.blue" = "#004700FF";
-  "terminal.ansiYellow" = "#3E3E00FF";
-  "terminal.ansiWhite" = "#888888FF";
-  "terminal.ansiRed" = "#7F0000FF";
-  "terminal.ansiMagenta" = "#6F006FFF";
-  "terminal.ansiGreen" = "#3E3E00FF";
-  "terminal.ansiCyan" = "#004700FF";
-  "terminal.ansiBrightYellow" = "#3E3E00FF";
-  "terminal.ansiBrightWhite" = "#888888FF";
-  "terminal.ansiBrightRed" = "#7F0000FF";
-  "terminal.ansiBrightMagenta" = "#6F006FFF";
-  "terminal.ansiBrightGreen" = "#3E3E00FF";
-  "terminal.ansiBrightCyan" = "#004700FF";
-  "terminal.ansiBrightBlue" = "#004700FF";
-  "terminal.ansiBlue" = "#004700FF";
 }
