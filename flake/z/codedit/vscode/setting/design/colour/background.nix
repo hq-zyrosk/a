@@ -18,7 +18,6 @@ in
   "sideBarSectionHeader.background" = c9;
   "sideBar.background" = c9;
   "settings.textInputBackground" = c9;
-  "scrollbarSlider.background" = c9;
   "quickInputTitle.background" = c9;
   "quickInput.background" = c9;
   "progressBar.background" = c9;
@@ -27,10 +26,8 @@ in
   "peekViewEditor.background" = c9;
   "panel.background" = c9;
   "outputView.background" = c9;
-  "notebookScrollbarSlider.background" = c9;
   "multiDiffEditor.headerBackground" = c9;
   "multiDiffEditor.background" = c9;
-  "minimapSlider.background" = c9;
   "minimap.background" = c9;
   "listFilterWidget.background" = c9;
   "list.dropBetweenBackground" = c9;
@@ -67,6 +64,7 @@ in
   "textCodeBlock.background" = c5;
   "textBlockQuote.background" = c5;
   "testing.peekHeaderBackground" = c5;
+  "terminalStickyScroll.background" = c5;
   "statusBarItem.remoteBackground" = c5;
   "statusBarItem.prominentHoverBackground" = c5;
   "statusBarItem.prominentBackground" = c5;
@@ -79,22 +77,25 @@ in
   "statusBar.noFolderBackground" = c5;
   "statusBar.debuggingBackground" = c5;
   "statusBar.background" = c5;
+  "sideBarStickyScroll.background" = c5;
   "sideBar.dropBackground" = c5;
-  "scrollbarSlider.hoverBackground" = c5;
-  "scrollbarSlider.activeBackground" = c5;
+  "scrollbarSlider.background" = c9;
   "quickInputList.focusBackground" = c5;
   "profileBadge.background" = c5;
   "peekViewTitle.background" = c5;
   "peekViewResult.selectionBackground" = c5;
+  "peekViewEditorStickyScroll.background" = c5;
+  "panelStickyScroll.background" = c5;
   "panelSectionHeader.background" = c5;
   "panelSection.dropBackground" = c5;
+  "outputViewStickyScroll.background" = c5;
   "notifications.background" = c5;
   "notificationCenterHeader.background" = c5;
-  "notebookScrollbarSlider.hoverBackground" = c5;
+  "notebookScrollbarSlider.background" = c9;
   "notebook.cellStatusBarItemHoverBackground" = c5;
   "notebook.cellHoverBackground" = c5;
   "notebook.cellEditorBackground" = c5;
-  "minimapSlider.hoverBackground" = c5;
+  "minimapSlider.background" = c9;
   "menubar.selectionBackground" = c5;
   "menu.selectionBackground" = c5;
   "menu.background" = c5;
@@ -108,6 +109,7 @@ in
   "extensionButton.hoverBackground" = c5;
   "extensionButton.background" = c5;
   "extensionBadge.remoteBackground" = c5;
+  "editorStickyScroll.background" = c5;
   "editorPane.background" = c5;
   "editorMarkerNavigation.background" = c5;
   "editorInlayHint.typeBackground" = c5;
@@ -145,6 +147,12 @@ in
   "activityBarBadge.background" = c5;
   "activityBar.background" = c5;
 
+  "terminalStickyScrollHover.background" = c1;
+  "scrollbarSlider.hoverBackground" = c1;
+  "scrollbarSlider.activeBackground" = c1;
+  "notebookScrollbarSlider.hoverBackground" = c1;
   "notebookScrollbarSlider.activeBackground" = c1;
+  "minimapSlider.hoverBackground" = c1;
   "minimapSlider.activeBackground" = c1;
+  "editorStickyScrollHover.background" = c1;
 }

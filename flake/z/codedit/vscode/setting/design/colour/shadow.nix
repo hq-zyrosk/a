@@ -13,28 +13,9 @@ in
   "widget.shadow" = c5;
 }
 
+# "minimap.foregroundOpacity" = "#F6F6F63F";
+# "editorInlayHint.typeForeground" = "#5D0000FF";
+# "editorInlayHint.parameterForeground" = "#00FF00FF";
 # "editorCommentsWidget.replyInputBackground" = "#F6F6F6FF";
 # "editorCommentsWidget.rangeBackground" = "#F6F6F6FF";
-
-# "editorStickyScrollHover.background" = "#FFFF00FF";
-# "editorStickyScroll.background" = "#FFFF00FF";
-# "peekViewEditorStickyScroll.background" = "#FFFF00FF";
 # "editor.linkedEditingBackground" = "#FFFF00FF";
-# "editorInlayHint.parameterForeground" = "#00FF00FF";
-
-# "editorInlayHint.typeForeground" = "#5D0000FF";
-
-# "inlineEdit.originalChangedTextBackground" = "#FF00FF3F";
-# "merge.currentContentBackground" = "#FF00FF3F";
-# "merge.commonContentBackground" = "#FF00FF3F";
-# "merge.incomingContentBackground" = "#FF00FF3F";
-# "merge.currentHeaderBackground" = "#FF00FF3F";
-# "merge.commonHeaderBackground" = "#FF00FF3F";
-# "merge.incomingHeaderBackground" = "#FF00FF3F";
-# "terminal.dropBackground" = "#FF00FF3F";
-# "inlineEdit.originalBackground" = "#FF00FF3F";
-# "commandCenter.debuggingBackground" = "#FF00FF3F";
-# "inlineEdit.originalChangedLineBackground" = "#FF00FF3F";
-# "inlineEdit.acceptedBackground" = "#FF00FF3F";
-
-# "minimap.foregroundOpacity" = "#F6F6F63F";
