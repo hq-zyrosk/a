@@ -1,4 +1,6 @@
 let
+  convert = n: builtins.ceil (255 * n);
+  does = hex: if (builtins.stringLength hex) == 1 then "0${hex}" else hex;
   decToHex =
     decimal:
     let
@@ -30,19 +32,12 @@ let
     in
     if decimal == 0 then "0" else convertToHex decimal;
 
-  toHex =
-    n:
-    let
-      hex = decToHex n;
-    in
-    if (builtins.stringLength hex) == 1 then "0${hex}" else hex;
+  toHex = n: does (decToHex n);
 in
-{
+rec {
   rgba =
     r: g: b: a:
-    let
-      floor = x: builtins.floor x;
-      convert = x: floor (x * 255);
-    in
     "#" + (toHex (convert r)) + (toHex (convert g)) + (toHex (convert b)) + (toHex (convert a));
+  c2 = convert 0.9;
+  c1 = rgba 0.9058 0.81 0.81 1;
 }

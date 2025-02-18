@@ -19,41 +19,6 @@ in
     // border
     // background
     // {
-      "titleBar.activeForeground" = "#0000FFFF";
-      "settings.textInputForeground" = "#0000FFFF";
-      "quickInputList.focusIconForeground" = "#0000FFFF";
-      "quickInputList.focusForeground" = "#0000FFFF";
-      "profileBadge.foreground" = "#0000FFFF";
-      "peekViewTitleLabel.foreground" = "#0000FFFF";
-      "peekViewResult.selectionForeground" = "#0000FFFF";
-      "peekViewResult.lineForeground" = "#0000FFFF";
-      "peekViewResult.fileForeground" = "#0000FFFF";
-      "panelTitle.activeForeground" = "#0000FFFF";
-      "panelTitle.activeBorder" = "#0000FFFF";
-      "menu.selectionForeground" = "#0000FFFF";
-      "inputOption.activeForeground" = "#0000FFFF";
-      "input.foreground" = "#0000FFFF";
-      "gitDecoration.stageDeletedResourceForeground" = "#0000FFFF";
-      "extensionButton.foreground" = "#0000FFFF";
-      "extensionBadge.remoteForeground" = "#0000FFFF";
-      "editorWarning.foreground" = "#0000FFFF";
-      "editorSuggestWidget.selectedIconForeground" = "#0000FFFF";
-      "editorSuggestWidget.selectedForeground" = "#0000FFFF";
-      "editorLineNumber.activeForeground" = "#0000FFFF";
-      "editorLightBulb.foreground" = "#0000FFFF";
-      "editorHoverWidget.foreground" = "#0000FFFF";
-      "editor.inlineValuesForeground" = "#0000FFFF";
-      "debugView.stateLabelForeground" = "#0000FFFF";
-      "debugView.exceptionLabelForeground" = "#0000FFFF";
-      "commandCenter.activeForeground" = "#0000FFFF";
-      "chat.avatarForeground" = "#0000FFFF";
-      "button.secondaryForeground" = "#0000FFFF";
-      "button.foreground" = "#0000FFFF";
-      "breadcrumb.focusForeground" = "#0000FFFF";
-      "breadcrumb.activeSelectionForeground" = "#0000FFFF";
-      "badge.foreground" = "#0000FFFF";
-      "activityBarBadge.foreground" = "#0000FFFF";
-
       "testing.message.error.decorationForeground" = "#FF0000FF";
       "terminalCursor.foreground" = "#FF0000FF";
       "statusBarItem.warningForeground" = "#FF0000FF";
