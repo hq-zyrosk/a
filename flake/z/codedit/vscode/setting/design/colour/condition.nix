@@ -71,6 +71,7 @@ in
   "inputValidation.errorForeground" = e5;
   "inputValidation.errorBorder" = e5;
   "errorForeground" = e5;
+  "editorUnnecessaryCode.opacity" = e5;
   "editorUnnecessaryCode.border" = e5;
   "editorOverviewRuler.errorForeground" = e5;
   "editorGroup.focusedEmptyBorder" = e5;
@@ -87,7 +88,6 @@ in
   "statusBarItem.errorBackground" = e1;
   "minimap.errorHighlight" = e1;
   "inputValidation.errorBackground" = e1;
-  "editorUnnecessaryCode.opacity" = e1;
   "editorMarkerNavigationError.headerBackground" = e1;
   "editorMarkerNavigationError.background" = e1;
   "editorGroupHeader.noTabsBackground" = e1;
