@@ -44,7 +44,7 @@ in
   "workbench.layoutControl.type" = "menu";
   "workbench.layoutControl.enabled" = false;
   "workbench.iconTheme" = null;
-  "workbench.hover.delay" = 0;
+  "workbench.hover.delay" = 1000;
   "workbench.experimental.share.enabled" = true;
   "workbench.enableExperiments" = true;
   "workbench.commandPalette.preserveInput" = false;
