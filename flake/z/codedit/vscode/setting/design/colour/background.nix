@@ -27,6 +27,7 @@ in
   "statusBar.background" = c9;
   "sideBar.dropBackground" = c9;
   "scrollbarSlider.activeBackground" = c9;
+  "quickInputList.focusBackground" = c9;
   "profileBadge.background" = c9;
   "peekViewTitle.background" = c9;
   "peekViewResult.selectionBackground" = c9;
@@ -49,7 +50,6 @@ in
   "extensionButton.prominentBackground" = c9;
   "extensionButton.hoverBackground" = c9;
   "extensionButton.background" = c9;
-  "quickInputList.focusBackground" = c9;
   "extensionBadge.remoteBackground" = c9;
   "editorPane.background" = c9;
   "editorMarkerNavigation.background" = c9;
