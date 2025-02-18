@@ -52,7 +52,7 @@ in
   "workbench.commandPalette.experimental.suggestCommands" = true;
   "workbench.commandPalette.experimental.enableNaturalLanguageSearch" = true;
   "workbench.commandPalette.experimental.askChatLocation" = "quickChat";
-  "workbench.colorTheme" = "Empty Light";
+  "workbench.colorTheme" = "Empty Dark";
   "workbench.cloudChanges.continueOn" = "prompt";
   "workbench.cloudChanges.autoResume" = "onReload";
   "workbench.activityBar.location" = "hidden";
