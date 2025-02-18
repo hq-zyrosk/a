@@ -4,10 +4,18 @@ in
 {
   "terminal.selectionBackground" = highlight;
   "terminal.inactiveSelectionBackground" = highlight;
-  "terminal.hoverHighlightBackground" = highlight;
   "selection.background" = highlight;
   "minimap.selectionHighlight" = highlight;
   "menu.selectionForeground" = highlight;
+  "editorOverviewRuler.selectionHighlightForeground" = highlight;
+  "editor.selectionForeground" = highlight;
+  "editor.selectionBackground" = highlight;
+  "editor.inactiveSelectionBackground" = highlight;
+  "editor.selectionHighlightBorder" = "#F7F7003F";
+  "editor.selectionHighlightBackground" = highlight;
+  "minimap.selectionOccurrenceHighlight" = highlight;
+
+  "terminal.hoverHighlightBackground" = highlight;
   "list.highlightForeground" = highlight;
   "list.focusHighlightForeground" = highlight;
   "interactiveEditor.regionHighlight" = highlight;
@@ -16,14 +24,10 @@ in
   "editorOverviewRuler.wordHighlightTextForeground" = highlight;
   "editorOverviewRuler.wordHighlightStrongForeground" = highlight;
   "editorOverviewRuler.wordHighlightForeground" = highlight;
-  "editorOverviewRuler.selectionHighlightForeground" = highlight;
   "editorOverviewRuler.rangeHighlightForeground" = highlight;
-  "editor.selectionForeground" = highlight;
-  "editor.selectionBackground" = highlight;
   "editor.rangeHighlightBackground" = highlight;
   "editor.lineHighlightBorder" = highlight;
   "editor.lineHighlightBackground" = highlight;
-  "editor.inactiveSelectionBackground" = highlight;
 
   "terminalOverviewRuler.findMatchForeground" = highlight;
   "terminal.findMatchBorder" = highlight;
@@ -45,17 +49,14 @@ in
   "editor.wordHighlightStrongBorder" = "#F7F7003F";
   "terminal.findMatchHighlightBorder" = "#F7F7003F";
   "editor.symbolHighlightBorder" = "#F7F7003F";
-  "editor.selectionHighlightBorder" = "#F7F7003F";
   "editor.wordHighlightTextBorder" = "#F7F7003F";
   "editor.wordHighlightStrongBackground" = highlight;
   "editor.wordHighlightBackground" = highlight;
   "terminal.findMatchHighlightBackground" = highlight;
   "editor.findMatchHighlightBackground" = highlight;
   "editor.symbolHighlightBackground" = highlight;
-  "editor.selectionHighlightBackground" = highlight;
   "editor.hoverHighlightBackground" = highlight;
   "editor.wordHighlightTextBackground" = highlight;
-  "minimap.selectionOccurrenceHighlight" = highlight;
   "minimap.findMatchHighlight" = highlight;
   "editor.findMatchHighlightForeground" = "#3C3C3C3F";
   "editor.rangeHighlightBorder" = "#3C3C3C3F";
