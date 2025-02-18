@@ -214,6 +214,7 @@ in
   "activityBarTop.foreground" = c5;
   "activityBar.foreground" = c5;
 
-  "editorLineNumber.dimmedForeground" = c1;
   "voiceRecording.dimmedBackground" = c1;
+  "editorLineNumber.dimmedForeground" = c1;
+  "editorGhostText.foreground" = c1;
 }

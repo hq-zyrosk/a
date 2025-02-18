@@ -1,6 +1,7 @@
 let
   c9 = _.rgba 0.1250 0.1250 0.1250 1.0000;
   c5 = _.rgba 0.0000 0.0000 0.0000 1.0000;
+  c1 = _.rgba 0.0000 0.0000 0.0000 1.0000;
   _ = import ./_.nix;
 in
 {
@@ -134,4 +135,6 @@ in
   "inlineChatInput.background" = c5;
   "input.background" = c5;
   "outputView.background" = c5;
+
+  "editorGhostText.background" = c1;
 }

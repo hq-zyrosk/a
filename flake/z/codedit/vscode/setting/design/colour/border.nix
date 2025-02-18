@@ -1,6 +1,7 @@
 let
   c9 = _.rgba 0.1250 0.1250 0.1250 1.0000;
   c5 = _.rgba 0.0625 0.0625 0.0625 1.0000;
+  c1 = _.rgba 0.0625 0.0625 0.0625 1.0000;
   _ = import ./_.nix;
 in
 {
@@ -118,4 +119,6 @@ in
   "activityBarTop.dropBorder" = c5;
   "activityBar.dropBorder" = c5;
   "activityBar.border" = c5;
+
+  "editorGhostText.border" = c1;
 }
