@@ -1,5 +1,5 @@
 let
-  c5 = _.rgba 1 0 1 1;
+  c5 = _.rgba 0 0 0 0;
   _ = import ./_.nix;
 in
 {
@@ -24,7 +24,6 @@ in
   "editor.lineHighlightBorder" = c5;
   "contrastBorder" = c5;
   "editorBracketMatch.border" = c5;
-  "sideBar.border" = c5;
   "statusBar.border" = c5;
   "editorOverviewRuler.border" = c5;
   "bookmarks.overviewRuler" = c5;

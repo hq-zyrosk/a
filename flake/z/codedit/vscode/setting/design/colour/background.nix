@@ -1,5 +1,5 @@
 let
-  background = _.rgba 0 0 0 1; # "#FFEFDFFF";
+  background = _.rgba 0 0 0 1;
   _ = import ./_.nix;
 in
 {
