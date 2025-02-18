@@ -15,11 +15,6 @@ in
 
 # "editorCommentsWidget.replyInputBackground" = "#F6F6F6FF";
 # "editorCommentsWidget.rangeBackground" = "#F6F6F6FF";
-# "input.placeholderForeground" = "#F6F6F6FF";
-# "inlineChatInput.placeholderForeground" = "#F6F6F6FF";
-# "interactiveEditorInput.placeholderForeground" = "#F6F6F6FF";
-# "list.deemphasizedForeground" = "#F6F6F6FF";
-# "disabledForeground" = "#F6F6F6FF";
 
 # "notebookScrollbarSlider.background" = "#D0D0D0FF";
 # "minimapSlider.background" = "#D0D0D0FF";

@@ -214,6 +214,10 @@ in
   "activityBar.foreground" = c5;
 
   "voiceRecording.dimmedBackground" = c1;
+  "list.deemphasizedForeground" = c1;
+  "interactiveEditorInput.placeholderForeground" = c1;
+  "input.placeholderForeground" = c1;
+  "inlineChatInput.placeholderForeground" = c1;
   "extensionIcon.verifiedForeground" = c1;
   "extensionIcon.starForeground" = c1;
   "extensionIcon.sponsorForeground" = c1;
@@ -223,6 +227,7 @@ in
   "editorGhostText.foreground" = c1;
   "editor.placeholder.foreground" = c1;
   "editor.foldPlaceholderForeground" = c1;
+  "disabledForeground" = c1;
   "activityBarTop.inactiveForeground" = c1;
   "activityBar.inactiveForeground" = c1;
 }
