@@ -5,16 +5,13 @@ in
   "scm.historyGraph.red" = undecided;
   "testing.iconFailed.retired" = undecided;
   "testing.iconSkipped.retired" = undecided;
-  "testing.iconErrored.retired" = undecided;
   "testing.iconPassed.retired" = undecided;
   "testing.iconQueued.retired" = undecided;
   "testing.iconUnset.retired" = undecided;
-  "editorOverviewRuler.inlineChatRemoved" = undecided;
   "testing.coveredBackground" = undecided;
   "testing.uncoveredBackground" = undecided;
   "chat.slashCommandBackground" = undecided;
   "testing.coverCountBadgeBackground" = undecided;
-  "testing.message.error.badgeBackground" = undecided;
   "welcomePage.tileBackground" = undecided;
   "statusBarItem.offlineBackground" = undecided;
   "radio.activeBackground" = undecided;
@@ -33,7 +30,6 @@ in
   "statusBarItem.remoteHoverBackground" = undecided;
   "radio.inactiveHoverBackground" = undecided;
   "statusBarItem.warningHoverBackground" = undecided;
-  "statusBarItem.errorHoverBackground" = undecided;
   "settings.rowHoverBackground" = undecided;
   "notebook.editorBackground" = undecided;
   "terminalCommandDecoration.successBackground" = undecided;
@@ -52,7 +48,6 @@ in
   "mergeEditor.changeBase.word.background" = undecided;
   "welcomePage.background" = undecided;
   "activityWarningBadge.background" = undecided;
-  "activityErrorBadge.background" = undecided;
   "mergeEditor.change.background" = undecided;
   "mergeEditor.changeBase.background" = undecided;
   "voiceRecording.background" = undecided;
@@ -88,7 +83,6 @@ in
   "debugTokenExpression.number" = undecided;
   "editorCommentsWidget.resolvedBorder" = undecided;
   "editorCommentsWidget.unresolvedBorder" = undecided;
-  "testing.message.error.badgeBorder" = undecided;
   "editorCommentsWidget.rangeBorder" = undecided;
   "radio.activeBorder" = undecided;
   "radio.inactiveBorder" = undecided;
@@ -109,7 +103,6 @@ in
   "scmGraph.historyItemRemoteRefColor" = undecided;
   "scmGraph.historyItemRefColor" = undecided;
   "notebook.outputContainerBorderColor" = undecided;
-  "debugTokenExpression.error" = undecided;
   "notebook.cellToolbarSeparator" = undecided;
   "chart.axis" = undecided;
   "minimap.infoHighlight" = undecided;

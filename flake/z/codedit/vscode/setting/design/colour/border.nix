@@ -48,7 +48,6 @@ in
   "keybindingTable.headerBackground" = border;
   "editorMarkerNavigationWarning.headerBackground" = border;
   "editorMarkerNavigationInfo.headerBackground" = border;
-  "editorMarkerNavigationError.headerBackground" = border;
   "statusBar.noFolderBackground" = border;
   "editorInlayHint.parameterBackground" = border;
   "notebook.cellHoverBackground" = border;
@@ -62,8 +61,6 @@ in
   "extensionButton.hoverBackground" = border;
   "button.hoverBackground" = border;
   "toolbar.hoverBackground" = border;
-  "statusBarItem.errorBackground" = border;
-  "inputValidation.errorBackground" = border;
   "notebook.cellEditorBackground" = border;
   "editor.inlineValuesBackground" = border;
   "tree.tableOddRowsBackground" = border;
@@ -94,7 +91,6 @@ in
   "notificationCenterHeader.background" = border;
   "banner.background" = border;
   "commandCenter.background" = border;
-  "editorMarkerNavigationError.background" = border;
   "notifications.background" = border;
   "debugExceptionWidget.background" = border;
   "editorInlayHint.background" = border;
@@ -142,7 +138,6 @@ in
   "scm.providerBorder" = border;
   "statusBar.noFolderBorder" = border;
   "sash.hoverBorder" = border;
-  "inputValidation.errorBorder" = border;
   "editorGroupHeader.tabsBorder" = border;
   "scm.historyItemSelectedStatisticsBorder" = border;
   "scm.historyItemStatisticsBorder" = border;
@@ -160,8 +155,6 @@ in
   "settings.numberInputBorder" = border;
   "searchEditor.textInputBorder" = border;
   "settings.textInputBorder" = border;
-  "diffEditor.insertedTextBorder" = border;
-  "diffEditor.removedTextBorder" = border;
   "settings.focusedRowBorder" = border;
   "settings.checkboxBorder" = border;
   "tab.border" = border;

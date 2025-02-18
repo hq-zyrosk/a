@@ -27,6 +27,5 @@ in
   "sideBar.border" = c5;
   "statusBar.border" = c5;
   "editorOverviewRuler.border" = c5;
-  "editorError.border" = c5;
   "bookmarks.overviewRuler" = c5;
 }

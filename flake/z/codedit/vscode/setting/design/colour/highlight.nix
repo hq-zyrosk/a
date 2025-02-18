@@ -6,7 +6,6 @@ in
   "editor.findRangeHighlightBorder" = "#0000003F";
   "editorUnicodeHighlight.background" = "#FF00003F";
   "minimap.warningHighlight" = "#FF00003F";
-  "minimap.errorHighlight" = "#FF00003F";
   "editor.wordHighlightStrongBorder" = "#F7F7003F";
   "terminal.findMatchHighlightBorder" = "#F7F7003F";
   "editor.symbolHighlightBorder" = "#F7F7003F";

@@ -2,9 +2,6 @@ let
   undecided = "default";
 in
 {
-
-  "gitDecoration.ignoredResourceForeground" = undecided;
-  "gitDecoration.untrackedResourceForeground" = undecided;
   "terminalOverviewRuler.findMatchForeground" = undecided;
   "terminalOverviewRuler.cursorForeground" = undecided;
   "tab.unfocusedInactiveModifiedBorder" = undecided;
@@ -21,12 +18,15 @@ in
   "inlineEdit.modifiedChangedLineBackground" = undecided;
   "inlineEdit.modifiedBorder" = undecided;
   "inlineEdit.modifiedBackground" = undecided;
+  "inlineChatDiff.removed" = "#FF00003F";
   "inlineChatDiff.inserted" = undecided;
+  "gitDecoration.untrackedResourceForeground" = undecided;
   "gitDecoration.submoduleResourceForeground" = undecided;
   "gitDecoration.stageModifiedResourceForeground" = undecided;
   "gitDecoration.stageDeletedResourceForeground" = undecided;
   "gitDecoration.renamedResourceForeground" = undecided;
   "gitDecoration.modifiedResourceForeground" = undecided;
+  "gitDecoration.ignoredResourceForeground" = undecided;
   "gitDecoration.deletedResourceForeground" = undecided;
   "gitDecoration.conflictingResourceForeground" = undecided;
   "gitDecoration.addedResourceForeground" = undecided;
@@ -38,11 +38,11 @@ in
   "editorOverviewRuler.selectionHighlightForeground" = undecided;
   "editorOverviewRuler.rangeHighlightForeground" = undecided;
   "editorOverviewRuler.modifiedForeground" = undecided;
+  "editorOverviewRuler.inlineChatRemoved" = undecided;
   "editorOverviewRuler.inlineChatInserted" = undecided;
   "editorOverviewRuler.infoForeground" = undecided;
   "editorOverviewRuler.incomingContentForeground" = undecided;
   "editorOverviewRuler.findMatchForeground" = undecided;
-  "editorOverviewRuler.errorForeground" = undecided;
   "editorOverviewRuler.deletedForeground" = undecided;
   "editorOverviewRuler.currentContentForeground" = undecided;
   "editorOverviewRuler.commonContentForeground" = undecided;
@@ -59,12 +59,14 @@ in
   "editorGutter.modifiedBackground" = undecided;
   "editorGutter.deletedBackground" = undecided;
   "editorGutter.addedBackground" = undecided;
-  "editorError.foreground" = undecided;
+  "diffEditorOverview.removedForeground" = "#FF0000FF";
   "diffEditorOverview.insertedForeground" = undecided;
   "diffEditorGutter.removedLineBackground" = undecided;
   "diffEditorGutter.insertedLineBackground" = undecided;
+  "diffEditor.removedTextBorder" = undecided;
   "diffEditor.removedTextBackground" = undecided;
   "diffEditor.removedLineBackground" = undecided;
+  "diffEditor.insertedTextBorder" = undecided;
   "diffEditor.insertedTextBackground" = undecided;
   "diffEditor.insertedLineBackground" = undecided;
 

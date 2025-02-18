@@ -66,13 +66,11 @@ in
   "titleBar.inactiveForeground" = c5;
   "textPreformat.foreground" = c5;
   "testing.runAction" = c5;
-  "testing.message.error.badgeForeground" = c5;
   "testing.iconUnset" = c5;
   "testing.iconSkipped" = c5;
   "testing.iconQueued" = c5;
   "testing.iconPassed" = c5;
   "testing.iconFailed" = c5;
-  "testing.iconErrored" = c5;
   "testing.coverCountBadgeForeground" = c5;
   "terminalCommandGuide.foreground" = c5;
   "terminal.selectionForeground" = c5;
@@ -125,7 +123,6 @@ in
   "statusBarItem.offlineHoverForeground" = c5;
   "statusBarItem.offlineForeground" = c5;
   "statusBarItem.hoverForeground" = c5;
-  "statusBarItem.errorHoverForeground" = c5;
   "statusBar.foreground" = c5;
   "statusBar.debuggingForeground" = c5;
   "sideBarTitle.foreground" = c5;
@@ -152,7 +149,6 @@ in
   "quickInput.foreground" = c5;
   "problemsWarningIcon.foreground" = c5;
   "problemsInfoIcon.foreground" = c5;
-  "problemsErrorIcon.foreground" = c5;
   "ports.iconRunningProcessForeground" = c5;
   "pickerGroup.foreground" = c5;
   "peekViewTitleDescription.foreground" = c5;
@@ -160,12 +156,10 @@ in
   "panelSectionHeader.foreground" = c5;
   "notificationsWarningIcon.foreground" = c5;
   "notificationsInfoIcon.foreground" = c5;
-  "notificationsErrorIcon.foreground" = c5;
   "notifications.foreground" = c5;
   "notificationCenterHeader.foreground" = c5;
   "notebookStatusSuccessIcon.foreground" = c5;
   "notebookStatusRunningIcon.foreground" = c5;
-  "notebookStatusErrorIcon.foreground" = c5;
   "menubar.selectionForeground" = c5;
   "menu.foreground" = c5;
   "list.inactiveSelectionIconForeground" = c5;
@@ -225,7 +219,6 @@ in
   "banner.iconForeground" = c5;
   "banner.foreground" = c5;
   "activityWarningBadge.foreground" = c5;
-  "activityErrorBadge.foreground" = c5;
   "activityBarTop.foreground" = c5;
   "activityBar.foreground" = c5;
 

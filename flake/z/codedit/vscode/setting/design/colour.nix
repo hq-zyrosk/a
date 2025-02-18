@@ -19,33 +19,22 @@ in
     // border
     // background
     // {
-      "testing.message.error.decorationForeground" = "#FF0000FF";
       "terminalCursor.foreground" = "#FF0000FF";
       "statusBarItem.warningForeground" = "#FF0000FF";
-      "statusBarItem.errorForeground" = "#FF0000FF";
       "statusBar.offlineForeground" = "#FF0000FF";
       "statusBar.noFolderForeground" = "#FF0000FF";
       "listFilterWidget.noMatchesOutline" = "#FF0000FF";
       "list.warningForeground" = "#FF0000FF";
       "list.invalidItemForeground" = "#FF0000FF";
-      "list.errorForeground" = "#FF0000FF";
       "inputValidation.warningForeground" = "#FF0000FF";
-      "inputValidation.errorForeground" = "#FF0000FF";
-      "errorForeground" = "#FF0000FF";
       "editorUnnecessaryCode.border" = "#FF0000FF";
       "editorGroupHeader.noTabsBackground" = "#FF0000FF";
       "editorGroup.focusedEmptyBorder" = "#FF0000FF";
       "editorGroup.emptyBackground" = "#FF0000FF";
       "editorCursor.foreground" = "#FF0000FF";
-      "diffEditorOverview.removedForeground" = "#FF0000FF";
       "debugConsole.warningForeground" = "#FF0000FF";
-      "debugConsole.errorForeground" = "#FF0000FF";
 
-      "editorError.background" = "#FF00003F";
       "editorWarning.background" = "#FF00003F";
-      "terminalCommandDecoration.errorBackground" = "#FF00003F";
-      "testing.message.error.lineBackground" = "#FF00003F";
-      "inlineChatDiff.removed" = "#FF00003F";
 
       # "textLink.foreground" = "#0000BFFF";
       # "notificationLink.foreground" = "#0000BFFF";
