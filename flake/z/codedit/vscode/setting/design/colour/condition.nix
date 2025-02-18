@@ -43,6 +43,9 @@ in
   "editorOverviewRuler.infoForeground" = i5;
   "editorMarkerNavigationInfo.headerBackground" = i1;
   "editorMarkerNavigationInfo.background" = i1;
+  "editorLightBulbAutoFix.foreground" = i5;
+  "editorLightBulbAi.foreground" = i5;
+  "editorLightBulb.foreground" = i5;
   "editorInfo.foreground" = i5;
   "editorInfo.border" = i5;
   "editorInfo.background" = i1;

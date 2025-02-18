@@ -35,7 +35,6 @@ in
   "editorSuggestWidget.selectedForeground" = c9;
   "editorLink.activeForeground" = c9;
   "editorLineNumber.activeForeground" = c9;
-  "editorLightBulb.foreground" = c9;
   "editorIndentGuide.activeBackground6" = c9;
   "editorIndentGuide.activeBackground5" = c9;
   "editorIndentGuide.activeBackground4" = c9;

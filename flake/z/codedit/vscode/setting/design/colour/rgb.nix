@@ -71,8 +71,6 @@ in
   "editorOverviewRuler.bracketMatchForeground" = undecided;
   "editorOverviewRuler.addedForeground" = undecided;
   "editorMinimap.inlineChatInserted" = undecided;
-  "editorLightBulbAutoFix.foreground" = undecided;
-  "editorLightBulbAi.foreground" = undecided;
   "editorGutter.modifiedBackground" = undecided;
   "editorGutter.deletedBackground" = undecided;
   "editorGutter.addedBackground" = undecided;
