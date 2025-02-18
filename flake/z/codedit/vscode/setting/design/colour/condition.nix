@@ -29,6 +29,23 @@ in
   "activityWarningBadge.foreground" = w5;
   "activityWarningBadge.background" = w5;
 
+  # "testing.message.info.lineBackground" = "#F7F7003F";
+  # "testing.message.info.decorationForeground" = "#0000BFFF";
+  # "search.resultsInfoForeground" = "#0000BFFF";
+  # "problemsInfoIcon.foreground" = c5;
+  # "notificationsInfoIcon.foreground" = c5;
+  # "minimap.infoHighlight" = undecided;
+  # "inputValidation.infoForeground" = "#0000BFFF";
+  # "inputValidation.infoBorder" = c5;
+  # "inputValidation.infoBackground" = c5;
+  # "editorOverviewRuler.infoForeground" = undecided;
+  # "editorMarkerNavigationInfo.headerBackground" = c5;
+  # "editorMarkerNavigationInfo.background" = c5;
+  # "editorInfo.foreground" = undecided;
+  # "editorInfo.border" = c5;
+  # "editorInfo.background" = "#FFFF003F";
+  # "debugConsole.infoForeground" = "#0000BFFF";
+
   "testing.message.error.lineBackground" = e5;
   "testing.message.error.decorationForeground" = e5;
   "testing.message.error.badgeForeground" = e5;

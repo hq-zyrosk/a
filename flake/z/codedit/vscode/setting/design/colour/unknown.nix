@@ -58,7 +58,6 @@ in
   "notebook.focusedCellBackground" = undecided;
   "notebook.editorBackground" = undecided;
   "notebook.cellToolbarSeparator" = undecided;
-  "minimap.infoHighlight" = undecided;
   "mergeEditor.conflictingLines.background" = undecided;
   "mergeEditor.conflict.unhandled.minimapOverViewRuler" = undecided;
   "mergeEditor.conflict.input2.background" = undecided;

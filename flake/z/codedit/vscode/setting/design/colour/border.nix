@@ -119,8 +119,6 @@ in
   "interactiveEditor.border" = c5;
   "interactive.inactiveCodeBorder" = c5;
   "interactive.activeCodeBorder" = c5;
-  "inputValidation.infoBorder" = c5;
-  "inputValidation.infoBackground" = c5;
   "inputOption.hoverBackground" = c5;
   "inputOption.activeBorder" = c5;
   "inputOption.activeBackground" = c5;
@@ -143,14 +141,11 @@ in
   "editorStickyScroll.border" = c5;
   "editorRuler.foreground" = c5;
   "editorPane.background" = c5;
-  "editorMarkerNavigationInfo.headerBackground" = c5;
-  "editorMarkerNavigationInfo.background" = c5;
   "editorMarkerNavigation.background" = c5;
   "editorLineNumber.foreground" = c5;
   "editorInlayHint.typeBackground" = c5;
   "editorInlayHint.parameterBackground" = c5;
   "editorInlayHint.background" = c5;
-  "editorInfo.border" = c5;
   "editorIndentGuide.background6" = c5;
   "editorIndentGuide.background5" = c5;
   "editorIndentGuide.background4" = c5;

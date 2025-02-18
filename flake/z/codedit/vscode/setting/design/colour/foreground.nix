@@ -5,20 +5,9 @@ let
   _ = import ./_.nix;
 in
 {
-  "editorBracketPairGuide.activeBackground1" = c9;
-  "editorIndentGuide.activeBackground1" = c9;
-  "editorBracketPairGuide.activeBackground2" = c9;
-  "editorIndentGuide.activeBackground2" = c9;
-  "editorBracketPairGuide.activeBackground3" = c9;
-  "editorIndentGuide.activeBackground3" = c9;
-  "editorBracketPairGuide.activeBackground4" = c9;
-  "editorIndentGuide.activeBackground4" = c9;
-  "editorBracketPairGuide.activeBackground5" = c9;
-  "editorIndentGuide.activeBackground5" = c9;
-  "editorBracketPairGuide.activeBackground6" = c9;
-  "editorIndentGuide.activeBackground6" = c9;
-
   "titleBar.activeForeground" = c9;
+  "textLink.foreground" = c9;
+  "textLink.activeForeground" = c9;
   "tab.unfocusedHoverForeground" = c9;
   "tab.unfocusedActiveForeground" = c9;
   "tab.activeForeground" = c9;
@@ -32,6 +21,7 @@ in
   "peekViewResult.lineForeground" = c9;
   "peekViewResult.fileForeground" = c9;
   "panelTitle.activeForeground" = c9;
+  "notificationLink.foreground" = c9;
   "menu.selectionForeground" = c9;
   "list.focusHighlightForeground" = c9;
   "list.focusForeground" = c9;
@@ -43,9 +33,22 @@ in
   "extensionBadge.remoteForeground" = c9;
   "editorSuggestWidget.selectedIconForeground" = c9;
   "editorSuggestWidget.selectedForeground" = c9;
+  "editorLink.activeForeground" = c9;
   "editorLineNumber.activeForeground" = c9;
   "editorLightBulb.foreground" = c9;
+  "editorIndentGuide.activeBackground6" = c9;
+  "editorIndentGuide.activeBackground5" = c9;
+  "editorIndentGuide.activeBackground4" = c9;
+  "editorIndentGuide.activeBackground3" = c9;
+  "editorIndentGuide.activeBackground2" = c9;
+  "editorIndentGuide.activeBackground1" = c9;
   "editorHoverWidget.foreground" = c9;
+  "editorBracketPairGuide.activeBackground6" = c9;
+  "editorBracketPairGuide.activeBackground5" = c9;
+  "editorBracketPairGuide.activeBackground4" = c9;
+  "editorBracketPairGuide.activeBackground3" = c9;
+  "editorBracketPairGuide.activeBackground2" = c9;
+  "editorBracketPairGuide.activeBackground1" = c9;
   "editorActionList.focusForeground" = c9;
   "editor.inlineValuesForeground" = c9;
   "debugView.stateLabelForeground" = c9;
@@ -145,13 +148,11 @@ in
   "scm.historyGraph.historyItemGroupHoverLabelForeground" = c5;
   "radio.inactiveForeground" = c5;
   "quickInput.foreground" = c5;
-  "problemsInfoIcon.foreground" = c5;
   "ports.iconRunningProcessForeground" = c5;
   "pickerGroup.foreground" = c5;
   "peekViewTitleDescription.foreground" = c5;
   "panelTitle.inactiveForeground" = c5;
   "panelSectionHeader.foreground" = c5;
-  "notificationsInfoIcon.foreground" = c5;
   "notifications.foreground" = c5;
   "notificationCenterHeader.foreground" = c5;
   "notebookStatusSuccessIcon.foreground" = c5;

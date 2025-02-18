@@ -30,16 +30,6 @@ in
       "editorGroup.focusedEmptyBorder" = "#FF0000FF";
       "editorGroup.emptyBackground" = "#FF0000FF";
 
-      # "textLink.foreground" = "#0000BFFF";
-      # "notificationLink.foreground" = "#0000BFFF";
-      # "inputValidation.infoForeground" = "#0000BFFF";
-      # "debugConsole.infoForeground" = "#0000BFFF";
-      # "search.resultsInfoForeground" = "#0000BFFF";
-      # "testing.message.info.decorationForeground" = "#0000BFFF";
-
-      # "editorLink.activeForeground" = "#00007FFF";
-      # "textLink.activeForeground" = "#00007FFF";
-
       # "button.separator" = "#888888FF";
       # "extensionButton.separator" = "#888888FF";
       # "listFilterWidget.outline" = "#888888FF";
@@ -108,11 +98,9 @@ in
 
       # "minimap.foregroundOpacity" = "#F6F6F63F";
 
-      # "editorInfo.background" = "#FFFF003F";
       # "list.filterMatchBackground" = "#FFFF003F";
 
       # "list.filterMatchBorder" = "#F7F7003F";
-      # "testing.message.info.lineBackground" = "#F7F7003F";
 
       # "editor.selectionForeground" = "#0000003F";
 
