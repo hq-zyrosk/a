@@ -2,6 +2,7 @@ let
   c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
   c5 = _.rgba 0.50000 0.50000 0.50000 1.00000;
   c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
+  a5 = _.rgba 0.50000 0.50000 0.50000 0.50000;
   _ = import ./_.nix;
 in
 {
@@ -171,6 +172,7 @@ in
   "editorWidget.foreground" = c5;
   "editorSuggestWidgetStatus.foreground" = c5;
   "editorSuggestWidget.foreground" = c5;
+  "editorInlayHint.parameterForeground" = c5;
   "editorInlayHint.foreground" = c5;
   "editorGutter.foldingControlForeground" = c5;
   "editorGutter.commentUnresolvedGlyphForeground" = c5;
@@ -224,10 +226,13 @@ in
   "extensionIcon.preReleaseForeground" = c1;
   "editorWatermark.foreground" = c1;
   "editorLineNumber.dimmedForeground" = c1;
+  "editorInlayHint.typeForeground" = c1;
   "editorGhostText.foreground" = c1;
   "editor.placeholder.foreground" = c1;
   "editor.foldPlaceholderForeground" = c1;
   "disabledForeground" = c1;
   "activityBarTop.inactiveForeground" = c1;
   "activityBar.inactiveForeground" = c1;
+
+  "minimap.foregroundOpacity" = a5;
 }

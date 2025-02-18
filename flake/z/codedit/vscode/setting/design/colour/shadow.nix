@@ -12,10 +12,3 @@ in
   "listFilterWidget.shadow" = c5;
   "widget.shadow" = c5;
 }
-
-# "minimap.foregroundOpacity" = "#F6F6F63F";
-# "editorInlayHint.typeForeground" = "#5D0000FF";
-# "editorInlayHint.parameterForeground" = "#00FF00FF";
-# "editorCommentsWidget.replyInputBackground" = "#F6F6F6FF";
-# "editorCommentsWidget.rangeBackground" = "#F6F6F6FF";
-# "editor.linkedEditingBackground" = "#FFFF00FF";

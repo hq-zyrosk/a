@@ -128,6 +128,7 @@ in
   "editorBracketPairGuide.background3" = c5;
   "editorBracketPairGuide.background2" = c5;
   "editorBracketPairGuide.background1" = c5;
+  "editor.linkedEditingBackground" = c5;
   "editor.inlineValuesBackground" = c5;
   "dropdown.listBackground" = c5;
   "dropdown.background" = c5;

@@ -76,7 +76,9 @@ in
   "editorGroup.dropIntoPromptBackground" = c5;
   "editorCommentsWidget.unresolvedBorder" = c5;
   "editorCommentsWidget.resolvedBorder" = c5;
+  "editorCommentsWidget.replyInputBackground" = c5;
   "editorCommentsWidget.rangeBorder" = c5;
+  "editorCommentsWidget.rangeBackground" = c5;
   "editorActionList.focusBackground" = c5;
   "editorActionList.background" = c5;
   "editor.compositionBorder" = c5;
@@ -96,16 +98,16 @@ in
   "chart.guide" = c5;
   "chart.axis" = c5;
 
-  "inlineEdit.originalChangedTextBackground" = c1;
-  "merge.currentContentBackground" = c1;
-  "merge.commonContentBackground" = c1;
+  "terminal.dropBackground" = c1;
+  "merge.incomingHeaderBackground" = c1;
   "merge.incomingContentBackground" = c1;
   "merge.currentHeaderBackground" = c1;
+  "merge.currentContentBackground" = c1;
   "merge.commonHeaderBackground" = c1;
-  "merge.incomingHeaderBackground" = c1;
-  "terminal.dropBackground" = c1;
-  "inlineEdit.originalBackground" = c1;
-  "commandCenter.debuggingBackground" = c1;
+  "merge.commonContentBackground" = c1;
+  "inlineEdit.originalChangedTextBackground" = c1;
   "inlineEdit.originalChangedLineBackground" = c1;
+  "inlineEdit.originalBackground" = c1;
   "inlineEdit.acceptedBackground" = c1;
+  "commandCenter.debuggingBackground" = c1;
 }
