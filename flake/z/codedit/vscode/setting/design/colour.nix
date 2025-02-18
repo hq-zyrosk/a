@@ -21,7 +21,6 @@ in
     // border
     // background
     // {
-      "terminalCursor.foreground" = "#FF0000FF";
       "statusBarItem.warningForeground" = "#FF0000FF";
       "statusBar.offlineForeground" = "#FF0000FF";
       "statusBar.noFolderForeground" = "#FF0000FF";
@@ -33,7 +32,6 @@ in
       "editorGroupHeader.noTabsBackground" = "#FF0000FF";
       "editorGroup.focusedEmptyBorder" = "#FF0000FF";
       "editorGroup.emptyBackground" = "#FF0000FF";
-      "editorCursor.foreground" = "#FF0000FF";
       "debugConsole.warningForeground" = "#FF0000FF";
 
       "editorWarning.background" = "#FF00003F";

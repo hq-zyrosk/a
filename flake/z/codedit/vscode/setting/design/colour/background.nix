@@ -39,8 +39,6 @@ in
   "breadcrumbPicker.background" = background;
   "peekViewEditorGutter.background" = background;
   "editorGutter.background" = background;
-  "terminalCursor.background" = background;
-  "editorCursor.background" = background;
   "multiDiffEditor.background" = background;
   "peekViewEditor.background" = background;
   "editor.background" = background;

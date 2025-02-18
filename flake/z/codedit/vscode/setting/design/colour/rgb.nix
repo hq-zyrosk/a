@@ -3,7 +3,6 @@ let
 in
 {
   "terminalOverviewRuler.findMatchForeground" = undecided;
-  "terminalOverviewRuler.cursorForeground" = undecided;
   "tab.unfocusedInactiveModifiedBorder" = undecided;
   "tab.unfocusedActiveModifiedBorder" = undecided;
   "tab.inactiveModifiedBorder" = undecided;
@@ -50,8 +49,6 @@ in
   "editorOverviewRuler.commentForeground" = undecided;
   "editorOverviewRuler.bracketMatchForeground" = undecided;
   "editorOverviewRuler.addedForeground" = undecided;
-  "editorMultiCursor.secondary.foreground" = undecided;
-  "editorMultiCursor.primary.foreground" = undecided;
   "editorMinimap.inlineChatInserted" = undecided;
   "editorLightBulbAutoFix.foreground" = undecided;
   "editorLightBulbAi.foreground" = undecided;

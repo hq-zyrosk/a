@@ -65,8 +65,6 @@ in
   "editorActionList.background" = undecided;
   "inlineEdit.wordReplacementView.background" = undecided;
   "checkbox.background" = undecided;
-  "editorMultiCursor.secondary.background" = undecided;
-  "editorMultiCursor.primary.background" = undecided;
   "chart.guide" = undecided;
   "debugTokenExpression.name" = undecided;
   "chart.line" = undecided;

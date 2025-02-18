@@ -34,4 +34,14 @@ in
   "debugConsole.errorForeground" = r;
   "activityErrorBadge.foreground" = r;
   "activityErrorBadge.background" = r;
+
+  "terminalOverviewRuler.cursorForeground" = r;
+  "terminalCursor.foreground" = r;
+  "terminalCursor.background" = r;
+  "editorMultiCursor.secondary.foreground" = r;
+  "editorMultiCursor.secondary.background" = r;
+  "editorMultiCursor.primary.foreground" = r;
+  "editorMultiCursor.primary.background" = r;
+  "editorCursor.foreground" = r;
+  "editorCursor.background" = r;
 }
