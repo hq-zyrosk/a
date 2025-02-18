@@ -41,7 +41,6 @@ in
   "input.foreground" = c9;
   "extensionButton.foreground" = c9;
   "extensionBadge.remoteForeground" = c9;
-  "editorWarning.foreground" = c9;
   "editorSuggestWidget.selectedIconForeground" = c9;
   "editorSuggestWidget.selectedForeground" = c9;
   "editorLineNumber.activeForeground" = c9;
@@ -115,7 +114,6 @@ in
   "symbolIcon.classForeground" = c5;
   "symbolIcon.booleanForeground" = c5;
   "symbolIcon.arrayForeground" = c5;
-  "statusBarItem.warningHoverForeground" = c5;
   "statusBarItem.remoteHoverForeground" = c5;
   "statusBarItem.remoteForeground" = c5;
   "statusBarItem.prominentHoverForeground" = c5;
@@ -147,14 +145,12 @@ in
   "scm.historyGraph.historyItemGroupHoverLabelForeground" = c5;
   "radio.inactiveForeground" = c5;
   "quickInput.foreground" = c5;
-  "problemsWarningIcon.foreground" = c5;
   "problemsInfoIcon.foreground" = c5;
   "ports.iconRunningProcessForeground" = c5;
   "pickerGroup.foreground" = c5;
   "peekViewTitleDescription.foreground" = c5;
   "panelTitle.inactiveForeground" = c5;
   "panelSectionHeader.foreground" = c5;
-  "notificationsWarningIcon.foreground" = c5;
   "notificationsInfoIcon.foreground" = c5;
   "notifications.foreground" = c5;
   "notificationCenterHeader.foreground" = c5;
@@ -218,7 +214,6 @@ in
   "breadcrumb.foreground" = c5;
   "banner.iconForeground" = c5;
   "banner.foreground" = c5;
-  "activityWarningBadge.foreground" = c5;
   "activityBarTop.foreground" = c5;
   "activityBar.foreground" = c5;
 

@@ -25,7 +25,6 @@ in
   "terminalOverviewRuler.border" = undecided;
   "terminalCommandDecoration.successBackground" = undecided;
   "terminalCommandDecoration.defaultBackground" = undecided;
-  "statusBarItem.warningHoverBackground" = undecided;
   "statusBarItem.remoteHoverBackground" = undecided;
   "statusBarItem.offlineHoverBackground" = undecided;
   "statusBarItem.offlineBackground" = undecided;
@@ -101,5 +100,4 @@ in
   "chart.line" = undecided;
   "chart.guide" = undecided;
   "chart.axis" = undecided;
-  "activityWarningBadge.background" = undecided;
 }

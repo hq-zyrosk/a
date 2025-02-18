@@ -56,7 +56,6 @@ in
   "editorOverviewRuler.wordHighlightTextForeground" = undecided;
   "editorOverviewRuler.wordHighlightStrongForeground" = undecided;
   "editorOverviewRuler.wordHighlightForeground" = undecided;
-  "editorOverviewRuler.warningForeground" = undecided;
   "editorOverviewRuler.selectionHighlightForeground" = undecided;
   "editorOverviewRuler.rangeHighlightForeground" = undecided;
   "editorOverviewRuler.modifiedForeground" = undecided;

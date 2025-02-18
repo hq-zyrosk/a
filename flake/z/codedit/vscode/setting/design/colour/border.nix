@@ -34,7 +34,6 @@ in
   "tab.lastPinnedBorder" = c5;
   "tab.dragAndDropBorder" = c5;
   "tab.border" = c5;
-  "statusBarItem.warningBackground" = c5;
   "statusBarItem.remoteBackground" = c5;
   "statusBarItem.prominentHoverBackground" = c5;
   "statusBarItem.prominentBackground" = c5;
@@ -120,8 +119,6 @@ in
   "interactiveEditor.border" = c5;
   "interactive.inactiveCodeBorder" = c5;
   "interactive.activeCodeBorder" = c5;
-  "inputValidation.warningBorder" = c5;
-  "inputValidation.warningBackground" = c5;
   "inputValidation.infoBorder" = c5;
   "inputValidation.infoBackground" = c5;
   "inputOption.hoverBackground" = c5;
@@ -141,14 +138,11 @@ in
   "editorWidget.resizeBorder" = c5;
   "editorWidget.border" = c5;
   "editorWhitespace.foreground" = c5;
-  "editorWarning.border" = c5;
   "editorUnicodeHighlight.border" = c5;
   "editorSuggestWidget.border" = c5;
   "editorStickyScroll.border" = c5;
   "editorRuler.foreground" = c5;
   "editorPane.background" = c5;
-  "editorMarkerNavigationWarning.headerBackground" = c5;
-  "editorMarkerNavigationWarning.background" = c5;
   "editorMarkerNavigationInfo.headerBackground" = c5;
   "editorMarkerNavigationInfo.background" = c5;
   "editorMarkerNavigation.background" = c5;
