@@ -11,25 +11,26 @@ let
 in
 {
   "statusBarItem.warningHoverForeground" = w5;
-  "statusBarItem.warningHoverBackground" = w5;
   "statusBarItem.warningForeground" = w5;
-  "statusBarItem.warningBackground" = w5;
   "problemsWarningIcon.foreground" = w5;
   "notificationsWarningIcon.foreground" = w5;
-  "minimap.warningHighlight" = w1;
   "list.warningForeground" = w5;
   "inputValidation.warningForeground" = w5;
   "inputValidation.warningBorder" = w5;
-  "inputValidation.warningBackground" = w5;
   "editorWarning.foreground" = w5;
   "editorWarning.border" = w5;
-  "editorWarning.background" = w1;
   "editorOverviewRuler.warningForeground" = w5;
-  "editorMarkerNavigationWarning.headerBackground" = w5;
-  "editorMarkerNavigationWarning.background" = w5;
   "debugConsole.warningForeground" = w5;
   "activityWarningBadge.foreground" = w5;
-  "activityWarningBadge.background" = w5;
+
+  "minimap.warningHighlight" = w1;
+  "statusBarItem.warningHoverBackground" = w1;
+  "statusBarItem.warningBackground" = w1;
+  "inputValidation.warningBackground" = w1;
+  "editorWarning.background" = w1;
+  "editorMarkerNavigationWarning.headerBackground" = w1;
+  "editorMarkerNavigationWarning.background" = w1;
+  "activityWarningBadge.background" = w1;
 
   "testing.message.info.decorationForeground" = i5;
   "search.resultsInfoForeground" = i5;
