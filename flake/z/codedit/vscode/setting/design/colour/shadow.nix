@@ -1,16 +1,17 @@
 let
-  shadow = "#ADADAD3F";
+  c5 = _.rgba 0.0625 0.0625 0.0625 1.0000;
+  _ = import ./_.nix;
 in
 {
-  "editorHint.border" = shadow;
-  "diffEditor.unchangedRegionShadow" = shadow;
-  "panelStickyScroll.shadow" = shadow;
-  "sideBarStickyScroll.shadow" = shadow;
-  "editorStickyScroll.shadow" = shadow;
-  "scrollbar.shadow" = shadow;
-  "inlineChat.shadow" = shadow;
-  "listFilterWidget.shadow" = shadow;
-  "widget.shadow" = shadow;
+  "editorHint.border" = c5;
+  "diffEditor.unchangedRegionShadow" = c5;
+  "panelStickyScroll.shadow" = c5;
+  "sideBarStickyScroll.shadow" = c5;
+  "editorStickyScroll.shadow" = c5;
+  "scrollbar.shadow" = c5;
+  "inlineChat.shadow" = c5;
+  "listFilterWidget.shadow" = c5;
+  "widget.shadow" = c5;
 }
 
 # "button.separator" = "#888888FF";
@@ -81,14 +82,3 @@ in
 # "list.filterMatchBackground" = "#FFFF003F";
 
 # "list.filterMatchBorder" = "#F7F7003F";
-
-# "editor.selectionForeground" = "#0000003F";
-
-# "selection.background" = "#00000029";
-# "editor.selectionBackground" = "#00000029";
-
-# "editorHint.foreground" = "#0000FF01";
-
-# "scrollbarSlider.background" = "#F6F6F680";
-# "scrollbarSlider.hoverBackground" = "#F6F6F680";
-# "scrollbarSlider.activeBackground" = "#F6F6F680";

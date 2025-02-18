@@ -2,6 +2,10 @@ let
   highlight = "#FFFF003F";
 in
 {
+  # "editor.selectionForeground" = "#0000003F";
+  # "selection.background" = "#00000029";
+  # "editor.selectionBackground" = "#00000029";
+  # "editorHint.foreground" = "#0000FF01";
   "menu.selectionForeground" = highlight;
   "list.focusHighlightForeground" = highlight;
   "list.highlightForeground" = highlight;
