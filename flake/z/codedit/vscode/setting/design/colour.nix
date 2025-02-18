@@ -1,5 +1,5 @@
 let
-  variant = import ./colour/condition.nix;
+  variant = import ./colour/variant.nix;
   unknown = import ./colour/unknown.nix;
   shadow = import ./colour/shadow.nix;
   rgb = import ./colour/rgb.nix;
