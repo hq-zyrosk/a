@@ -21,8 +21,6 @@ in
   "editorOverviewRuler.background" = c5;
   "editorBracketMatch.border" = c5;
   "editorBracketMatch.background" = c5;
-  "editor.lineHighlightBorder" = c5;
-  "editor.lineHighlightBackground" = c5;
   "editor.foldBackground" = c5;
   "diffEditor.diagonalFill" = c5;
   "contrastBorder" = c5;

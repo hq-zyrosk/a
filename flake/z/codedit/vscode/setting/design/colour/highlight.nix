@@ -2,6 +2,26 @@ let
   highlight = "#FFFF003F";
 in
 {
+  "menu.selectionForeground" = highlight;
+  "list.focusHighlightForeground" = highlight;
+  "list.highlightForeground" = highlight;
+  "interactiveEditor.regionHighlight" = highlight;
+  "editorUnicodeHighlight.border" = highlight;
+  "terminal.selectionBackground" = highlight;
+  "terminal.inactiveSelectionBackground" = highlight;
+  "terminal.hoverHighlightBackground" = highlight;
+  "editor.lineHighlightBorder" = highlight;
+  "editor.lineHighlightBackground" = highlight;
+  "editor.inactiveSelectionBackground" = highlight;
+  "editor.rangeHighlightBackground" = highlight;
+  "inlineChat.regionHighlight" = highlight;
+  "minimap.selectionHighlight" = highlight;
+  "editorOverviewRuler.wordHighlightTextForeground" = highlight;
+  "editorOverviewRuler.wordHighlightStrongForeground" = highlight;
+  "editorOverviewRuler.wordHighlightForeground" = highlight;
+  "editorOverviewRuler.selectionHighlightForeground" = highlight;
+  "editorOverviewRuler.rangeHighlightForeground" = highlight;
+
   "editor.findRangeHighlightBackground" = "#00000029";
   "editor.findRangeHighlightBorder" = "#0000003F";
   "editorUnicodeHighlight.background" = "#FF00003F";

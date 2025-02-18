@@ -25,9 +25,6 @@ in
   "testing.coveredBorder" = c5;
   "terminalStickyScroll.border" = c5;
   "terminal.tab.activeBorder" = c5;
-  "terminal.selectionBackground" = c5;
-  "terminal.inactiveSelectionBackground" = c5;
-  "terminal.hoverHighlightBackground" = c5;
   "terminal.findMatchBorder" = c5;
   "terminal.border" = c5;
   "tab.selectedBorderTop" = c5;
@@ -115,7 +112,6 @@ in
   "keybindingLabel.background" = c5;
   "interactiveEditorInput.focusBorder" = c5;
   "interactiveEditorInput.border" = c5;
-  "interactiveEditor.regionHighlight" = c5;
   "interactiveEditor.border" = c5;
   "interactive.inactiveCodeBorder" = c5;
   "interactive.activeCodeBorder" = c5;
@@ -136,7 +132,6 @@ in
   "editorWidget.resizeBorder" = c5;
   "editorWidget.border" = c5;
   "editorWhitespace.foreground" = c5;
-  "editorUnicodeHighlight.border" = c5;
   "editorSuggestWidget.border" = c5;
   "editorStickyScroll.border" = c5;
   "editorRuler.foreground" = c5;

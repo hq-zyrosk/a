@@ -22,8 +22,6 @@ in
   "peekViewResult.fileForeground" = c9;
   "panelTitle.activeForeground" = c9;
   "notificationLink.foreground" = c9;
-  "menu.selectionForeground" = c9;
-  "list.focusHighlightForeground" = c9;
   "list.focusForeground" = c9;
   "list.activeSelectionIconForeground" = c9;
   "list.activeSelectionForeground" = c9;
@@ -161,7 +159,6 @@ in
   "list.inactiveSelectionIconForeground" = c5;
   "list.inactiveSelectionForeground" = c5;
   "list.hoverForeground" = c5;
-  "list.highlightForeground" = c5;
   "keybindingLabel.foreground" = c5;
   "inlineEdit.indicator.foreground" = c5;
   "inlineEdit.gutterIndicator.successfulForeground" = c5;

@@ -2,6 +2,10 @@ let
   undecided = "default";
 in
 {
+  "editorGhostText.foreground" = "#FF0000FF";
+  "editorGhostText.background" = "#FF0000FF";
+  "editorGhostText.border" = "#FF0000FF";
+
   "welcomePage.tileHoverBackground" = undecided;
   "welcomePage.tileBackground" = undecided;
   "welcomePage.progress.background" = undecided;
