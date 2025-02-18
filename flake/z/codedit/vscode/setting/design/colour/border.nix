@@ -172,7 +172,6 @@ in
   "editorWarning.border" = c5;
   "terminal.border" = c5;
   "keybindingLabel.border" = c5;
-  "panel.border" = c5;
   "terminalStickyScroll.border" = c5;
   "panelStickyScroll.border" = c5;
   "sideBarStickyScroll.border" = c5;
