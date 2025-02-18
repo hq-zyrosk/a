@@ -59,6 +59,9 @@
       enableShellIntegration = true;
     };
     packages = with pkgs; [
+      jetbrains-toolbox
+      jetbrains.clion
+
       android-studio-tools
       android-studio
       android-tools
@@ -69,6 +72,8 @@
 
       rustup
       bacon
+
+      gdb
       gcc
     ];
     language = { };
@@ -90,6 +95,11 @@
     };
   };
 }
+
+# lsb-release
+# python314
+# ninja
+# gn
 
 # clang-tools
 # gnumake
