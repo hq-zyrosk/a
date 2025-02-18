@@ -5,6 +5,15 @@ let
   _ = import ./_.nix;
 in
 {
+  "button.separator" = c9;
+  "extensionButton.separator" = c9;
+  "listFilterWidget.outline" = c9;
+  "list.focusOutline" = c9;
+  "list.inactiveFocusOutline" = c9;
+  "toolbar.hoverOutline" = c9;
+  "menu.separatorBackground" = c9;
+  "textSeparator.foreground" = c9;
+
   "window.inactiveBorder" = c9;
   "window.activeBorder" = c9;
   "terminal.tab.activeBorder" = c9;
@@ -28,7 +37,6 @@ in
   "testing.messagePeekBorder" = c5;
   "testing.coveredBorder" = c5;
   "terminalStickyScroll.border" = c5;
-  "terminal.findMatchBorder" = c5;
   "terminal.border" = c5;
   "tab.selectedBorderTop" = c5;
   "tab.lastPinnedBorder" = c5;
@@ -101,6 +109,7 @@ in
   "editorRuler.foreground" = c5;
   "editorLineNumber.foreground" = c5;
   "editorHoverWidget.border" = c5;
+  "editorHint.border" = c5;
   "editorGroupHeader.tabsBorder" = c5;
   "editorGroupHeader.border" = c5;
   "editorGroup.border" = c5;

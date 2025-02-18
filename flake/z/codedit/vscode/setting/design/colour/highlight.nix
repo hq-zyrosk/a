@@ -2,28 +2,42 @@ let
   highlight = "#FFFF003F";
 in
 {
-  # "editor.selectionForeground" = "#0000003F";
-  # "selection.background" = "#00000029";
-  # "editor.selectionBackground" = "#00000029";
-  "menu.selectionForeground" = highlight;
-  "list.focusHighlightForeground" = highlight;
-  "list.highlightForeground" = highlight;
-  "interactiveEditor.regionHighlight" = highlight;
-  "editorUnicodeHighlight.border" = highlight;
   "terminal.selectionBackground" = highlight;
   "terminal.inactiveSelectionBackground" = highlight;
   "terminal.hoverHighlightBackground" = highlight;
-  "editor.lineHighlightBorder" = highlight;
-  "editor.lineHighlightBackground" = highlight;
-  "editor.inactiveSelectionBackground" = highlight;
-  "editor.rangeHighlightBackground" = highlight;
-  "inlineChat.regionHighlight" = highlight;
+  "selection.background" = highlight;
   "minimap.selectionHighlight" = highlight;
+  "menu.selectionForeground" = highlight;
+  "list.highlightForeground" = highlight;
+  "list.focusHighlightForeground" = highlight;
+  "interactiveEditor.regionHighlight" = highlight;
+  "inlineChat.regionHighlight" = highlight;
+  "editorUnicodeHighlight.border" = highlight;
   "editorOverviewRuler.wordHighlightTextForeground" = highlight;
   "editorOverviewRuler.wordHighlightStrongForeground" = highlight;
   "editorOverviewRuler.wordHighlightForeground" = highlight;
   "editorOverviewRuler.selectionHighlightForeground" = highlight;
   "editorOverviewRuler.rangeHighlightForeground" = highlight;
+  "editor.selectionForeground" = highlight;
+  "editor.selectionBackground" = highlight;
+  "editor.rangeHighlightBackground" = highlight;
+  "editor.lineHighlightBorder" = highlight;
+  "editor.lineHighlightBackground" = highlight;
+  "editor.inactiveSelectionBackground" = highlight;
+
+  "terminalOverviewRuler.findMatchForeground" = highlight;
+  "terminal.findMatchBorder" = highlight;
+  "editor.findMatchForeground" = highlight;
+  "editorOverviewRuler.findMatchForeground" = highlight;
+  "editor.findMatchBackground" = "#FFFF00FF";
+  "searchEditor.findMatchBackground" = "#FFFF00FF";
+
+  "searchEditor.findMatchBorder" = "#F7F700FF";
+  "editor.findMatchBorder" = "#F7F700FF";
+
+  "terminal.findMatchBackground" = "#FF00FF3F";
+  "list.filterMatchBackground" = "#FFFF003F";
+  "list.filterMatchBorder" = "#F7F7003F";
 
   "editor.findRangeHighlightBackground" = "#00000029";
   "editor.findRangeHighlightBorder" = "#0000003F";

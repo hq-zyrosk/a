@@ -8,7 +8,6 @@ let
   _ = import ./_.nix;
 in
 {
-  "terminalOverviewRuler.findMatchForeground" = undecided;
   "tab.unfocusedInactiveModifiedBorder" = undecided;
   "tab.unfocusedActiveModifiedBorder" = undecided;
   "tab.inactiveModifiedBorder" = undecided;
@@ -37,7 +36,6 @@ in
   "editorOverviewRuler.modifiedForeground" = undecided;
   "editorOverviewRuler.inlineChatInserted" = undecided;
   "editorOverviewRuler.incomingContentForeground" = undecided;
-  "editorOverviewRuler.findMatchForeground" = undecided;
   "editorOverviewRuler.currentContentForeground" = undecided;
   "editorOverviewRuler.commonContentForeground" = undecided;
   "editorOverviewRuler.commentUnresolvedForeground" = undecided;

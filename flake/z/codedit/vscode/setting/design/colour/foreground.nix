@@ -180,7 +180,6 @@ in
   "editorCodeLens.foreground" = c5;
   "editorActionList.foreground" = c5;
   "editor.foreground" = c5;
-  "editor.findMatchForeground" = c5;
   "dropdown.foreground" = c5;
   "diffEditor.unchangedRegionForeground" = c5;
   "descriptionForeground" = c5;
@@ -215,6 +214,15 @@ in
   "activityBar.foreground" = c5;
 
   "voiceRecording.dimmedBackground" = c1;
+  "extensionIcon.verifiedForeground" = c1;
+  "extensionIcon.starForeground" = c1;
+  "extensionIcon.sponsorForeground" = c1;
+  "extensionIcon.preReleaseForeground" = c1;
+  "editorWatermark.foreground" = c1;
   "editorLineNumber.dimmedForeground" = c1;
   "editorGhostText.foreground" = c1;
+  "editor.placeholder.foreground" = c1;
+  "editor.foldPlaceholderForeground" = c1;
+  "activityBarTop.inactiveForeground" = c1;
+  "activityBar.inactiveForeground" = c1;
 }
