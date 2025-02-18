@@ -25,6 +25,7 @@ in
       "statusBar.noFolderForeground" = "#FF0000FF";
       "listFilterWidget.noMatchesOutline" = "#FF0000FF";
       "list.invalidItemForeground" = "#FF0000FF";
+      "editorUnnecessaryCode.opacity" = "#FF0000FF";
       "editorUnnecessaryCode.border" = "#FF0000FF";
       "editorGroupHeader.noTabsBackground" = "#FF0000FF";
       "editorGroup.focusedEmptyBorder" = "#FF0000FF";

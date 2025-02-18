@@ -1,10 +1,10 @@
 let
   undecided = "default";
-  # white = _.rgba 1 0 0 1;
-  yellow = _.rgba 1 1 0 1;
-  # blue = _.rgba 1 0 0 1;
-  green = _.rgba 0 1 0 1;
-  red = _.rgba 1 0 0 1;
+  # white = _.rgba 1.00 0.00 0.00 1.00;
+  yellow = _.rgba 1.00 1.00 0.00 1.00;
+  # blue = _.rgba 1.00 0.00 0.00 1.00;
+  green = _.rgba 0.00 1.00 0.00 1.00;
+  red = _.rgba 1.00 0.00 0.00 1.00;
   _ = import ./_.nix;
 in
 {

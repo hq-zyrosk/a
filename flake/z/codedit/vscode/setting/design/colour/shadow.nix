@@ -15,5 +15,4 @@ in
   "inlineChat.shadow" = shadow;
   "listFilterWidget.shadow" = shadow;
   "widget.shadow" = shadow;
-  "editorUnnecessaryCode.opacity" = shadow;
 }

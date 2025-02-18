@@ -1,5 +1,5 @@
 let
-  c5 = _.rgba 0 0 0 0;
+  c5 = _.rgba 0.00 0.00 0.00 0.00;
   _ = import ./_.nix;
 in
 {
