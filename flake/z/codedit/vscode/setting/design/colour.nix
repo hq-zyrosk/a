@@ -43,14 +43,8 @@ in
 
       "editorError.background" = "#FF00003F";
       "editorWarning.background" = "#FF00003F";
-      "diffEditor.removedTextBackground" = "#FF00003F";
       "terminalCommandDecoration.errorBackground" = "#FF00003F";
       "testing.message.error.lineBackground" = "#FF00003F";
-      "diffEditor.removedLineBackground" = "#FF00003F";
-      "diffEditorGutter.removedLineBackground" = "#FF00003F";
-      "diffEditor.insertedLineBackground" = "#FF00003F";
-      "editorGutter.deletedBackground" = "#FF00003F";
-      "minimapGutter.deletedBackground" = "#FF00003F";
       "inlineChatDiff.removed" = "#FF00003F";
 
       # "textLink.foreground" = "#0000BFFF";
@@ -78,15 +72,8 @@ in
       # "input.placeholderForeground" = "#F6F6F6FF";
       # "inlineChatInput.placeholderForeground" = "#F6F6F6FF";
       # "interactiveEditorInput.placeholderForeground" = "#F6F6F6FF";
-      # "gitDecoration.ignoredResourceForeground" = "#F6F6F6FF";
       # "list.deemphasizedForeground" = "#F6F6F6FF";
       # "disabledForeground" = "#F6F6F6FF";
-
-      # "tab.activeModifiedBorder" = "#003535FF";
-      # "gitDecoration.modifiedResourceForeground" = "#003535FF";
-      # "gitDecoration.stageModifiedResourceForeground" = "#003535FF";
-
-      # "gitDecoration.untrackedResourceForeground" = "#002121FF";
 
       # "notebookScrollbarSlider.background" = "#D0D0D0FF";
       # "minimapSlider.background" = "#D0D0D0FF";
@@ -104,8 +91,6 @@ in
       # "searchEditor.findMatchBackground" = "#FFFF00FF";
       # "editor.linkedEditingBackground" = "#FFFF00FF";
       # "editorInlayHint.parameterForeground" = "#00FF00FF";
-      # "diffEditorOverview.insertedForeground" = "#00FF00FF";
-      # "inlineChatDiff.inserted" = "#00FF00FF";
 
       # "editorGhostText.border" = "#F7F700FF";
       # "editor.findMatchBorder" = "#F7F700FF";
@@ -114,7 +99,6 @@ in
       # "editorInlayHint.typeForeground" = "#5D0000FF";
 
       # "inlineEdit.originalChangedTextBackground" = "#FF00FF3F";
-      # "inlineEdit.modifiedChangedTextBackground" = "#FF00FF3F";
       # "merge.currentContentBackground" = "#FF00FF3F";
       # "merge.commonContentBackground" = "#FF00FF3F";
       # "merge.incomingContentBackground" = "#FF00FF3F";
@@ -126,9 +110,7 @@ in
       # "terminal.findMatchBackground" = "#FF00FF3F";
       # "commandCenter.debuggingBackground" = "#FF00FF3F";
       # "inlineEdit.originalChangedLineBackground" = "#FF00FF3F";
-      # "inlineEdit.modifiedChangedLineBackground" = "#FF00FF3F";
       # "inlineEdit.acceptedBackground" = "#FF00FF3F";
-      # "inlineEdit.modifiedBackground" = "#FF00FF3F";
 
       # "editor.placeholder.foreground" = "#3C3C3C3F";
 
@@ -145,11 +127,6 @@ in
 
       # "editorInfo.background" = "#FFFF003F";
       # "list.filterMatchBackground" = "#FFFF003F";
-
-      # "diffEditor.insertedTextBackground" = "#00FF003F";
-      # "diffEditorGutter.insertedLineBackground" = "#00FF003F";
-      # "minimapGutter.modifiedBackground" = "#00FF003F";
-      # "minimapGutter.addedBackground" = "#00FF003F";
 
       # "list.filterMatchBorder" = "#F7F7003F";
       # "testing.message.info.lineBackground" = "#F7F7003F";

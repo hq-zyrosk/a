@@ -2,6 +2,8 @@ let
   border = "#ADADADFF";
 in
 {
+  "panelTitle.activeBorder" = border;
+
   "editorBracketPairGuide.background1" = border;
   "editorIndentGuide.background1" = border;
   "editorBracketPairGuide.background2" = border;

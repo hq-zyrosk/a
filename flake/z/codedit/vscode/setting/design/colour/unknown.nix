@@ -9,10 +9,7 @@ in
   "testing.iconPassed.retired" = undecided;
   "testing.iconQueued.retired" = undecided;
   "testing.iconUnset.retired" = undecided;
-  "editorMinimap.inlineChatInserted" = undecided;
-  "editorOverviewRuler.inlineChatInserted" = undecided;
   "editorOverviewRuler.inlineChatRemoved" = undecided;
-  "voiceRecording.dimmedBackground" = undecided;
   "testing.coveredBackground" = undecided;
   "testing.uncoveredBackground" = undecided;
   "chat.slashCommandBackground" = undecided;
@@ -89,7 +86,6 @@ in
   "commentsView.resolvedIcon" = undecided;
   "commentsView.unresolvedIcon" = undecided;
   "debugTokenExpression.number" = undecided;
-  "inlineEdit.modifiedBorder" = undecided;
   "editorCommentsWidget.resolvedBorder" = undecided;
   "editorCommentsWidget.unresolvedBorder" = undecided;
   "testing.message.error.badgeBorder" = undecided;
@@ -114,8 +110,6 @@ in
   "scmGraph.historyItemRefColor" = undecided;
   "notebook.outputContainerBorderColor" = undecided;
   "debugTokenExpression.error" = undecided;
-  "settings.modifiedItemIndicator" = undecided;
-  "notebook.cellInsertionIndicator" = undecided;
   "notebook.cellToolbarSeparator" = undecided;
   "chart.axis" = undecided;
   "minimap.infoHighlight" = undecided;
