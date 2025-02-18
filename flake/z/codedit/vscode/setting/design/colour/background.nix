@@ -18,16 +18,19 @@ in
   "sideBarSectionHeader.background" = c9;
   "sideBar.background" = c9;
   "settings.textInputBackground" = c9;
-  "scrollbarSlider.hoverBackground" = c9;
+  "scrollbarSlider.background" = c9;
   "quickInputTitle.background" = c9;
   "quickInput.background" = c9;
+  "progressBar.background" = c9;
   "peekViewResult.background" = c9;
   "peekViewEditorGutter.background" = c9;
   "peekViewEditor.background" = c9;
   "panel.background" = c9;
   "outputView.background" = c9;
+  "notebookScrollbarSlider.background" = c9;
   "multiDiffEditor.headerBackground" = c9;
   "multiDiffEditor.background" = c9;
+  "minimapSlider.background" = c9;
   "minimap.background" = c9;
   "listFilterWidget.background" = c9;
   "list.dropBetweenBackground" = c9;
@@ -42,6 +45,7 @@ in
   "editorGutter.background" = c9;
   "editorGroupHeader.tabsBackground" = c9;
   "editorGroup.dropBackground" = c9;
+  "editorGhostText.background" = c9;
   "editorCommentsWidget.rangeActiveBackground" = c9;
   "editor.background" = c9;
   "diffEditor.unchangedRegionBackground" = c9;
@@ -76,6 +80,7 @@ in
   "statusBar.debuggingBackground" = c5;
   "statusBar.background" = c5;
   "sideBar.dropBackground" = c5;
+  "scrollbarSlider.hoverBackground" = c5;
   "scrollbarSlider.activeBackground" = c5;
   "quickInputList.focusBackground" = c5;
   "profileBadge.background" = c5;
@@ -85,9 +90,11 @@ in
   "panelSection.dropBackground" = c5;
   "notifications.background" = c5;
   "notificationCenterHeader.background" = c5;
+  "notebookScrollbarSlider.hoverBackground" = c5;
   "notebook.cellStatusBarItemHoverBackground" = c5;
   "notebook.cellHoverBackground" = c5;
   "notebook.cellEditorBackground" = c5;
+  "minimapSlider.hoverBackground" = c5;
   "menubar.selectionBackground" = c5;
   "menu.selectionBackground" = c5;
   "menu.background" = c5;
@@ -138,6 +145,6 @@ in
   "activityBarBadge.background" = c5;
   "activityBar.background" = c5;
 
-  "scrollbarSlider.background" = c1;
-  "editorGhostText.background" = c1;
+  "notebookScrollbarSlider.activeBackground" = c1;
+  "minimapSlider.activeBackground" = c1;
 }

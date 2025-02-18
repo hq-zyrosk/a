@@ -16,14 +16,6 @@ in
 # "editorCommentsWidget.replyInputBackground" = "#F6F6F6FF";
 # "editorCommentsWidget.rangeBackground" = "#F6F6F6FF";
 
-# "notebookScrollbarSlider.background" = "#D0D0D0FF";
-# "minimapSlider.background" = "#D0D0D0FF";
-# "progressBar.background" = "#D0D0D0FF";
-# "notebookScrollbarSlider.hoverBackground" = "#D0D0D0FF";
-# "minimapSlider.hoverBackground" = "#D0D0D0FF";
-# "notebookScrollbarSlider.activeBackground" = "#D0D0D0FF";
-# "minimapSlider.activeBackground" = "#D0D0D0FF";
-
 # "editorStickyScrollHover.background" = "#FFFF00FF";
 # "editorStickyScroll.background" = "#FFFF00FF";
 # "peekViewEditorStickyScroll.background" = "#FFFF00FF";
