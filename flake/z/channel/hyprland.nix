@@ -42,7 +42,7 @@
             disable_hyprland_logo = true;
             disable_autoreload = false;
             close_special_on_empty = true;
-            background_color = "rgba(ADADADFF)";
+            background_color = "rgba(404040FF)";
             animate_mouse_windowdragging = false;
             animate_manual_resizes = false;
             always_follow_on_dnd = false;
@@ -80,9 +80,9 @@
             no_border_on_floating = false;
             layout = "master";
             gaps_out = 1.0;
-            gaps_in = 1.0;
-            "col.inactive_border" = "rgba(BFBFBFFF)";
-            "col.active_border" = "rgba(BFBFBFFF)";
+            gaps_in = 0.5;
+            "col.inactive_border" = "rgba(404040FF)";
+            "col.active_border" = "rgba(404040FF)";
             border_size = 0;
             allow_tearing = false;
           };
