@@ -21,16 +21,6 @@ in
     // border
     // background
     // {
-      "statusBar.offlineForeground" = "#FF0000FF";
-      "statusBar.noFolderForeground" = "#FF0000FF";
-      "listFilterWidget.noMatchesOutline" = "#FF0000FF";
-      "list.invalidItemForeground" = "#FF0000FF";
-      "editorUnnecessaryCode.opacity" = "#FF0000FF";
-      "editorUnnecessaryCode.border" = "#FF0000FF";
-      "editorGroupHeader.noTabsBackground" = "#FF0000FF";
-      "editorGroup.focusedEmptyBorder" = "#FF0000FF";
-      "editorGroup.emptyBackground" = "#FF0000FF";
-
       # "button.separator" = "#888888FF";
       # "extensionButton.separator" = "#888888FF";
       # "listFilterWidget.outline" = "#888888FF";

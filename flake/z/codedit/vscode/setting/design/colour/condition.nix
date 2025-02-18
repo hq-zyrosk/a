@@ -51,6 +51,16 @@ in
   "editorInfo.background" = i1;
   "debugConsole.infoForeground" = i5;
 
+  "statusBar.offlineForeground" = e5;
+  "statusBar.noFolderForeground" = e5;
+  "listFilterWidget.noMatchesOutline" = e5;
+  "list.invalidItemForeground" = e5;
+  "editorUnnecessaryCode.opacity" = e5;
+  "editorUnnecessaryCode.border" = e5;
+  "editorGroupHeader.noTabsBackground" = e5;
+  "editorGroup.focusedEmptyBorder" = e5;
+  "editorGroup.emptyBackground" = e5;
+
   "testing.message.error.lineBackground" = e5;
   "testing.message.error.decorationForeground" = e5;
   "testing.message.error.badgeForeground" = e5;
