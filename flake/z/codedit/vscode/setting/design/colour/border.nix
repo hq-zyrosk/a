@@ -1,23 +1,32 @@
 let
-  c5 = _.rgba 0.25 0.25 0.25 1.00;
+  c9 = _.rgba 0.1250 0.1250 0.1250 1.0000;
+  c5 = _.rgba 0.0625 0.0625 0.0625 1.0000;
   _ = import ./_.nix;
 in
 {
-  "window.inactiveBorder" = c5;
-  "window.activeBorder" = c5;
+  "window.inactiveBorder" = c9;
+  "window.activeBorder" = c9;
+  "terminal.tab.activeBorder" = c9;
+  "panelTitle.activeBorder" = c9;
+  "interactive.activeCodeBorder" = c9;
+  "inputOption.activeBorder" = c9;
+  "editorCommentsWidget.rangeActiveBorder" = c9;
+  "commandCenter.activeBorder" = c9;
+  "activityBarTop.activeBorder" = c9;
+  "activityBar.activeFocusBorder" = c9;
+  "activityBar.activeBorder" = c9;
+
   "widget.border" = c5;
   "welcomePage.tileBorder" = c5;
-  "titleBar.border" = c5;
-  "textBlockQuote.border" = c5;
-  "editorLineNumber.foreground" = c5;
   "tree.tableColumnsBorder" = c5;
   "tree.inactiveIndentGuidesStroke" = c5;
+  "titleBar.border" = c5;
+  "textBlockQuote.border" = c5;
   "testing.uncoveredBorder" = c5;
   "testing.peekBorder" = c5;
   "testing.messagePeekBorder" = c5;
   "testing.coveredBorder" = c5;
   "terminalStickyScroll.border" = c5;
-  "terminal.tab.activeBorder" = c5;
   "terminal.findMatchBorder" = c5;
   "terminal.border" = c5;
   "tab.selectedBorderTop" = c5;
@@ -51,7 +60,6 @@ in
   "pickerGroup.border" = c5;
   "peekView.border" = c5;
   "panelTitle.border" = c5;
-  "panelTitle.activeBorder" = c5;
   "panelStickyScroll.border" = c5;
   "panelSectionHeader.border" = c5;
   "panelSection.border" = c5;
@@ -78,8 +86,6 @@ in
   "interactiveEditorInput.border" = c5;
   "interactiveEditor.border" = c5;
   "interactive.inactiveCodeBorder" = c5;
-  "interactive.activeCodeBorder" = c5;
-  "inputOption.activeBorder" = c5;
   "input.border" = c5;
   "inlineEdit.tabWillAcceptBorder" = c5;
   "inlineChatInput.focusBorder" = c5;
@@ -92,11 +98,11 @@ in
   "editorSuggestWidget.border" = c5;
   "editorStickyScroll.border" = c5;
   "editorRuler.foreground" = c5;
+  "editorLineNumber.foreground" = c5;
   "editorHoverWidget.border" = c5;
   "editorGroupHeader.tabsBorder" = c5;
   "editorGroupHeader.border" = c5;
   "editorGroup.border" = c5;
-  "editorCommentsWidget.rangeActiveBorder" = c5;
   "dropdown.border" = c5;
   "diffEditor.move.border" = c5;
   "diffEditor.border" = c5;
@@ -104,16 +110,12 @@ in
   "debugExceptionWidget.border" = c5;
   "commandCenter.inactiveBorder" = c5;
   "commandCenter.border" = c5;
-  "commandCenter.activeBorder" = c5;
   "checkbox.selectBorder" = c5;
   "checkbox.border" = c5;
   "chat.requestBorder" = c5;
   "button.border" = c5;
   "bookmarks.lineBorder" = c5;
   "activityBarTop.dropBorder" = c5;
-  "activityBarTop.activeBorder" = c5;
   "activityBar.dropBorder" = c5;
   "activityBar.border" = c5;
-  "activityBar.activeFocusBorder" = c5;
-  "activityBar.activeBorder" = c5;
 }
