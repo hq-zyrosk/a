@@ -5,18 +5,18 @@ let
   _ = import ./_.nix;
 in
 {
-  "editorBracketPairGuide.activeBackground1" = c5;
-  "editorIndentGuide.activeBackground1" = c5;
-  "editorBracketPairGuide.activeBackground2" = c5;
-  "editorIndentGuide.activeBackground2" = c5;
-  "editorBracketPairGuide.activeBackground3" = c5;
-  "editorIndentGuide.activeBackground3" = c5;
-  "editorBracketPairGuide.activeBackground4" = c5;
-  "editorIndentGuide.activeBackground4" = c5;
-  "editorBracketPairGuide.activeBackground5" = c5;
-  "editorIndentGuide.activeBackground5" = c5;
-  "editorBracketPairGuide.activeBackground6" = c5;
-  "editorIndentGuide.activeBackground6" = c5;
+  "editorBracketPairGuide.activeBackground1" = c9;
+  "editorIndentGuide.activeBackground1" = c9;
+  "editorBracketPairGuide.activeBackground2" = c9;
+  "editorIndentGuide.activeBackground2" = c9;
+  "editorBracketPairGuide.activeBackground3" = c9;
+  "editorIndentGuide.activeBackground3" = c9;
+  "editorBracketPairGuide.activeBackground4" = c9;
+  "editorIndentGuide.activeBackground4" = c9;
+  "editorBracketPairGuide.activeBackground5" = c9;
+  "editorIndentGuide.activeBackground5" = c9;
+  "editorBracketPairGuide.activeBackground6" = c9;
+  "editorIndentGuide.activeBackground6" = c9;
 
   "titleBar.activeForeground" = c9;
   "tab.unfocusedHoverForeground" = c9;

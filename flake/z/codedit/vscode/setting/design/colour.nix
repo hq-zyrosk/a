@@ -5,6 +5,7 @@ let
   highlight = import ./colour/highlight.nix;
   hidden = import ./colour/hidden.nix;
   foreground = import ./colour/foreground.nix;
+  condition = import ./colour/condition.nix;
   border = import ./colour/border.nix;
   background = import ./colour/background.nix;
 in
@@ -16,6 +17,7 @@ in
     // highlight
     // hidden
     // foreground
+    // condition
     // border
     // background
     // {

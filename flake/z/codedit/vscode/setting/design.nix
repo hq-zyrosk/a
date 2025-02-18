@@ -9,7 +9,6 @@ let
   editor_inline = import ./design/editor/inline.nix;
   editor_code = import ./design/editor/code.nix;
   editor = import ./design/editor.nix;
-  condition = import ./design/condition.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
   chat_github = import ./design/chat/github.nix;
@@ -25,7 +24,6 @@ workbench
 // editor_inline
 // editor_code
 // editor
-// condition
 // colour
 // chat_inline
 // chat_github
