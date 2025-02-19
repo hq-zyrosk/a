@@ -10,7 +10,7 @@ in
   "editor.rulers" = [
     text-wrap
   ];
-  "workbench.tree.indent" = text-wide;
+  "workbench.tree.indent" = 2 * text-wide;
   "workbench.editor.wrapTabs" = true;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
