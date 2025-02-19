@@ -26,19 +26,19 @@ in
     "enabled" = true;
     "rules" = {
       "variable" = {
-        "foreground" = "#00FF00FF";
+        "foreground" = "#00DA00FF";
       };
       "property" = {
-        "foreground" = "#00FF00FF";
+        "foreground" = "#00DA00FF";
       };
       "parameter" = {
-        "foreground" = "#00FF00FF";
+        "foreground" = "#00DA00FF";
       };
       "method" = {
-        "foreground" = "#D9D9FFFF";
+        "foreground" = "#B5B5FFFF";
       };
       "function" = {
-        "foreground" = "#D9D9FFFF";
+        "foreground" = "#B5B5FFFF";
       };
       "*.declaration" = {
         "fontStyle" = "bold";

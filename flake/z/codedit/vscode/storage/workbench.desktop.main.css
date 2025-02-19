@@ -59,15 +59,15 @@
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
-  color: #00FF007F;
+  color: #00DA007F;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="true"] {
-  color: #00FF00FF;
+  color: #00DA00FF;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
-  color: #FFD1D1FF;
+  color: #FFA3A3FF;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -271,7 +271,7 @@ hint:
   string    = 000000FF
   variable  = FF0000FF
   property  = FF00FFFF
-  parameter = 00FF00FF
+  parameter = 00DA00FF
   function  = 0000FFFF
   method    = 00FFEFDF
 */
