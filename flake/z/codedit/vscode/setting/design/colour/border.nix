@@ -1,7 +1,7 @@
 let
-  c9 = _.rgba 0.12500 0.12500 0.12500 1.0000;
-  c5 = _.rgba 0.06250 0.06250 0.06250 1.0000;
-  c1 = _.rgba 0.03125 0.03125 0.03125 1.0000;
+  c9 = _.rgba 1.00000 1.00000 1.00000 0.50000;
+  c5 = _.rgba 1.00000 1.00000 1.00000 0.25000;
+  c1 = _.rgba 1.00000 1.00000 1.00000 0.12500;
   _ = import ./_.nix;
 in
 {
@@ -42,6 +42,8 @@ in
   "tab.lastPinnedBorder" = c5;
   "tab.dragAndDropBorder" = c5;
   "tab.border" = c5;
+  "statusBarItem.focusBorder" = c5;
+  "statusBar.noFolderBorder" = c5;
   "statusBar.focusBorder" = c5;
   "statusBar.debuggingBorder" = c5;
   "sideBySideEditor.verticalBorder" = c5;
@@ -110,7 +112,6 @@ in
   "editorLineNumber.foreground" = c5;
   "editorHoverWidget.border" = c5;
   "editorHint.border" = c5;
-  "editorGroupHeader.tabsBorder" = c5;
   "editorGroupHeader.border" = c5;
   "editorGroup.border" = c5;
   "dropdown.border" = c5;
@@ -129,5 +130,11 @@ in
   "activityBar.dropBorder" = c5;
   "activityBar.border" = c5;
 
+  "editorBracketHighlight.foreground6" = c1;
+  "editorBracketHighlight.foreground5" = c1;
+  "editorBracketHighlight.foreground4" = c1;
+  "editorBracketHighlight.foreground3" = c1;
+  "editorBracketHighlight.foreground2" = c1;
+  "editorBracketHighlight.foreground1" = c1;
   "editorGhostText.border" = c1;
 }

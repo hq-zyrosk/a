@@ -3,6 +3,7 @@ let
   _ = import ./_.nix;
 in
 {
+  "editorGroupHeader.tabsBorder" = c5;
   "tab.unfocusedHoverBorder" = c5;
   "tab.unfocusedActiveBorderTop" = c5;
   "tab.unfocusedActiveBorder" = c5;

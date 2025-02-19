@@ -69,11 +69,9 @@ in
   "statusBarItem.prominentHoverBackground" = c5;
   "statusBarItem.prominentBackground" = c5;
   "statusBarItem.hoverBackground" = c5;
-  "statusBarItem.focusBorder" = c5;
   "statusBarItem.compactHoverBackground" = c5;
   "statusBarItem.activeBackground" = c5;
   "statusBar.offlineBackground" = c5;
-  "statusBar.noFolderBorder" = c5;
   "statusBar.noFolderBackground" = c5;
   "statusBar.debuggingBackground" = c5;
   "statusBar.background" = c5;
