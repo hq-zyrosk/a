@@ -41,12 +41,6 @@ in
   "editorIndentGuide.activeBackground2" = c9;
   "editorIndentGuide.activeBackground1" = c9;
   "editorHoverWidget.foreground" = c9;
-  "editorBracketPairGuide.activeBackground6" = c9;
-  "editorBracketPairGuide.activeBackground5" = c9;
-  "editorBracketPairGuide.activeBackground4" = c9;
-  "editorBracketPairGuide.activeBackground3" = c9;
-  "editorBracketPairGuide.activeBackground2" = c9;
-  "editorBracketPairGuide.activeBackground1" = c9;
   "editorActionList.focusForeground" = c9;
   "editor.inlineValuesForeground" = c9;
   "debugView.stateLabelForeground" = c9;
