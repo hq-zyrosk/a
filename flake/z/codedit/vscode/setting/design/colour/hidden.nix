@@ -3,7 +3,6 @@ let
   _ = import ./_.nix;
 in
 {
-  "editorGroupHeader.tabsBorder" = c5;
   "tab.unfocusedHoverBorder" = c5;
   "tab.unfocusedActiveBorderTop" = c5;
   "tab.unfocusedActiveBorder" = c5;
@@ -20,6 +19,7 @@ in
   "list.activeSelectionBackground" = c5;
   "editorOverviewRuler.border" = c5;
   "editorOverviewRuler.background" = c5;
+  "editorGroupHeader.tabsBorder" = c5;
   "editorBracketMatch.border" = c5;
   "editorBracketMatch.background" = c5;
   "editor.foldBackground" = c5;
