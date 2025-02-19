@@ -2,6 +2,11 @@ let
   s9 = _.rgba 1.00000 1.00000 1.00000 0.50000;
   s5 = _.rgba 0.50000 0.50000 0.50000 0.50000;
   s1 = _.rgba 0.25000 0.25000 0.25000 0.50000;
+
+  e9 = _.rgba 1.00000 1.00000 0.00000 0.75000;
+  e5 = _.rgba 0.50000 0.50000 0.00000 0.75000;
+  e1 = _.rgba 0.25000 0.25000 0.00000 0.75000;
+
   c9 = _.rgba 1.00000 1.00000 0.00000 0.50000;
   c5 = _.rgba 0.50000 0.50000 0.00000 0.50000;
   c1 = _.rgba 0.25000 0.25000 0.00000 0.50000;
@@ -23,13 +28,18 @@ in
 
   "editor.selectionHighlightBorder" = s1;
 
+  "editorOverviewRuler.wordHighlightStrongForeground" = e9;
+
+  "editor.wordHighlightStrongBackground" = e5;
+
+  "editor.wordHighlightStrongBorder" = e1;
+
   "terminalOverviewRuler.findMatchForeground" = c9;
   "list.highlightForeground" = c9;
   "list.focusHighlightForeground" = c9;
   "editorSuggestWidget.highlightForeground" = c9;
   "editorSuggestWidget.focusHighlightForeground" = c9;
   "editorOverviewRuler.wordHighlightTextForeground" = c9;
-  "editorOverviewRuler.wordHighlightStrongForeground" = c9;
   "editorOverviewRuler.wordHighlightForeground" = c9;
   "editorOverviewRuler.rangeHighlightForeground" = c9;
   "editorOverviewRuler.findMatchForeground" = c9;
@@ -50,7 +60,6 @@ in
   "inlineChat.regionHighlight" = c5;
   "editorUnicodeHighlight.background" = c5;
   "editor.wordHighlightTextBackground" = c5;
-  "editor.wordHighlightStrongBackground" = c5;
   "editor.wordHighlightBackground" = c5;
   "editor.symbolHighlightBackground" = c5;
   "editor.stackFrameHighlightBackground" = c5;
@@ -72,7 +81,6 @@ in
   "list.filterMatchBorder" = c1;
   "editorUnicodeHighlight.border" = c1;
   "editor.wordHighlightTextBorder" = c1;
-  "editor.wordHighlightStrongBorder" = c1;
   "editor.wordHighlightBorder" = c1;
   "editor.symbolHighlightBorder" = c1;
   "editor.snippetTabstopHighlightBorder" = c1;
