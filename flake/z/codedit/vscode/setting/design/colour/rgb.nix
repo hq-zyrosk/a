@@ -77,6 +77,7 @@ in
   "editorGroup.focusedEmptyBorder" = e5;
   "editorError.foreground" = e5;
   "editorError.border" = e5;
+  "editorBracketHighlight.unexpectedBracket.foreground" = e5;
   "debugTokenExpression.error" = e5;
   "debugConsole.errorForeground" = e5;
   "activityErrorBadge.foreground" = e5;
