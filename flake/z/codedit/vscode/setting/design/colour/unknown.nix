@@ -38,9 +38,6 @@ in
   "scm.historyGraph.historyItemGroupRemote" = c5;
   "scm.historyGraph.historyItemGroupLocal" = c5;
   "scm.historyGraph.historyItemGroupBase" = c5;
-  "radio.inactiveHoverBackground" = c5;
-  "radio.inactiveBackground" = c5;
-  "radio.activeBackground" = c5;
   "notebook.selectedCellBackground" = c5;
   "notebook.outputContainerBackgroundColor" = c5;
   "notebook.focusedCellBackground" = c5;

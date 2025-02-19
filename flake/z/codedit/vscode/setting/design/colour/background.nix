@@ -18,6 +18,8 @@ in
   "sideBarSectionHeader.background" = c9;
   "sideBar.background" = c9;
   "settings.textInputBackground" = c9;
+  "radio.inactiveHoverBackground" = c9;
+  "radio.activeBackground" = c9;
   "quickInputTitle.background" = c9;
   "quickInput.background" = c9;
   "progressBar.background" = c9;
@@ -78,6 +80,7 @@ in
   "sideBarStickyScroll.background" = c5;
   "sideBar.dropBackground" = c5;
   "scrollbarSlider.background" = c9;
+  "radio.inactiveBackground" = c5;
   "quickInputList.focusBackground" = c5;
   "profileBadge.background" = c5;
   "peekViewTitle.background" = c5;
