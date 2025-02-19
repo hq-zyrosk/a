@@ -26,6 +26,7 @@ in
   "peekViewResult.background" = c9;
   "peekViewEditorGutter.background" = c9;
   "peekViewEditor.background" = c9;
+  "panelTitleBadge.background" = c9;
   "panel.background" = c9;
   "outputView.background" = c9;
   "multiDiffEditor.headerBackground" = c9;

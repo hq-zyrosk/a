@@ -21,6 +21,7 @@ in
   "peekViewResult.selectionForeground" = c9;
   "peekViewResult.lineForeground" = c9;
   "peekViewResult.fileForeground" = c9;
+  "panelTitleBadge.foreground" = c9;
   "panelTitle.activeForeground" = c9;
   "notificationLink.foreground" = c9;
   "list.focusForeground" = c9;

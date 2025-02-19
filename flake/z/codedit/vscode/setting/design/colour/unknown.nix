@@ -26,6 +26,7 @@ in
   "debugTokenExpression.boolean" = c9;
   "commentsView.unresolvedIcon" = c9;
   "commentsView.resolvedIcon" = c9;
+  "chatEdits.minimapColor" = c9;
   "chart.line" = c9;
   "chart.guide" = c9;
   "chart.axis" = c9;
