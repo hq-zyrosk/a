@@ -19,7 +19,7 @@ in
   "workbench.view.alwaysShowHeaderActions" = true;
   "workbench.trustedDomains.promptInTrustedWorkspace" = false;
   "workbench.tree.stickyScrollMaxItemCount" = 4;
-  "workbench.tree.renderIndentGuides" = "none";
+  "workbench.tree.renderIndentGuides" = "always";
   "workbench.tree.expandMode" = "singleClick";
   "workbench.tree.enableStickyScroll" = false;
   "workbench.tips.enabled" = true;
