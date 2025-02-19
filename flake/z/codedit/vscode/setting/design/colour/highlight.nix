@@ -28,17 +28,18 @@ in
 
   "editor.selectionHighlightBorder" = s1;
 
+  "list.focusHighlightForeground" = e9;
+  "editorSuggestWidget.focusHighlightForeground" = e9;
   "editorOverviewRuler.wordHighlightStrongForeground" = e9;
 
   "editor.wordHighlightStrongBackground" = e5;
+  "editor.focusedStackFrameHighlightBackground" = e5;
 
   "editor.wordHighlightStrongBorder" = e1;
 
   "terminalOverviewRuler.findMatchForeground" = c9;
   "list.highlightForeground" = c9;
-  "list.focusHighlightForeground" = c9;
   "editorSuggestWidget.highlightForeground" = c9;
-  "editorSuggestWidget.focusHighlightForeground" = c9;
   "editorOverviewRuler.wordHighlightTextForeground" = c9;
   "editorOverviewRuler.wordHighlightForeground" = c9;
   "editorOverviewRuler.rangeHighlightForeground" = c9;
@@ -68,7 +69,6 @@ in
   "editor.rangeHighlightBackground" = c5;
   "editor.lineHighlightBackground" = c5;
   "editor.hoverHighlightBackground" = c5;
-  "editor.focusedStackFrameHighlightBackground" = c5;
   "editor.findRangeHighlightBackground" = c5;
   "editor.findMatchHighlightBackground" = c5;
   "editor.findMatchBackground" = c5;
