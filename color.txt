@@ -121,7 +121,7 @@
         ];
         "settings" = {
           "fontStyle" = "italic";
-          "foreground" = "#0000CFFF";
+          "foreground" = "#D9D9FFFF";
         };
       }
       #function
@@ -132,7 +132,7 @@
         ];
         "settings" = {
           "fontStyle" = "bold";
-          "foreground" = "#0000CFFF";
+          "foreground" = "#D9D9FFFF";
         };
       }
       #keyword

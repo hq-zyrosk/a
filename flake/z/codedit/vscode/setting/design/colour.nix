@@ -35,10 +35,10 @@ in
         "foreground" = "#00FF00FF";
       };
       "method" = {
-        "foreground" = "#0000CFFF";
+        "foreground" = "#D9D9FFFF";
       };
       "function" = {
-        "foreground" = "#0000CFFF";
+        "foreground" = "#D9D9FFFF";
       };
       "*.declaration" = {
         "fontStyle" = "bold";

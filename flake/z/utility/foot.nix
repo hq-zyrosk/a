@@ -60,7 +60,7 @@ in
           regular0 = "888888";
           regular1 = "FFD1D1";
           regular2 = "00FF00";
-          regular3 = "666600";
+          regular3 = "E3E300";
           regular4 = "D9D9FF";
           regular5 = "FFCCFF";
           regular6 = "00F4F4";
@@ -69,7 +69,7 @@ in
           bright0 = "888888";
           bright1 = "FFD1D1";
           bright2 = "00FF00";
-          bright3 = "666600";
+          bright3 = "E3E300";
           bright4 = "D9D9FF";
           bright5 = "FFCCFF";
           bright6 = "00F4F4";
@@ -78,7 +78,7 @@ in
           dim0 = "888888";
           dim1 = "FFD1D1";
           dim2 = "00FF00";
-          dim3 = "666600";
+          dim3 = "E3E300";
           dim4 = "D9D9FF";
           dim5 = "FFCCFF";
           dim6 = "00F4F4";
