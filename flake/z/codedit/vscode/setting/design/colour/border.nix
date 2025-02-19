@@ -56,6 +56,23 @@ in
   "activityBar.activeFocusBorder" = c9;
   "activityBar.activeBorder" = c9;
 
+  "terminalOverviewRuler.border" = c5;
+  "simpleFindWidget.sashBorder" = c5;
+  "radio.inactiveBorder" = c5;
+  "radio.activeBorder" = c5;
+  "notebook.outputContainerBorderColor" = c5;
+  "notebook.inactiveSelectedCellBorder" = c5;
+  "notebook.inactiveFocusedCellBorder" = c5;
+  "notebook.focusedEditorBorder" = c5;
+  "inlineEdit.originalBorder" = c5;
+  "inlineEdit.indicator.border" = c5;
+  "editorGroup.dropIntoPromptBorder" = c5;
+  "editorCommentsWidget.unresolvedBorder" = c5;
+  "editorCommentsWidget.resolvedBorder" = c5;
+  "editorCommentsWidget.rangeBorder" = c5;
+  "editor.compositionBorder" = c5;
+  "diffEditor.moveActive.border" = c5;
+
   "window.inactiveBorder" = c5;
   "widget.border" = c5;
   "welcomePage.tileBorder" = c5;
