@@ -1,7 +1,7 @@
 let
   c9 = _.rgba 0.00000 0.00000 0.00000 1.00000;
-  c5 = _.rgba 0.06250 0.06250 0.06250 1.00000;
-  c1 = _.rgba 0.12500 0.12500 0.12500 1.00000;
+  c5 = _.rgba 0.12500 0.12500 0.12500 1.00000;
+  c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
   _ = import ./_.nix;
 in
 {
@@ -113,12 +113,6 @@ in
   "editorInlayHint.typeBackground" = c5;
   "editorInlayHint.parameterBackground" = c5;
   "editorInlayHint.background" = c5;
-  "editorIndentGuide.background6" = c5;
-  "editorIndentGuide.background5" = c5;
-  "editorIndentGuide.background4" = c5;
-  "editorIndentGuide.background3" = c5;
-  "editorIndentGuide.background2" = c5;
-  "editorIndentGuide.background1" = c5;
   "editorHoverWidget.statusBarBackground" = c5;
   "editor.linkedEditingBackground" = c5;
   "editor.inlineValuesBackground" = c5;
