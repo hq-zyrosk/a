@@ -1,7 +1,8 @@
 @import url("workbench.desktop.main.backup.css");
 
 /*--------------------------------------------------------------------------------------------*/
-/* .mtku {
+/*
+.mtku {
   text-decoration: none !important;
   display: inline-flex !important;
   width: 7px !important;
@@ -21,7 +22,8 @@
 
 .mtkb {
   font-weight: bold !important;
-} */
+}
+*/
 /*--------------------------------------------------------------------------------------------*/
 /*widget*/
 .monaco-editor .peekview-widget .head .peekview-title {
@@ -69,31 +71,16 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*explorer-rows*/
+/*explorer-rows-icon*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
+  margin: 0 calc(-1 * var(--text-size)) 0 0;
+  font-size: 0px !important;
   font-weight: normal;
 }
 
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-selected="true"] {
-  font-weight: bolder;
-}
-
 /*--------------------------------------------------------------------------------------------*/
-/*explorer-icon*/
-.monaco-tl-twistie {
-  font-size: 0px !important;
-  margin: 0 -16px 0 0;
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*explorer*/
+/*explorer-rows*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
-  line-height: var(--text-type) !important;
-  height: var(--text-type) !important;
-}
-
-.explorer-folders-view .editor-group,
-.explorer-folders-view .explorer-item {
   line-height: var(--text-type) !important;
   height: var(--text-type) !important;
 }
@@ -104,11 +91,19 @@
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows {
-  margin-left: calc(var(--text-size) * 2 * -0.8);
+  margin-left: calc(var(--text-wide) * -1.6);
 }
 
 .explorer-folders-view .monaco-list-row {
   padding-left: 0;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*explorer*/
+.explorer-folders-view .editor-group,
+.explorer-folders-view .explorer-item {
+  line-height: var(--text-type) !important;
+  height: var(--text-type) !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -130,7 +125,7 @@
 
 .monaco-workbench .part > .composite.header-or-footer,
 .monaco-workbench .part > .composite.title {
-  padding: 1px 0 0 var(--text-wide);
+  padding: 1px 0 0 0;
 }
 
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
