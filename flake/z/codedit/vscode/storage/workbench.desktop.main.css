@@ -179,22 +179,18 @@
   padding-right: var(--text-wide) !important;
 }
 
-.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
-  font-weight: bold !important;
-}
-
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  padding-left: var(--text-wide) !important;
   line-height: calc(var(--text-size) * 2);
   height: calc(var(--text-size) * 2);
-  padding-left: var(--text-wide) !important;
   box-sizing: border-box;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
-  font-family: var(--text-type);
-  font-size: var(--text-size);
   line-height: calc(var(--text-size) * 2);
   height: calc(var(--text-size) * 2);
+  font-family: var(--text-type);
+  font-size: var(--text-size);
 }
 
 /*--------------------------------------------------------------------------------------------*/
