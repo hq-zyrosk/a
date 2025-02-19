@@ -1,8 +1,35 @@
 let
+  c9 = "default";
   c5 = "default";
   c1 = "default";
 in
 {
+  "testing.iconUnset.retired" = c9;
+  "testing.iconSkipped.retired" = c9;
+  "testing.iconQueued.retired" = c9;
+  "testing.iconPassed.retired" = c9;
+  "testing.iconFailed.retired" = c9;
+  "scmGraph.historyItemRemoteRefColor" = c9;
+  "scmGraph.historyItemRefColor" = c9;
+  "scmGraph.historyItemBaseRefColor" = c9;
+  "scm.historyGraph.historyItemGroupRemote" = c9;
+  "scm.historyGraph.historyItemGroupLocal" = c9;
+  "scm.historyGraph.historyItemGroupBase" = c9;
+  "notebook.cellToolbarSeparator" = c9;
+  "mergeEditor.conflict.unhandled.minimapOverViewRuler" = c9;
+  "mergeEditor.conflict.handled.minimapOverViewRuler" = c9;
+  "debugTokenExpression.value" = c9;
+  "debugTokenExpression.type" = c9;
+  "debugTokenExpression.string" = c9;
+  "debugTokenExpression.number" = c9;
+  "debugTokenExpression.name" = c9;
+  "debugTokenExpression.boolean" = c9;
+  "commentsView.unresolvedIcon" = c9;
+  "commentsView.resolvedIcon" = c9;
+  "chart.line" = c9;
+  "chart.guide" = c9;
+  "chart.axis" = c9;
+
   "welcomePage.tileHoverBackground" = c5;
   "welcomePage.tileBackground" = c5;
   "welcomePage.progress.background" = c5;
@@ -13,11 +40,6 @@ in
   "testing.uncoveredBranchBackground" = c5;
   "testing.uncoveredBackground" = c5;
   "testing.messagePeekHeaderBackground" = c5;
-  "testing.iconUnset.retired" = c5;
-  "testing.iconSkipped.retired" = c5;
-  "testing.iconQueued.retired" = c5;
-  "testing.iconPassed.retired" = c5;
-  "testing.iconFailed.retired" = c5;
   "testing.coveredGutterBackground" = c5;
   "testing.coveredBackground" = c5;
   "testing.coverCountBadgeBackground" = c5;
@@ -31,23 +53,14 @@ in
   "settings.focusedRowBackground" = c5;
   "settings.dropdownBackground" = c5;
   "settings.checkboxBackground" = c5;
-  "scmGraph.historyItemRemoteRefColor" = c5;
-  "scmGraph.historyItemRefColor" = c5;
   "scmGraph.historyItemHoverDefaultLabelBackground" = c5;
-  "scmGraph.historyItemBaseRefColor" = c5;
-  "scm.historyGraph.historyItemGroupRemote" = c5;
-  "scm.historyGraph.historyItemGroupLocal" = c5;
-  "scm.historyGraph.historyItemGroupBase" = c5;
   "notebook.selectedCellBackground" = c5;
   "notebook.outputContainerBackgroundColor" = c5;
   "notebook.focusedCellBackground" = c5;
   "notebook.editorBackground" = c5;
-  "notebook.cellToolbarSeparator" = c5;
   "mergeEditor.conflictingLines.background" = c5;
-  "mergeEditor.conflict.unhandled.minimapOverViewRuler" = c5;
   "mergeEditor.conflict.input2.background" = c5;
   "mergeEditor.conflict.input1.background" = c5;
-  "mergeEditor.conflict.handled.minimapOverViewRuler" = c5;
   "mergeEditor.changeBase.word.background" = c5;
   "mergeEditor.changeBase.background" = c5;
   "mergeEditor.change.word.background" = c5;
@@ -64,20 +77,9 @@ in
   "editorCommentsWidget.rangeBackground" = c5;
   "editorActionList.focusBackground" = c5;
   "editorActionList.background" = c5;
-  "debugTokenExpression.value" = c5;
-  "debugTokenExpression.type" = c5;
-  "debugTokenExpression.string" = c5;
-  "debugTokenExpression.number" = c5;
-  "debugTokenExpression.name" = c5;
-  "debugTokenExpression.boolean" = c5;
-  "commentsView.unresolvedIcon" = c5;
-  "commentsView.resolvedIcon" = c5;
   "checkbox.selectBackground" = c5;
   "checkbox.background" = c5;
   "chat.slashCommandBackground" = c5;
-  "chart.line" = c5;
-  "chart.guide" = c5;
-  "chart.axis" = c5;
 
   "terminal.dropBackground" = c1;
   "merge.incomingHeaderBackground" = c1;
