@@ -117,7 +117,7 @@
 
 .monaco-workbench .part > .composite.header-or-footer,
 .monaco-workbench .part > .composite.title {
-  padding: 1px 0 0 0;
+  padding: 1px 0 0 3px;
 }
 
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
@@ -204,9 +204,9 @@
 /*--------------------------------------------------------------------------------------------*/
 /*icon-explorer-expander*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
-  margin: 0 calc(-1 * var(--text-size)) 0 0;
   font-size: 0px !important;
   font-weight: normal;
+  margin: 0 -14px 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
