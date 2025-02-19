@@ -68,7 +68,7 @@
   "editor.unicodeHighlight.ambiguousCharacters" = true;
   "editor.unfoldOnClickAfterEndOfLine" = true;
   "editor.trimAutoWhitespace" = true;
-  "editor.tabSize" = 2;
+  "editor.tabSize" = 1;
   "editor.tabFocusMode" = false;
   "editor.tabCompletion" = "onlySnippets";
   "editor.suggestSelection" = "first";
