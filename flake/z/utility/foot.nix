@@ -59,27 +59,27 @@ in
         colors = {
           regular0 = "888888";
           regular1 = "C90000";
-          regular2 = "007400";
+          regular2 = "00FF00";
           regular3 = "666600";
-          regular4 = "0000D0";
+          regular4 = "D9D9FF";
           regular5 = "6F006F";
           regular6 = "004444";
           regular7 = "898989";
 
           bright0 = "888888";
           bright1 = "C90000";
-          bright2 = "007400";
+          bright2 = "00FF00";
           bright3 = "666600";
-          bright4 = "0000D0";
+          bright4 = "D9D9FF";
           bright5 = "6F006F";
           bright6 = "004444";
           bright7 = "898989";
 
           dim0 = "888888";
           dim1 = "C90000";
-          dim2 = "007400";
+          dim2 = "00FF00";
           dim3 = "666600";
-          dim4 = "0000D0";
+          dim4 = "D9D9FF";
           dim5 = "6F006F";
           dim6 = "004444";
           dim7 = "898989";

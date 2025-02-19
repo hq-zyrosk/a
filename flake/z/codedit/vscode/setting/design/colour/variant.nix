@@ -1,10 +1,11 @@
 let
   undecided = "default";
-  # white = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  c1_c5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
-  # blue = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  # c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
+  # c7 = _.rgba 0.00000 0.00000 1.00000 1.00000;
   c5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
-  c1 = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  c3_c5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
+  c3 = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  # c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
   _ = import ./_.nix;
 in
 {
@@ -63,27 +64,27 @@ in
   "diffEditor.removedTextBackground" = undecided;
   "diffEditor.removedLineBackground" = undecided;
 
-  "scm.historyGraph.yellow" = c1_c5;
+  "scm.historyGraph.yellow" = c3_c5;
   "scm.historyGraph.green" = c5;
-  "scm.historyGraph.red" = c1;
+  "scm.historyGraph.red" = c3;
   "terminal.ansiYellow" = "#3E3E00FF";
   "terminal.ansiWhite" = "#888888FF";
   "terminal.ansiRed" = "#7F0000FF";
   "terminal.ansiMagenta" = "#6F006FFF";
-  "terminal.ansiGreen" = "#3E3E00FF";
+  "terminal.ansiGreen" = c5;
   "terminal.ansiCyan" = "#004700FF";
   "terminal.ansiBrightYellow" = "#3E3E00FF";
   "terminal.ansiBrightWhite" = "#888888FF";
   "terminal.ansiBrightRed" = "#7F0000FF";
   "terminal.ansiBrightMagenta" = "#6F006FFF";
-  "terminal.ansiBrightGreen" = "#3E3E00FF";
+  "terminal.ansiBrightGreen" = c5;
   "terminal.ansiBrightCyan" = "#004700FF";
-  "terminal.ansiBrightBlue" = "#004700FF";
-  "terminal.ansiBlue" = "#004700FF";
+  "terminal.ansiBrightBlue" = "#D9D9FFFF";
+  "terminal.ansiBlue" = "#D9D9FFFF";
   "charts.yellow" = "#3E3E00FF";
   "charts.red" = "#7F0000FF";
   "charts.purple" = "#6F006FFF";
   "charts.orange" = "#7F00003F";
-  "charts.green" = "#3E3E00FF";
-  "charts.blue" = "#004700FF";
+  "charts.green" = c5;
+  "charts.blue" = "#D9D9FFFF";
 }

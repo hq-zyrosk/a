@@ -78,9 +78,9 @@ in
           normal = {
             black = "#888888";
             red = "#C90000";
-            green = "#007400";
+            green = "#00FF00";
             yellow = "#666600";
-            blue = "#0000D0";
+            blue = "#D9D9FF";
             magenta = "#6F006F";
             cyan = "#004444";
             white = "#898989";
@@ -88,9 +88,9 @@ in
           dim = {
             black = "#888888";
             red = "#C90000";
-            green = "#007400";
+            green = "#00FF00";
             yellow = "#666600";
-            blue = "#0000D0";
+            blue = "#D9D9FF";
             magenta = "#6F006F";
             cyan = "#004444";
             white = "#898989";
@@ -98,9 +98,9 @@ in
           bright = {
             black = "#888888";
             red = "#C90000";
-            green = "#007400";
+            green = "#00FF00";
             yellow = "#666600";
-            blue = "#0000D0";
+            blue = "#D9D9FF";
             magenta = "#6F006F";
             cyan = "#004444";
             white = "#898989";
