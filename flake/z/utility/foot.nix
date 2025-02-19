@@ -63,7 +63,7 @@ in
           regular3 = "666600";
           regular4 = "D9D9FF";
           regular5 = "6F006F";
-          regular6 = "004444";
+          regular6 = "00F4F4";
           regular7 = "898989";
 
           bright0 = "888888";
@@ -72,7 +72,7 @@ in
           bright3 = "666600";
           bright4 = "D9D9FF";
           bright5 = "6F006F";
-          bright6 = "004444";
+          bright6 = "00F4F4";
           bright7 = "898989";
 
           dim0 = "888888";
@@ -81,7 +81,7 @@ in
           dim3 = "666600";
           dim4 = "D9D9FF";
           dim5 = "6F006F";
-          dim6 = "004444";
+          dim6 = "00F4F4";
           dim7 = "898989";
 
           flash-alpha = 0.5;

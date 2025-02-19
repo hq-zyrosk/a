@@ -72,13 +72,13 @@ in
   "terminal.ansiRed" = "#7F0000FF";
   "terminal.ansiMagenta" = "#6F006FFF";
   "terminal.ansiGreen" = c5;
-  "terminal.ansiCyan" = "#004700FF";
+  "terminal.ansiCyan" = "#00F4F4FF";
   "terminal.ansiBrightYellow" = "#3E3E00FF";
   "terminal.ansiBrightWhite" = "#888888FF";
   "terminal.ansiBrightRed" = "#7F0000FF";
   "terminal.ansiBrightMagenta" = "#6F006FFF";
   "terminal.ansiBrightGreen" = c5;
-  "terminal.ansiBrightCyan" = "#004700FF";
+  "terminal.ansiBrightCyan" = "#00F4F4FF";
   "terminal.ansiBrightBlue" = "#D9D9FFFF";
   "terminal.ansiBlue" = "#D9D9FFFF";
   "charts.yellow" = "#3E3E00FF";
