@@ -120,12 +120,6 @@ in
   "editorIndentGuide.background2" = c5;
   "editorIndentGuide.background1" = c5;
   "editorHoverWidget.statusBarBackground" = c5;
-  "editorBracketPairGuide.background6" = c5;
-  "editorBracketPairGuide.background5" = c5;
-  "editorBracketPairGuide.background4" = c5;
-  "editorBracketPairGuide.background3" = c5;
-  "editorBracketPairGuide.background2" = c5;
-  "editorBracketPairGuide.background1" = c5;
   "editor.linkedEditingBackground" = c5;
   "editor.inlineValuesBackground" = c5;
   "dropdown.listBackground" = c5;

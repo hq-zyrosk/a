@@ -114,6 +114,18 @@ in
   "editorHint.border" = c5;
   "editorGroupHeader.border" = c5;
   "editorGroup.border" = c5;
+  "editorBracketPairGuide.background6" = c5;
+  "editorBracketPairGuide.background5" = c5;
+  "editorBracketPairGuide.background4" = c5;
+  "editorBracketPairGuide.background3" = c5;
+  "editorBracketPairGuide.background2" = c5;
+  "editorBracketPairGuide.background1" = c5;
+  "editorBracketHighlight.foreground6" = c5;
+  "editorBracketHighlight.foreground5" = c5;
+  "editorBracketHighlight.foreground4" = c5;
+  "editorBracketHighlight.foreground3" = c5;
+  "editorBracketHighlight.foreground2" = c5;
+  "editorBracketHighlight.foreground1" = c5;
   "dropdown.border" = c5;
   "diffEditor.move.border" = c5;
   "diffEditor.border" = c5;
@@ -130,11 +142,5 @@ in
   "activityBar.dropBorder" = c5;
   "activityBar.border" = c5;
 
-  "editorBracketHighlight.foreground6" = c1;
-  "editorBracketHighlight.foreground5" = c1;
-  "editorBracketHighlight.foreground4" = c1;
-  "editorBracketHighlight.foreground3" = c1;
-  "editorBracketHighlight.foreground2" = c1;
-  "editorBracketHighlight.foreground1" = c1;
   "editorGhostText.border" = c1;
 }
