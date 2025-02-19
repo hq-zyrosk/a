@@ -142,11 +142,10 @@
   height: calc(var(--text-size) * 2);
 }
 
-.monaco-workbench .part > .title {
+/* .monaco-workbench .part > .title {
   line-height: calc(var(--text-size) * 2);
   height: calc(var(--text-size) * 2);
-}
-
+} */
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-sub-header*/
 .monaco-pane-view .pane > .pane-header h3.title {

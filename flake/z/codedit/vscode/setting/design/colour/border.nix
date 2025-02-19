@@ -77,6 +77,7 @@ in
   "statusBar.noFolderBorder" = c5;
   "statusBar.focusBorder" = c5;
   "statusBar.debuggingBorder" = c5;
+  "statusBar.border" = c5;
   "sideBySideEditor.verticalBorder" = c5;
   "sideBySideEditor.horizontalBorder" = c5;
   "sideBarTitle.border" = c5;
@@ -107,6 +108,7 @@ in
   "panelSection.border" = c5;
   "panelInput.border" = c5;
   "panel.dropBorder" = c5;
+  "panel.border" = c5;
   "notifications.border" = c5;
   "notificationToast.border" = c5;
   "notificationCenter.border" = c5;
@@ -143,6 +145,7 @@ in
   "editorLineNumber.foreground" = c5;
   "editorHoverWidget.border" = c5;
   "editorHint.border" = c5;
+  "editorGroupHeader.tabsBorder" = c5;
   "editorGroup.border" = c5;
   "dropdown.border" = c5;
   "diffEditor.move.border" = c5;

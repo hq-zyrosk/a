@@ -27,7 +27,7 @@ in
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
-  "workbench.sash.size" = 4;
+  "workbench.sash.size" = 1;
   "workbench.sash.hoverDelay" = 0;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;
   "workbench.reduceMotion" = "on";

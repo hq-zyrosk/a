@@ -9,8 +9,6 @@ in
   "tab.hoverBorder" = c5;
   "tab.activeBorderTop" = c5;
   "tab.activeBorder" = c5;
-  "statusBar.border" = c5;
-  "panel.border" = c5;
   "list.inactiveSelectionBackground" = c5;
   "list.inactiveFocusBackground" = c5;
   "list.hoverBackground" = c5;
@@ -19,7 +17,6 @@ in
   "list.activeSelectionBackground" = c5;
   "editorOverviewRuler.border" = c5;
   "editorOverviewRuler.background" = c5;
-  "editorGroupHeader.tabsBorder" = c5;
   "editorGroupHeader.border" = c5;
   "editorBracketMatch.border" = c5;
   "editorBracketMatch.background" = c5;
