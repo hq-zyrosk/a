@@ -228,6 +228,12 @@ in
   "editorLineNumber.dimmedForeground" = c1;
   "editorInlayHint.typeForeground" = c1;
   "editorGhostText.foreground" = c1;
+  "editorBracketHighlight.foreground6" = c1;
+  "editorBracketHighlight.foreground5" = c1;
+  "editorBracketHighlight.foreground4" = c1;
+  "editorBracketHighlight.foreground3" = c1;
+  "editorBracketHighlight.foreground2" = c1;
+  "editorBracketHighlight.foreground1" = c1;
   "editor.placeholder.foreground" = c1;
   "editor.foldPlaceholderForeground" = c1;
   "disabledForeground" = c1;

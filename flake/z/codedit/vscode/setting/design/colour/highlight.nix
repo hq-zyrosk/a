@@ -76,12 +76,6 @@ in
   "editorOverviewRuler.rangeHighlightForeground" = c5;
   "editorOverviewRuler.findMatchForeground" = c5;
   "editorHoverWidget.highlightForeground" = c5;
-  "editorBracketHighlight.foreground6" = c5;
-  "editorBracketHighlight.foreground5" = c5;
-  "editorBracketHighlight.foreground4" = c5;
-  "editorBracketHighlight.foreground3" = c5;
-  "editorBracketHighlight.foreground2" = c5;
-  "editorBracketHighlight.foreground1" = c5;
   "editor.findMatchHighlightForeground" = c5;
   "editor.findMatchForeground" = c5;
 }
