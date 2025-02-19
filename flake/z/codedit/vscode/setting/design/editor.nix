@@ -135,6 +135,7 @@
   "editor.links" = true;
   "editor.linkedEditing" = true;
   "editor.lineNumbers" = "off";
+  "editor.lineDecorationsWidth" = 7;
   "editor.lightbulb.enabled" = "off";
   "editor.largeFileOptimizations" = true;
   "editor.language.colorizedBracketPairs" = null;

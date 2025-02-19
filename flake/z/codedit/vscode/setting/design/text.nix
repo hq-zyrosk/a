@@ -3,13 +3,14 @@ let
   text-type = "'PragmataPro Mono Liga', monospace";
   text-tall = 0;
   text-size = 16;
+  text-wide = 8;
   text-high = 1;
 in
 {
   "editor.rulers" = [
     text-wrap
   ];
-  "workbench.tree.indent" = text-size;
+  "workbench.tree.indent" = text-wide;
   "workbench.editor.wrapTabs" = true;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
