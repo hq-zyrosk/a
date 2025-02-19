@@ -79,6 +79,13 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+/*explorer-icon*/
+.monaco-tl-twistie {
+  font-size: 0px !important;
+  margin: 0 -16px 0 0;
+}
+
+/*--------------------------------------------------------------------------------------------*/
 /*explorer*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
   line-height: var(--text-type) !important;
@@ -123,7 +130,7 @@
 
 .monaco-workbench .part > .composite.header-or-footer,
 .monaco-workbench .part > .composite.title {
-  padding: 0 var(--text-size) 0 var(--text-size);
+  padding: 1px 0 0 var(--text-wide);
 }
 
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
@@ -142,10 +149,6 @@
   height: calc(var(--text-size) * 2);
 }
 
-/* .monaco-workbench .part > .title {
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
-} */
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-sub-header*/
 .monaco-pane-view .pane > .pane-header h3.title {
@@ -173,7 +176,7 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
-  padding-right: var(--text-size) !important;
+  padding-right: var(--text-wide) !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
@@ -183,7 +186,7 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   line-height: calc(var(--text-size) * 2);
   height: calc(var(--text-size) * 2);
-  padding-left: var(--text-size) !important;
+  padding-left: var(--text-wide) !important;
   box-sizing: border-box;
 }
 
@@ -262,6 +265,7 @@
 :root {
   --text-type: 'PragmataPro Mono', monospace;
   --text-size: 16px;
+  --text-wide: 8px;
   --text-high: 1;
 }
 
