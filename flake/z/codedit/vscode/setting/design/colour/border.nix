@@ -143,7 +143,6 @@ in
   "editorLineNumber.foreground" = c5;
   "editorHoverWidget.border" = c5;
   "editorHint.border" = c5;
-  "editorGroupHeader.border" = c5;
   "editorGroup.border" = c5;
   "dropdown.border" = c5;
   "diffEditor.move.border" = c5;

@@ -20,6 +20,7 @@ in
   "editorOverviewRuler.border" = c5;
   "editorOverviewRuler.background" = c5;
   "editorGroupHeader.tabsBorder" = c5;
+  "editorGroupHeader.border" = c5;
   "editorBracketMatch.border" = c5;
   "editorBracketMatch.background" = c5;
   "editor.foldBackground" = c5;
