@@ -58,29 +58,29 @@ in
         };
         colors = {
           regular0 = "888888";
-          regular1 = "C90000";
+          regular1 = "FFD1D1";
           regular2 = "00FF00";
           regular3 = "666600";
           regular4 = "D9D9FF";
-          regular5 = "6F006F";
+          regular5 = "FFCCFF";
           regular6 = "00F4F4";
           regular7 = "898989";
 
           bright0 = "888888";
-          bright1 = "C90000";
+          bright1 = "FFD1D1";
           bright2 = "00FF00";
           bright3 = "666600";
           bright4 = "D9D9FF";
-          bright5 = "6F006F";
+          bright5 = "FFCCFF";
           bright6 = "00F4F4";
           bright7 = "898989";
 
           dim0 = "888888";
-          dim1 = "C90000";
+          dim1 = "FFD1D1";
           dim2 = "00FF00";
           dim3 = "666600";
           dim4 = "D9D9FF";
-          dim5 = "6F006F";
+          dim5 = "FFCCFF";
           dim6 = "00F4F4";
           dim7 = "898989";
 

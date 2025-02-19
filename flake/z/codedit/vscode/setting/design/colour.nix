@@ -26,13 +26,13 @@ in
     "enabled" = true;
     "rules" = {
       "variable" = {
-        "foreground" = "#004700FF";
+        "foreground" = "#00FF00FF";
       };
       "property" = {
-        "foreground" = "#004700FF";
+        "foreground" = "#00FF00FF";
       };
       "parameter" = {
-        "foreground" = "#004700FF";
+        "foreground" = "#00FF00FF";
       };
       "method" = {
         "foreground" = "#0000CFFF";

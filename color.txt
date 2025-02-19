@@ -11,7 +11,7 @@
         ];
         "settings" = {
           "fontStyle" = "";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #variable
@@ -22,7 +22,7 @@
         ];
         "settings" = {
           "fontStyle" = "bold";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #property use
@@ -33,7 +33,7 @@
         ];
         "settings" = {
           "fontStyle" = "";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #property
@@ -49,7 +49,7 @@
         ];
         "settings" = {
           "fontStyle" = "bold";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #parameter use
@@ -62,7 +62,7 @@
         ];
         "settings" = {
           "fontStyle" = "";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #parameter
@@ -75,7 +75,7 @@
         ];
         "settings" = {
           "fontStyle" = "bold";
-          "foreground" = "#004700FF";
+          "foreground" = "#00FF00FF";
         };
       }
       #literal use
@@ -86,7 +86,7 @@
         ];
         "settings" = {
           "fontStyle" = "underline italic";
-          "foreground" = "#7F0000FF";
+          "foreground" = "#FFD1D1FF";
         };
       }
       #literal
@@ -107,7 +107,7 @@
         ];
         "settings" = {
           "fontStyle" = "italic";
-          "foreground" = "#7F0000FF";
+          "foreground" = "#FFD1D1FF";
         };
       }
       #function use
