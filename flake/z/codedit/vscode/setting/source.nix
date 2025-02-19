@@ -18,6 +18,7 @@ yaml
   "sortLines.sortEntireFile" = true;
   "sortLines.ignoreUnselectedLastLine" = false;
   "sortLines.filterBlankLines" = true;
+  "scm.diffDecorations" = "all";
   "scm.autoReveal" = true;
   "git.verboseCommit" = true;
   "git.showProgress" = true;

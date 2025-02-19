@@ -1,6 +1,3 @@
-let
-  tab-width = 98;
-in
 {
   "workbench.view.showQuietly" = {
     "workbench.panel.output" = true;
@@ -13,8 +10,8 @@ in
   "zenMode.hideActivityBar" = true;
   "zenMode.fullScreen" = true;
   "zenMode.centerLayout" = false;
-  "workbench.editor.tabSizingFixedMinWidth" = tab-width;
-  "workbench.editor.tabSizingFixedMaxWidth" = tab-width;
+  "workbench.editor.tabSizingFixedMinWidth" = 38;
+  "workbench.editor.tabSizingFixedMaxWidth" = 66;
   "workbench.welcomePage.walkthroughs.openOnInstall" = false;
   "workbench.view.alwaysShowHeaderActions" = true;
   "workbench.trustedDomains.promptInTrustedWorkspace" = false;
