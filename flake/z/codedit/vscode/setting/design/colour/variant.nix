@@ -1,10 +1,10 @@
 let
   undecided = "default";
   # white = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  yellow = _.rgba 1.00000 1.00000 0.00000 1.00000;
+  c1_c5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
   # blue = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  green = _.rgba 0.00000 1.00000 0.00000 1.00000;
-  red = _.rgba 1.00000 0.00000 0.00000 1.00000;
+  c5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
+  c1 = _.rgba 1.00000 0.00000 0.00000 1.00000;
   _ = import ./_.nix;
 in
 {
@@ -13,8 +13,6 @@ in
   "tab.inactiveModifiedBorder" = undecided;
   "tab.activeModifiedBorder" = undecided;
   "settings.modifiedItemIndicator" = undecided;
-  "scm.historyGraph.yellow" = yellow;
-  "scm.historyGraph.green" = green;
   "notebookEditorOverviewRuler.runningCellForeground" = undecided;
   "notebook.cellInsertionIndicator" = undecided;
   "minimapGutter.modifiedBackground" = undecided;
@@ -58,7 +56,6 @@ in
   "gitDecoration.stageDeletedResourceForeground" = undecided;
   "gitDecoration.deletedResourceForeground" = undecided;
   "editorGutter.deletedBackground" = undecided;
-  "scm.historyGraph.red" = red;
   "minimapGutter.deletedBackground" = undecided;
   "diffEditorOverview.removedForeground" = "#FF0000FF";
   "diffEditorGutter.removedLineBackground" = undecided;
@@ -66,6 +63,9 @@ in
   "diffEditor.removedTextBackground" = undecided;
   "diffEditor.removedLineBackground" = undecided;
 
+  "scm.historyGraph.yellow" = c1_c5;
+  "scm.historyGraph.green" = c5;
+  "scm.historyGraph.red" = c1;
   "terminal.ansiYellow" = "#3E3E00FF";
   "terminal.ansiWhite" = "#888888FF";
   "terminal.ansiRed" = "#7F0000FF";
