@@ -1,13 +1,13 @@
 let
   undecided = "default";
-  # c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
-  # c7 = _.rgba 0.00000 0.00000 1.00000 1.00000;
-  c5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
-  c3_c5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
-  c3 = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  # c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
-  _ = import ./_.nix;
 in
+# c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
+# c7 = _.rgba 0.00000 0.00000 1.00000 1.00000;
+# c5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
+# c4 = _.rgba 1.00000 1.00000 0.00000 1.00000;
+# c3 = _.rgba 1.00000 0.00000 0.00000 1.00000;
+# c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
+# _ = import ./_.nix;
 {
   "tab.unfocusedInactiveModifiedBorder" = undecided;
   "tab.unfocusedActiveModifiedBorder" = undecided;
@@ -64,27 +64,27 @@ in
   "diffEditor.removedTextBackground" = undecided;
   "diffEditor.removedLineBackground" = undecided;
 
-  "scm.historyGraph.yellow" = c3_c5;
-  "scm.historyGraph.green" = c5;
-  "scm.historyGraph.red" = c3;
-  "terminal.ansiYellow" = "#3E3E00FF";
+  "scm.historyGraph.yellow" = "#C2C200FF";
+  "scm.historyGraph.green" = "#00DA00FF";
+  "scm.historyGraph.red" = "#FFA3A3FF";
+  "terminal.ansiYellow" = "#C2C200FF";
   "terminal.ansiWhite" = "#888888FF";
   "terminal.ansiRed" = "#FFA3A3FF";
   "terminal.ansiMagenta" = "#FF96FFFF";
-  "terminal.ansiGreen" = c5;
+  "terminal.ansiGreen" = "#00DA00FF";
   "terminal.ansiCyan" = "#00D1D1FF";
-  "terminal.ansiBrightYellow" = "#3E3E00FF";
+  "terminal.ansiBrightYellow" = "#C2C200FF";
   "terminal.ansiBrightWhite" = "#888888FF";
   "terminal.ansiBrightRed" = "#FFA3A3FF";
   "terminal.ansiBrightMagenta" = "#FF96FFFF";
-  "terminal.ansiBrightGreen" = c5;
+  "terminal.ansiBrightGreen" = "#00DA00FF";
   "terminal.ansiBrightCyan" = "#00D1D1FF";
   "terminal.ansiBrightBlue" = "#B5B5FFFF";
   "terminal.ansiBlue" = "#B5B5FFFF";
-  "charts.yellow" = "#3E3E00FF";
+  "charts.yellow" = "#C2C200FF";
   "charts.red" = "#FFA3A3FF";
   "charts.purple" = "#FF96FFFF";
   "charts.orange" = "#FFA3A33F";
-  "charts.green" = c5;
+  "charts.green" = "#00DA00FF";
   "charts.blue" = "#B5B5FFFF";
 }
