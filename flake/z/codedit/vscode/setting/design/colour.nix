@@ -25,23 +25,113 @@ in
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
-      "variable" = {
-        "foreground" = "#00DA00FF";
+      number = {
+        foreground = "#FFFFFFFF";
       };
-      "property" = {
-        "foreground" = "#00DA00FF";
+      string = {
+        foreground = "#FFFFFFFF";
       };
-      "parameter" = {
-        "foreground" = "#00DA00FF";
+      formatSpecifier = {
+        foreground = "#FFFFFFFF";
       };
-      "method" = {
-        "foreground" = "#B5B5FFFF";
+      operator = {
+        foreground = "#FFFFFFFF";
       };
-      "function" = {
-        "foreground" = "#B5B5FFFF";
+      function = {
+        foreground = "#B5B5FFFF";
+      };
+      method = {
+        foreground = "#B5B5FFFF";
+      };
+      parameter = {
+        foreground = "#00DA00FF";
+      };
+      property = {
+        foreground = "#00DA00FF";
+      };
+      variable = {
+        foreground = "#00DA00FF";
+      };
+      typeAlias = {
+        foreground = "#3F3F3FFF";
+      };
+      typeParameter = {
+        foreground = "#3F3F3FFF";
+      };
+      selfTypeKeyword = {
+        foreground = "#3F3F3FFF";
+      };
+      builtinType = {
+        foreground = "#3F3F3FFF";
+      };
+      unresolvedReference = {
+        foreground = "#FFFF00FF";
+      };
+      escapeSequence = {
+        foreground = "#FFFF00FF";
+      };
+      keyword = {
+        foreground = "#FFFFFFFF";
+      };
+      selfKeyword = {
+        foreground = "#FFFFFFFF";
+      };
+      interface = {
+        foreground = "#FFFFFFFF";
+      };
+      lifetime = {
+        foreground = "#FFFFFFFF";
+      };
+      struct = {
+        foreground = "#FFFFFFFF";
+      };
+      namespace = {
+        foreground = "#FFFFFFFF";
+      };
+      enum = {
+        foreground = "#FFFFFFFF";
+      };
+      enumMember = {
+        foreground = "#FFFFFFFF";
+      };
+      attributeBracket = {
+        foreground = "#FFFFFFFF";
+      };
+      decorator = {
+        foreground = "#FFFFFFFF";
+      };
+      derive = {
+        foreground = "#FFFFFFFF";
+      };
+      builtinAttribute = {
+        foreground = "#FFFFFFFF";
+      };
+      generic = {
+        foreground = "#FFFFFFFF";
+      };
+      macro = {
+        foreground = "#FFFFFFFF";
+      };
+      comment = {
+        foreground = "#FFFFFFFF";
+      };
+      attribute = {
+        foreground = "#FF0000FF";
+      };
+      deriveHelper = {
+        foreground = "#FF0000FF";
+      };
+      type = {
+        foreground = "#FF0000FF";
+      };
+      macroBang = {
+        foreground = "#FF0000FF";
       };
       "*.declaration" = {
-        "fontStyle" = "bold";
+        fontStyle = "bold";
+      };
+      "*" = {
+        foreground = "#FF0000FF";
       };
     };
   };
