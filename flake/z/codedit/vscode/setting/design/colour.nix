@@ -52,7 +52,7 @@ in
         ];
         "settings" = {
           "foreground" = "#898989FF";
-          "fontStyle" = "";
+          "fontStyle" = "bold";
         };
       }
     ];
@@ -60,113 +60,125 @@ in
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
-      number = {
-        foreground = "#FFFFFFFF";
+      builtinAttribute = {
+        foreground = "#BCBCBCFF";
+        fontStyle = "italic";
       };
-      string = {
-        foreground = "#FFFFFFFF";
+      decorator = {
+        foreground = "#BCBCBCFF";
+        fontStyle = "italic";
       };
-      formatSpecifier = {
-        foreground = "#FFFFFFFF";
-      };
-      operator = {
-        foreground = "#FFFFFFFF";
+      macro = {
+        foreground = "#BCBCBCFF";
+        fontStyle = "italic";
       };
       function = {
-        foreground = "#B5B5FFFF";
+        foreground = "#BCBCBCFF";
       };
-      method = {
-        foreground = "#B5B5FFFF";
+      "*.callable" = {
+        foreground = "#BCBCBCFF";
       };
-      parameter = {
-        foreground = "#00DA00FF";
+      enumMember = {
+        foreground = "#FF96FFFF";
+        fontStyle = "italic";
+      };
+      enum = {
+        foreground = "#FF96FFFF";
+      };
+      struct = {
+        foreground = "#00D1D1FF";
+      };
+      boolean = {
+        foreground = "#C2C200FF";
+        fontStyle = "bold";
+      };
+      number = {
+        foreground = "#C2C200FF";
+      };
+      string = {
+        foreground = "#C2C200FF";
+      };
+      escapeSequence = {
+        foreground = "#C2C200FF";
+        fontStyle = "italic";
+      };
+      formatSpecifier = {
+        foreground = "#C2C200FF";
+        fontStyle = "italic";
       };
       property = {
         foreground = "#00DA00FF";
       };
-      variable = {
+      method = {
         foreground = "#00DA00FF";
-      };
-      typeAlias = {
-        foreground = "#3F3F3FFF";
-      };
-      typeParameter = {
-        foreground = "#3F3F3FFF";
-      };
-      selfTypeKeyword = {
-        foreground = "#3F3F3FFF";
-      };
-      builtinType = {
-        foreground = "#3F3F3FFF";
+        fontStyle = "italic";
       };
       unresolvedReference = {
-        foreground = "#FFFF00FF";
-      };
-      escapeSequence = {
-        foreground = "#FFFF00FF";
-      };
-      keyword = {
-        foreground = "#FFFFFFFF";
-      };
-      selfKeyword = {
-        foreground = "#FFFFFFFF";
-      };
-      interface = {
-        foreground = "#FFFFFFFF";
+        foreground = "#00DA00FF";
+        fontStyle = "italic";
       };
       lifetime = {
-        foreground = "#FFFFFFFF";
-      };
-      struct = {
-        foreground = "#FFFFFFFF";
-      };
-      namespace = {
-        foreground = "#FFFFFFFF";
-      };
-      enum = {
-        foreground = "#FFFFFFFF";
-      };
-      enumMember = {
-        foreground = "#FFFFFFFF";
-      };
-      attributeBracket = {
-        foreground = "#FFFFFFFF";
-      };
-      decorator = {
-        foreground = "#FFFFFFFF";
-      };
-      derive = {
-        foreground = "#FFFFFFFF";
-      };
-      builtinAttribute = {
-        foreground = "#FFFFFFFF";
+        foreground = "#B5B5FFFF";
+        fontStyle = "italic";
       };
       generic = {
-        foreground = "#FFFFFFFF";
+        foreground = "#B5B5FFFF";
+        fontStyle = "italic";
       };
-      macro = {
-        foreground = "#FFFFFFFF";
+      builtinType = {
+        foreground = "#B5B5FFFF";
+        fontStyle = "italic";
+      };
+      typeParameter = {
+        foreground = "#B5B5FFFF";
+        fontStyle = "italic";
+      };
+      derive = {
+        foreground = "#B5B5FFFF";
+      };
+      interface = {
+        foreground = "#B5B5FFFF";
+      };
+      typeAlias = {
+        foreground = "#B5B5FFFF";
+      };
+      parameter = {
+        foreground = "#FFA3A3FF";
+        fontStyle = "italic";
+      };
+      variable = {
+        foreground = "#FFA3A3FF";
+      };
+      attributeBracket = {
+        foreground = "#898989FF";
+      };
+      namespace = {
+        foreground = "#898989FF";
+      };
+      operator = {
+        foreground = "#898989FF";
+      };
+      selfTypeKeyword = {
+        foreground = "#000000FF";
+        fontStyle = "strikethrough";
+      };
+      selfKeyword = {
+        foreground = "#000000FF";
+        fontStyle = "strikethrough";
+      };
+      keyword = {
+        foreground = "#000000FF";
+        fontStyle = "strikethrough";
       };
       comment = {
-        foreground = "#FFFFFFFF";
-      };
-      attribute = {
-        foreground = "#FF0000FF";
-      };
-      deriveHelper = {
-        foreground = "#FF0000FF";
-      };
-      type = {
-        foreground = "#FF0000FF";
-      };
-      macroBang = {
-        foreground = "#FF0000FF";
+        foreground = "#000000FF";
+        fontStyle = "italic";
       };
       "*.declaration" = {
         fontStyle = "bold";
       };
       "*" = {
-        foreground = "#FF0000FF";
+        fontStyle = "";
       };
     };
   };
