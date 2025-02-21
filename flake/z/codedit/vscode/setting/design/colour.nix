@@ -25,10 +25,19 @@ in
     "textMateRules" = [
       {
         "scope" = [
+          "punctuation"
+        ];
+        "settings" = {
+          "foreground" = "#898989FF";
+        };
+      }
+      {
+        "scope" = [
           "source"
         ];
         "settings" = {
           "foreground" = "#898989FF";
+          "fontStyle" = "italic";
         };
       }
     ];
