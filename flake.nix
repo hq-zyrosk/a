@@ -44,8 +44,7 @@
             /etc/nixos/hardware-configuration.nix
             ./flake/x.nix
             nixos-hardware.nixosModules.apple-t2
-            home-manager.nixosModule
-
+            home-manager.nixosModules.home-manager
             {
               fonts = {
                 packages = [
