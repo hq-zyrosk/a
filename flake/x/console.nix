@@ -22,7 +22,7 @@
       "B5B5FF"
       "FF96FF"
       "00D1D1"
-      "898989"
+      "BCBCBC"
 
       "FFEFDF"
       "FFA3A3"
@@ -31,7 +31,7 @@
       "B5B5FF"
       "FF96FF"
       "00D1D1"
-      "898989"
+      "BCBCBC"
     ];
     earlySetup = true;
     enable = true;

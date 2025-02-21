@@ -77,7 +77,7 @@ in
           };
           normal = {
             yellow = "#C2C200";
-            white = "#898989";
+            white = "#BCBCBC";
             red = "#FFA3A3";
             magenta = "#FF96FF";
             green = "#00DA00";
@@ -87,7 +87,7 @@ in
           };
           dim = {
             yellow = "#C2C200";
-            white = "#898989";
+            white = "#BCBCBC";
             red = "#FFA3A3";
             magenta = "#FF96FF";
             green = "#00DA00";
@@ -97,7 +97,7 @@ in
           };
           bright = {
             yellow = "#C2C200";
-            white = "#898989";
+            white = "#BCBCBC";
             red = "#FFA3A3";
             magenta = "#FF96FF";
             green = "#00DA00";
