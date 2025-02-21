@@ -21,7 +21,42 @@ in
     // border
     // background
     // { };
-  "editor.tokenColorCustomizations" = { };
+  "editor.tokenColorCustomizations" = {
+    "textMateRules" = [
+      #bracket
+      {
+        "scope" = [
+          #language nix bracket 3
+          "punctuation.definition.attrset"
+          "punctuation.section.bracket"
+          #language css bracket 3
+          "punctuation.section.property-list"
+          #language css bracket 3
+          "punctuation.section.property-list.begin.bracket.curly"
+          "punctuation.section.property-list.end.bracket.curly"
+          #language nix bracket 2
+          "punctuation.definition.attrset-or-function"
+          "punctuation.definition.list"
+          #language css bracket 0
+          "punctuation.section.function.begin"
+          "punctuation.section.function.end"
+          #bracket 3
+          "punctuation.definition.block"
+          #bracket 2
+          "punctuation.definition.array"
+          "meta.brace.square"
+          #bracket 1
+          "punctuation.definition.tag"
+          #bracket 0
+          "meta.brace.round"
+        ];
+        "settings" = {
+          "foreground" = "#898989FF";
+          "fontStyle" = "";
+        };
+      }
+    ];
+  };
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
