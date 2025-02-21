@@ -299,28 +299,35 @@
     ];
   };
 
-      "comment": {
-        "foreground": "#3F3F3FFF"
-      },
-      "keyword": {
-        "foreground": "#3F3F3FFF"
+      "selfTypeKeyword": {
+        "foreground": "#3F3F3FFF",
+        "fontStyle": "strikethrough"
       },
       "selfKeyword": {
         "foreground": "#3F3F3FFF",
-        "fontStyle": "italic"
+        "fontStyle": "strikethrough"
       },
-      "selfTypeKeyword": {
+      "keyword": {
         "foreground": "#3F3F3FFF",
+        "fontStyle": "strikethrough"
+      },
+      "builtinAttribute": {
+        "foreground": "#BCBCBCFF",
         "fontStyle": "italic"
       },
-      "attributeBracket": {
-        "foreground": "#3F3F3FFF"
+      "decorator": {
+        "foreground": "#BCBCBCFF",
+        "fontStyle": "italic"
       },
-      "namespace": {
-        "foreground": "#3F3F3FFF"
+      "macro": {
+        "foreground": "#BCBCBCFF",
+        "fontStyle": "italic"
       },
-      "operator": {
-        "foreground": "#3F3F3FFF"
+      "function": {
+        "foreground": "#BCBCBCFF"
+      },
+      "*.callable": {
+        "foreground": "#BCBCBCFF"
       },
       "enumMember": {
         "foreground": "#FF96FFFF",
@@ -328,12 +335,6 @@
       },
       "enum": {
         "foreground": "#FF96FFFF"
-      },
-      "derive": {
-        "foreground": "#00D1D1FF"
-      },
-      "interface": {
-        "foreground": "#00D1D1FF"
       },
       "struct": {
         "foreground": "#00D1D1FF"
@@ -366,52 +367,62 @@
         "foreground": "#00DA00FF",
         "fontStyle": "italic"
       },
-      "typeAlias": {
-        "foreground": "#898989FF"
-      },
-      "typeParameter": {
-        "foreground": "#898989FF",
-        "fontStyle": "italic"
-      },
-      "builtinType": {
-        "foreground": "#898989FF",
+      "lifetime": {
+        "foreground": "#B5B5FFFF",
         "fontStyle": "italic"
       },
       "generic": {
-        "foreground": "#898989FF",
+        "foreground": "#B5B5FFFF",
         "fontStyle": "italic"
       },
-      "lifetime": {
-        "foreground": "#898989FF",
+      "builtinType": {
+        "foreground": "#B5B5FFFF",
         "fontStyle": "italic"
+      },
+      "typeParameter": {
+        "foreground": "#B5B5FFFF",
+        "fontStyle": "italic"
+      },
+      "derive": {
+        "foreground": "#B5B5FFFF"
+      },
+      "interface": {
+        "foreground": "#B5B5FFFF"
+      },
+      "typeAlias": {
+        "foreground": "#B5B5FFFF"
+      },
+      "parameter.declaration.reference": {
+        "foreground": "#FFA3A3FF",
+        "fontStyle": "underline italic bold"
+      },
+      "parameter.reference": {
+        "foreground": "#FFA3A3FF",
+        "fontStyle": "underline italic"
+      },
+      "parameter.declaration": {
+        "foreground": "#FFA3A3FF",
+        "fontStyle": "underline bold"
       },
       "parameter": {
-        "foreground": "#FFA3A3FF"
+        "foreground": "#FFA3A3FF",
+        "fontStyle": "underline"
       },
       "variable": {
         "foreground": "#FFA3A3FF"
       },
-      "function": {
-        "foreground": "#B5B5FFFF"
+      "attributeBracket": {
+        "foreground": "#898989FF"
       },
-      "macro": {
-        "foreground": "#B5B5FFFF",
-        "fontStyle": "italic"
+      "namespace": {
+        "foreground": "#898989FF"
       },
-      "decorator": {
-        "foreground": "#B5B5FFFF",
-        "fontStyle": "italic"
+      "operator": {
+        "foreground": "#898989FF"
       },
-      "builtinAttribute": {
-        "foreground": "#B5B5FFFF",
-        "fontStyle": "italic"
+      "comment": {
+        "foreground": "#000000FF"
       },
       "*.declaration": {
         "fontStyle": "bold"
-      },
-      "*.callable": {
-        "foreground": "#B5B5FFFF"
-      },
-      "*": {
-        "foreground": "#FF0000FF"
-      },
+      }
