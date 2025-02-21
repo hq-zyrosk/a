@@ -57,7 +57,7 @@ in
           preferred = "server";
         };
         colors = {
-          regular0 = "888888";
+          regular0 = "898989";
           regular1 = "FFA3A3";
           regular2 = "00DA00";
           regular3 = "C2C200";
@@ -66,7 +66,7 @@ in
           regular6 = "00D1D1";
           regular7 = "BCBCBC";
 
-          bright0 = "888888";
+          bright0 = "898989";
           bright1 = "FFA3A3";
           bright2 = "00DA00";
           bright3 = "C2C200";
@@ -75,7 +75,7 @@ in
           bright6 = "00D1D1";
           bright7 = "BCBCBC";
 
-          dim0 = "888888";
+          dim0 = "898989";
           dim1 = "FFA3A3";
           dim2 = "00DA00";
           dim3 = "C2C200";

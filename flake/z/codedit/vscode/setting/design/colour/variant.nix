@@ -69,13 +69,13 @@ in
   "scm.historyGraph.green" = "#00DA00FF";
   "scm.historyGraph.red" = "#FFA3A3FF";
   "terminal.ansiYellow" = "#C2C200FF";
-  "terminal.ansiWhite" = "#888888FF";
+  "terminal.ansiWhite" = "#898989FF";
   "terminal.ansiRed" = "#FFA3A3FF";
   "terminal.ansiMagenta" = "#FF96FFFF";
   "terminal.ansiGreen" = "#00DA00FF";
   "terminal.ansiCyan" = "#00D1D1FF";
   "terminal.ansiBrightYellow" = "#C2C200FF";
-  "terminal.ansiBrightWhite" = "#888888FF";
+  "terminal.ansiBrightWhite" = "#898989FF";
   "terminal.ansiBrightRed" = "#FFA3A3FF";
   "terminal.ansiBrightMagenta" = "#FF96FFFF";
   "terminal.ansiBrightGreen" = "#00DA00FF";

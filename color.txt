@@ -367,22 +367,22 @@
         "fontStyle": "italic"
       },
       "typeAlias": {
-        "foreground": "#888888FF"
+        "foreground": "#898989FF"
       },
       "typeParameter": {
-        "foreground": "#888888FF",
+        "foreground": "#898989FF",
         "fontStyle": "italic"
       },
       "builtinType": {
-        "foreground": "#888888FF",
+        "foreground": "#898989FF",
         "fontStyle": "italic"
       },
       "generic": {
-        "foreground": "#888888FF",
+        "foreground": "#898989FF",
         "fontStyle": "italic"
       },
       "lifetime": {
-        "foreground": "#888888FF",
+        "foreground": "#898989FF",
         "fontStyle": "italic"
       },
       "parameter": {

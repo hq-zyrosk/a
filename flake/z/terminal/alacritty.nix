@@ -83,7 +83,7 @@ in
             green = "#00DA00";
             cyan = "#00D1D1";
             blue = "#B5B5FF";
-            black = "#888888";
+            black = "#898989";
           };
           dim = {
             yellow = "#C2C200";
@@ -93,7 +93,7 @@ in
             green = "#00DA00";
             cyan = "#00D1D1";
             blue = "#B5B5FF";
-            black = "#888888";
+            black = "#898989";
           };
           bright = {
             yellow = "#C2C200";
@@ -103,7 +103,7 @@ in
             green = "#00DA00";
             cyan = "#00D1D1";
             blue = "#B5B5FF";
-            black = "#888888";
+            black = "#898989";
           };
         };
       };
