@@ -298,62 +298,27 @@
       }
     ];
   };
+
 "builtinAttribute": {
-        "foreground": "#BCBCBCFF",
-        "fontStyle": "italic"
+        "foreground": "#BCBCBCFF"
       },
       "decorator": {
-        "foreground": "#BCBCBCFF",
-        "fontStyle": "italic"
+        "foreground": "#BCBCBCFF"
       },
       "macro": {
-        "foreground": "#BCBCBCFF",
-        "fontStyle": "italic"
+        "foreground": "#BCBCBCFF"
+      },
+      "unresolvedReference": {
+        "foreground": "#E1E1E1FF"
+      },
+      "method": {
+        "foreground": "#E1E1E1FF"
       },
       "function": {
         "foreground": "#BCBCBCFF"
       },
       "*.callable": {
         "foreground": "#BCBCBCFF"
-      },
-      "enumMember": {
-        "foreground": "#FF96FFFF",
-        "fontStyle": "italic"
-      },
-      "enum": {
-        "foreground": "#FF96FFFF"
-      },
-      "struct": {
-        "foreground": "#00D1D1FF"
-      },
-      "boolean": {
-        "foreground": "#C2C200FF",
-        "fontStyle": "bold"
-      },
-      "number": {
-        "foreground": "#C2C200FF"
-      },
-      "string": {
-        "foreground": "#C2C200FF"
-      },
-      "escapeSequence": {
-        "foreground": "#C2C200FF",
-        "fontStyle": "italic"
-      },
-      "formatSpecifier": {
-        "foreground": "#C2C200FF",
-        "fontStyle": "italic"
-      },
-      "property": {
-        "foreground": "#00DA00FF"
-      },
-      "method": {
-        "foreground": "#00DA00FF",
-        "fontStyle": "italic"
-      },
-      "unresolvedReference": {
-        "foreground": "#00DA00FF",
-        "fontStyle": "italic"
       },
       "lifetime": {
         "foreground": "#B5B5FFFF",
@@ -372,7 +337,7 @@
         "fontStyle": "italic"
       },
       "derive": {
-        "foreground": "#B5B5FFFF"
+        "foreground": "#00DA00FF"
       },
       "interface": {
         "foreground": "#B5B5FFFF"
@@ -380,12 +345,40 @@
       "typeAlias": {
         "foreground": "#B5B5FFFF"
       },
-      "parameter": {
-        "foreground": "#FFA3A3FF",
+      "enumMember": {
+        "foreground": "#FF96FFFF",
         "fontStyle": "italic"
+      },
+      "enum": {
+        "foreground": "#C2C200FF"
+      },
+      "struct": {
+        "foreground": "#00D1D1FF"
+      },
+      "parameter": {
+        "foreground": "#FFD8D8FF",
+        "underline": true
+      },
+      "property": {
+        "foreground": "#FFD8D8FF"
       },
       "variable": {
         "foreground": "#FFA3A3FF"
+      },
+      "formatSpecifier": {
+        "foreground": "#E8E800FF"
+      },
+      "escapeSequence": {
+        "foreground": "#C2C200FF"
+      },
+      "boolean": {
+        "foreground": "#898989FF"
+      },
+      "number": {
+        "foreground": "#898989FF"
+      },
+      "string": {
+        "foreground": "#898989FF"
       },
       "attributeBracket": {
         "foreground": "#898989FF"
@@ -396,25 +389,21 @@
       "operator": {
         "foreground": "#898989FF"
       },
+      "comment": {
+        "foreground": "#898989FF"
+      },
       "selfTypeKeyword": {
-        "foreground": "#000000FF",
-        "fontStyle": "strikethrough"
+        "foreground": "#00000000",
+        "strikethrough": true
       },
       "selfKeyword": {
-        "foreground": "#000000FF",
-        "fontStyle": "strikethrough"
+        "foreground": "#00000000",
+        "strikethrough": true
       },
       "keyword": {
-        "foreground": "#000000FF",
-        "fontStyle": "strikethrough"
-      },
-      "comment": {
-        "foreground": "#000000FF",
-        "fontStyle": "italic"
+        "foreground": "#00000000",
+        "strikethrough": true
       },
       "*.declaration": {
-        "fontStyle": "bold"
-      },
-      "*": {
-        "fontStyle": ""
+        "bold": true
       }
