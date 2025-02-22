@@ -6,6 +6,7 @@
     ./z/terminal/software/nushell.nix
     ./z/terminal/alacritty.nix
     ./z/storage/static.nix
+    ./z/service/wluma.nix
     ./z/service/remmina.nix
     ./z/service/mako.nix
     ./z/program/xdg.nix
