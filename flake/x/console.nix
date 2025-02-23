@@ -15,23 +15,23 @@
     keyMap = "us";
     font = "${pkgs.terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     colors = [
-      "FFEFDF"
+      "5A5A5A"
       "FFC5C5"
       "00F500"
       "DBDB00"
       "CFCFFF"
       "FFBEFF"
       "00EBEB"
-      "BCBCBC"
+      "D3D3D3"
 
-      "FFEFDF"
+      "5A5A5A"
       "FFC5C5"
       "00F500"
       "DBDB00"
       "CFCFFF"
       "FFBEFF"
       "00EBEB"
-      "BCBCBC"
+      "D3D3D3"
     ];
     earlySetup = true;
     enable = true;

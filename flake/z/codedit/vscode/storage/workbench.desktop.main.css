@@ -1,22 +1,6 @@
 @import url("workbench.desktop.main.backup.css");
 
 /*--------------------------------------------------------------------------------------------*/
-/*
-.mtku {
-  text-decoration: none !important;
-  display: inline-flex !important;
-  width: 7px !important;
-  overflow: hidden;
-}
-
-.mtki {
-  font-style: normal !important;
-}
-
-.mtkb {
-  font-weight: bold !important;
-}
-*/
 .mtks + .mtk1,
 .mtks {
   display: inline-flex !important;
@@ -264,14 +248,3 @@
   --text-wide: 8px;
   --text-high: 1;
 }
-
-/*--------------------------------------------------------------------------------------------*/
-/*
-hint:
-  string    = 000000FF
-  variable  = FF0000FF
-  property  = FF00FFFF
-  parameter = 00F500FF
-  function  = 0000FFFF
-  method    = 00FFEFDF
-*/

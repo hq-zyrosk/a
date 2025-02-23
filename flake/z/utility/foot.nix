@@ -64,7 +64,7 @@ in
           regular4 = "CFCFFF";
           regular5 = "FFBEFF";
           regular6 = "00EBEB";
-          regular7 = "BCBCBC";
+          regular7 = "D3D3D3";
 
           bright0 = "D3D3D3";
           bright1 = "FFC5C5";
@@ -73,7 +73,7 @@ in
           bright4 = "CFCFFF";
           bright5 = "FFBEFF";
           bright6 = "00EBEB";
-          bright7 = "BCBCBC";
+          bright7 = "D3D3D3";
 
           dim0 = "D3D3D3";
           dim1 = "FFC5C5";
@@ -82,12 +82,12 @@ in
           dim4 = "CFCFFF";
           dim5 = "FFBEFF";
           dim6 = "00EBEB";
-          dim7 = "BCBCBC";
+          dim7 = "D3D3D3";
 
           flash-alpha = 0.5;
           flash = "FFFF00";
           foreground = "000000";
-          background = "FFEFDF";
+          background = "5A5A5A";
           alpha = 1.0;
         };
       };
