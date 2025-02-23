@@ -45,112 +45,125 @@ in
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
-      builtinAttribute = {
-        foreground = "#BCBCBCFF";
+      #
+      "formatSpecifier" = {
+        "foreground" = "#D3D3D3FF";
       };
-      decorator = {
-        foreground = "#BCBCBCFF";
+      "escapeSequence" = {
+        "foreground" = "#D3D3D3FF";
       };
-      macro = {
-        foreground = "#BCBCBCFF";
+      "builtinAttribute" = {
+        "foreground" = "#D3D3D3FF";
       };
-      unresolvedReference = {
-        foreground = "#E1E1E1FF";
+      "decorator" = {
+        "foreground" = "#D3D3D3FF";
       };
-      method = {
-        foreground = "#E1E1E1FF";
+      "macro" = {
+        "foreground" = "#D3D3D3FF";
       };
-      function = {
-        foreground = "#BCBCBCFF";
+      "function" = {
+        "foreground" = "#D3D3D3FF";
       };
+      #
+      "parameter" = {
+        "foreground" = "#DBDB00FF";
+      };
+      #
+      "variable" = {
+        "foreground" = "#FFC994FF";
+      };
+      #
+      "unresolvedReference" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "method" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "property" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "struct" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "enumMember" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "enum" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      #
+      "boolean" = {
+        "foreground" = "#959595FF";
+      };
+      "number" = {
+        "foreground" = "#959595FF";
+      };
+      "string" = {
+        "foreground" = "#959595FF";
+      };
+      #
+      "lifetime" = {
+        "foreground" = "#959595FF";
+      };
+      "generic" = {
+        "foreground" = "#959595FF";
+      };
+      "builtinType" = {
+        "foreground" = "#959595FF";
+      };
+      "typeParameter" = {
+        "foreground" = "#959595FF";
+      };
+      "derive" = {
+        "foreground" = "#959595FF";
+      };
+      "interface" = {
+        "foreground" = "#959595FF";
+      };
+      "typeAlias" = {
+        "foreground" = "#959595FF";
+      };
+      #
+      "attributeBracket" = {
+        "foreground" = "#5A5A5AFF";
+      };
+      "namespace" = {
+        "foreground" = "#5A5A5AFF";
+      };
+      "operator" = {
+        "foreground" = "#5A5A5AFF";
+      };
+      "comment" = {
+        "foreground" = "#5A5A5AFF";
+      };
+      #
+      "keyword.controlFlow" = {
+        "foreground" = "#5A5A5AFF";
+        "strikethrough" = false;
+      };
+      "keyword.unsafe" = {
+        "foreground" = "#5A5A5AFF";
+        "strikethrough" = false;
+      };
+      #
+      "selfTypeKeyword" = {
+        "strikethrough" = true;
+      };
+      "selfKeyword" = {
+        "strikethrough" = true;
+      };
+      "keyword" = {
+        "strikethrough" = true;
+      };
+      #
       "*.callable" = {
-        foreground = "#BCBCBCFF";
+        "underline" = true;
       };
-      lifetime = {
-        foreground = "#CFCFFFFF";
-        fontStyle = "italic";
-      };
-      generic = {
-        foreground = "#CFCFFFFF";
-        fontStyle = "italic";
-      };
-      builtinType = {
-        foreground = "#CFCFFFFF";
-        fontStyle = "italic";
-      };
-      typeParameter = {
-        foreground = "#CFCFFFFF";
-        fontStyle = "italic";
-      };
-      derive = {
-        foreground = "#00F500FF";
-      };
-      interface = {
-        foreground = "#CFCFFFFF";
-      };
-      typeAlias = {
-        foreground = "#CFCFFFFF";
-      };
-      enumMember = {
-        foreground = "#FFBEFFFF";
-      };
-      enum = {
-        foreground = "#DBDB00FF";
-      };
-      struct = {
-        foreground = "#00EBEBFF";
-      };
-      parameter = {
-        foreground = "#FFD8D8FF";
-        underline = true;
-      };
-      property = {
-        foreground = "#FFD8D8FF";
-      };
-      variable = {
-        foreground = "#FFC5C5FF";
-      };
-      formatSpecifier = {
-        foreground = "#E8E800FF";
-      };
-      escapeSequence = {
-        foreground = "#DBDB00FF";
-      };
-      boolean = {
-        foreground = "#D3D3D3FF";
-      };
-      number = {
-        foreground = "#D3D3D3FF";
-      };
-      string = {
-        foreground = "#D3D3D3FF";
-      };
-      attributeBracket = {
-        foreground = "#D3D3D3FF";
-      };
-      namespace = {
-        foreground = "#D3D3D3FF";
-      };
-      operator = {
-        foreground = "#D3D3D3FF";
-      };
-      comment = {
-        foreground = "#D3D3D3FF";
-      };
-      selfTypeKeyword = {
-        foreground = "#00000000";
-        strikethrough = true;
-      };
-      selfKeyword = {
-        foreground = "#00000000";
-        strikethrough = true;
-      };
-      keyword = {
-        foreground = "#00000000";
-        strikethrough = true;
+      "*.mutable" = {
+        "italic" = true;
       };
       "*.declaration" = {
-        bold = true;
+        "bold" = true;
       };
     };
   };
