@@ -57,31 +57,31 @@ in
           preferred = "server";
         };
         colors = {
-          regular0 = "898989";
-          regular1 = "FFA3A3";
-          regular2 = "00DA00";
-          regular3 = "C2C200";
-          regular4 = "B5B5FF";
-          regular5 = "FF96FF";
-          regular6 = "00D1D1";
+          regular0 = "D3D3D3";
+          regular1 = "FFC5C5";
+          regular2 = "00F500";
+          regular3 = "DBDB00";
+          regular4 = "CFCFFF";
+          regular5 = "FFBEFF";
+          regular6 = "00EBEB";
           regular7 = "BCBCBC";
 
-          bright0 = "898989";
-          bright1 = "FFA3A3";
-          bright2 = "00DA00";
-          bright3 = "C2C200";
-          bright4 = "B5B5FF";
-          bright5 = "FF96FF";
-          bright6 = "00D1D1";
+          bright0 = "D3D3D3";
+          bright1 = "FFC5C5";
+          bright2 = "00F500";
+          bright3 = "DBDB00";
+          bright4 = "CFCFFF";
+          bright5 = "FFBEFF";
+          bright6 = "00EBEB";
           bright7 = "BCBCBC";
 
-          dim0 = "898989";
-          dim1 = "FFA3A3";
-          dim2 = "00DA00";
-          dim3 = "C2C200";
-          dim4 = "B5B5FF";
-          dim5 = "FF96FF";
-          dim6 = "00D1D1";
+          dim0 = "D3D3D3";
+          dim1 = "FFC5C5";
+          dim2 = "00F500";
+          dim3 = "DBDB00";
+          dim4 = "CFCFFF";
+          dim5 = "FFBEFF";
+          dim6 = "00EBEB";
           dim7 = "BCBCBC";
 
           flash-alpha = 0.5;

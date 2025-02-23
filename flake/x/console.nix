@@ -16,21 +16,21 @@
     font = "${pkgs.terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     colors = [
       "FFEFDF"
-      "FFA3A3"
-      "00DA00"
-      "C2C200"
-      "B5B5FF"
-      "FF96FF"
-      "00D1D1"
+      "FFC5C5"
+      "00F500"
+      "DBDB00"
+      "CFCFFF"
+      "FFBEFF"
+      "00EBEB"
       "BCBCBC"
 
       "FFEFDF"
-      "FFA3A3"
-      "00DA00"
-      "C2C200"
-      "B5B5FF"
-      "FF96FF"
-      "00D1D1"
+      "FFC5C5"
+      "00F500"
+      "DBDB00"
+      "CFCFFF"
+      "FFBEFF"
+      "00EBEB"
       "BCBCBC"
     ];
     earlySetup = true;

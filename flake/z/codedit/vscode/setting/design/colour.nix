@@ -29,7 +29,7 @@ in
           "keyword"
         ];
         "settings" = {
-          "foreground" = "#898989FF";
+          "foreground" = "#D3D3D3FF";
         };
       }
       {
@@ -67,38 +67,38 @@ in
         foreground = "#BCBCBCFF";
       };
       lifetime = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
         fontStyle = "italic";
       };
       generic = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
         fontStyle = "italic";
       };
       builtinType = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
         fontStyle = "italic";
       };
       typeParameter = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
         fontStyle = "italic";
       };
       derive = {
-        foreground = "#00DA00FF";
+        foreground = "#00F500FF";
       };
       interface = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
       };
       typeAlias = {
-        foreground = "#B5B5FFFF";
+        foreground = "#CFCFFFFF";
       };
       enumMember = {
-        foreground = "#FF96FFFF";
+        foreground = "#FFBEFFFF";
       };
       enum = {
-        foreground = "#C2C200FF";
+        foreground = "#DBDB00FF";
       };
       struct = {
-        foreground = "#00D1D1FF";
+        foreground = "#00EBEBFF";
       };
       parameter = {
         foreground = "#FFD8D8FF";
@@ -108,34 +108,34 @@ in
         foreground = "#FFD8D8FF";
       };
       variable = {
-        foreground = "#FFA3A3FF";
+        foreground = "#FFC5C5FF";
       };
       formatSpecifier = {
         foreground = "#E8E800FF";
       };
       escapeSequence = {
-        foreground = "#C2C200FF";
+        foreground = "#DBDB00FF";
       };
       boolean = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       number = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       string = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       attributeBracket = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       namespace = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       operator = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       comment = {
-        foreground = "#898989FF";
+        foreground = "#D3D3D3FF";
       };
       selfTypeKeyword = {
         foreground = "#00000000";
