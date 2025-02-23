@@ -6,7 +6,7 @@ in
     alacritty = {
       settings = {
         terminal = {
-          shell = "nu";
+          shell = "fish";
         };
         keyboard = {
           bindings = [
