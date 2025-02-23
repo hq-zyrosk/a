@@ -2,12 +2,36 @@
 {
   programs = {
     vscode = {
-      userTasks = { };
-      userSettings = import ./vscode/setting.nix;
+      profiles = {
+        default = {
+          userTasks = { };
+          userSettings = import ./vscode/setting.nix;
+          languageSnippets = import ./vscode/snippet.nix;
+          keybindings = import ./vscode/keybind.nix;
+          globalSnippets = { };
+          extensions = with extensions.vscode-marketplace; [
+            vadimcn.vscode-lldb
+            tyriar.sort-lines
+            tamasfe.even-better-toml
+            rust-lang.rust-analyzer
+            redhat.vscode-yaml
+            pascalreitermann93.vscode-yaml-sort
+            ms-vscode.live-server
+            likebot.vscode-empty-themes
+            jnoortheen.nix-ide
+            github.copilot-chat
+            github.copilot
+            fill-labs.dependi
+            dbaeumer.vscode-eslint
+          ];
+          enableExtensionUpdateCheck = false;
+          enableUpdateCheck = false;
+        };
+      };
       package = (pkgs.vscode.override { isInsiders = true; }).overrideAttrs (o2: {
         src = (
           builtins.fetchTarball {
-            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64";
+            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#168";
           }
         );
         meta = {
@@ -26,26 +50,6 @@
         '';
       });
       mutableExtensionsDir = true;
-      languageSnippets = import ./vscode/snippet.nix;
-      keybindings = import ./vscode/keybind.nix;
-      globalSnippets = { };
-      extensions = with extensions.vscode-marketplace; [
-        vadimcn.vscode-lldb
-        tyriar.sort-lines
-        tamasfe.even-better-toml
-        rust-lang.rust-analyzer
-        redhat.vscode-yaml
-        pascalreitermann93.vscode-yaml-sort
-        ms-vscode.live-server
-        likebot.vscode-empty-themes
-        jnoortheen.nix-ide
-        github.copilot-chat
-        github.copilot
-        fill-labs.dependi
-        dbaeumer.vscode-eslint
-      ];
-      enableExtensionUpdateCheck = false;
-      enableUpdateCheck = false;
       enable = true;
     };
   };

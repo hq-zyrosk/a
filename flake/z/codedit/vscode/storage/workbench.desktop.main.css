@@ -59,15 +59,15 @@
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
-  color: #00F5007F;
+  color: #FFC5C580;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="true"] {
-  color: #00F500FF;
+  color: #FFC5C5FF;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
-  color: #FFC5C5FF;
+  color: #FFC994FF;
 }
 
 /*--------------------------------------------------------------------------------------------*/
