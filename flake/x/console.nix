@@ -40,7 +40,7 @@ in
 
   environment = {
     defaultPackages = with pkgs; [
-      fishPlugins.async-prompt
+      fishPlugins.transient-fish
       fishPlugins.sponge
 
       watchexec
