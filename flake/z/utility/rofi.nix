@@ -2,9 +2,7 @@
 {
   programs = {
     rofi = {
-      plugins = with pkgs; [
-        rofi-calc
-      ];
+      plugins = [ ];
       package = pkgs.rofi-wayland;
       font = "PragmataPro Mono Liga";
       enable = true;

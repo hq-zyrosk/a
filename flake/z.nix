@@ -3,8 +3,8 @@
   imports = [
     ./z/utility/waybar.nix
     ./z/utility/rofi.nix
-    ./z/terminal/software/nushell.nix
-    ./z/terminal/alacritty.nix
+    ./z/terminal/fish/alacritty.nix
+    ./z/terminal/fish.nix
     ./z/storage/static.nix
     ./z/service/wluma.nix
     ./z/service/remmina.nix

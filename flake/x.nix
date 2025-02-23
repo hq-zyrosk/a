@@ -28,13 +28,6 @@
     };
     extraUsers = {
       x = {
-        extraGroups = [
-          "wheel"
-          "video"
-          "input"
-          "audio"
-        ];
-        useDefaultShell = true;
         packages = with pkgs; [
           # shadowsocks-rust
           # proxychains
@@ -43,6 +36,13 @@
           nodejs_latest
           home-manager
         ];
+        extraGroups = [
+          "wheel"
+          "video"
+          "input"
+          "audio"
+        ];
+        useDefaultShell = true;
         isNormalUser = true;
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
       };
