@@ -1,7 +1,7 @@
 { pkgs, ... }:
 let
   terminus_font = pkgs.terminus_font;
-  no_greeting = ''
+  fish_init = ''
     set fish_greeting
   '';
 in
@@ -29,13 +29,38 @@ in
       };
       shellAliases = { };
       shellAbbrs = { };
-      interactiveShellInit = no_greeting;
-      loginShellInit = no_greeting;
-      promptInit = no_greeting;
-      shellInit = no_greeting;
+      interactiveShellInit = fish_init;
+      loginShellInit = fish_init;
+      promptInit = fish_init;
+      shellInit = fish_init;
       useBabelfish = false;
       enable = true;
     };
+  };
+
+  environment = {
+    defaultPackages = with pkgs; [
+      fishPlugins.async-prompt
+      fishPlugins.sponge
+
+      watchexec
+      curlHTTP3
+    ];
+    systemPackages = with pkgs; [
+      libimobiledevice
+      ifuse
+
+      nixfmt-rfc-style
+      nixd
+
+      xdg-utils
+      timelimit
+      libnotify
+      killall
+      go-task
+      unzip
+      file
+    ];
   };
 
   console = {

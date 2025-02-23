@@ -72,26 +72,4 @@
       permittedInsecurePackages = [ ];
     };
   };
-
-  environment = {
-    defaultPackages = with pkgs; [
-      watchexec
-      curlHTTP3
-    ];
-    systemPackages = with pkgs; [
-      libimobiledevice
-      ifuse
-
-      nixfmt-rfc-style
-      nixd
-
-      xdg-utils
-      timelimit
-      libnotify
-      killall
-      go-task
-      unzip
-      file
-    ];
-  };
 }
