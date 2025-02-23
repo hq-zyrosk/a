@@ -9,7 +9,7 @@
   "terminal.integrated.gpuAcceleration" = "on";
   "terminal.integrated.enableImages" = true;
   "terminal.integrated.enableFileLinks" = "on";
-  "terminal.integrated.defaultProfile.linux" = "bash";
+  "terminal.integrated.defaultProfile.linux" = "fish";
   "terminal.integrated.customGlyphs" = true;
   "terminal.integrated.cursorStyleInactive" = "line";
   "terminal.integrated.cursorStyle" = "line";
