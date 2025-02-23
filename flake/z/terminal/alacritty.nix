@@ -71,13 +71,13 @@ in
         };
         colors = {
           primary = {
-            dim_foreground = "#808080";
-            foreground = "#FFFFFF";
+            dim_foreground = "#5A5A5A";
+            foreground = "#D3D3D3";
             background = "#000000";
           };
           normal = {
             yellow = "#DBDB00";
-            white = "#D3D3D3";
+            white = "#5A5A5A";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
@@ -87,7 +87,7 @@ in
           };
           dim = {
             yellow = "#DBDB00";
-            white = "#D3D3D3";
+            white = "#5A5A5A";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
@@ -97,7 +97,7 @@ in
           };
           bright = {
             yellow = "#DBDB00";
-            white = "#D3D3D3";
+            white = "#5A5A5A";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
