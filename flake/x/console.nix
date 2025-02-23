@@ -9,7 +9,7 @@
   };
 
   programs = {
-    iay = {
+    fish = {
       enable = true;
     };
   };
