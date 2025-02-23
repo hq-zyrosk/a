@@ -8,6 +8,12 @@
     };
   };
 
+  programs = {
+    iay = {
+      enable = true;
+    };
+  };
+
   console = {
     packages = with pkgs; [
       terminus_font

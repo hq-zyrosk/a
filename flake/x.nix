@@ -47,6 +47,7 @@
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
       };
     };
+    defaultUserShell = pkgs.fish;
     mutableUsers = false;
   };
 
