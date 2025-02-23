@@ -29,15 +29,7 @@ in
           "keyword"
         ];
         "settings" = {
-          "foreground" = "#D3D3D3FF";
-        };
-      }
-      {
-        "scope" = [
-          "source"
-        ];
-        "settings" = {
-          "foreground" = "#808080FF";
+          "foreground" = "#5A5A5AFF";
         };
       }
     ];
