@@ -30,6 +30,9 @@
         };
         show_banner = false;
       };
+      configFile = {
+        source = ./nushell/config.nu;
+      };
       enable = true;
     };
   };
