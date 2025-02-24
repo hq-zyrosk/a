@@ -27,7 +27,9 @@ in
           enable = true;
         };
       };
-      shellAliases = { };
+      shellAliases = {
+        "ls" = "eza";
+      };
       shellAbbrs = { };
       interactiveShellInit = fish_init;
       loginShellInit = fish_init;
@@ -50,7 +52,7 @@ in
     ];
     systemPackages = with pkgs; [
       fishPlugins.sponge
-      fishPlugins.hydro
+      fishPlugins.puffer
 
       libimobiledevice
       ifuse
