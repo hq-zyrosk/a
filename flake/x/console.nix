@@ -43,8 +43,6 @@ in
       watchexec
       curlHTTP3
 
-      go-task
-
       unzip
       just
       file

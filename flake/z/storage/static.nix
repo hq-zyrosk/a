@@ -1,8 +1,8 @@
 {
   home = {
     file = {
-      "taskfile.yaml" = {
-        source = ./static/task.yaml;
+      "justfile" = {
+        source = ./static/justfile;
         enable = true;
       };
       ".config/home-manager/home.nix" = {
