@@ -1,116 +1,99 @@
+/* MACOS SPOTLIGHT LIKE THEME FOR ROFI  */
+/* Author: Newman Sanchez (https://github.com/newmanls) */
+
 * {
-  font: "Roboto 10";
+    font:   "Montserrat 12";
 
-  bg0    : #1f1f1f80;
-  bg1    : #202020bf;
-  bg2    : #2c2c2c;
-  bg3    : #393939bf;
-  fg0    : #ffffff;
-  fg1    : #cecece;
-  accent : #60cdff;
-  urgent : @accent;
+    bg0:     #F5F5F5BF;
+    bg1:     #7E7E7E80;
+    bg2:     #0860F2E6;
 
-  background-color : transparent;
-  text-color       : @fg0;
+    fg0:     #242424;
+    fg1:     #FFFFFF;
+    fg2:     #24242480;
 
-  margin  : 0;
-  padding : 0;
-  spacing : 0;
-}
+    background-color:   transparent;
+    text-color:         @fg0;
 
-element-icon, element-text, scrollbar {
-  cursor: pointer;
+    margin:     0;
+    padding:    0;
+    spacing:    0;
 }
 
 window {
-  location : south;
-  width    : 600px;
-  height   : 600px;
-  y-offset : -4px;
+    background-color:   @bg0;
 
-  background-color : @bg1;
-  border-radius    : 8px;
-}
-
-mainbox {
-  padding : 24px;
-  spacing : 24px;
+    location:       center;
+    width:          640;
+    border-radius:  8;
 }
 
 inputbar {
-  padding          : 8px;
-  spacing          : 4px;
-  children         : [ icon-search, entry ];
-  border           : 0 0 2px 0 solid;
-  border-color     : @accent;
-  border-radius    : 2px;
-  background-color : @bg0;
-}
-
-icon-search, entry, element-icon, element-text {
-  vertical-align: 0.5;
+    font:       "Montserrat 20";
+    padding:    12px;
+    spacing:    12px;
+    children:   [ icon-search, entry ];
 }
 
 icon-search {
-  expand   : false;
-  filename : "search-symbolic";
-  size     : 24px;
+    expand:     false;
+    filename:   "search";
+    size: 28px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
 }
 
 entry {
-  font              : "Roboto 12";
-  placeholder       : "Type here to search";
-  placeholder-color : @fg1;
+    font:   inherit;
+
+    placeholder         : "Search";
+    placeholder-color   : @fg2;
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
 }
 
 textbox {
-  padding          : 4px 8px;
-  background-color : @bg2;
+    padding:    8px 24px;
 }
 
 listview {
-  columns       : 6;
-  spacing       : 8px;
-  fixed-height  : true;
-  fixed-columns : true;
+    lines:      10;
+    columns:    1;
+
+    fixed-height:   false;
+    border:         1px 0 0;
+    border-color:   @bg1;
 }
 
 element {
-  orientation   : vertical;
-  spacing       : 4px;
-  padding       : 8px;
-  border-radius : 2px;
-}
-
-element normal urgent {
-  text-color: @urgent;
+    padding:            8px 16px;
+    spacing:            16px;
+    background-color:   transparent;
 }
 
 element normal active {
-  text-color: @accent;
+    text-color: @bg2;
 }
 
 element alternate active {
-  text-color: @accent;
+    text-color: @bg2;
 }
 
-element selected active {
-  text-color: @accent;
-}
-
-element selected {
-  background-color: @bg3;
-}
-
-element selected urgent {
-  background-color: @urgent;
+element selected normal, element selected active {
+    background-color:   @bg2;
+    text-color:         @fg1;
 }
 
 element-icon {
-  size: 2em;
+    size:   1em;
 }
 
 element-text {
-  text-color       : inherit;
-  horizontal-align : 0.5;
+    text-color: inherit;
 }
