@@ -42,15 +42,6 @@ in
 
   environment = {
     defaultPackages = with pkgs; [
-      watchexec
-      curlHTTP3
-
-      unzip
-      just
-      file
-      eza
-    ];
-    systemPackages = with pkgs; [
       fishPlugins.sponge
       fishPlugins.puffer
 
@@ -60,6 +51,15 @@ in
       nixfmt-rfc-style
       nixd
 
+      watchexec
+      curlHTTP3
+
+      unzip
+      just
+      file
+      eza
+    ];
+    systemPackages = with pkgs; [
       xdg-utils
       timelimit
       libnotify
