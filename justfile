@@ -15,18 +15,18 @@ config:
 finder:
   cd /nix/store/ && ls | grep "vscode-insiders" | grep -v '.drv$'
 
-flake-a args:
-  sudo nixos-rebuild switch -I nixos-config=/etc/nixos/configuration.nix {{args}}
-
-flake-c args:
-  home-manager switch {{args}}
+flake-z args="":
+  just flake-c "{{args}} --impure --flake .#z@x"
+  just config
 
 flake-x args="":
   just flake-a "{{args}} --impure --flake .#x"
 
-flake-z args:
-  just flake-c {{args}} --impure --flake .#z@x
-  just config
+flake-c args:
+  home-manager switch {{args}}
+
+flake-a args:
+  sudo nixos-rebuild switch -I nixos-config=/etc/nixos/configuration.nix {{args}}
 
 format:
   nix fmt **/*.nix
