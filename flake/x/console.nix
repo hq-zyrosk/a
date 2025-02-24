@@ -1,9 +1,6 @@
 { pkgs, ... }:
 let
   terminus_font = pkgs.terminus_font;
-  fish_init = ''
-    set fish_greeting
-  '';
 in
 {
   services = {
@@ -31,10 +28,12 @@ in
         "ls" = "eza --all --header --hyperlink --long";
       };
       shellAbbrs = { };
-      interactiveShellInit = fish_init;
-      loginShellInit = fish_init;
-      promptInit = fish_init;
-      shellInit = fish_init;
+      interactiveShellInit = ''
+        set fish_greeting
+      '';
+      loginShellInit = "";
+      promptInit = "";
+      shellInit = "";
       useBabelfish = false;
       enable = true;
     };

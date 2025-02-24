@@ -1,8 +1,8 @@
 let
   white_z = "#FFFFFFFF";
-  yellow_t = "#DBDB0080";
-  green_t = "#00F50080";
-  red_t = "#FFC5C580";
+  yellow_t = "#DBDB00FF";
+  green_t = "#00F500FF";
+  red_t = "#FFC5C5FF";
   yellow = "#DBDB00FF";
   white = "#D3D3D3FF";
   red = "#FFC5C5FF";

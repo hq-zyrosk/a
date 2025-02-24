@@ -77,33 +77,33 @@ in
           };
           normal = {
             yellow = "#DBDB00";
-            white = "#5A5A5A";
+            white = "#D3D3D3";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
             cyan = "#00EBEB";
             blue = "#CFCFFF";
-            black = "#D3D3D3";
+            black = "#5A5A5A";
           };
           dim = {
             yellow = "#DBDB00";
-            white = "#5A5A5A";
+            white = "#D3D3D3";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
             cyan = "#00EBEB";
             blue = "#CFCFFF";
-            black = "#D3D3D3";
+            black = "#5A5A5A";
           };
           bright = {
             yellow = "#DBDB00";
-            white = "#5A5A5A";
+            white = "#D3D3D3";
             red = "#FFC5C5";
             magenta = "#FFBEFF";
             green = "#00F500";
             cyan = "#00EBEB";
             blue = "#CFCFFF";
-            black = "#D3D3D3";
+            black = "#5A5A5A";
           };
         };
       };
