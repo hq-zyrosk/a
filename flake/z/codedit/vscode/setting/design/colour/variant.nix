@@ -1,6 +1,8 @@
 let
+  white_z = "#FFFFFFFF";
   yellow_t = "#DBDB0080";
   green_t = "#00F50080";
+  red_t = "#FFC5C580";
   yellow = "#DBDB00FF";
   white = "#D3D3D3FF";
   red = "#FFC5C5FF";
@@ -11,19 +13,19 @@ let
   blue = "#CFCFFFFF";
 in
 {
-  "notebookEditorOverviewRuler.runningCellForeground" = white;
-  "gitDecoration.untrackedResourceForeground" = white;
-  "gitDecoration.submoduleResourceForeground" = white;
-  "gitDecoration.renamedResourceForeground" = white;
-  "gitDecoration.ignoredResourceForeground" = white;
-  "gitDecoration.conflictingResourceForeground" = white;
-  "git.blame.editorDecorationForeground" = white;
-  "editorOverviewRuler.incomingContentForeground" = white;
-  "editorOverviewRuler.currentContentForeground" = white;
-  "editorOverviewRuler.commonContentForeground" = white;
-  "editorOverviewRuler.commentUnresolvedForeground" = white;
-  "editorOverviewRuler.commentForeground" = white;
-  "editorOverviewRuler.bracketMatchForeground" = white;
+  "notebookEditorOverviewRuler.runningCellForeground" = white_z;
+  "gitDecoration.untrackedResourceForeground" = white_z;
+  "gitDecoration.submoduleResourceForeground" = white_z;
+  "gitDecoration.renamedResourceForeground" = white_z;
+  "gitDecoration.ignoredResourceForeground" = white_z;
+  "gitDecoration.conflictingResourceForeground" = white_z;
+  "git.blame.editorDecorationForeground" = white_z;
+  "editorOverviewRuler.incomingContentForeground" = white_z;
+  "editorOverviewRuler.currentContentForeground" = white_z;
+  "editorOverviewRuler.commonContentForeground" = white_z;
+  "editorOverviewRuler.commentUnresolvedForeground" = white_z;
+  "editorOverviewRuler.commentForeground" = white_z;
+  "editorOverviewRuler.bracketMatchForeground" = white_z;
 
   "tab.unfocusedInactiveModifiedBorder" = yellow_t;
   "tab.unfocusedActiveModifiedBorder" = yellow_t;
@@ -54,18 +56,18 @@ in
   "diffEditor.insertedTextBackground" = green_t;
   "diffEditor.insertedLineBackground" = green_t;
 
-  "minimapGutter.deletedBackground" = red;
-  "inlineChatDiff.removed" = red;
-  "gitDecoration.stageDeletedResourceForeground" = red;
-  "gitDecoration.deletedResourceForeground" = red;
-  "editorOverviewRuler.inlineChatRemoved" = red;
-  "editorOverviewRuler.deletedForeground" = red;
-  "editorGutter.deletedBackground" = red;
-  "diffEditorOverview.removedForeground" = red;
-  "diffEditorGutter.removedLineBackground" = red;
-  "diffEditor.removedTextBorder" = red;
-  "diffEditor.removedTextBackground" = red;
-  "diffEditor.removedLineBackground" = red;
+  "minimapGutter.deletedBackground" = red_t;
+  "inlineChatDiff.removed" = red_t;
+  "gitDecoration.stageDeletedResourceForeground" = red_t;
+  "gitDecoration.deletedResourceForeground" = red_t;
+  "editorOverviewRuler.inlineChatRemoved" = red_t;
+  "editorOverviewRuler.deletedForeground" = red_t;
+  "editorGutter.deletedBackground" = red_t;
+  "diffEditorOverview.removedForeground" = red_t;
+  "diffEditorGutter.removedLineBackground" = red_t;
+  "diffEditor.removedTextBorder" = red_t;
+  "diffEditor.removedTextBackground" = red_t;
+  "diffEditor.removedLineBackground" = red_t;
 
   "scm.historyGraph.yellow" = yellow;
   "scm.historyGraph.green" = green;
