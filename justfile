@@ -8,9 +8,9 @@ commit:
 
 config:
   sudo chown --recursive --no-dereference x ~/.config/Code\ -\ Insiders/User/*
-  sudo chmod --recursive 0777 ~/.config/Code\ -\ Insiders/User/*
+  sudo chmod --recursive 0755 ~/.config/Code\ -\ Insiders/User/*
   sudo chown --recursive --no-dereference x ~/.config/hypr/*
-  sudo chmod --recursive 0777 ~/.config/hypr/*
+  sudo chmod --recursive 0755 ~/.config/hypr/*
 
 finder:
   cd /nix/store/ && ls | grep "vscode-insiders" | grep -v '.drv$'
