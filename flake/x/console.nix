@@ -28,7 +28,7 @@ in
         };
       };
       shellAliases = {
-        "ls" = "eza";
+        "ls" = "eza --all --header --hyperlink --long";
       };
       shellAbbrs = { };
       interactiveShellInit = fish_init;
