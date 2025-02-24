@@ -40,13 +40,13 @@ in
 
   environment = {
     defaultPackages = with pkgs; [
-      fishPlugins.transient-fish
-      fishPlugins.sponge
-
       watchexec
       curlHTTP3
     ];
     systemPackages = with pkgs; [
+      fishPlugins.sponge
+      fishPlugins.transient-fish
+
       libimobiledevice
       ifuse
 
