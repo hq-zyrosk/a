@@ -16,6 +16,7 @@
             rust-lang.rust-analyzer
             redhat.vscode-yaml
             pascalreitermann93.vscode-yaml-sort
+            nefrob.vscode-just-syntax
             ms-vscode.live-server
             likebot.vscode-empty-themes
             jnoortheen.nix-ide

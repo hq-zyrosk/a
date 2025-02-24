@@ -42,10 +42,17 @@ in
     defaultPackages = with pkgs; [
       watchexec
       curlHTTP3
+
+      go-task
+
+      unzip
+      just
+      file
+      eza
     ];
     systemPackages = with pkgs; [
       fishPlugins.sponge
-      fishPlugins.transient-fish
+      fishPlugins.hydro
 
       libimobiledevice
       ifuse
@@ -57,9 +64,6 @@ in
       timelimit
       libnotify
       killall
-      go-task
-      unzip
-      file
     ];
   };
 
