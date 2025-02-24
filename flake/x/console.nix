@@ -44,6 +44,7 @@ in
     defaultPackages = with pkgs; [
       fishPlugins.sponge
       fishPlugins.puffer
+      curlHTTP3
 
       libimobiledevice
       ifuse
@@ -51,15 +52,13 @@ in
       nixfmt-rfc-style
       nixd
 
-      watchexec
-      curlHTTP3
-
       unzip
       just
       file
       eza
     ];
     systemPackages = with pkgs; [
+      watchexec
       xdg-utils
       timelimit
       libnotify
