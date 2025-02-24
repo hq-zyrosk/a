@@ -3,7 +3,7 @@
   "explorer.fileNesting.patterns" = {
     "justfile" = "*.code-workspace, .gitattributes, .gitignore, *.txt, *.ps1, *.sh";
     "*.tsx" = "\${capture}.d.tsx, \${capture}.tsx.map";
-    "*.ts" = "\${capture}.d.ts, \${capture}.ts.map";
+    "*.nix" = "\${capture}.lock";
   };
   "explorer.autoRevealExclude" = {
     "**/node_modules" = true;
