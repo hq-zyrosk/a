@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.tabs.location" = "left";
+  "terminal.integrated.tabs.location" = "right";
   "terminal.integrated.stickyScroll.maxLineCount" = 5;
   "terminal.integrated.stickyScroll.enabled" = true;
   "terminal.integrated.smoothScrolling" = true;

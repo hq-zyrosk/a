@@ -14,7 +14,7 @@ in
   "workbench.editor.wrapTabs" = true;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
-  "terminal.integrated.fontWeightBold" = "normal";
+  "terminal.integrated.fontWeightBold" = "bold";
   "terminal.integrated.fontWeight" = "normal";
   "terminal.integrated.fontSize" = text-size;
   "terminal.integrated.fontFamily" = text-type;
