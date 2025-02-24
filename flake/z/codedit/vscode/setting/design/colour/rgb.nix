@@ -73,6 +73,7 @@ in
   "inputValidation.errorBorder" = e5;
   "errorForeground" = e5;
   "editorUnnecessaryCode.border" = e5;
+  "editorUnnecessaryCode.opacity" = e5;
   "editorOverviewRuler.errorForeground" = e5;
   "editorGroup.focusedEmptyBorder" = e5;
   "editorError.foreground" = e5;
@@ -89,7 +90,6 @@ in
   "statusBarItem.errorBackground" = e1;
   "minimap.errorHighlight" = e1;
   "inputValidation.errorBackground" = e1;
-  "editorUnnecessaryCode.opacity" = e1;
   "editorMarkerNavigationError.headerBackground" = e1;
   "editorMarkerNavigationError.background" = e1;
   "editorGroupHeader.noTabsBackground" = e1;
@@ -99,11 +99,12 @@ in
 
   "terminalOverviewRuler.cursorForeground" = c5;
   "terminalCursor.foreground" = c5;
-  "terminalCursor.background" = c1;
   "editorMultiCursor.secondary.foreground" = c5;
-  "editorMultiCursor.secondary.background" = c1;
   "editorMultiCursor.primary.foreground" = c5;
-  "editorMultiCursor.primary.background" = c1;
   "editorCursor.foreground" = c5;
+
+  "terminalCursor.background" = c1;
+  "editorMultiCursor.secondary.background" = c1;
+  "editorMultiCursor.primary.background" = c1;
   "editorCursor.background" = c1;
 }
