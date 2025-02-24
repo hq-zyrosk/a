@@ -72,7 +72,7 @@ in
     keyMap = "us";
     font = "${terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     colors = [
-      "5A5A5A"
+      "000000"
       "FFC5C5"
       "00F500"
       "DBDB00"
@@ -88,7 +88,7 @@ in
       "CFCFFF"
       "FFBEFF"
       "00EBEB"
-      "D3D3D3"
+      "FFFFFF"
     ];
     earlySetup = true;
     enable = true;
