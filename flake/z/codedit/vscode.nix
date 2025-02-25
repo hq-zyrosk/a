@@ -25,8 +25,8 @@
             fill-labs.dependi
             dbaeumer.vscode-eslint
           ];
-          enableExtensionUpdateCheck = false;
-          enableUpdateCheck = false;
+          enableExtensionUpdateCheck = true;
+          enableUpdateCheck = true;
         };
       };
       package = (pkgs.vscode.override { isInsiders = true; }).overrideAttrs (o2: {
