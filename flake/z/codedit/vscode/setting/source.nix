@@ -1,7 +1,9 @@
 let
   yaml = import ./source/yaml.nix;
   typescript = import ./source/typescript.nix;
+  rust = import ./source/rust.nix;
   nix = import ./source/nix.nix;
+  just = import ./source/just.nix;
   javascript = import ./source/javascript.nix;
   html = import ./source/html.nix;
   css = import ./source/css.nix;
@@ -9,7 +11,9 @@ let
 in
 yaml
 // typescript
+// rust
 // nix
+// just
 // javascript
 // html
 // css
