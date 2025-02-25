@@ -64,7 +64,7 @@
   "terminal.integrated.suggest.suggestOnTriggerCharacters" = true;
   "terminal.integrated.suggest.showStatusBar" = true;
   "terminal.integrated.suggest.runOnEnter" = "ignore";
-  "terminal.integrated.suggest.inlineSuggestion" = "alwaysOnTop";
+  "terminal.integrated.suggest.inlineSuggestion" = "alwaysOnTopExceptExactMatch";
   "terminal.integrated.suggest.enabled" = true;
   "terminal.integrated.suggest.cdPath" = "absolute";
   "terminal.integrated.stickyScroll.maxLineCount" = 5;
