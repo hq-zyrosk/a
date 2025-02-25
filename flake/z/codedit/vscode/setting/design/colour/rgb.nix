@@ -16,7 +16,6 @@ in
   "notificationsWarningIcon.foreground" = w5;
   "list.warningForeground" = w5;
   "inputValidation.warningForeground" = w5;
-  "inputValidation.warningBorder" = w5;
   "editorWarning.foreground" = w5;
   "editorOverviewRuler.warningForeground" = w5;
   "debugConsole.warningForeground" = w5;
@@ -25,6 +24,7 @@ in
   "statusBarItem.warningHoverBackground" = w1;
   "statusBarItem.warningBackground" = w1;
   "minimap.warningHighlight" = w1;
+  "inputValidation.warningBorder" = w1;
   "inputValidation.warningBackground" = w1;
   "editorWarning.border" = w1;
   "editorWarning.background" = w1;
@@ -38,7 +38,6 @@ in
   "notificationsInfoIcon.foreground" = i5;
   "minimap.infoHighlight" = i5;
   "inputValidation.infoForeground" = i5;
-  "inputValidation.infoBorder" = i5;
   "editorOverviewRuler.infoForeground" = i5;
   "editorLightBulbAutoFix.foreground" = i5;
   "editorLightBulbAi.foreground" = i5;
@@ -48,6 +47,7 @@ in
   "debugConsole.infoForeground" = i5;
 
   "testing.message.info.lineBackground" = i1;
+  "inputValidation.infoBorder" = i1;
   "inputValidation.infoBackground" = i1;
   "editorMarkerNavigationInfo.headerBackground" = i1;
   "editorMarkerNavigationInfo.background" = i1;
@@ -56,7 +56,6 @@ in
 
   "testing.message.error.decorationForeground" = e5;
   "testing.message.error.badgeForeground" = e5;
-  "testing.message.error.badgeBorder" = e5;
   "testing.iconErrored.retired" = e5;
   "testing.iconErrored" = e5;
   "statusBarItem.errorHoverForeground" = e5;
@@ -70,12 +69,9 @@ in
   "list.invalidItemForeground" = e5;
   "list.errorForeground" = e5;
   "inputValidation.errorForeground" = e5;
-  "inputValidation.errorBorder" = e5;
   "errorForeground" = e5;
-  "editorUnnecessaryCode.border" = e5;
   "editorUnnecessaryCode.opacity" = e5;
   "editorOverviewRuler.errorForeground" = e5;
-  "editorGroup.focusedEmptyBorder" = e5;
   "editorError.foreground" = e5;
   "editorBracketHighlight.unexpectedBracket.foreground" = e5;
   "debugTokenExpression.error" = e5;
@@ -83,15 +79,19 @@ in
   "activityErrorBadge.foreground" = e5;
 
   "testing.message.error.lineBackground" = e1;
+  "testing.message.error.badgeBorder" = e1;
   "testing.message.error.badgeBackground" = e1;
   "terminalCommandDecoration.errorBackground" = e1;
   "statusBarItem.errorHoverBackground" = e1;
   "statusBarItem.errorBackground" = e1;
   "minimap.errorHighlight" = e1;
+  "inputValidation.errorBorder" = e1;
   "inputValidation.errorBackground" = e1;
+  "editorUnnecessaryCode.border" = e1;
   "editorMarkerNavigationError.headerBackground" = e1;
   "editorMarkerNavigationError.background" = e1;
   "editorGroupHeader.noTabsBackground" = e1;
+  "editorGroup.focusedEmptyBorder" = e1;
   "editorGroup.emptyBackground" = e1;
   "editorError.border" = e1;
   "editorError.background" = e1;
