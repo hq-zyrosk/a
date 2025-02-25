@@ -1,4 +1,6 @@
 {
+  "yaml.schemas" = { };
+  "yaml.customTags" = [ ];
   "vscode-yaml-sort.extensions" = [
     "yaml"
     "yml"
@@ -15,8 +17,6 @@
   "[yaml]" = {
     "editor.defaultFormatter" = "PascalReitermann93.vscode-yaml-sort";
   };
-  "yaml.schemas" = { };
-  "yaml.customTags" = [ ];
   "yaml.yamlVersion" = "1.2";
   "yaml.validate" = true;
   "yaml.trace.server" = "off";
@@ -44,6 +44,7 @@
   "vscode-yaml-sort.useCommentProcessor" = true;
   "vscode-yaml-sort.useBlockProcessor" = true;
   "vscode-yaml-sort.useArrayProcessor" = true;
+  "vscode-yaml-sort.sortOrderReverse" = true;
   "vscode-yaml-sort.sortOnSave" = 0;
   "vscode-yaml-sort.sortArrays" = false;
   "vscode-yaml-sort.schema" = "DEFAULT_SCHEMA";

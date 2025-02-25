@@ -10,8 +10,6 @@
   "zenMode.hideActivityBar" = true;
   "zenMode.fullScreen" = true;
   "zenMode.centerLayout" = false;
-  "workbench.editor.tabSizingFixedMinWidth" = 38;
-  "workbench.editor.tabSizingFixedMaxWidth" = 66;
   "workbench.welcomePage.walkthroughs.openOnInstall" = false;
   "workbench.view.alwaysShowHeaderActions" = true;
   "workbench.trustedDomains.promptInTrustedWorkspace" = false;
@@ -24,6 +22,7 @@
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
+  "workbench.secondarySideBar.showLabels" = false;
   "workbench.sash.size" = 1;
   "workbench.sash.hoverDelay" = 0;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;
@@ -44,6 +43,8 @@
   "workbench.hover.delay" = 1000;
   "workbench.experimental.share.enabled" = true;
   "workbench.enableExperiments" = true;
+  "workbench.editor.tabSizingFixedMinWidth" = 38;
+  "workbench.editor.tabSizingFixedMaxWidth" = 66;
   "workbench.commandPalette.preserveInput" = false;
   "workbench.commandPalette.history" = 16;
   "workbench.commandPalette.experimental.suggestCommands" = true;
