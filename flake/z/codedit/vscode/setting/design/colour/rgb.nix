@@ -1,12 +1,12 @@
 let
   w5 = _.rgba 1.00000 1.00000 0.00000 1.00000;
-  w1 = _.rgba 1.00000 1.00000 0.00000 0.50000;
+  w1 = _.rgba 1.00000 1.00000 0.00000 0.06250;
   i5 = _.rgba 0.00000 1.00000 0.00000 1.00000;
-  i1 = _.rgba 0.00000 1.00000 0.00000 0.50000;
+  i1 = _.rgba 0.00000 1.00000 0.00000 0.06250;
   e5 = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  e1 = _.rgba 1.00000 0.00000 0.00000 0.50000;
+  e1 = _.rgba 1.00000 0.00000 0.00000 0.06250;
   c5 = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  c1 = _.rgba 0.00000 0.00000 0.00000 0.50000;
+  c1 = _.rgba 0.00000 0.00000 0.00000 0.06250;
   _ = import ./_.nix;
 in
 {
@@ -18,15 +18,15 @@ in
   "inputValidation.warningForeground" = w5;
   "inputValidation.warningBorder" = w5;
   "editorWarning.foreground" = w5;
-  "editorWarning.border" = w5;
   "editorOverviewRuler.warningForeground" = w5;
   "debugConsole.warningForeground" = w5;
   "activityWarningBadge.foreground" = w5;
 
-  "minimap.warningHighlight" = w1;
   "statusBarItem.warningHoverBackground" = w1;
   "statusBarItem.warningBackground" = w1;
+  "minimap.warningHighlight" = w1;
   "inputValidation.warningBackground" = w1;
+  "editorWarning.border" = w1;
   "editorWarning.background" = w1;
   "editorMarkerNavigationWarning.headerBackground" = w1;
   "editorMarkerNavigationWarning.background" = w1;
@@ -44,7 +44,6 @@ in
   "editorLightBulbAi.foreground" = i5;
   "editorLightBulb.foreground" = i5;
   "editorInfo.foreground" = i5;
-  "editorInfo.border" = i5;
   "editorHint.foreground" = i5;
   "debugConsole.infoForeground" = i5;
 
@@ -52,6 +51,7 @@ in
   "inputValidation.infoBackground" = i1;
   "editorMarkerNavigationInfo.headerBackground" = i1;
   "editorMarkerNavigationInfo.background" = i1;
+  "editorInfo.border" = i1;
   "editorInfo.background" = i1;
 
   "testing.message.error.decorationForeground" = e5;
@@ -77,7 +77,6 @@ in
   "editorOverviewRuler.errorForeground" = e5;
   "editorGroup.focusedEmptyBorder" = e5;
   "editorError.foreground" = e5;
-  "editorError.border" = e5;
   "editorBracketHighlight.unexpectedBracket.foreground" = e5;
   "debugTokenExpression.error" = e5;
   "debugConsole.errorForeground" = e5;
@@ -94,6 +93,7 @@ in
   "editorMarkerNavigationError.background" = e1;
   "editorGroupHeader.noTabsBackground" = e1;
   "editorGroup.emptyBackground" = e1;
+  "editorError.border" = e1;
   "editorError.background" = e1;
   "activityErrorBadge.background" = e1;
 
