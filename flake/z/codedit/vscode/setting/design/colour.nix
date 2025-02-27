@@ -57,6 +57,9 @@ in
         "foreground" = "#D3D3D3FF";
       };
       #
+      "selfKeyword" = {
+        "foreground" = "#DBDB00FF";
+      };
       "parameter" = {
         "foreground" = "#DBDB00FF";
       };
@@ -72,6 +75,10 @@ in
         "foreground" = "#FFC5C5FF";
       };
       "property" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      #
+      "selfTypeKeyword" = {
         "foreground" = "#FFC5C5FF";
       };
       "struct" = {
@@ -137,24 +144,17 @@ in
         "foreground" = "#5A5A5AFF";
         "strikethrough" = false;
       };
-      #
-      "selfTypeKeyword" = {
-        "strikethrough" = true;
-      };
-      "selfKeyword" = {
-        "strikethrough" = true;
-      };
       "keyword" = {
         "strikethrough" = true;
       };
       #
-      "*.callable" = {
+      "*.declaration" = {
         "underline" = true;
       };
       "*.mutable" = {
         "italic" = true;
       };
-      "*.declaration" = {
+      "*.callable" = {
         "bold" = true;
       };
     };
