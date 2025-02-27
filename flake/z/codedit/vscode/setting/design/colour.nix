@@ -57,17 +57,6 @@ in
         "foreground" = "#D3D3D3FF";
       };
       #
-      "selfKeyword" = {
-        "foreground" = "#DBDB00FF";
-      };
-      "parameter" = {
-        "foreground" = "#DBDB00FF";
-      };
-      #
-      "variable" = {
-        "foreground" = "#FFC994FF";
-      };
-      #
       "unresolvedReference" = {
         "foreground" = "#FFC5C5FF";
       };
@@ -80,6 +69,7 @@ in
       #
       "selfTypeKeyword" = {
         "foreground" = "#FFC5C5FF";
+        "strikethrough" = false;
       };
       "struct" = {
         "foreground" = "#FFC5C5FF";
@@ -89,6 +79,18 @@ in
       };
       "enum" = {
         "foreground" = "#FFC5C5FF";
+      };
+      #
+      "selfKeyword" = {
+        "foreground" = "#DBDB00FF";
+        "strikethrough" = false;
+      };
+      "parameter" = {
+        "foreground" = "#DBDB00FF";
+      };
+      #
+      "variable" = {
+        "foreground" = "#FFC994FF";
       };
       #
       "boolean" = {
