@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   imports = [
-    # ./a/virtual/virt-manager.nix
+    ./x/virtual/virt-manager.nix
     ./x/virtual.nix
     ./x/textual.nix
     ./x/storage.nix

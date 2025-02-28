@@ -25,6 +25,15 @@ in
     "textMateRules" = [
       {
         "scope" = [
+          "storage.modifier.mut"
+        ];
+        "settings" = {
+          "foreground" = "#5A5A5AFF";
+          "fontStyle" = "italic";
+        };
+      }
+      {
+        "scope" = [
           "punctuation"
           "keyword"
         ];

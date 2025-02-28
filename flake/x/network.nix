@@ -52,7 +52,7 @@
       #   80
       #   22
       # ];
-      enable = true;
+      enable = false;
     };
     usePredictableInterfaceNames = true;
     hostName = lib.mkForce "x";
