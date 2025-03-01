@@ -106,6 +106,7 @@ in
   "keybindingLabel.background" = c5;
   "inputOption.hoverBackground" = c5;
   "inputOption.activeBackground" = c5;
+  "gauge.background" = "default";
   "extensionButton.prominentHoverBackground" = c5;
   "extensionButton.prominentBackground" = c5;
   "extensionButton.hoverBackground" = c5;

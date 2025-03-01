@@ -152,6 +152,7 @@ in
   "inlineChatInput.focusBorder" = c5;
   "inlineChatInput.border" = c5;
   "inlineChat.border" = c5;
+  "gauge.border" = c5;
   "focusBorder" = c5;
   "editorWidget.resizeBorder" = c5;
   "editorWidget.border" = c5;

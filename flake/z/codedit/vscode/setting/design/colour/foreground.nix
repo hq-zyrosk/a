@@ -61,6 +61,8 @@ in
   "testing.iconPassed" = c5;
   "testing.iconFailed" = c5;
   "testing.coverCountBadgeForeground" = c5;
+  "terminalSymbolIcon.flagForeground" = c5;
+  "terminalSymbolIcon.aliasForeground" = c5;
   "terminalCommandGuide.foreground" = c5;
   "terminal.selectionForeground" = c5;
   "terminal.initialHintForeground" = c5;
@@ -156,6 +158,7 @@ in
   "inlineEdit.gutterIndicator.primaryForeground" = c5;
   "inlineChat.foreground" = c5;
   "icon.foreground" = c5;
+  "gauge.foreground" = c5;
   "foreground" = c5;
   "extensionButton.prominentForeground" = c5;
   "editorWidget.foreground" = c5;
