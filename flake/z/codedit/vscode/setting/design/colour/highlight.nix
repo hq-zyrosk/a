@@ -15,6 +15,7 @@ let
 in
 {
   "minimap.selectionOccurrenceHighlight" = s9;
+  "minimap.chatEditHighlight" = s9;
   "menu.selectionForeground" = s9;
   "editorOverviewRuler.selectionHighlightForeground" = s9;
   "editor.selectionForeground" = s9;

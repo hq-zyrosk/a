@@ -3,6 +3,7 @@ let
   unknown = import ./colour/unknown.nix;
   shadow = import ./colour/shadow.nix;
   rgb = import ./colour/rgb.nix;
+  redundant = import ./colour/redundant.nix;
   highlight = import ./colour/highlight.nix;
   hidden = import ./colour/hidden.nix;
   foreground = import ./colour/foreground.nix;
@@ -15,6 +16,7 @@ in
     // unknown
     // shadow
     // rgb
+    // redundant
     // highlight
     // hidden
     // foreground
