@@ -1,6 +1,7 @@
 let
   yaml = import ./source/yaml.nix;
   typescript = import ./source/typescript.nix;
+  toml = import ./source/toml.nix;
   rust = import ./source/rust.nix;
   nix = import ./source/nix.nix;
   just = import ./source/just.nix;
@@ -11,6 +12,7 @@ let
 in
 yaml
 // typescript
+// toml
 // rust
 // nix
 // just

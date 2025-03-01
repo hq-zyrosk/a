@@ -16,6 +16,7 @@ in
   "notificationsWarningIcon.foreground" = w5;
   "list.warningForeground" = w5;
   "inputValidation.warningForeground" = w5;
+  "gauge.warningForeground" = w5;
   "editorWarning.foreground" = w5;
   "editorOverviewRuler.warningForeground" = w5;
   "debugConsole.warningForeground" = w5;
@@ -26,6 +27,7 @@ in
   "minimap.warningHighlight" = w1;
   "inputValidation.warningBorder" = w1;
   "inputValidation.warningBackground" = w1;
+  "gauge.warningBackground" = w1;
   "editorWarning.border" = w1;
   "editorWarning.background" = w1;
   "editorMarkerNavigationWarning.headerBackground" = w1;
@@ -69,6 +71,7 @@ in
   "list.invalidItemForeground" = e5;
   "list.errorForeground" = e5;
   "inputValidation.errorForeground" = e5;
+  "gauge.errorForeground" = e5;
   "errorForeground" = e5;
   "editorUnnecessaryCode.opacity" = e5;
   "editorOverviewRuler.errorForeground" = e5;
@@ -87,6 +90,7 @@ in
   "minimap.errorHighlight" = e1;
   "inputValidation.errorBorder" = e1;
   "inputValidation.errorBackground" = e1;
+  "gauge.errorBackground" = e1;
   "editorUnnecessaryCode.border" = e1;
   "editorMarkerNavigationError.headerBackground" = e1;
   "editorMarkerNavigationError.background" = e1;
