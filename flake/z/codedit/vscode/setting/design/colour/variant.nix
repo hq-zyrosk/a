@@ -28,9 +28,10 @@ in
   "editorOverviewRuler.modifiedForeground" = yellow;
   "editorGutter.modifiedBackground" = yellow;
 
-  "diffEditor.insertedLineBackground" = green_t;
-  "diffEditor.insertedTextBackground" = green_t;
+  "diffEditorGutter.insertedLineBackground" = green_t;
   "diffEditor.insertedTextBorder" = green_t;
+  "diffEditor.insertedTextBackground" = green_t;
+  "diffEditor.insertedLineBackground" = green_t;
 
   "notebook.cellInsertionIndicator" = green;
   "minimapGutter.addedBackground" = green;
@@ -41,11 +42,11 @@ in
   "editorMinimap.inlineChatInserted" = green;
   "editorGutter.addedBackground" = green;
   "diffEditorOverview.insertedForeground" = green;
-  "diffEditorGutter.insertedLineBackground" = green;
 
+  "diffEditorGutter.removedLineBackground" = red_t;
+  "diffEditor.removedTextBorder" = red_t;
   "diffEditor.removedTextBackground" = red_t;
   "diffEditor.removedLineBackground" = red_t;
-  "diffEditor.removedTextBorder" = red_t;
 
   "minimapGutter.deletedBackground" = red;
   "inlineChatDiff.removed" = red;
@@ -55,7 +56,6 @@ in
   "editorOverviewRuler.deletedForeground" = red;
   "editorGutter.deletedBackground" = red;
   "diffEditorOverview.removedForeground" = red;
-  "diffEditorGutter.removedLineBackground" = red;
 
   "notebookEditorOverviewRuler.runningCellForeground" = white;
   "gitDecoration.untrackedResourceForeground" = white;
