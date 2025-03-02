@@ -26,12 +26,9 @@ in
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
       {
-        "scope" = [
-          "storage.modifier.mut"
-        ];
+        "scope" = [ ];
         "settings" = {
           "foreground" = "#5A5A5AFF";
-          "fontStyle" = "italic";
         };
       }
       {
@@ -80,7 +77,6 @@ in
       #
       "selfTypeKeyword" = {
         "foreground" = "#FFC5C5FF";
-        "strikethrough" = false;
       };
       "struct" = {
         "foreground" = "#FFC5C5FF";
@@ -94,7 +90,6 @@ in
       #
       "selfKeyword" = {
         "foreground" = "#DBDB00FF";
-        "strikethrough" = false;
       };
       "parameter" = {
         "foreground" = "#DBDB00FF";
@@ -137,28 +132,20 @@ in
       };
       #
       "attributeBracket" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#9595957F";
       };
       "namespace" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#9595957F";
       };
       "operator" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#9595957F";
       };
       "comment" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#9595957F";
       };
       #
-      "keyword.controlFlow" = {
-        "foreground" = "#5A5A5AFF";
-        "strikethrough" = false;
-      };
-      "keyword.unsafe" = {
-        "foreground" = "#5A5A5AFF";
-        "strikethrough" = false;
-      };
       "keyword" = {
-        "strikethrough" = true;
+        "foreground" = "#9595953F";
       };
       #
       "*.declaration" = {
