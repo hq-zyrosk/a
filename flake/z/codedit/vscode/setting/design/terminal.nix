@@ -18,7 +18,6 @@
       "path" = "fish";
       "args" = [ ];
       "color" = "terminal.ansiWhite";
-      "env" = { };
       "icon" = "array";
       "overrideName" = true;
     };
@@ -28,7 +27,6 @@
       "path" = "fish";
       "args" = [ ];
       "color" = "terminal.ansiWhite";
-      "env" = { };
       "icon" = "array";
       "overrideName" = true;
     };
@@ -75,7 +73,7 @@
   "terminal.integrated.showExitAlert" = true;
   "terminal.integrated.shellIntegration.showCommandGuide" = true;
   "terminal.integrated.shellIntegration.history" = 1000;
-  "terminal.integrated.shellIntegration.environmentReporting" = false;
+  "terminal.integrated.shellIntegration.environmentReporting" = true;
   "terminal.integrated.shellIntegration.enabled" = true;
   "terminal.integrated.shellIntegration.decorationsEnabled" = "never";
   "terminal.integrated.sendKeybindingsToShell" = false;
@@ -108,9 +106,6 @@
   "terminal.integrated.fastScrollSensitivity" = 5;
   "terminal.integrated.environmentChangesRelaunch" = true;
   "terminal.integrated.environmentChangesIndicator" = "on";
-  "terminal.integrated.env.windows" = { };
-  "terminal.integrated.env.osx" = { };
-  "terminal.integrated.env.linux" = { };
   "terminal.integrated.enableVisualBell" = true;
   "terminal.integrated.enablePersistentSessions" = true;
   "terminal.integrated.enableMultiLinePasteWarning" = "never";

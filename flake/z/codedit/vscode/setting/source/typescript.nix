@@ -53,7 +53,6 @@
   "typescript.implementationsCodeLens.showOnInterfaceMethods" = true;
   "typescript.implementationsCodeLens.enabled" = true;
   "typescript.format.enable" = false;
-  "typescript.experimental.expandableHover" = false;
   "typescript.enablePromptUseWorkspaceTsdk" = false;
   "typescript.disableAutomaticTypeAcquisition" = false;
   "typescript.check.npmIsInstalled" = true;

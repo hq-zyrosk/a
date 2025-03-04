@@ -1,6 +1,9 @@
+let
+  c5 = "default";
+in
 {
-  "quickInput.list.focusBackground" = "#000000FF";
-  "editorIndentGuide.background" = "#000000FF";
-  "editorIndentGuide.activeBackground" = "#000000FF";
-  "editorActiveLineNumber.foreground" = "#000000FF";
+  "quickInput.list.focusBackground" = c5;
+  "editorIndentGuide.background" = c5;
+  "editorIndentGuide.activeBackground" = c5;
+  "editorActiveLineNumber.foreground" = c5;
 }

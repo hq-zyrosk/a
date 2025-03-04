@@ -1,8 +1,5 @@
 {
-  "chat.promptFiles" = {
-    ".github/prompts" = true;
-    "./" = true;
-  };
+  "chat.promptFiles" = true;
   "chat.experimental.statusIndicator.enabled" = true;
   "chat.editing.confirmEditRequestRetry" = true;
   "chat.editing.confirmEditRequestRemoval" = true;
