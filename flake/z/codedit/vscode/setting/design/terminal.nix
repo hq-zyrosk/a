@@ -18,6 +18,7 @@
       "path" = "fish";
       "args" = [ ];
       "color" = "terminal.ansiWhite";
+      "env" = { };
       "icon" = "array";
       "overrideName" = true;
     };
@@ -27,6 +28,7 @@
       "path" = "fish";
       "args" = [ ];
       "color" = "terminal.ansiWhite";
+      "env" = { };
       "icon" = "array";
       "overrideName" = true;
     };
@@ -106,6 +108,9 @@
   "terminal.integrated.fastScrollSensitivity" = 5;
   "terminal.integrated.environmentChangesRelaunch" = true;
   "terminal.integrated.environmentChangesIndicator" = "on";
+  "terminal.integrated.env.windows" = { };
+  "terminal.integrated.env.osx" = { };
+  "terminal.integrated.env.linux" = { };
   "terminal.integrated.enableVisualBell" = true;
   "terminal.integrated.enablePersistentSessions" = true;
   "terminal.integrated.enableMultiLinePasteWarning" = "never";
