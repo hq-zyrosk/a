@@ -3,6 +3,7 @@
     ".github/prompts" = true;
     "./" = true;
   };
+  "chat.experimental.statusIndicator.enabled" = true;
   "chat.editing.confirmEditRequestRetry" = true;
   "chat.editing.confirmEditRequestRemoval" = true;
   "chat.editing.autoAcceptDelay" = 0;

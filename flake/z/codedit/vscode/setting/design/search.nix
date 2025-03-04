@@ -1,0 +1,3 @@
+{
+  "search.experimental.closedNotebookRichContentResults" = true;
+}

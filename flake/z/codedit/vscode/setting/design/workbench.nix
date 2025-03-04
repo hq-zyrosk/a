@@ -42,6 +42,8 @@
   "workbench.iconTheme" = null;
   "workbench.hover.delay" = 1000;
   "workbench.experimental.share.enabled" = true;
+  "workbench.experimental.cloudChanges.partialMatches.enabled" = false;
+  "workbench.experimental.cloudChanges.autoStore" = "off";
   "workbench.enableExperiments" = true;
   "workbench.editor.tabSizingFixedMinWidth" = 38;
   "workbench.editor.tabSizingFixedMaxWidth" = 66;

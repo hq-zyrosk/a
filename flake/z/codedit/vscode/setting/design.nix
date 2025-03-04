@@ -6,8 +6,10 @@ let
   notebook = import ./design/notebook.nix;
   extension = import ./design/extension.nix;
   explorer = import ./design/explorer.nix;
+  editor_notebook = import ./design/editor/notebook.nix;
   editor_inline = import ./design/editor/inline.nix;
-  editor_code = import ./design/editor/code.nix;
+  editor_diff_multi = import ./design/editor/diff/multi.nix;
+  editor_diff = import ./design/editor/diff.nix;
   editor = import ./design/editor.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
@@ -22,7 +24,7 @@ workbench
 // extension
 // explorer
 // editor_inline
-// editor_code
+// editor_diff
 // editor
 // colour
 // chat_inline
