@@ -10,15 +10,4 @@ let
   css = import ./source/css.nix;
   comment = import ./source/comment.nix;
 in
-yaml
-// typescript
-// toml
-// rust
-// nix
-// just
-// javascript
-// html
-// css
-// comment
-// {
-}
+yaml // typescript // toml // rust // nix // just // javascript // html // css // comment

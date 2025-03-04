@@ -1,10 +1,4 @@
-let
-  npm = import ./typescript/npm.nix;
-  eslint = import ./typescript/eslint.nix;
-in
-npm
-// eslint
-// {
+{
   "typescript.workspaceSymbols.scope" = "currentProject";
   "typescript.workspaceSymbols.excludeLibrarySymbols" = true;
   "typescript.validate.enable" = true;

@@ -21,8 +21,7 @@ in
     // hidden
     // foreground
     // border
-    // background
-    // { };
+    // background;
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
       {
