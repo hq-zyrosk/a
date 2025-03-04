@@ -52,10 +52,7 @@
   "workbench.editor.closeEmptyGroups" = false;
   "workbench.editor.centeredLayoutAutoResize" = true;
   "workbench.editor.alwaysShowEditorActions" = true;
-  "screencastMode.verticalOffset" = 24;
-  "screencastMode.mouseIndicatorSize" = 24;
-  "screencastMode.mouseIndicatorColor" = "#FF0000FF";
-  "editor.wordSeparators" = "`'\"_-=:;<>[]{}()";
+  "editor.wordSeparators" = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   "editor.wordSegmenterLocales" = "en-US";
   "editor.wordBreak" = "keepAll";
   "editor.wordBasedSuggestions" = "matchingDocuments";

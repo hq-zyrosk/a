@@ -42,7 +42,7 @@
     "file"
   ];
   "terminal.sourceControlRepositoriesKind" = "integrated";
-  "terminal.integrated.wordSeparators" = " ()[]{}',\"`─‘’“”|";
+  "terminal.integrated.wordSeparators" = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   "terminal.integrated.windowsUseConptyDll" = true;
   "terminal.integrated.windowsEnableConpty" = true;
   "terminal.integrated.useWslProfiles" = true;
