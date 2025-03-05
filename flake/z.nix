@@ -23,7 +23,9 @@
     portal = {
       config = {
         common = {
-          default = [ "hyprland" ];
+          default = [
+            "hyprland"
+          ];
         };
       };
       extraPortals = with pkgs; [
