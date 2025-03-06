@@ -22,6 +22,10 @@
           port = 9050;
         };
         dns = {
+          mapAddress = [
+            "*.onion 10.192.0.0"
+            "*.exit 10.192.0.0"
+          ];
           enable = true;
         };
         enable = true;
