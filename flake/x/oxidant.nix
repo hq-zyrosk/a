@@ -13,12 +13,6 @@
 
   swapDevices = lib.mkForce [ ];
 
-  nixpkgs = {
-    config = {
-      allowUnfree = true;
-    };
-  };
-
   nix = {
     settings = {
       trusted-users = [

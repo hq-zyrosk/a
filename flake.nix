@@ -41,10 +41,10 @@
       nixosConfigurations = {
         x = nixpkgs.lib.nixosSystem {
           modules = [
+            home-manager.nixosModules.home-manager
+            nixos-hardware.nixosModules.apple-t2
             /etc/nixos/hardware-configuration.nix
             ./flake/x.nix
-            nixos-hardware.nixosModules.apple-t2
-            home-manager.nixosModules.home-manager
             {
               fonts = {
                 packages = [
