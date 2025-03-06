@@ -2,7 +2,14 @@
 {
   services = {
     tor = {
+      torsocks = {
+        enable = true;
+      };
       settings = {
+        MapAddress = [
+          "*.onion 10.192.0.0"
+          "*.exit 10.192.0.0"
+        ];
         DNSPort = [
           {
             addr = "127.0.0.1";
@@ -22,10 +29,6 @@
           port = 9050;
         };
         dns = {
-          mapAddress = [
-            "*.onion 10.192.0.0"
-            "*.exit 10.192.0.0"
-          ];
           enable = true;
         };
         enable = true;
@@ -36,6 +39,7 @@
       extraConfig = ''
         DNSStubListener=yes
         DNS=127.0.0.1:9053
+        Domains=~onion
       '';
       enable = true;
     };
@@ -43,7 +47,7 @@
 
   networking = {
     networkmanager = {
-      dns = lib.mkForce "none";
+      dns = lib.mkForce "systemd-resolved";
       enable = true;
     };
     nftables = {
@@ -51,7 +55,6 @@
     };
     nameservers = [
       "127.0.0.1"
-      "1.1.1.1"
     ];
     firewall = {
       enable = false;
