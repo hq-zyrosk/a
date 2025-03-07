@@ -1,4 +1,12 @@
 {
+  "chat.promptFilesLocations" = {
+    ".github/prompts" = true;
+  };
+  "chat.implicitContext.enabled" = {
+    "panel" = "always";
+    "editing-session" = "first";
+  };
+  "chat.renderRelatedFiles" = true;
   "chat.promptFiles" = true;
   "chat.experimental.statusIndicator.enabled" = true;
   "chat.editing.confirmEditRequestRetry" = true;
