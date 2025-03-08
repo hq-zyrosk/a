@@ -38,7 +38,7 @@
   "eslint.options" = { };
   "eslint.onIgnoredFiles" = "warn";
   "eslint.notebooks.rules.customizations" = [ ];
-  #"eslint.nodePath" = "node";
+  "eslint.nodePath" = "node";
   "eslint.nodeEnv" = "";
   "eslint.migration.2_x" = "off";
   "eslint.lintTask.options" = ".";
