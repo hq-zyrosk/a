@@ -42,7 +42,6 @@
     "file"
   ];
   "terminal.sourceControlRepositoriesKind" = "integrated";
-  "terminal.integrated.wordSeparators" = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   "terminal.integrated.windowsUseConptyDll" = true;
   "terminal.integrated.windowsEnableConpty" = true;
   "terminal.integrated.useWslProfiles" = true;
@@ -61,6 +60,7 @@
   "terminal.integrated.tabs.defaultColor" = "terminal.ansiWhite";
   "terminal.integrated.tabStopWidth" = 2;
   "terminal.integrated.suggest.windowsExecutableExtensions" = { };
+  "terminal.integrated.suggest.upArrowNavigatesHistory" = true;
   "terminal.integrated.suggest.suggestOnTriggerCharacters" = true;
   "terminal.integrated.suggest.showStatusBar" = true;
   "terminal.integrated.suggest.runOnEnter" = "ignore";

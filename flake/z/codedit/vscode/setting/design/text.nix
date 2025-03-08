@@ -1,6 +1,7 @@
 let
   text-wrap = 96;
   text-type = "'PragmataPro Mono Liga', monospace";
+  text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   text-tall = 0;
   text-size = 16;
   text-wide = 8;
@@ -12,6 +13,7 @@ in
   ];
   "workbench.tree.indent" = 2 * text-wide;
   "workbench.editor.wrapTabs" = true;
+  "terminal.integrated.wordSeparators" = text-trip;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
   "terminal.integrated.fontWeightBold" = "bold";
@@ -33,6 +35,7 @@ in
   "editor.wrappingIndent" = "none";
   "editor.wordWrapColumn" = text-wrap;
   "editor.wordWrap" = "off";
+  "editor.wordSeparators" = text-trip;
   "editor.suggestLineHeight" = 0;
   "editor.suggestFontSize" = 0;
   "editor.minimap.sectionHeaderFontSize" = text-size;

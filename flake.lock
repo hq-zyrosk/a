@@ -101,7 +101,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-uQUNvy4Cvd/0CN4VEAcW7FiTUWC9Ed9zaD3Dh0VNVWM=",
+        "narHash": "sha256-uhncT4maHnlnAijaxsAFpEEq6eXLFhY0r+YS6YvW9m0=",
         "path": "./pointer-dot-red",
         "type": "path"
       },
@@ -143,7 +143,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-L9YVLOJVQ/J/k2k13z4evvhNX2YXL9oNzO0HzeesQJQ=",
+        "narHash": "sha256-paR1Kh1moHJ1mN68fZExF0IGGdyZT8oGW9NryL+1a6U=",
         "path": "./textual-pragmata-pro",
         "type": "path"
       },

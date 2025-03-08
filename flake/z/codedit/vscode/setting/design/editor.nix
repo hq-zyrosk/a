@@ -52,7 +52,6 @@
   "workbench.editor.closeEmptyGroups" = false;
   "workbench.editor.centeredLayoutAutoResize" = true;
   "workbench.editor.alwaysShowEditorActions" = true;
-  "editor.wordSeparators" = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   "editor.wordSegmenterLocales" = "en-US";
   "editor.wordBreak" = "keepAll";
   "editor.wordBasedSuggestions" = "matchingDocuments";
