@@ -1,6 +1,10 @@
 let
   video_screencast = import ./system/video/screencast.nix;
   video = import ./system/video.nix;
+  task_jake = import ./system/task/jake.nix;
+  task_gulp = import ./system/task/gulp.nix;
+  task_grunt = import ./system/task/grunt.nix;
+  task = import ./system/task/.nix;
   sort = import ./system/sort.nix;
   scm_git = import ./system/scm/git.nix;
   scm = import ./system/scm.nix;
@@ -15,6 +19,10 @@ let
 in
 video_screencast
 // video
+// task_jake
+// task_gulp
+// task_grunt
+// task
 // sort
 // scm_git
 // scm

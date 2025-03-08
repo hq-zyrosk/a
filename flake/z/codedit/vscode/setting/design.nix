@@ -4,6 +4,7 @@ let
   workbench_tab = import ./design/workbench/tab.nix;
   workbench_list = import ./design/workbench/list.nix;
   workbench_editor = import ./design/workbench/editor.nix;
+  workbench_browser = import ./design/workbench/browser.nix;
   workbench = import ./design/workbench.nix;
   window = import ./design/window.nix;
   widget_stickyscroll = import ./design/widget/stickyscroll.nix;
@@ -38,6 +39,7 @@ workbench_zenmode
 // workbench_tab
 // workbench_list
 // workbench_editor
+// workbench_browser
 // workbench
 // window
 // widget_stickyscroll

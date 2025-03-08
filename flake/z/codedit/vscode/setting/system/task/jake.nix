@@ -1,0 +1,3 @@
+{
+  "jake.autoDetect" = "off";
+}

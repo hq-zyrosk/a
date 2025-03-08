@@ -1,4 +1,5 @@
 {
+  "telemetry.telemetryLevel" = "off";
   "extensions.supportVirtualWorkspaces" = { };
   "extensions.supportUntrustedWorkspaces" = { };
   "extensions.experimental.affinity" = { };
