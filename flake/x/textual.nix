@@ -1,5 +1,11 @@
+{ pkgs, ... }:
 {
   fonts = {
+    packages = with pkgs; [
+      google-fonts
+      dejavu_fonts
+      corefonts
+    ];
     fontconfig = {
       subpixel = {
         lcdfilter = "none";
@@ -11,14 +17,17 @@
         enable = true;
       };
       defaultFonts = {
-        serif = [
-          "PragmataPro Mono"
+        monospace = [
+          "PragmataPro Mono Liga"
         ];
         sansSerif = [
           "PragmataPro Mono"
         ];
-        monospace = [
-          "PragmataPro Mono Liga"
+        serif = [
+          "PragmataPro Mono"
+        ];
+        emoji = [
+          "Noto Color Emoji"
         ];
       };
       useEmbeddedBitmaps = false;
