@@ -63,7 +63,6 @@
   "editor.multiCursorLimit" = 10000;
   "editor.mouseWheelZoom" = false;
   "editor.mouseWheelScrollSensitivity" = 1;
-  "editor.minimap.enabled" = false;
   "editor.maxTokenizationLineLength" = 20000;
   "editor.matchBrackets" = "always";
   "editor.links" = true;

@@ -39,6 +39,7 @@ in
   "editor.suggestLineHeight" = 0;
   "editor.suggestFontSize" = 0;
   "editor.minimap.sectionHeaderFontSize" = text-size;
+  "editor.minimap.maxColumn" = text-wrap;
   "editor.lineHeight" = text-high;
   "editor.letterSpacing" = text-tall;
   "editor.inlineSuggest.fontFamily" = "default";
