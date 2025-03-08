@@ -75,7 +75,7 @@
   "terminal.integrated.showExitAlert" = true;
   "terminal.integrated.shellIntegration.showCommandGuide" = true;
   "terminal.integrated.shellIntegration.history" = 1000;
-  "terminal.integrated.shellIntegration.environmentReporting" = true;
+  "terminal.integrated.shellIntegration.environmentReporting" = false;
   "terminal.integrated.shellIntegration.enabled" = true;
   "terminal.integrated.shellIntegration.decorationsEnabled" = "never";
   "terminal.integrated.sendKeybindingsToShell" = false;
