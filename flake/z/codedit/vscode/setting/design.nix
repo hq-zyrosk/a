@@ -6,25 +6,28 @@ let
   workbench_editor = import ./design/workbench/editor.nix;
   workbench = import ./design/workbench.nix;
   window = import ./design/window.nix;
-  text = import ./design/text.nix;
-  terminal = import ./design/terminal.nix;
-  security = import ./design/security.nix;
+  widget_stickyscroll = import ./design/widget/stickyscroll.nix;
+  widget_security = import ./design/widget/security.nix;
+  widget_problems = import ./design/problems.nix;
+  widget_explorer = import ./design/widget/explorer.nix;
+  widget_debug = import ./design/widget/debug.nix;
   search = import ./design/search.nix;
-  problems = import ./design/problems.nix;
-  extension = import ./design/extension.nix;
-  explorer = import ./design/explorer.nix;
+  editor_timeline = import ./design/editor/timeline.nix;
+  editor_terminal = import ./design/editor/terminal.nix;
   editor_suggest = import ./design/editor/suggest.nix;
-  editor_notebook = import ./design/editor/notebook.nix;
-  editor_merge = import ./design/editor/merge.nix;
+  editor_outline = import ./design/editor/outline.nix;
   editor_inline = import ./design/editor/inline.nix;
+  editor_indent = import ./design/editor/indent.nix;
+  editor_hover = import ./design/editor/hover.nix;
+  editor_fold = import ./design/editor/fold.nix;
+  editor_find = import ./design/editor/find.nix;
   editor_diff_multi = import ./design/editor/diff/multi.nix;
   editor_diff = import ./design/editor/diff.nix;
-  editor_breadcrumbs = import ./design/editor/breadcrumbs.nix;
+  editor_code_lens = import ./design/editor/code/lens.nix;
+  editor_code = import ./design/editor/code.nix;
   editor = import ./design/editor.nix;
-  debug = import ./design/debug.nix;
+  cursor = import ./design/cursor.nix;
   colour = import ./design/colour.nix;
-  code_lens = import ./design/code/lens.nix;
-  code = import ./design/code.nix;
   chat_inline = import ./design/chat/inline.nix;
   chat_github = import ./design/chat/github.nix;
   chat = import ./design/chat.nix;
@@ -36,25 +39,28 @@ workbench_zenmode
 // workbench_editor
 // workbench
 // window
-// text
-// terminal
-// security
+// widget_stickyscroll
+// widget_security
+// widget_problems
+// widget_explorer
+// widget_debug
 // search
-// problems
-// extension
-// explorer
+// editor_timeline
+// editor_terminal
 // editor_suggest
-// editor_notebook
-// editor_merge
+// editor_outline
 // editor_inline
+// editor_indent
+// editor_hover
+// editor_fold
+// editor_find
 // editor_diff_multi
 // editor_diff
-// editor_breadcrumbs
+// editor_code_lens
+// editor_code
 // editor
-// debug
+// cursor
 // colour
-// code_lens
-// code
 // chat_inline
 // chat_github
 // chat

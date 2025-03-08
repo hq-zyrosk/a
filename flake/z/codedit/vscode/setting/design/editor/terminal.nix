@@ -67,8 +67,6 @@
   "terminal.integrated.suggest.inlineSuggestion" = "alwaysOnTopExceptExactMatch";
   "terminal.integrated.suggest.enabled" = true;
   "terminal.integrated.suggest.cdPath" = "absolute";
-  "terminal.integrated.stickyScroll.maxLineCount" = 5;
-  "terminal.integrated.stickyScroll.enabled" = true;
   "terminal.integrated.splitCwd" = "inherited";
   "terminal.integrated.smoothScrolling" = true;
   "terminal.integrated.showLinkHover" = true;
@@ -124,10 +122,6 @@
   "terminal.integrated.defaultLocation" = "view";
   "terminal.integrated.cwd" = "\${workspaceFolder}";
   "terminal.integrated.customGlyphs" = true;
-  "terminal.integrated.cursorWidth" = 1;
-  "terminal.integrated.cursorStyleInactive" = "line";
-  "terminal.integrated.cursorStyle" = "line";
-  "terminal.integrated.cursorBlinking" = false;
   "terminal.integrated.copyOnSelection" = true;
   "terminal.integrated.confirmOnKill" = "always";
   "terminal.integrated.confirmOnExit" = "never";

@@ -1,4 +1,13 @@
 {
+  "editor.quickSuggestions" = {
+    "strings" = "off";
+    "other" = "on";
+    "comments" = "off";
+  };
+  "editor.wordBasedSuggestions" = "matchingDocuments";
+  "editor.suggestSelection" = "first";
+  "editor.suggestOnTriggerCharacters" = true;
+  "editor.suggest.snippetsPreventQuickSuggestions" = false;
   "editor.suggest.showWords" = true;
   "editor.suggest.showVariables" = true;
   "editor.suggest.showValues" = true;
@@ -32,4 +41,13 @@
   "editor.suggest.showColors" = true;
   "editor.suggest.showClasses" = true;
   "editor.suggest.shareSuggestSelections" = false;
+  "editor.suggest.selectionMode" = "always";
+  "editor.suggest.preview" = false;
+  "editor.suggest.matchOnWordStartOnly" = false;
+  "editor.suggest.localityBonus" = false;
+  "editor.suggest.insertMode" = "insert";
+  "editor.suggest.filterGraceful" = true;
+  "editor.quickSuggestionsDelay" = 0;
+  "editor.acceptSuggestionOnEnter" = "on";
+  "editor.acceptSuggestionOnCommitCharacter" = true;
 }

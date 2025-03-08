@@ -1,4 +1,6 @@
 {
+  "editor.snippetSuggestions" = "inline";
+  "editor.screenReaderAnnounceInlineSuggestion" = true;
   "editor.inlineSuggest.syntaxHighlightingEnabled" = true;
   "editor.inlineSuggest.suppressSuggestions" = true;
   "editor.inlineSuggest.showToolbar" = "always";
