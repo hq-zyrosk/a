@@ -1,4 +1,21 @@
 {
+  "files.watcherInclude" = [ ];
+  "files.watcherExclude" = {
+    "**/.git/objects/**" = true;
+    "**/.git/subtree-cache/**" = true;
+    "**/.hg/store/**" = true;
+  };
+  "files.readonlyInclude" = { };
+  "files.readonlyExclude" = { };
+  "files.exclude" = {
+    "**/.git" = true;
+    "**/.svn" = true;
+    "**/.hg" = true;
+    "**/.DS_Store" = true;
+    "**/Thumbs.db" = true;
+  };
+  "files.defaultLanguage" = "";
+  "files.candidateGuessEncodings" = [ ];
   "files.associations" = { };
   "explorer.fileNesting.patterns" = {
     "justfile" = "*.code-workspace, .gitattributes, .gitignore, *.txt, *.ps1, *.sh";
@@ -15,6 +32,8 @@
   "files.saveConflictResolution" = "askUser";
   "files.restoreUndoStack" = true;
   "files.refactoring.autoSave" = true;
+  "files.readonlyFromPermissions" = false;
+  "files.participants.timeout" = 60000;
   "files.insertFinalNewline" = true;
   "files.hotExit" = "off";
   "files.eol" = "auto";
@@ -29,6 +48,9 @@
   "explorer.sortOrderReverse" = true;
   "explorer.sortOrderLexicographicOptions" = "default";
   "explorer.sortOrder" = "filesFirst";
+  "explorer.openEditors.visible" = 9;
+  "explorer.openEditors.sortOrder" = "alphabetical";
+  "explorer.openEditors.minVisible" = 0;
   "explorer.incrementalNaming" = "smart";
   "explorer.fileNesting.expand" = true;
   "explorer.fileNesting.enabled" = true;
@@ -46,7 +68,4 @@
   "explorer.compactFolders" = false;
   "explorer.autoReveal" = false;
   "explorer.autoOpenDroppedFile" = true;
-  "explorer.openEditors.minVisible" = 0;
-  "explorer.openEditors.sortOrder" = "alphabetical";
-  "explorer.openEditors.visible" = 9;
 }

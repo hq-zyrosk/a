@@ -1,4 +1,9 @@
 {
+  "launch" = {
+    "version" = "0.2.0";
+    "configurations" = [ ];
+    "compounds" = [ ];
+  };
   "references.preferredLocation" = "peek";
   "output.smartScroll.enabled" = true;
   "notebook.output.lineHeight" = 0;
@@ -11,6 +16,7 @@
   "merge-conflict.diffViewPosition" = "Beside";
   "merge-conflict.decorators.enabled" = true;
   "merge-conflict.autoNavigateNextConflict.enabled" = true;
+  "ipynb.pasteImagesAsAttachments.enabled" = true;
   "ipynb.experimental.serialization" = true;
   "editor.unicodeHighlight.nonBasicASCII" = true;
   "editor.unicodeHighlight.invisibleCharacters" = true;

@@ -1,4 +1,9 @@
 {
+  "interactiveWindow.showExecutionHint" = true;
+  "interactiveWindow.promptToSaveOnClose" = true;
+  "interactiveWindow.executeWithShiftEnter" = false;
+  "interactiveWindow.collapseCellInputCode" = "never";
+  "interactiveWindow.alwaysScrollOnNewCell" = true;
   "editor.snippetSuggestions" = "inline";
   "editor.screenReaderAnnounceInlineSuggestion" = true;
   "editor.inlineSuggest.syntaxHighlightingEnabled" = true;
