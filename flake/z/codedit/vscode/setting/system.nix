@@ -4,7 +4,7 @@ let
   task_jake = import ./system/task/jake.nix;
   task_gulp = import ./system/task/gulp.nix;
   task_grunt = import ./system/task/grunt.nix;
-  task = import ./system/task/.nix;
+  task = import ./system/task.nix;
   sort = import ./system/sort.nix;
   scm_git = import ./system/scm/git.nix;
   scm = import ./system/scm.nix;
