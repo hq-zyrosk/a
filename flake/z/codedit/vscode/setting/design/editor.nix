@@ -1,5 +1,4 @@
 {
-  "workbench.editor.customLabels.patterns" = { };
   "editor.unicodeHighlight.allowedLocales" = { };
   "editor.unicodeHighlight.allowedCharacters" = { };
   "editor.quickSuggestions" = {
@@ -14,44 +13,6 @@
     "text.plain"
   ];
   "editor.codeActionsOnSave" = { };
-  "workbench.startupEditor" = "none";
-  "workbench.settings.editor" = "json";
-  "workbench.editorLargeFileConfirmation" = 1;
-  "workbench.editor.untitled.labelFormat" = "name";
-  "workbench.editor.tabSizing" = "fixed";
-  "workbench.editor.tabActionUnpinVisibility" = false;
-  "workbench.editor.tabActionLocation" = "left";
-  "workbench.editor.tabActionCloseVisibility" = false;
-  "workbench.editor.splitSizing" = "distribute";
-  "workbench.editor.showTabs" = "multiple";
-  "workbench.editor.showIcons" = true;
-  "workbench.editor.scrollToSwitchTabs" = true;
-  "workbench.editor.revealIfOpen" = true;
-  "workbench.editor.preventPinnedEditorClose" = "keyboardAndMouse";
-  "workbench.editor.pinnedTabsOnSeparateRow" = false;
-  "workbench.editor.pinnedTabSizing" = "compact";
-  "workbench.editor.openSideBySideDirection" = "right";
-  "workbench.editor.openPositioning" = "right";
-  "workbench.editor.navigationScope" = "editorGroup";
-  "workbench.editor.mouseBackForwardToNavigate" = true;
-  "workbench.editor.languageDetection" = true;
-  "workbench.editor.labelFormat" = "short";
-  "workbench.editor.historyBasedLanguageDetection" = true;
-  "workbench.editor.highlightModifiedTabs" = true;
-  "workbench.editor.focusRecentEditorAfterClose" = true;
-  "workbench.editor.enablePreviewFromQuickOpen" = false;
-  "workbench.editor.enablePreviewFromCodeNavigation" = true;
-  "workbench.editor.enablePreview" = true;
-  "workbench.editor.empty.hint" = "text";
-  "workbench.editor.editorActionsLocation" = "hidden";
-  "workbench.editor.doubleClickTabToToggleEditorGroupSizes" = "maximize";
-  "workbench.editor.decorations.colors" = true;
-  "workbench.editor.decorations.badges" = true;
-  "workbench.editor.customLabels.enabled" = true;
-  "workbench.editor.closeOnFileDelete" = true;
-  "workbench.editor.closeEmptyGroups" = false;
-  "workbench.editor.centeredLayoutAutoResize" = true;
-  "workbench.editor.alwaysShowEditorActions" = true;
   "editor.wordSegmenterLocales" = "en-US";
   "editor.wordBreak" = "keepAll";
   "editor.wordBasedSuggestions" = "matchingDocuments";

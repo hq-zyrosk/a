@@ -1,4 +1,9 @@
 let
+  workbench_zenmode = import ./design/workbench/zenmode.nix;
+  workbench_theme = import ./design/workbench/theme.nix;
+  workbench_tab = import ./design/workbench/tab.nix;
+  workbench_list = import ./design/workbench/list.nix;
+  workbench_editor = import ./design/workbench/editor.nix;
   workbench = import ./design/workbench.nix;
   window = import ./design/window.nix;
   text = import ./design/text.nix;
@@ -19,7 +24,12 @@ let
   chat_github = import ./design/chat/github.nix;
   chat = import ./design/chat.nix;
 in
-workbench
+workbench_zenmode
+// workbench_theme
+// workbench_tab
+// workbench_list
+// workbench_editor
+// workbench
 // window
 // text
 // terminal
