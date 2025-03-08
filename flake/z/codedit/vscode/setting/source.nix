@@ -4,7 +4,7 @@ let
   typescript = import ./source/typescript.nix;
   toml = import ./source/toml.nix;
   rust = import ./source/rust.nix;
-  plaintext_comment = import ./source/comment.nix;
+  plaintext_comment = import ./source/plaintext/comment.nix;
   plaintext = import ./source/plaintext.nix;
   php = import ./source/php.nix;
   nix = import ./source/nix.nix;
