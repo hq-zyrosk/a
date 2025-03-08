@@ -7,7 +7,7 @@
   "editor.minimap.sectionHeaderLetterSpacing" = 1;
   "editor.minimap.scale" = 2;
   "editor.minimap.renderCharacters" = true;
-  "editor.minimap.markSectionHeaderRegex" = "\\\\bMARK:\\s*(?<separator>-?)\\s*(?<label>.*)$";
+  "editor.minimap.markSectionHeaderRegex" = "\\\\bMARK:\\\\s*(?<separator>-?)\\\\s*(?<label>.*)$";
   "editor.minimap.enabled" = false;
   "editor.minimap.autohide" = false;
 }
