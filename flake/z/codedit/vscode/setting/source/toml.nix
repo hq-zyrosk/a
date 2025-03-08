@@ -2,6 +2,9 @@
   "evenBetterToml.schema.catalogs" = [
     "https://www.schemastore.org/api/json/catalog.json"
   ];
+  "[toml]" = {
+    "editor.defaultFormatter" = "tamasfe.even-better-toml";
+  };
   "evenBetterToml.schema.associations" = { };
   "evenBetterToml.rules" = [ ];
   "evenBetterToml.syntax.semanticTokens" = true;

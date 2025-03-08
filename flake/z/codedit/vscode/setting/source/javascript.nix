@@ -1,4 +1,10 @@
 {
+  "[javascriptreact]" = {
+    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
+  };
+  "[javascript]" = {
+    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
+  };
   "js/ts.implicitProjectConfig.target" = "ESNext";
   "js/ts.implicitProjectConfig.strictNullChecks" = true;
   "js/ts.implicitProjectConfig.strictFunctionTypes" = true;

@@ -1,4 +1,10 @@
 {
+  "[typescriptreact]" = {
+    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
+  };
+  "[typescript]" = {
+    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
+  };
   "typescript.workspaceSymbols.scope" = "currentProject";
   "typescript.workspaceSymbols.excludeLibrarySymbols" = true;
   "typescript.validate.enable" = true;

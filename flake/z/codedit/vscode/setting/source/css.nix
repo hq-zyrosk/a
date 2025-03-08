@@ -1,4 +1,7 @@
 {
+  "[css]" = {
+    "editor.defaultFormatter" = "vscode.css-language-features";
+  };
   "css.lint.validProperties" = [ ];
   "css.customData" = [ ];
   "css.validate" = false;

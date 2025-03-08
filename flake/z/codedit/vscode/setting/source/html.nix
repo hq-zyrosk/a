@@ -1,4 +1,7 @@
 {
+  "[html]" = {
+    "editor.defaultFormatter" = "vscode.html-language-features";
+  };
   "html.customData" = [ ];
   "html.validate.styles" = false;
   "html.validate.scripts" = false;
@@ -15,9 +18,9 @@
   "html.format.maxPreserveNewLines" = 2;
   "html.format.indentInnerHtml" = true;
   "html.format.indentHandlebars" = true;
-  "html.format.extraLiners" = "head, body, /html";
+  "html.format.extraLiners" = "head; body; /html";
   "html.format.enable" = true;
-  "html.format.contentUnformatted" = "pre,code,textarea";
+  "html.format.contentUnformatted" = "pre;code;textarea";
   "html.completion.attributeDefaultValue" = "doublequotes";
   "html.autoCreateQuotes" = true;
   "html.autoClosingTags" = true;

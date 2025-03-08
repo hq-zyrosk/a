@@ -1,16 +1,4 @@
 {
-  "[typescriptreact]" = {
-    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
-  };
-  "[javascriptreact]" = {
-    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
-  };
-  "[typescript]" = {
-    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
-  };
-  "[javascript]" = {
-    "editor.defaultFormatter" = "dbaeumer.vscode-eslint";
-  };
   "eslint.validate" = [
     "javascriptreact"
     "typescriptreact"
