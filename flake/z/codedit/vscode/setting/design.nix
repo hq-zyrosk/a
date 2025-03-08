@@ -19,6 +19,7 @@ let
   editor_inline = import ./design/editor/inline.nix;
   editor_indent = import ./design/editor/indent.nix;
   editor_hover = import ./design/editor/hover.nix;
+  editor_font = import ./design/editor/font.nix;
   editor_fold = import ./design/editor/fold.nix;
   editor_find = import ./design/editor/find.nix;
   editor_diff_multi = import ./design/editor/diff/multi.nix;
@@ -52,6 +53,7 @@ workbench_zenmode
 // editor_inline
 // editor_indent
 // editor_hover
+// editor_font
 // editor_fold
 // editor_find
 // editor_diff_multi
