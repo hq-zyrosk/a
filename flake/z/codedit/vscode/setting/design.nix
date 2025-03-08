@@ -17,6 +17,7 @@ let
   editor_terminal = import ./design/editor/terminal.nix;
   editor_suggest = import ./design/editor/suggest.nix;
   editor_outline = import ./design/editor/outline.nix;
+  editor_minimap = import ./design/editor/minimap.nix;
   editor_inline = import ./design/editor/inline.nix;
   editor_indent = import ./design/editor/indent.nix;
   editor_hover = import ./design/editor/hover.nix;
@@ -52,6 +53,7 @@ workbench_zenmode
 // editor_terminal
 // editor_suggest
 // editor_outline
+// editor_minimap
 // editor_inline
 // editor_indent
 // editor_hover
