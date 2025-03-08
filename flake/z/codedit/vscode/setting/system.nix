@@ -1,6 +1,8 @@
 let
   video_screencast = import ./system/video/screencast.nix;
   video = import ./system/video.nix;
+  user_accessibility = import ./system/user/accessibility.nix;
+  user = import ./system/user.nix;
   task_jake = import ./system/task/jake.nix;
   task_gulp = import ./system/task/gulp.nix;
   task_grunt = import ./system/task/grunt.nix;
@@ -15,11 +17,12 @@ let
   app_github = import ./system/app/github.nix;
   app_eslint = import ./system/app/eslint.nix;
   app_dependi = import ./system/app/dependi.nix;
-  app_accessibility = import ./system/app/accessibility.nix;
   app = import ./system/app.nix;
 in
 video_screencast
 // video
+// user_accessibility
+// user
 // task_jake
 // task_gulp
 // task_grunt
@@ -34,5 +37,4 @@ video_screencast
 // app_github
 // app_eslint
 // app_dependi
-// app_accessibility
 // app

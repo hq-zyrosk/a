@@ -1,5 +1,4 @@
 {
-  "telemetry.telemetryLevel" = "off";
   "extensions.supportVirtualWorkspaces" = { };
   "extensions.supportUntrustedWorkspaces" = { };
   "extensions.experimental.affinity" = { };
@@ -7,9 +6,6 @@
   "extensions.allowed" = {
     "*" = true;
   };
-  "update.showReleaseNotes" = true;
-  "update.mode" = "none";
-  "keyboard.dispatch" = "code";
   "extensions.webWorker" = true;
   "extensions.verifySignature" = false;
   "extensions.ignoreRecommendations" = true;
