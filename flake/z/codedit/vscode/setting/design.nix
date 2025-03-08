@@ -12,6 +12,7 @@ let
   widget_problems = import ./design/widget/problems.nix;
   widget_explorer = import ./design/widget/explorer.nix;
   widget_debug = import ./design/widget/debug.nix;
+  widget = import ./design/widget.nix;
   search = import ./design/search.nix;
   editor_timeline = import ./design/editor/timeline.nix;
   editor_terminal = import ./design/editor/terminal.nix;
@@ -48,6 +49,7 @@ workbench_zenmode
 // widget_problems
 // widget_explorer
 // widget_debug
+// widget
 // search
 // editor_timeline
 // editor_terminal
