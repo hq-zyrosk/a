@@ -1,8 +1,18 @@
 {
+  "git.showActionButton" = {
+    "commit" = true;
+    "publish" = true;
+    "sync" = true;
+  };
   "git.verboseCommit" = true;
+  "git.suggestSmartCommit" = true;
+  "git.showPushSuccessNotification" = false;
   "git.showProgress" = true;
+  "git.showInlineOpenFileAction" = true;
+  "git.showCommitInput" = true;
   "git.openRepositoryInParentFolders" = "always";
   "git.openDiffOnClick" = true;
+  "git.mergeEditor" = true;
   "git.enabled" = true;
   "git.enableStatusBarSync" = true;
   "git.enableSmartCommit" = true;

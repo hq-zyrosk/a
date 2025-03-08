@@ -8,6 +8,10 @@
       };
     };
   };
+  "nix.hiddenLanguageServerErrors" = [
+    "textDocument/documentSymbol"
+    "textDocument/definition"
+  ];
   "[nix]" = {
     "editor.defaultFormatter" = "jnoortheen.nix-ide";
   };

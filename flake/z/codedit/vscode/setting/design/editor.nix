@@ -6,6 +6,7 @@
     "other" = "on";
     "comments" = "off";
   };
+  "editor.pasteAs.preferences" = [ ];
   "editor.dropIntoEditor.preferences" = [
     "uri.path.relative"
     "uri.path.absolute"
@@ -80,10 +81,14 @@
   "editor.padding.top" = 0;
   "editor.padding.bottom" = 0;
   "editor.overviewRulerBorder" = false;
+  "editor.overtypeOnPaste" = true;
+  "editor.overtypeCursorStyle" = "line";
   "editor.occurrencesHighlightDelay" = 0;
   "editor.occurrencesHighlight" = "multiFile";
   "editor.multiCursorPaste" = "spread";
   "editor.multiCursorModifier" = "alt";
+  "editor.multiCursorMergeOverlapping" = true;
+  "editor.multiCursorLimit" = 10000;
   "editor.mouseWheelZoom" = false;
   "editor.mouseWheelScrollSensitivity" = 1;
   "editor.minimap.enabled" = false;
@@ -171,5 +176,4 @@
   "editor.accessibilityPageSize" = 10;
   "editor.acceptSuggestionOnEnter" = "on";
   "editor.acceptSuggestionOnCommitCharacter" = true;
-  "debug.showBreakpointsInOverviewRuler" = false;
 }

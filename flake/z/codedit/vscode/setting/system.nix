@@ -10,6 +10,7 @@ let
   app_github_copilot = import ./system/app/github/copilot.nix;
   app_github = import ./system/app/github.nix;
   app_eslint = import ./system/app/eslint.nix;
+  app_dependi = import ./system/app/dependi.nix;
   app = import ./system/app.nix;
 in
 video_screencast
@@ -23,4 +24,5 @@ video_screencast
 // app_github_copilot
 // app_github
 // app_eslint
+// app_dependi
 // app
