@@ -8,7 +8,7 @@ let
   window = import ./design/window.nix;
   widget_stickyscroll = import ./design/widget/stickyscroll.nix;
   widget_security = import ./design/widget/security.nix;
-  widget_problems = import ./design/problems.nix;
+  widget_problems = import ./design/widget/problems.nix;
   widget_explorer = import ./design/widget/explorer.nix;
   widget_debug = import ./design/widget/debug.nix;
   search = import ./design/search.nix;
