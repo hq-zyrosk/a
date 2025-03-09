@@ -1,3 +1,17 @@
+let
+  brackets = [
+    [
+      "{"
+      "}"
+    ]
+    [
+      "["
+    ]
+    [
+      "("
+    ]
+  ];
+in
 {
   "editor.unicodeHighlight.allowedLocales" = { };
   "editor.unicodeHighlight.allowedCharacters" = { };
@@ -71,8 +85,8 @@
   "editor.lineDecorationsWidth" = 15;
   "editor.lightbulb.enabled" = "off";
   "editor.largeFileOptimizations" = true;
-  "editor.language.colorizedBracketPairs" = null;
-  "editor.language.brackets" = null;
+  "editor.language.colorizedBracketPairs" = brackets;
+  "editor.language.brackets" = brackets;
   "editor.insertSpaces" = true;
   "editor.hideCursorInOverviewRuler" = true;
   "editor.glyphMargin" = false;

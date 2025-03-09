@@ -20,7 +20,7 @@
   "git.enableStatusBarSync" = true;
   "git.enableSmartCommit" = true;
   "git.defaultBranchName" = "x";
-  "git.decorations.enabled" = false;
+  "git.decorations.enabled" = true;
   "git.countBadge" = "all";
   "git.confirmSync" = false;
   "git.closeDiffOnOperation" = true;

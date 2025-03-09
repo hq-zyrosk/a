@@ -49,7 +49,7 @@
   "github.copilot.chat.edits.suggestRelatedFilesForTests" = true;
   "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory" = true;
   "github.copilot.chat.edits.temporalContext.enabled" = false;
-  "github.copilot.chat.languageContext.typescript.enabled" = false;
+  "github.copilot.chat.languageContext.typescript.enabled" = true;
   "github.copilot.chat.terminalChatLocation" = "chatView";
   "github.copilot.chat.newWorkspaceCreation.enabled" = false;
   "github.copilot.chat.search.semanticTextResults" = true;

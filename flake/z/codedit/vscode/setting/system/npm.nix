@@ -7,6 +7,6 @@
   "npm.packageManager" = "bun";
   "npm.fetchOnlinePackageInfo" = true;
   "npm.exclude" = "";
-  "npm.enableRunFromFolder" = false;
+  "npm.enableRunFromFolder" = true;
   "npm.autoDetect" = "on";
 }

@@ -101,7 +101,7 @@
   "terminal.integrated.gpuAcceleration" = "off";
   "terminal.integrated.fontLigatures.featureSettings" = "\"calt\" on";
   "terminal.integrated.fontLigatures.fallbackLigatures" = [ ];
-  "terminal.integrated.fontLigatures.enabled" = false;
+  "terminal.integrated.fontLigatures.enabled" = true;
   "terminal.integrated.focusAfterRun" = "terminal";
   "terminal.integrated.fastScrollSensitivity" = 5;
   "terminal.integrated.environmentChangesRelaunch" = true;
