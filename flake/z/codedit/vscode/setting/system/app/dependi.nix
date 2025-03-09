@@ -24,15 +24,11 @@ in
   "dependi.vulnerability.enabled" = true;
   "dependi.rust.unstableFilter" = unstableFilter;
   "dependi.rust.silenceVersionOverflows" = false;
-  "dependi.rust.showVersion" = true;
   "dependi.rust.lockFileEnabled" = true;
   "dependi.rust.informPatchUpdates" = true;
   "dependi.rust.indexServerURL" = "https://index.crates.io";
   "dependi.rust.ignoreLinePatterns" = "";
-  "dependi.rust.fearless" = false;
   "dependi.rust.enabled" = enabled;
-  "dependi.rust.defaultFeatures" = true;
-  "dependi.rust.analyzeDirectDepsOnly" = false;
   "dependi.python.unstableFilter" = unstableFilter;
   "dependi.python.silenceVersionOverflows" = false;
   "dependi.python.lockFileEnabled" = true;
