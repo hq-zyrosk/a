@@ -3,18 +3,43 @@ let
   enabled = true;
 in
 {
-  "dependi.decoration.patchAvailable.style" = { };
-  "dependi.decoration.incompatible.style" = { };
-  "dependi.decoration.error.style" = { };
+  "dependi.decoration.patchAvailable.style" = {
+    before = {
+      backgroundColor = "#000000FF";
+      color = "#FFFF00FF";
+    };
+    after = {
+      backgroundColor = "#000000FF";
+      color = "#FFFF00FF";
+    };
+  };
+  "dependi.decoration.incompatible.style" = {
+    before = {
+      backgroundColor = "#000000FF";
+      color = "#FFAA00FF";
+    };
+    after = {
+      backgroundColor = "#000000FF";
+      color = "#FFAA00FF";
+    };
+  };
+  "dependi.decoration.error.style" = {
+    before = {
+      backgroundColor = "#000000FF";
+      color = "#FF0000FF";
+    };
+    after = {
+      backgroundColor = "#000000FF";
+      color = "#FF0000FF";
+    };
+  };
   "dependi.decoration.compatible.style" = {
     before = {
       backgroundColor = "#000000FF";
-      border = "1px solid #FFFFFF40";
       color = "#FFFFFFFF";
     };
     after = {
       backgroundColor = "#000000FF";
-      border = "1px solid #FFFFFF40";
       color = "#FFFFFFFF";
     };
   };
@@ -57,12 +82,12 @@ in
   "dependi.go.ignoreLinePatterns" = "";
   "dependi.go.enabled" = enabled;
   "dependi.extras.silenceUpdateMessages" = false;
-  "dependi.decoration.vulnerability.template" = "🚨 \${count}";
+  "dependi.decoration.vulnerability.template" = "Vulnerability: \${count}";
   "dependi.decoration.position" = "before";
-  "dependi.decoration.patchAvailable.template" = "⚠️ \${version}";
-  "dependi.decoration.incompatible.template" = "❌ \${version}";
-  "dependi.decoration.error.template" = "❗️❗️❗️";
-  "dependi.decoration.compatible.template" = "✅";
+  "dependi.decoration.patchAvailable.template" = "\${version}";
+  "dependi.decoration.incompatible.template" = "\${version}";
+  "dependi.decoration.error.template" = "\${version}";
+  "dependi.decoration.compatible.template" = "";
   "dependi.apiURL" = "https://index.dependi.io";
   "dependi.apiKey" = "";
 }
