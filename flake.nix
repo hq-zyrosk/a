@@ -1,26 +1,26 @@
 {
+  # treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
   outputs = {
+    treefmt-nix,
     textual-pragmata-pro,
+    systems,
     pointer-dot-red,
-    nix-vscode-extensions,
-    home-manager,
-    fenix,
     nixpkgs,
     nixos-hardware,
-    systems,
-    treefmt-nix,
-    self,
+    nix-vscode-extensions,
+    home-manager,
+    flake-utils,
+    fenix,
     ...
   }: let
-    treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
-    eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
-    type = "x86_64-linux";
+    system = "x86_64-linux";
+    pkgs = import nixpkgs {inherit system;};
   in {
     homeConfigurations = {
       "z@x" = home-manager.lib.homeManagerConfiguration {
         extraSpecialArgs = {
-          extensions = nix-vscode-extensions.extensions.${type};
-          fenix = fenix.packages.${type};
+          extensions = nix-vscode-extensions.extensions.${system};
+          fenix = fenix.packages.${system};
         };
         modules = [
           ./flake/z.nix
@@ -31,13 +31,13 @@
                   size = 5;
                   enable = true;
                 };
-                package = pointer-dot-red.packages.${type}.pointer-dot-red;
+                package = pointer-dot-red.packages.${system}.pointer-dot-red;
                 name = "dot-red";
               };
             };
           }
         ];
-        pkgs = nixpkgs.legacyPackages.${type};
+        pkgs = pkgs;
       };
     };
     homeManagerModules = {};
@@ -52,80 +52,89 @@
           {
             fonts = {
               packages = [
-                textual-pragmata-pro.packages.${type}.textual-pragmata-pro
+                textual-pragmata-pro.packages.${system}.textual-pragmata-pro
               ];
             };
           }
         ];
-        system = type;
+        system = system;
       };
     };
     nixosModules = {};
 
-    # formatter = {
-    #   ${type} = nixpkgs.legacyPackages.${type}.nixfmt-rfc-style;
-    # };
+    formatter = {
+      ${system} = pkgs.nixfmt-rfc-style;
+    };
 
-    formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+    # formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
 
-    checks = eachSystem (pkgs: {
-      formatting = treefmtEval.${pkgs.system}.config.build.check self;
-    });
+    # checks = eachSystem (pkgs: {
+    #   formatting = treefmtEval.${pkgs.system}.config.build.check self;
+    # });
   };
 
   inputs = {
     textual-pragmata-pro = {
+      url = "path:./textual-pragmata-pro";
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
         };
       };
-      url = "path:./textual-pragmata-pro";
     };
 
     pointer-dot-red = {
+      url = "path:./pointer-dot-red";
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
         };
       };
-      url = "path:./pointer-dot-red";
     };
 
     nix-vscode-extensions = {
+      url = "github:nix-community/nix-vscode-extensions/master";
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
         };
       };
-      url = "github:nix-community/nix-vscode-extensions/master";
     };
 
     home-manager = {
-      inputs = {
-        nixpkgs = {
-          follows = "nixpkgs";
-        };
-      };
       url = "github:nix-community/home-manager/master";
-    };
-
-    fenix = {
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
         };
       };
-      url = "github:nix-community/fenix";
     };
 
     treefmt-nix = {
+      url = "github:numtide/treefmt-nix";
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
         };
       };
-      url = "github:numtide/treefmt-nix";
+    };
+
+    flake-utils = {
+      url = "github:numtide/flake-utils";
+      inputs = {
+        systems = {
+          follows = "systems";
+        };
+      };
+    };
+
+    fenix = {
+      url = "github:nix-community/fenix";
+      inputs = {
+        nixpkgs = {
+          follows = "nixpkgs";
+        };
+      };
     };
 
     nixpkgs = {

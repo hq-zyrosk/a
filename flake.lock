@@ -23,6 +23,26 @@
     },
     "flake-utils": {
       "inputs": {
+        "systems": [
+          "systems"
+        ]
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "inputs": {
         "systems": "systems"
       },
       "locked": {
@@ -62,17 +82,17 @@
     },
     "nix-vscode-extensions": {
       "inputs": {
-        "flake-utils": "flake-utils",
+        "flake-utils": "flake-utils_2",
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1741707272,
-        "narHash": "sha256-5mN++lWrken/zMLu3OObkHjuDorvoRP3JJm/JhEwO18=",
+        "lastModified": 1741721189,
+        "narHash": "sha256-8cHo0KbGC9W4mcuHgpOtRJfiMN4DvdLvgMmx6hHqy5U=",
         "owner": "nix-community",
         "repo": "nix-vscode-extensions",
-        "rev": "1c69a038876b51a5b5dc45adcaa886f150e3b7e7",
+        "rev": "4c4a3a7379d871c8642365265cce8250f5fe3c9e",
         "type": "github"
       },
       "original": {
@@ -134,6 +154,7 @@
     "root": {
       "inputs": {
         "fenix": "fenix",
+        "flake-utils": "flake-utils",
         "home-manager": "home-manager",
         "nix-vscode-extensions": "nix-vscode-extensions",
         "nixos-hardware": "nixos-hardware",
