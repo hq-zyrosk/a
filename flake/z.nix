@@ -85,8 +85,6 @@
       rustscan
       rustic
 
-      # bacon
-
       gcc
     ];
     language = {};

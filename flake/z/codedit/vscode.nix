@@ -21,7 +21,6 @@
             tamasfe.even-better-toml
             redhat.vscode-yaml
             redhat.vscode-xml
-            # tyriar.sort-lines
 
             github.copilot-chat
             github.copilot

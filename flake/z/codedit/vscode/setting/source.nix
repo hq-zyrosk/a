@@ -8,7 +8,6 @@ let
   plaintext = import ./source/plaintext.nix;
   php = import ./source/php.nix;
   nix = import ./source/nix.nix;
-  just = import ./source/just.nix;
   json = import ./source/json.nix;
   javascript = import ./source/javascript.nix;
   html = import ./source/html.nix;
@@ -23,7 +22,6 @@ in
   // plaintext
   // php
   // nix
-  // just
   // json
   // javascript
   // html
