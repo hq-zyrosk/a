@@ -1,4 +1,8 @@
-{ extensions, pkgs, ... }:
+{
+  extensions,
+  pkgs,
+  ...
+}:
 {
   programs = {
     vscode = {

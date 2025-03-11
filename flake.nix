@@ -7,10 +7,12 @@
       home-manager,
       fenix,
       nixpkgs,
-      nixos-hardware,
+      nixos-hardware, systems, treefmt-nix, self,
       ...
     }:
     let
+      treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
+      eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
       type = "x86_64-linux";
     in
     {
@@ -60,9 +62,15 @@
       };
       nixosModules = { };
 
-      formatter = {
-        ${type} = nixpkgs.legacyPackages.${type}.nixfmt-rfc-style;
-      };
+      # formatter = {
+      #   ${type} = nixpkgs.legacyPackages.${type}.nixfmt-rfc-style;
+      # };
+
+      formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+      
+      checks = eachSystem (pkgs: {
+        formatting = treefmtEval.${pkgs.system}.config.build.check self;
+      });
     };
 
   inputs = {
@@ -109,6 +117,15 @@
         };
       };
       url = "github:nix-community/fenix";
+    };
+
+    treefmt-nix = {
+      inputs = {
+        nixpkgs = {
+          follows = "nixpkgs";
+        };
+      };
+      url = "github:numtide/treefmt-nix";
     };
 
     nixpkgs = {

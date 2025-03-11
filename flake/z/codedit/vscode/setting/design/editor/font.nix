@@ -28,7 +28,7 @@ in
   "notebook.markup.fontSize" = text-size;
   "markdown.preview.lineHeight" = text-high;
   "markdown.preview.fontSize" = text-size;
-  "markdown.preview.fontFamily" =  "sans-serif";
+  "markdown.preview.fontFamily" = "sans-serif";
   "html.format.wrapLineLength" = text-tall;
   "editor.wrappingStrategy" = "simple";
   "editor.wrappingIndent" = "none";
