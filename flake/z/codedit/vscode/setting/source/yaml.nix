@@ -1,12 +1,12 @@
 {
-  "yaml.schemas" = { };
-  "yaml.customTags" = [ ];
+  "yaml.schemas" = {};
+  "yaml.customTags" = [];
   "vscode-yaml-sort.extensions" = [
     "yaml"
     "yml"
   ];
-  "vscode-yaml-sort.customSortKeywords_3" = [ ];
-  "vscode-yaml-sort.customSortKeywords_2" = [ ];
+  "vscode-yaml-sort.customSortKeywords_3" = [];
+  "vscode-yaml-sort.customSortKeywords_2" = [];
   "vscode-yaml-sort.customSortKeywords_1" = [
     "apiVersion"
     "kind"

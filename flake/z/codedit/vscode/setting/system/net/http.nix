@@ -6,7 +6,7 @@
   "http.proxyKerberosServicePrincipal" = "";
   "http.proxyAuthorization" = null;
   "http.proxy" = "";
-  "http.noProxy" = [ ];
+  "http.noProxy" = [];
   "http.fetchAdditionalSupport" = true;
   "http.experimental.systemCertificatesV2" = true;
   "http.electronFetch" = false;

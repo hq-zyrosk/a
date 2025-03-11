@@ -1,12 +1,12 @@
 {
-  "files.watcherInclude" = [ ];
+  "files.watcherInclude" = [];
   "files.watcherExclude" = {
     "**/.git/objects/**" = true;
     "**/.git/subtree-cache/**" = true;
     "**/.hg/store/**" = true;
   };
-  "files.readonlyInclude" = { };
-  "files.readonlyExclude" = { };
+  "files.readonlyInclude" = {};
+  "files.readonlyExclude" = {};
   "files.exclude" = {
     "**/.git" = true;
     "**/.svn" = true;
@@ -15,8 +15,8 @@
     "**/Thumbs.db" = true;
   };
   "files.defaultLanguage" = "";
-  "files.candidateGuessEncodings" = [ ];
-  "files.associations" = { };
+  "files.candidateGuessEncodings" = [];
+  "files.associations" = {};
   "explorer.fileNesting.patterns" = {
     "justfile" = "*.code-workspace, .gitattributes, .gitignore, *.txt, *.ps1, *.sh";
     "*.tsx" = "\${capture}.d.tsx, \${capture}.tsx.map";

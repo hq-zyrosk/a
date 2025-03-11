@@ -6,8 +6,7 @@ let
   text-size = 16;
   text-wide = 8;
   text-high = 1;
-in
-{
+in {
   "editor.rulers" = [
     text-wrap
   ];

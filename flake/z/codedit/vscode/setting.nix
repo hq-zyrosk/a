@@ -3,4 +3,4 @@ let
   source = import ./setting/source.nix;
   design = import ./setting/design.nix;
 in
-system // source // design
+  system // source // design

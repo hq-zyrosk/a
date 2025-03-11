@@ -10,8 +10,7 @@ let
   green = "#00F500FF";
   cyan = "#00EBEBFF";
   blue = "#CFCFFFFF";
-in
-{
+in {
   "inlineEdit.modifiedBackground" = yellow_t;
   "inlineEdit.modifiedChangedTextBackground" = yellow_t;
   "inlineEdit.modifiedChangedLineBackground" = yellow_t;

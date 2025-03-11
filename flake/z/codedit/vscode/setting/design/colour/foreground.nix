@@ -4,8 +4,7 @@ let
   c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
   a5 = _.rgba 0.50000 0.50000 0.50000 0.50000;
   _ = import ./_.nix;
-in
-{
+in {
   "titleBar.activeForeground" = c9;
   "textLink.foreground" = c9;
   "textLink.activeForeground" = c9;

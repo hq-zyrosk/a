@@ -1,8 +1,6 @@
-{ pkgs, ... }:
-let
+{pkgs, ...}: let
   terminus_font = pkgs.terminus_font;
-in
-{
+in {
   services = {
     getty = {
       extraArgs = [
@@ -27,7 +25,7 @@ in
       shellAliases = {
         "ls" = "eza --all --header --hyperlink --long";
       };
-      shellAbbrs = { };
+      shellAbbrs = {};
       interactiveShellInit = ''
         set fish_greeting
       '';

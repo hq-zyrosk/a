@@ -2,7 +2,7 @@
   services = {
     remmina = {
       systemdService = {
-        startupFlags = [ "--icon" ];
+        startupFlags = ["--icon"];
         enable = false;
       };
       enable = true;

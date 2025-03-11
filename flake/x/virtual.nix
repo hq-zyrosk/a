@@ -1,5 +1,5 @@
 {
   virtualisation = {
-    containers = { };
+    containers = {};
   };
 }

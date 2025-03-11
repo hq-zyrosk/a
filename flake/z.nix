@@ -1,5 +1,8 @@
-{ fenix, pkgs, ... }:
 {
+  fenix,
+  pkgs,
+  ...
+}: {
   imports = [
     ./z/utility/waybar.nix
     ./z/utility/rofi.nix
@@ -86,12 +89,12 @@
 
       gcc
     ];
-    language = { };
+    language = {};
     keyboard = {
-      options = [ ];
+      options = [];
       layout = "us";
     };
-    activation = { };
+    activation = {};
     username = "x";
     stateVersion = "24.11";
     homeDirectory = "/home/x";
@@ -105,12 +108,11 @@
     };
   };
 }
-
 # lsb-release
 # python314
 # ninja
 # gn
-
 # clang-tools
 # gnumake
 # cmake
+

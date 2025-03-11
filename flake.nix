@@ -1,77 +1,77 @@
 {
-  outputs =
-    {
-      textual-pragmata-pro,
-      pointer-dot-red,
-      nix-vscode-extensions,
-      home-manager,
-      fenix,
-      nixpkgs,
-      nixos-hardware, systems, treefmt-nix, self,
-      ...
-    }:
-    let
-      treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
-      eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
-      type = "x86_64-linux";
-    in
-    {
-      homeConfigurations = {
-        "z@x" = home-manager.lib.homeManagerConfiguration {
-          extraSpecialArgs = {
-            extensions = nix-vscode-extensions.extensions.${type};
-            fenix = fenix.packages.${type};
-          };
-          modules = [
-            ./flake/z.nix
-            {
-              home = {
-                pointerCursor = {
-                  hyprcursor = {
-                    size = 5;
-                    enable = true;
-                  };
-                  package = pointer-dot-red.packages.${type}.pointer-dot-red;
-                  name = "dot-red";
+  outputs = {
+    textual-pragmata-pro,
+    pointer-dot-red,
+    nix-vscode-extensions,
+    home-manager,
+    fenix,
+    nixpkgs,
+    nixos-hardware,
+    systems,
+    treefmt-nix,
+    self,
+    ...
+  }: let
+    treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
+    eachSystem = f: nixpkgs.lib.genAttrs (import systems) (system: f nixpkgs.legacyPackages.${system});
+    type = "x86_64-linux";
+  in {
+    homeConfigurations = {
+      "z@x" = home-manager.lib.homeManagerConfiguration {
+        extraSpecialArgs = {
+          extensions = nix-vscode-extensions.extensions.${type};
+          fenix = fenix.packages.${type};
+        };
+        modules = [
+          ./flake/z.nix
+          {
+            home = {
+              pointerCursor = {
+                hyprcursor = {
+                  size = 5;
+                  enable = true;
                 };
+                package = pointer-dot-red.packages.${type}.pointer-dot-red;
+                name = "dot-red";
               };
-            }
-          ];
-          pkgs = nixpkgs.legacyPackages.${type};
-        };
+            };
+          }
+        ];
+        pkgs = nixpkgs.legacyPackages.${type};
       };
-      homeManagerModules = { };
-
-      nixosConfigurations = {
-        x = nixpkgs.lib.nixosSystem {
-          modules = [
-            home-manager.nixosModules.home-manager
-            nixos-hardware.nixosModules.apple-t2
-            /etc/nixos/hardware-configuration.nix
-            ./flake/x.nix
-            {
-              fonts = {
-                packages = [
-                  textual-pragmata-pro.packages.${type}.textual-pragmata-pro
-                ];
-              };
-            }
-          ];
-          system = type;
-        };
-      };
-      nixosModules = { };
-
-      # formatter = {
-      #   ${type} = nixpkgs.legacyPackages.${type}.nixfmt-rfc-style;
-      # };
-
-      formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
-      
-      checks = eachSystem (pkgs: {
-        formatting = treefmtEval.${pkgs.system}.config.build.check self;
-      });
     };
+    homeManagerModules = {};
+
+    nixosConfigurations = {
+      x = nixpkgs.lib.nixosSystem {
+        modules = [
+          home-manager.nixosModules.home-manager
+          nixos-hardware.nixosModules.apple-t2
+          /etc/nixos/hardware-configuration.nix
+          ./flake/x.nix
+          {
+            fonts = {
+              packages = [
+                textual-pragmata-pro.packages.${type}.textual-pragmata-pro
+              ];
+            };
+          }
+        ];
+        system = type;
+      };
+    };
+    nixosModules = {};
+
+    # formatter = {
+    #   ${type} = nixpkgs.legacyPackages.${type}.nixfmt-rfc-style;
+    # };
+
+    formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
+
+    checks = eachSystem (pkgs: {
+      formatting = treefmtEval.${pkgs.system}.config.build.check self;
+    });
+  };
 
   inputs = {
     textual-pragmata-pro = {

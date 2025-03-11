@@ -5,8 +5,8 @@
   "[toml]" = {
     "editor.defaultFormatter" = "tamasfe.even-better-toml";
   };
-  "evenBetterToml.schema.associations" = { };
-  "evenBetterToml.rules" = [ ];
+  "evenBetterToml.schema.associations" = {};
+  "evenBetterToml.rules" = [];
   "evenBetterToml.syntax.semanticTokens" = true;
   "evenBetterToml.semanticTokens" = true;
   "evenBetterToml.schema.links" = true;

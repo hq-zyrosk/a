@@ -36,39 +36,39 @@ let
   chat_github = import ./design/chat/github.nix;
   chat = import ./design/chat.nix;
 in
-workbench_zenmode
-// workbench_theme
-// workbench_tab
-// workbench_list
-// workbench_editor
-// workbench_browser
-// workbench
-// window
-// widget_stickyscroll
-// widget_security
-// widget_problems
-// widget_explorer
-// widget_debug
-// widget
-// search
-// editor_timeline
-// editor_terminal
-// editor_suggest
-// editor_outline
-// editor_minimap
-// editor_inline
-// editor_indent
-// editor_hover
-// editor_font
-// editor_fold
-// editor_find
-// editor_diff_multi
-// editor_diff
-// editor_code_lens
-// editor_code
-// editor
-// cursor
-// colour
-// chat_inline
-// chat_github
-// chat
+  workbench_zenmode
+  // workbench_theme
+  // workbench_tab
+  // workbench_list
+  // workbench_editor
+  // workbench_browser
+  // workbench
+  // window
+  // widget_stickyscroll
+  // widget_security
+  // widget_problems
+  // widget_explorer
+  // widget_debug
+  // widget
+  // search
+  // editor_timeline
+  // editor_terminal
+  // editor_suggest
+  // editor_outline
+  // editor_minimap
+  // editor_inline
+  // editor_indent
+  // editor_hover
+  // editor_font
+  // editor_fold
+  // editor_find
+  // editor_diff_multi
+  // editor_diff
+  // editor_code_lens
+  // editor_code
+  // editor
+  // cursor
+  // colour
+  // chat_inline
+  // chat_github
+  // chat

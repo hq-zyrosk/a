@@ -1,8 +1,8 @@
 {
   "launch" = {
     "version" = "0.2.0";
-    "configurations" = [ ];
-    "compounds" = [ ];
+    "configurations" = [];
+    "compounds" = [];
   };
   "references.preferredLocation" = "peek";
   "output.smartScroll.enabled" = true;

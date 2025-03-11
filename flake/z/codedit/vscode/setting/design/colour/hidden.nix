@@ -1,8 +1,7 @@
 let
   c5 = _.rgba 0.00000 0.00000 0.00000 0.00000;
   _ = import ./_.nix;
-in
-{
+in {
   "tab.unfocusedHoverBorder" = c5;
   "tab.unfocusedActiveBorderTop" = c5;
   "tab.unfocusedActiveBorder" = c5;

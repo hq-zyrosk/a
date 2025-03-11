@@ -2,8 +2,7 @@ let
   c9 = "default";
   c5 = "default";
   c1 = "default";
-in
-{
+in {
   "testing.iconUnset.retired" = c9;
   "testing.iconSkipped.retired" = c9;
   "testing.iconQueued.retired" = c9;

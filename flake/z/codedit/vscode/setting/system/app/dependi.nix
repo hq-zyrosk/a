@@ -1,8 +1,7 @@
 let
   unstableFilter = "IncludeAlways";
   enabled = true;
-in
-{
+in {
   "dependi.decoration.patchAvailable.style" = {
     before = {
       backgroundColor = "#000000FF";

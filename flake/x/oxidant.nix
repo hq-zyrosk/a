@@ -1,17 +1,16 @@
-{ lib, ... }:
-{
-  systemd = { };
+{lib, ...}: {
+  systemd = {};
 
   system = {
     nixos = {
-      tags = [ "x" ];
+      tags = ["x"];
       variant_id = "x";
       label = "x";
     };
     stateVersion = "24.11";
   };
 
-  swapDevices = lib.mkForce [ ];
+  swapDevices = lib.mkForce [];
 
   nix = {
     settings = {
@@ -41,7 +40,7 @@
       };
       timeout = 1;
     };
-    kernelParams = [ "acpi_backlight=video" ];
+    kernelParams = ["acpi_backlight=video"];
     kernel = {
       sysctl = {
         "vm.swappiness" = 0;
@@ -76,7 +75,7 @@
     initrd = {
       network = {
         ssh = {
-          hostKeys = [ ];
+          hostKeys = [];
           enable = false;
         };
         enable = true;

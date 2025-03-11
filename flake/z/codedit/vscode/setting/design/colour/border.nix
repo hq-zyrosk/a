@@ -3,8 +3,7 @@ let
   c5 = _.rgba 1.00000 1.00000 1.00000 0.25000;
   c1 = _.rgba 1.00000 1.00000 1.00000 0.12500;
   _ = import ./_.nix;
-in
-{
+in {
   "editorBracketPairGuide.activeBackground6" = c9;
   "editorBracketPairGuide.activeBackground5" = c9;
   "editorBracketPairGuide.activeBackground4" = c9;

@@ -2,17 +2,16 @@
   extensions,
   pkgs,
   ...
-}:
-{
+}: {
   programs = {
     vscode = {
       profiles = {
         default = {
-          userTasks = { };
+          userTasks = {};
           userSettings = import ./vscode/setting.nix;
           languageSnippets = import ./vscode/snippet.nix;
           keybindings = import ./vscode/keybind.nix;
-          globalSnippets = { };
+          globalSnippets = {};
           extensions = with extensions.vscode-marketplace; [
             tyriar.sort-lines
             # tamasfe.even-better-toml
@@ -33,7 +32,7 @@
           enableUpdateCheck = true;
         };
       };
-      package = (pkgs.vscode.override { isInsiders = true; }).overrideAttrs (o2: {
+      package = (pkgs.vscode.override {isInsiders = true;}).overrideAttrs (o2: {
         src = (
           builtins.fetchTarball {
             url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#1";
@@ -44,7 +43,7 @@
           mainProgram = "code";
           description = "Visual Studio Code Insiders edition";
         };
-        buildInputs = o2.buildInputs ++ [ pkgs.krb5 ];
+        buildInputs = o2.buildInputs ++ [pkgs.krb5];
         version = "latest";
         installPhase = ''
           ${o2.installPhase}

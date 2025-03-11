@@ -3,8 +3,7 @@ let
   c5 = _.rgba 0.12500 0.12500 0.12500 1.00000;
   c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
   _ = import ./_.nix;
-in
-{
+in {
   "walkThrough.embeddedEditorBackground" = c9;
   "terminal.background" = c9;
   "tab.unfocusedInactiveBackground" = c9;

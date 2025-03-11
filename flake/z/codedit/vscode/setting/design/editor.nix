@@ -11,18 +11,17 @@ let
       "("
     ]
   ];
-in
-{
-  "editor.unicodeHighlight.allowedLocales" = { };
-  "editor.unicodeHighlight.allowedCharacters" = { };
-  "editor.pasteAs.preferences" = [ ];
+in {
+  "editor.unicodeHighlight.allowedLocales" = {};
+  "editor.unicodeHighlight.allowedCharacters" = {};
+  "editor.pasteAs.preferences" = [];
   "editor.dropIntoEditor.preferences" = [
     "uri.path.relative"
     "uri.path.absolute"
     "css.link.url"
     "text.plain"
   ];
-  "editor.codeActionsOnSave" = { };
+  "editor.codeActionsOnSave" = {};
   "editor.wordSegmenterLocales" = "en-US";
   "editor.wordBreak" = "keepAll";
   "editor.useTabStops" = true;

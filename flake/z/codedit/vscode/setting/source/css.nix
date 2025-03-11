@@ -2,8 +2,8 @@
   "[css]" = {
     "editor.defaultFormatter" = "vscode.css-language-features";
   };
-  "css.lint.validProperties" = [ ];
-  "css.customData" = [ ];
+  "css.lint.validProperties" = [];
+  "css.customData" = [];
   "css.validate" = false;
   "css.trace.server" = "off";
   "css.lint.zeroUnits" = "error";

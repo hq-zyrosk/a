@@ -4,7 +4,7 @@
       keyboards = {
         default = {
           settings = {
-            "leftcontrol:M" = { };
+            "leftcontrol:M" = {};
             "leftmeta:A" = {
               "'" = "write ′";
             };

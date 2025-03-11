@@ -4,7 +4,7 @@
       systemd = {
         enable = true;
       };
-      settings = { };
+      settings = {};
       enable = true;
     };
   };

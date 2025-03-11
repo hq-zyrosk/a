@@ -1,7 +1,6 @@
 let
   text-size = 10;
-in
-{
+in {
   programs = {
     alacritty = {
       settings = {

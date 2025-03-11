@@ -14,17 +14,17 @@ let
   html = import ./source/html.nix;
   css = import ./source/css.nix;
 in
-yaml
-// xml
-// typescript
-// toml
-// rust
-// plaintext_comment
-// plaintext
-// php
-// nix
-// just
-// json
-// javascript
-// html
-// css
+  yaml
+  // xml
+  // typescript
+  // toml
+  // rust
+  // plaintext_comment
+  // plaintext
+  // php
+  // nix
+  // just
+  // json
+  // javascript
+  // html
+  // css

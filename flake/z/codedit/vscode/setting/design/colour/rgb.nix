@@ -8,8 +8,7 @@ let
   c5 = _.rgba 1.00000 0.00000 0.00000 1.00000;
   c1 = _.rgba 0.00000 0.00000 0.00000 0.25000;
   _ = import ./_.nix;
-in
-{
+in {
   "statusBarItem.warningHoverForeground" = w5;
   "statusBarItem.warningForeground" = w5;
   "problemsWarningIcon.foreground" = w5;

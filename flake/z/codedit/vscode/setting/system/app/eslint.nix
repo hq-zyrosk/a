@@ -26,18 +26,18 @@
     "enable" = true;
     "location" = "separateLine";
   };
-  "eslint.workingDirectories" = [ ];
+  "eslint.workingDirectories" = [];
   "eslint.useFlatConfig" = true;
   "eslint.useESLintClass" = true;
   "eslint.trace.server" = "off";
   "eslint.runtime" = "node";
   "eslint.run" = "onType";
-  "eslint.rules.customizations" = [ ];
+  "eslint.rules.customizations" = [];
   "eslint.quiet" = true;
   "eslint.problems.shortenToSingleLine" = true;
-  "eslint.options" = { };
+  "eslint.options" = {};
   "eslint.onIgnoredFiles" = "warn";
-  "eslint.notebooks.rules.customizations" = [ ];
+  "eslint.notebooks.rules.customizations" = [];
   "eslint.nodePath" = "node";
   "eslint.nodeEnv" = "";
   "eslint.migration.2_x" = "off";
@@ -45,9 +45,9 @@
   "eslint.lintTask.enable" = true;
   "eslint.ignoreUntitled" = true;
   "eslint.format.enable" = true;
-  "eslint.execArgv" = [ ];
+  "eslint.execArgv" = [];
   "eslint.enable" = true;
   "eslint.debug" = false;
-  "eslint.codeActionsOnSave.rules" = [ ];
+  "eslint.codeActionsOnSave.rules" = [];
   "eslint.codeActionsOnSave.mode" = "all";
 }

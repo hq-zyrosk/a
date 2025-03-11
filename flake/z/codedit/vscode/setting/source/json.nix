@@ -8,7 +8,7 @@
   "[json]" = {
     "editor.defaultFormatter" = "vscode.json-language-features";
   };
-  "json.schemas" = [ ];
+  "json.schemas" = [];
   "json.validate.enable" = true;
   "json.trace.server" = "off";
   "json.schemaDownload.enable" = true;

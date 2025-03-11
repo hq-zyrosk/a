@@ -68,11 +68,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1741704640,
-        "narHash": "sha256-FSvtxhfB0PQtFOj8PMfcgUG1QVaQzjTZvAxLiqDysKI=",
+        "lastModified": 1741707272,
+        "narHash": "sha256-5mN++lWrken/zMLu3OObkHjuDorvoRP3JJm/JhEwO18=",
         "owner": "nix-community",
         "repo": "nix-vscode-extensions",
-        "rev": "27f37976beb94100b18ab8407ff056654db68506",
+        "rev": "1c69a038876b51a5b5dc45adcaa886f150e3b7e7",
         "type": "github"
       },
       "original": {
@@ -122,7 +122,7 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-uhncT4maHnlnAijaxsAFpEEq6eXLFhY0r+YS6YvW9m0=",
+        "narHash": "sha256-HWd832cwvrNjvbRe4WqZu8+iVu7TXJ1mpcIMa/RumRA=",
         "path": "./pointer-dot-red",
         "type": "path"
       },
@@ -139,7 +139,9 @@
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs",
         "pointer-dot-red": "pointer-dot-red",
-        "textual-pragmata-pro": "textual-pragmata-pro"
+        "systems": "systems_2",
+        "textual-pragmata-pro": "textual-pragmata-pro",
+        "treefmt-nix": "treefmt-nix"
       }
     },
     "rust-analyzer-src": {
@@ -174,6 +176,20 @@
         "type": "github"
       }
     },
+    "systems_2": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "id": "systems",
+        "type": "indirect"
+      }
+    },
     "textual-pragmata-pro": {
       "inputs": {
         "nixpkgs": [
@@ -182,13 +198,33 @@
       },
       "locked": {
         "lastModified": 1,
-        "narHash": "sha256-paR1Kh1moHJ1mN68fZExF0IGGdyZT8oGW9NryL+1a6U=",
+        "narHash": "sha256-S/IyKv/kIx9GhzlFxQuvyIOGgZwqtxOqpdTF8FXdrHk=",
         "path": "./textual-pragmata-pro",
         "type": "path"
       },
       "original": {
         "path": "./textual-pragmata-pro",
         "type": "path"
+      }
+    },
+    "treefmt-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1739829690,
+        "narHash": "sha256-mL1szCeIsjh6Khn3nH2cYtwO5YXG6gBiTw1A30iGeDU=",
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "rev": "3d0579f5cc93436052d94b73925b48973a104204",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "treefmt-nix",
+        "type": "github"
       }
     }
   },

@@ -29,7 +29,7 @@
     "markdown" = false;
     "*" = true;
   };
-  "github.copilot.advanced" = { };
+  "github.copilot.advanced" = {};
   "github.copilot.chat.localeOverride" = "en";
   "github.copilot.chat.startDebugging.enabled" = true;
   "github.copilot.chat.scopeSelection" = true;

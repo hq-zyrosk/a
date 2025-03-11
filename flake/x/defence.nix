@@ -2,7 +2,7 @@
   security = {
     pam = {
       services = {
-        hyprlock = { };
+        hyprlock = {};
       };
       loginLimits = [
         {

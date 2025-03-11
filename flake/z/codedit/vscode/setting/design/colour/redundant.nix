@@ -1,7 +1,6 @@
 let
   c5 = "default";
-in
-{
+in {
   "quickInput.list.focusBackground" = c5;
   "editorIndentGuide.background" = c5;
   "editorIndentGuide.activeBackground" = c5;

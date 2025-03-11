@@ -1,8 +1,7 @@
 let
   type = "line";
   size = 2;
-in
-{
+in {
   "terminal.integrated.cursorWidth" = size;
   "terminal.integrated.cursorStyleInactive" = type;
   "terminal.integrated.cursorStyle" = type;

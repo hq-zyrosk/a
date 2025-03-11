@@ -1,7 +1,6 @@
 let
   theme = "Empty Dark";
-in
-{
+in {
   "workbench.preferredLightColorTheme" = theme;
   "workbench.preferredHighContrastLightColorTheme" = theme;
   "workbench.preferredHighContrastColorTheme" = theme;

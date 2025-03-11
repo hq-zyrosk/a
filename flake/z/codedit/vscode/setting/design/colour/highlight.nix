@@ -12,8 +12,7 @@ let
   c1 = _.rgba 1.00000 1.00000 0.00000 0.12500;
 
   _ = import ./_.nix;
-in
-{
+in {
   "minimap.selectionOccurrenceHighlight" = s9;
   "minimap.chatEditHighlight" = s9;
   "menu.selectionForeground" = s9;

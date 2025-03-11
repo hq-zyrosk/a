@@ -3,8 +3,7 @@
   "window.zoomLevel" = 0;
   "window.titleSeparator" = " - ";
   "window.titleBarStyle" = "native";
-  "window.title" =
-    "\${dirty}\${activeEditorShort}\${separator}\${rootName}\${separator}\${profileName}\${separator}\${appName}";
+  "window.title" = "\${dirty}\${activeEditorShort}\${separator}\${rootName}\${separator}\${profileName}\${separator}\${appName}";
   "window.restoreWindows" = "all";
   "window.restoreFullscreen" = false;
   "window.openWithoutArgumentsInNewWindow" = "on";

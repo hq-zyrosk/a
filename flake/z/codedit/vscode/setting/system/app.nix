@@ -1,8 +1,8 @@
 {
-  "extensions.supportVirtualWorkspaces" = { };
-  "extensions.supportUntrustedWorkspaces" = { };
-  "extensions.experimental.affinity" = { };
-  "extensions.confirmedUriHandlerExtensionIds" = [ ];
+  "extensions.supportVirtualWorkspaces" = {};
+  "extensions.supportUntrustedWorkspaces" = {};
+  "extensions.experimental.affinity" = {};
+  "extensions.confirmedUriHandlerExtensionIds" = [];
   "extensions.allowed" = {
     "*" = true;
   };

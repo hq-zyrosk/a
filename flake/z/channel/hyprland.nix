@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   wayland = {
     windowManager = {
       hyprland = {
@@ -22,7 +21,7 @@
             "fullscreenstate 0 2,class:^.+$"
             "noinitialfocus,class:^.+$"
           ];
-          windowrule = [ ];
+          windowrule = [];
           monitor = [
             ",3840x2160,0x0,1,bitdepth,10"
           ];

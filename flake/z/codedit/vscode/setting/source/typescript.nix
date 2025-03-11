@@ -13,7 +13,7 @@
   "typescript.tsserver.web.typeAcquisition.enabled" = true;
   "typescript.tsserver.web.projectWideIntellisense.suppressSemanticErrors" = false;
   "typescript.tsserver.web.projectWideIntellisense.enabled" = true;
-  "typescript.tsserver.watchOptions" = { };
+  "typescript.tsserver.watchOptions" = {};
   "typescript.tsserver.useSyntaxServer" = "never";
   "typescript.tsserver.nodePath" = "node";
   "typescript.tsserver.maxTsServerMemory" = 3072;
@@ -45,7 +45,7 @@
   "typescript.preferences.includePackageJsonAutoImports" = "on";
   "typescript.preferences.importModuleSpecifierEnding" = "auto";
   "typescript.preferences.importModuleSpecifier" = "project-relative";
-  "typescript.preferences.autoImportFileExcludePatterns" = [ ];
+  "typescript.preferences.autoImportFileExcludePatterns" = [];
   "typescript.preferGoToSourceDefinition" = true;
   "typescript.locale" = "en";
   "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName" = false;

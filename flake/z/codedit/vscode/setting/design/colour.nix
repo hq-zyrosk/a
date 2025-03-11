@@ -9,8 +9,7 @@ let
   foreground = import ./colour/foreground.nix;
   border = import ./colour/border.nix;
   background = import ./colour/background.nix;
-in
-{
+in {
   "workbench.colorCustomizations" =
     variant
     // unknown

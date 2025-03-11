@@ -1,5 +1,4 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   imports = [
     ./x/virtual/virt-manager.nix
     ./x/virtual.nix
@@ -22,7 +21,7 @@
   users = {
     groups = {
       x = {
-        members = [ "x" ];
+        members = ["x"];
         name = "x";
       };
     };
@@ -69,7 +68,7 @@
 
   nixpkgs = {
     config = {
-      permittedInsecurePackages = [ ];
+      permittedInsecurePackages = [];
       allowUnfree = true;
     };
   };

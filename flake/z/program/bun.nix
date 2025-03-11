@@ -1,7 +1,7 @@
 {
   programs = {
     bun = {
-      settings = { };
+      settings = {};
       enableGitIntegration = true;
       enable = true;
     };

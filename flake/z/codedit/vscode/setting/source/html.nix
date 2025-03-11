@@ -2,7 +2,7 @@
   "[html]" = {
     "editor.defaultFormatter" = "vscode.html-language-features";
   };
-  "html.customData" = [ ];
+  "html.customData" = [];
   "html.validate.styles" = false;
   "html.validate.scripts" = false;
   "html.trace.server" = "off";

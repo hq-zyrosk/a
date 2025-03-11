@@ -1,8 +1,7 @@
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   hardware = {
     openrazer = {
-      users = [ "x" ];
+      users = ["x"];
       batteryNotifier = {
         percentage = 10;
         frequency = 1024;

@@ -1,5 +1,5 @@
 {
-  "npm.scriptExplorerExclude" = [ ];
+  "npm.scriptExplorerExclude" = [];
   "npm.scriptRunner" = "bun";
   "npm.scriptHover" = true;
   "npm.scriptExplorerAction" = "open";
