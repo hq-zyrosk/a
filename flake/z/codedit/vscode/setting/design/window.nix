@@ -19,6 +19,7 @@
   "window.density.editorTabHeight" = "compact";
   "window.customTitleBarVisibility" = "never";
   "window.customMenuBarAltFocus" = true;
+  "window.controlsStyle" = "hidden";
   "window.confirmSaveUntitledWorkspace" = true;
   "window.confirmBeforeClose" = "always";
   "window.commandCenter" = false;

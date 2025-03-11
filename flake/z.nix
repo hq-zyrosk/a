@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ fenix, pkgs, ... }:
 {
   imports = [
     ./z/utility/waybar.nix
@@ -61,6 +61,15 @@
       enableShellIntegration = true;
     };
     packages = with pkgs; [
+      (fenix.complete.withComponents [
+        "rust-analyzer"
+        "rust-src"
+        "rustfmt"
+        "clippy"
+        "rustc"
+        "cargo"
+      ])
+
       android-studio-tools
       android-studio
       android-tools
@@ -69,8 +78,12 @@
       pavucontrol
       obsidian
 
-      rustup
-      bacon
+      rust-parallel
+      rustscan
+      rustic
+
+      # bacon
+
       gcc
     ];
     language = { };

@@ -5,6 +5,7 @@
       pointer-dot-red,
       nix-vscode-extensions,
       home-manager,
+      fenix,
       nixpkgs,
       nixos-hardware,
       ...
@@ -17,6 +18,7 @@
         "z@x" = home-manager.lib.homeManagerConfiguration {
           extraSpecialArgs = {
             extensions = nix-vscode-extensions.extensions.${type};
+            fenix = fenix.packages.${type};
           };
           modules = [
             ./flake/z.nix
@@ -98,6 +100,15 @@
         };
       };
       url = "github:nix-community/home-manager/master";
+    };
+
+    fenix = {
+      inputs = {
+        nixpkgs = {
+          follows = "nixpkgs";
+        };
+      };
+      url = "github:nix-community/fenix";
     };
 
     nixpkgs = {

@@ -48,8 +48,8 @@ in
       libimobiledevice
       ifuse
 
-      nixfmt-rfc-style
-      nixd
+      alejandra
+      nil
 
       unzip
       just

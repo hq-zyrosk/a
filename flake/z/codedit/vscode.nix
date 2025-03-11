@@ -10,12 +10,11 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = { };
           extensions = with extensions.vscode-marketplace; [
-            vadimcn.vscode-lldb
             tyriar.sort-lines
-            tamasfe.even-better-toml
-            rust-lang.rust-analyzer
-            redhat.vscode-yaml
-            redhat.vscode-xml
+            # tamasfe.even-better-toml
+            # rust-lang.rust-analyzer
+            # redhat.vscode-yaml
+            # redhat.vscode-xml
             pascalreitermann93.vscode-yaml-sort
             nefrob.vscode-just-syntax
             ms-vscode.live-server

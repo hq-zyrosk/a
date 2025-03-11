@@ -1,6 +1,12 @@
 {
   "nix.serverSettings" = {
-    "nixd" = {
+    "nil" = {
+      "diagnostics" = {
+        "ignored" = [
+          "unused_binding"
+          "unused_with"
+        ];
+      };
       "formatting" = {
         "command" = [
           "nixfmt"
@@ -15,7 +21,7 @@
   "[nix]" = {
     "editor.defaultFormatter" = "jnoortheen.nix-ide";
   };
-  "nix.serverPath" = "nixd";
-  "nix.formatterPath" = "nixfmt";
+  "nix.serverPath" = "nil";
+  "nix.formatterPath" = "alejandra";
   "nix.enableLanguageServer" = true;
 }
