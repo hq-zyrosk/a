@@ -19,7 +19,6 @@
   "workbench.reduceMotion" = "on";
   "workbench.quickOpen.preserveInput" = false;
   "workbench.quickOpen.closeOnFocusLost" = true;
-  "workbench.productIconTheme" = "Default";
   "workbench.panel.showLabels" = false;
   "workbench.panel.opensMaximized" = "preserve";
   "workbench.panel.defaultLocation" = "top";

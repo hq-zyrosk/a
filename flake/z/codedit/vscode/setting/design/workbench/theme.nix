@@ -1,9 +1,11 @@
 let
-  theme = "Empty Dark";
+  color-theme = "Default High Contrast";
+  icons-theme = "Default";
 in {
-  "workbench.preferredLightColorTheme" = theme;
-  "workbench.preferredHighContrastLightColorTheme" = theme;
-  "workbench.preferredHighContrastColorTheme" = theme;
-  "workbench.preferredDarkColorTheme" = theme;
-  "workbench.colorTheme" = theme;
+  "workbench.preferredLightColorTheme" = color-theme;
+  "workbench.preferredHighContrastLightColorTheme" = color-theme;
+  "workbench.preferredHighContrastColorTheme" = color-theme;
+  "workbench.preferredDarkColorTheme" = color-theme;
+  "workbench.colorTheme" = color-theme;
+  "workbench.productIconTheme" = icons-theme;
 }

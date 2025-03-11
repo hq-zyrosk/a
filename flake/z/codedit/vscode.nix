@@ -13,20 +13,18 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
           extensions = with extensions.vscode-marketplace; [
-            tyriar.sort-lines
-            # tamasfe.even-better-toml
-            # rust-lang.rust-analyzer
-            # redhat.vscode-yaml
-            # redhat.vscode-xml
-            pascalreitermann93.vscode-yaml-sort
-            nefrob.vscode-just-syntax
-            ms-vscode.live-server
-            likebot.vscode-empty-themes
+            rust-lang.rust-analyzer
+            dbaeumer.vscode-eslint
             jnoortheen.nix-ide
+            fill-labs.dependi
+
+            tamasfe.even-better-toml
+            redhat.vscode-yaml
+            redhat.vscode-xml
+            # tyriar.sort-lines
+
             github.copilot-chat
             github.copilot
-            fill-labs.dependi
-            dbaeumer.vscode-eslint
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
