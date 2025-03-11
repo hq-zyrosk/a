@@ -1,76 +1,74 @@
 {
-  # treefmtEval = eachSystem (pkgs: treefmt-nix.lib.evalModule pkgs ./treefmt.nix);
   outputs = {
     treefmt-nix,
     textual-pragmata-pro,
     systems,
+    self,
     pointer-dot-red,
     nixpkgs,
     nixos-hardware,
     nix-vscode-extensions,
     home-manager,
-    flake-utils,
     fenix,
     ...
   }: let
     system = "x86_64-linux";
     pkgs = import nixpkgs {inherit system;};
   in {
-    homeConfigurations = {
-      "z@x" = home-manager.lib.homeManagerConfiguration {
-        extraSpecialArgs = {
-          extensions = nix-vscode-extensions.extensions.${system};
-          fenix = fenix.packages.${system};
-        };
-        modules = [
-          ./flake/z.nix
-          {
-            home = {
-              pointerCursor = {
-                hyprcursor = {
-                  size = 5;
-                  enable = true;
+    packages = {
+      ${system} = {
+        homeConfigurations = {
+          "z@x" = home-manager.lib.homeManagerConfiguration {
+            extraSpecialArgs = {
+              extensions = nix-vscode-extensions.extensions.${system};
+              fenix = fenix.packages.${system};
+            };
+            modules = [
+              ./flake/z.nix
+              {
+                home = {
+                  pointerCursor = {
+                    hyprcursor = {
+                      size = 5;
+                      enable = true;
+                    };
+                    package = pointer-dot-red.packages.${system}.pointer-dot-red;
+                    name = "dot-red";
+                  };
                 };
-                package = pointer-dot-red.packages.${system}.pointer-dot-red;
-                name = "dot-red";
-              };
-            };
-          }
-        ];
-        pkgs = pkgs;
-      };
-    };
-    homeManagerModules = {};
+              }
+            ];
+            pkgs = pkgs;
+          };
+        };
+        homeManagerModules = {};
 
-    nixosConfigurations = {
-      x = nixpkgs.lib.nixosSystem {
-        modules = [
-          home-manager.nixosModules.home-manager
-          nixos-hardware.nixosModules.apple-t2
-          /etc/nixos/hardware-configuration.nix
-          ./flake/x.nix
-          {
-            fonts = {
-              packages = [
-                textual-pragmata-pro.packages.${system}.textual-pragmata-pro
-              ];
-            };
-          }
-        ];
-        system = system;
+        nixosConfigurations = {
+          x = nixpkgs.lib.nixosSystem {
+            inherit system;
+
+            modules = [
+              home-manager.nixosModules.home-manager
+              nixos-hardware.nixosModules.apple-t2
+              /etc/nixos/hardware-configuration.nix
+              ./flake/x.nix
+              {
+                fonts = {
+                  packages = [
+                    textual-pragmata-pro.packages.${system}.textual-pragmata-pro
+                  ];
+                };
+              }
+            ];
+          };
+        };
+        nixosModules = {};
       };
     };
-    nixosModules = {};
 
     formatter = {
-      ${system} = pkgs.nixfmt-rfc-style;
+      ${system} = (treefmt-nix.lib.evalModule pkgs ./treefmt.nix).config.build.wrapper;
     };
-
-    # formatter = eachSystem (pkgs: treefmtEval.${pkgs.system}.config.build.wrapper);
-
-    # checks = eachSystem (pkgs: {
-    #   formatting = treefmtEval.${pkgs.system}.config.build.check self;
-    # });
   };
 
   inputs = {
@@ -115,15 +113,6 @@
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
-        };
-      };
-    };
-
-    flake-utils = {
-      url = "github:numtide/flake-utils";
-      inputs = {
-        systems = {
-          follows = "systems";
         };
       };
     };
