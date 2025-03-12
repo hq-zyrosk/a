@@ -16,14 +16,16 @@
             rust-lang.rust-analyzer
             dbaeumer.vscode-eslint
             jnoortheen.nix-ide
-            fill-labs.dependi
+
+            github.copilot-chat
+            github.copilot
 
             tamasfe.even-better-toml
             redhat.vscode-yaml
             redhat.vscode-xml
 
-            github.copilot-chat
-            github.copilot
+            fill-labs.dependi
+            tyriar.sort-lines
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
