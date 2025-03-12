@@ -1,4 +1,6 @@
-{
+let
+  terminal = "alacritty";
+in {
   "terminal.integrated.suggest.quickSuggestions" = {
     "arguments" = "on";
     "commands" = "on";
@@ -99,9 +101,9 @@
   "terminal.integrated.hideOnStartup" = "never";
   "terminal.integrated.hideOnLastClosed" = true;
   "terminal.integrated.gpuAcceleration" = "off";
-  "terminal.integrated.fontLigatures.featureSettings" = "\"calt\" on";
+  "terminal.integrated.fontLigatures.featureSettings" = "";
   "terminal.integrated.fontLigatures.fallbackLigatures" = [];
-  "terminal.integrated.fontLigatures.enabled" = true;
+  "terminal.integrated.fontLigatures.enabled" = false;
   "terminal.integrated.focusAfterRun" = "terminal";
   "terminal.integrated.fastScrollSensitivity" = 5;
   "terminal.integrated.environmentChangesRelaunch" = true;
@@ -118,7 +120,7 @@
   "terminal.integrated.detectLocale" = "on";
   "terminal.integrated.defaultProfile.windows" = "";
   "terminal.integrated.defaultProfile.osx" = "";
-  "terminal.integrated.defaultProfile.linux" = "fish";
+  "terminal.integrated.defaultProfile.linux" = "";
   "terminal.integrated.defaultLocation" = "view";
   "terminal.integrated.cwd" = "\${workspaceFolder}";
   "terminal.integrated.customGlyphs" = true;
@@ -136,8 +138,8 @@
   "terminal.integrated.allowChords" = true;
   "terminal.integrated.accessibleViewPreserveCursorPosition" = true;
   "terminal.integrated.accessibleViewFocusOnCommandExecution" = false;
-  "terminal.external.windowsExec" = "alacritty";
-  "terminal.external.osxExec" = "alacritty";
-  "terminal.external.linuxExec" = "alacritty";
+  "terminal.external.windowsExec" = terminal;
+  "terminal.external.osxExec" = terminal;
+  "terminal.external.linuxExec" = terminal;
   "terminal.explorerKind" = "integrated";
 }

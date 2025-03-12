@@ -27,7 +27,7 @@ flake-a args:
   sudo nixos-rebuild switch -I nixos-config=/etc/nixos/configuration.nix {{ args }}
 
 format:
-  nix fmt **/*.nix
+  nix fmt --impure
 
 repair:
   sudo nix-store --verify --repair --check-contents
