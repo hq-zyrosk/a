@@ -56,7 +56,7 @@ in {
   "terminal.integrated.tabs.hideCondition" = "singleTerminal";
   "terminal.integrated.tabs.focusMode" = "singleClick";
   "terminal.integrated.tabs.enabled" = true;
-  "terminal.integrated.tabs.enableAnimation" = true;
+  "terminal.integrated.tabs.enableAnimation" = false;
   "terminal.integrated.tabs.description" = "\${task}";
   "terminal.integrated.tabs.defaultIcon" = "array";
   "terminal.integrated.tabs.defaultColor" = "terminal.ansiWhite";
@@ -93,7 +93,7 @@ in {
   "terminal.integrated.localEchoStyle" = "bold";
   "terminal.integrated.localEchoLatencyThreshold" = 0;
   "terminal.integrated.localEchoExcludePrograms" = ["nano"];
-  "terminal.integrated.localEchoEnabled" = "on";
+  "terminal.integrated.localEchoEnabled" = "off";
   "terminal.integrated.initialHint" = true;
   "terminal.integrated.inheritEnv" = true;
   "terminal.integrated.ignoreProcessNames" = [];
@@ -136,7 +136,7 @@ in {
   "terminal.integrated.altClickMovesCursor" = true;
   "terminal.integrated.allowMnemonics" = true;
   "terminal.integrated.allowChords" = true;
-  "terminal.integrated.accessibleViewPreserveCursorPosition" = true;
+  "terminal.integrated.accessibleViewPreserveCursorPosition" = false;
   "terminal.integrated.accessibleViewFocusOnCommandExecution" = false;
   "terminal.external.windowsExec" = terminal;
   "terminal.external.osxExec" = terminal;
