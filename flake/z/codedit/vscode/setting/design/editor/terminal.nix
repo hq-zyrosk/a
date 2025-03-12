@@ -111,7 +111,7 @@ in {
   "terminal.integrated.env.windows" = {};
   "terminal.integrated.env.osx" = {};
   "terminal.integrated.env.linux" = {};
-  "terminal.integrated.enableVisualBell" = true;
+  "terminal.integrated.enableVisualBell" = false;
   "terminal.integrated.enablePersistentSessions" = true;
   "terminal.integrated.enableMultiLinePasteWarning" = "never";
   "terminal.integrated.enableImages" = true;

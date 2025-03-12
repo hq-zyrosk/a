@@ -27,7 +27,13 @@ in {
       };
       shellAbbrs = {};
       interactiveShellInit = ''
-        set fish_greeting
+        fish_config theme         choose 'fish default'
+        fish_config prompt        choose simple
+        set         fish_greeting ""
+
+        function fish_prompt
+          echo ""
+        end
       '';
       loginShellInit = "";
       promptInit = "";
@@ -39,12 +45,10 @@ in {
 
   environment = {
     defaultPackages = with pkgs; [
-      fishPlugins.sponge
-      fishPlugins.puffer
-      curlHTTP3
-
       libimobiledevice
       ifuse
+
+      curlHTTP3
 
       alejandra
       nil

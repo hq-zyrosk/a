@@ -62,13 +62,28 @@ in {
           size = text-size;
         };
         cursor = {
+          vi_mode_style = {
+            shape = "beam";
+            blinking = "Off";
+          };
           style = {
             shape = "beam";
             blinking = "Off";
           };
-          thickness = 1;
+          unfocused_hollow = false;
+          thickness = 0.125;
+          blink_timeout = 0;
+          blink_interval = 1000;
         };
         colors = {
+          vi_mode_cursor = {
+            text = "#000000";
+            cursor = "#FF0000";
+          };
+          cursor = {
+            text = "#000000";
+            cursor = "#FF0000";
+          };
           primary = {
             dim_foreground = "#5A5A5A";
             foreground = "#D3D3D3";
