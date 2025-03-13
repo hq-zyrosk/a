@@ -13,10 +13,11 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
           extensions = with extensions.vscode-marketplace; [
-            rust-lang.rust-analyzer
-            dbaeumer.vscode-eslint
-            jnoortheen.nix-ide
+            nefrob.vscode-just-syntax
+            fill-labs.dependi
+            tyriar.sort-lines
 
+            ms-vscode.live-server
             github.copilot-chat
             github.copilot
 
@@ -24,8 +25,9 @@
             redhat.vscode-yaml
             redhat.vscode-xml
 
-            fill-labs.dependi
-            tyriar.sort-lines
+            rust-lang.rust-analyzer
+            dbaeumer.vscode-eslint
+            jnoortheen.nix-ide
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
