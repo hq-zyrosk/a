@@ -71,7 +71,7 @@ in {
             blinking = "Off";
           };
           unfocused_hollow = false;
-          thickness = 0.125;
+          thickness = 0.25;
           blink_timeout = 0;
           blink_interval = 1000;
         };

@@ -71,8 +71,6 @@ in {
     packages = [
       terminus_font
     ];
-    keyMap = "us";
-    font = "${terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     colors = [
       "000000"
       "FFC5C5"
@@ -92,6 +90,8 @@ in {
       "00EBEB"
       "FFFFFF"
     ];
+    keyMap = "us";
+    font = "${terminus_font}/share/consolefonts/ter-v16n.psf.gz";
     earlySetup = true;
     enable = true;
   };
