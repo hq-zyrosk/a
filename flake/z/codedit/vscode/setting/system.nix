@@ -14,6 +14,7 @@ let
   net_http = import ./system/net/http.nix;
   net = import ./system/net.nix;
   app_github_copilot = import ./system/app/github/copilot.nix;
+  app_justfile = import ./system/app/justfile.nix;
   app_github = import ./system/app/github.nix;
   app_eslint = import ./system/app/eslint.nix;
   app_dependi = import ./system/app/dependi.nix;
@@ -33,6 +34,7 @@ in
   // npm
   // net_http
   // net
+  // app_justfile
   // app_github_copilot
   // app_github
   // app_eslint
