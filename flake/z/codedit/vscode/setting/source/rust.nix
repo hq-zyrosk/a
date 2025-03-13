@@ -1,4 +1,6 @@
 {
+  "rust-analyzer.workspace.discoverConfig" = {};
+  "rust-analyzer.vfs.extraIncludes" = [];
   "rust-analyzer.statusBar.showStatusBar" = {
     "documentSelector" = [
       {
@@ -16,7 +18,9 @@
       }
     ];
   };
-  "rust-analyzer.rustfmt.extraArgs" = [
+  "rust-analyzer.server.extraEnv" = {};
+  "rust-analyzer.rustfmt.overrideCommand" = [
+    "rustfmt"
     "--color"
     "always"
     "--config-path"
@@ -29,12 +33,21 @@
     "--skip-children"
     "--unstable-features"
   ];
+  "rust-analyzer.rustfmt.extraArgs" = [];
   "rust-analyzer.runnables.problemMatcher" = [
     "$rustc"
   ];
   "rust-analyzer.runnables.extraTestBinaryArgs" = [
     "--show-output"
   ];
+  "rust-analyzer.runnables.extraEnv" = {};
+  "rust-analyzer.runnables.extraArgs" = [];
+  "rust-analyzer.procMacro.ignored" = {};
+  "rust-analyzer.lru.query.capacities" = {};
+  "rust-analyzer.linkedProjects" = [];
+  "rust-analyzer.files.exclude" = [];
+  "rust-analyzer.diagnostics.warningsAsInfo" = [];
+  "rust-analyzer.diagnostics.warningsAsHint" = [];
   "rust-analyzer.diagnostics.remapPrefix" = {
     "error" = "error";
     "file" = "file";
@@ -42,6 +55,8 @@
     "note" = "note";
     "warning" = "warning";
   };
+  "rust-analyzer.diagnostics.disabled" = [];
+  "rust-analyzer.debug.engineSettings" = {};
   "rust-analyzer.completion.snippets.custom" = {
     "Arc::new" = {
       "body" = "Arc::new(\${receiver})";
@@ -83,6 +98,7 @@
       "scope" = "expr";
     };
   };
+  "rust-analyzer.completion.excludeTraits" = [];
   "rust-analyzer.completion.autoimport.exclude" = [
     {
       "path" = "core::borrow::Borrow";
@@ -93,6 +109,10 @@
       "type" = "methods";
     }
   ];
+  "rust-analyzer.check.targets" = [];
+  "rust-analyzer.check.ignore" = [];
+  "rust-analyzer.check.features" = [];
+  "rust-analyzer.check.extraEnv" = {};
   "rust-analyzer.check.extraArgs" = [
     "--"
     "-W"
@@ -104,6 +124,9 @@
     "-W"
     "clippy::cargo"
   ];
+  "rust-analyzer.cargo.features" = [];
+  "rust-analyzer.cargo.extraEnv" = {};
+  "rust-analyzer.cargo.extraArgs" = [];
   "rust-analyzer.cargo.cfgs" = [
     "debug_assertions"
     "miri"
@@ -114,8 +137,6 @@
   "rust-analyzer.workspace.symbol.search.scope" = "workspace_and_dependencies";
   "rust-analyzer.workspace.symbol.search.limit" = 256;
   "rust-analyzer.workspace.symbol.search.kind" = "all_symbols";
-  "rust-analyzer.workspace.discoverConfig" = {};
-  "rust-analyzer.vfs.extraIncludes" = [];
   "rust-analyzer.typing.triggerChars" = "=.";
   "rust-analyzer.typing.continueCommentsOnNewline" = true;
   "rust-analyzer.trace.server" = "off";
@@ -128,7 +149,6 @@
   "rust-analyzer.showRequestFailedErrorNotification" = true;
   "rust-analyzer.showDependenciesExplorer" = true;
   "rust-analyzer.server.path" = "rust-analyzer";
-  "rust-analyzer.server.extraEnv" = {};
   "rust-analyzer.semanticHighlighting.strings.enable" = true;
   "rust-analyzer.semanticHighlighting.punctuation.specialization.enable" = true;
   "rust-analyzer.semanticHighlighting.punctuation.separate.macro.bang" = true;
@@ -138,24 +158,18 @@
   "rust-analyzer.semanticHighlighting.nonStandardTokens" = true;
   "rust-analyzer.semanticHighlighting.doc.comment.inject.enable" = true;
   "rust-analyzer.rustfmt.rangeFormatting.enable" = true;
-  "rust-analyzer.rustfmt.overrideCommand" = null;
   "rust-analyzer.rustc.source" = "discover";
-  "rust-analyzer.runnables.extraEnv" = {};
-  "rust-analyzer.runnables.extraArgs" = [];
   "rust-analyzer.runnables.command" = null;
   "rust-analyzer.runnables.askBeforeUpdateTest" = true;
   "rust-analyzer.restartServerOnConfigChange" = true;
   "rust-analyzer.references.excludeTests" = false;
   "rust-analyzer.references.excludeImports" = false;
   "rust-analyzer.procMacro.server" = "rust-analyzer";
-  "rust-analyzer.procMacro.ignored" = {};
   "rust-analyzer.procMacro.enable" = true;
   "rust-analyzer.procMacro.attributes.enable" = true;
   "rust-analyzer.numThreads" = "logical";
   "rust-analyzer.notifications.cargoTomlNotFound" = true;
-  "rust-analyzer.lru.query.capacities" = {};
   "rust-analyzer.lru.capacity" = 1024;
-  "rust-analyzer.linkedProjects" = [];
   "rust-analyzer.lens.updateTest.enable" = true;
   "rust-analyzer.lens.run.enable" = true;
   "rust-analyzer.lens.references.trait.enable" = true;
@@ -233,18 +247,13 @@
   "rust-analyzer.highlightRelated.closureCaptures.enable" = true;
   "rust-analyzer.highlightRelated.breakPoints.enable" = true;
   "rust-analyzer.files.watcher" = "server";
-  "rust-analyzer.files.exclude" = [];
-  "rust-analyzer.diagnostics.warningsAsInfo" = [];
-  "rust-analyzer.diagnostics.warningsAsHint" = [];
   "rust-analyzer.diagnostics.useRustcErrorCode" = true;
   "rust-analyzer.diagnostics.styleLints.enable" = true;
   "rust-analyzer.diagnostics.previewRustcOutput" = true;
   "rust-analyzer.diagnostics.experimental.enable" = false;
   "rust-analyzer.diagnostics.enable" = true;
-  "rust-analyzer.diagnostics.disabled" = [];
   "rust-analyzer.debug.sourceFileMap" = "auto";
   "rust-analyzer.debug.openDebugPane" = true;
-  "rust-analyzer.debug.engineSettings" = {};
   "rust-analyzer.debug.engine" = "llvm-vs-code-extensions.lldb-dap";
   "rust-analyzer.debug.buildBeforeRestart" = false;
   "rust-analyzer.completion.termSearch.fuel" = 4096;
@@ -254,7 +263,6 @@
   "rust-analyzer.completion.limit" = 4096;
   "rust-analyzer.completion.hideDeprecated" = false;
   "rust-analyzer.completion.fullFunctionSignatures.enable" = true;
-  "rust-analyzer.completion.excludeTraits" = [];
   "rust-analyzer.completion.callable.snippets" = "fill_arguments";
   "rust-analyzer.completion.autoself.enable" = true;
   "rust-analyzer.completion.autoIter.enable" = true;
@@ -263,13 +271,9 @@
   "rust-analyzer.completion.addSemicolonToUnit" = true;
   "rust-analyzer.checkOnSave" = true;
   "rust-analyzer.check.workspace" = true;
-  "rust-analyzer.check.targets" = [];
   "rust-analyzer.check.overrideCommand" = null;
   "rust-analyzer.check.noDefaultFeatures" = true;
   "rust-analyzer.check.invocationStrategy" = "once";
-  "rust-analyzer.check.ignore" = [];
-  "rust-analyzer.check.features" = [];
-  "rust-analyzer.check.extraEnv" = {};
   "rust-analyzer.check.command" = "clippy";
   "rust-analyzer.check.allTargets" = true;
   "rust-analyzer.cfg.setTest" = true;
@@ -278,9 +282,6 @@
   "rust-analyzer.cargo.sysrootSrc" = null;
   "rust-analyzer.cargo.sysroot" = "discover";
   "rust-analyzer.cargo.noDefaultFeatures" = true;
-  "rust-analyzer.cargo.features" = [];
-  "rust-analyzer.cargo.extraEnv" = {};
-  "rust-analyzer.cargo.extraArgs" = [];
   "rust-analyzer.cargo.buildScripts.useRustcWrapper" = true;
   "rust-analyzer.cargo.buildScripts.rebuildOnSave" = true;
   "rust-analyzer.cargo.buildScripts.overrideCommand" = null;
