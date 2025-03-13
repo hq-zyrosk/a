@@ -64,13 +64,16 @@
       enableShellIntegration = true;
     };
     packages = with pkgs; [
-      (fenix.complete.withComponents [
+      (fenix.latest.withComponents [
         "rust-analyzer"
+        "rust-analysis"
+        "rust-docs"
+        "rust-std"
         "rust-src"
         "rustfmt"
+        "rustc"
         "clippy"
         "cargo"
-        "rustc"
       ])
 
       android-studio-tools
