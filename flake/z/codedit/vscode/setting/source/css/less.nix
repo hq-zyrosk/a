@@ -1,4 +1,7 @@
 {
+  "[less]" = {
+    "editor.defaultFormatter" = "vscode.css-language-features";
+  };
   "less.validate" = true;
   "less.lint.zeroUnits" = "ignore";
   "less.lint.vendorPrefix" = "warning";

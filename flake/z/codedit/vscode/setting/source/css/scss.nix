@@ -1,4 +1,7 @@
 {
+  "[scss]" = {
+    "editor.defaultFormatter" = "vscode.css-language-features";
+  };
   "scss.validate" = true;
   "scss.lint.zeroUnits" = "ignore";
   "scss.lint.vendorPrefix" = "warning";
