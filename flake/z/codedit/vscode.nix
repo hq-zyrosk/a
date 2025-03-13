@@ -16,8 +16,6 @@
             nefrob.vscode-just-syntax
             fill-labs.dependi
             tyriar.sort-lines
-
-            ms-vscode.live-server
             github.copilot-chat
             github.copilot
 

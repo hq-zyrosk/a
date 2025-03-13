@@ -118,6 +118,7 @@
   "rust-analyzer.vfs.extraIncludes" = [];
   "rust-analyzer.typing.triggerChars" = "=.";
   "rust-analyzer.typing.continueCommentsOnNewline" = true;
+  "rust-analyzer.trace.server" = "off";
   "rust-analyzer.testExplorer" = true;
   "rust-analyzer.statusBar.clickAction" = "openLogs";
   "rust-analyzer.signatureInfo.documentation.enable" = true;

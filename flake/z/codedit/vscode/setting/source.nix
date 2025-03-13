@@ -11,6 +11,8 @@ let
   json = import ./source/json.nix;
   javascript = import ./source/javascript.nix;
   html = import ./source/html.nix;
+  css_scss = import ./source/css/scss.nix;
+  css_less = import ./source/css/less.nix;
   css = import ./source/css.nix;
 in
   yaml
@@ -25,4 +27,6 @@ in
   // json
   // javascript
   // html
+  // css_scss
+  // css_less
   // css

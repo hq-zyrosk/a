@@ -2,8 +2,6 @@
   outputs = {
     treefmt-nix,
     textual-pragmata-pro,
-    systems,
-    self,
     pointer-dot-red,
     nixpkgs,
     nixos-hardware,
