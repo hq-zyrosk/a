@@ -69,8 +69,8 @@
         "rust-src"
         "rustfmt"
         "clippy"
-        "rustc"
         "cargo"
+        "rustc"
       ])
 
       android-studio-tools
