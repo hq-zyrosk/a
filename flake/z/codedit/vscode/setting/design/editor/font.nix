@@ -1,7 +1,7 @@
 let
   text-type = "'PragmataPro Mono Liga', monospace";
   text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
-  text-kind = "Bold";
+  text-kind = "bold";
   text-high = 1.375;
   text-wrap = 96;
   text-tall = 0;
