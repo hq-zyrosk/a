@@ -15,20 +15,18 @@
           globalSnippets = {};
           extensions = with extensions.vscode-marketplace; [
             fenix.rust-analyzer-vscode-extension
-
-            nefrob.vscode-just-syntax
-            fill-labs.dependi
-            tyriar.sort-lines
-            github.copilot-chat
-            github.copilot
-
             tamasfe.even-better-toml
+            jnoortheen.nix-ide
             redhat.vscode-yaml
             redhat.vscode-xml
 
-            # rust-lang.rust-analyzer
+            nefrob.vscode-just-syntax
             dbaeumer.vscode-eslint
-            jnoortheen.nix-ide
+            fill-labs.dependi
+            tyriar.sort-lines
+
+            github.copilot-chat
+            github.copilot
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
