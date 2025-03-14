@@ -105,7 +105,6 @@
 
 .monaco-action-bar .action-label {
   font-weight: var(--text-kind);
-  font-family: var(--text-type);
   font-size: var(--text-size);
 }
 
@@ -203,8 +202,8 @@
 /*--------------------------------------------------------------------------------------------*/
 /*icon-explorer-expander*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
+  font-weight: var(--text-kind);
   font-size: 0px !important;
-  font-weight: normal;
   margin: 0 -14px 0 0;
 }
 

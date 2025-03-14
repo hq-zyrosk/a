@@ -65,14 +65,16 @@
     };
     packages = with pkgs; [
       (fenix.latest.withComponents [
-        "rust-analyzer"
+        "rust-analyzer-preview"
+        "rustfmt-preview"
+
         "rust-analysis"
         "rust-docs"
-        "rust-std"
         "rust-src"
-        "rustfmt"
+        "rust-std"
         "rustc"
-        "clippy"
+
+        "clippy-preview"
         "cargo"
       ])
 

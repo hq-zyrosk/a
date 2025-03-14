@@ -32,7 +32,13 @@ in {
         set         fish_greeting ""
 
         function fish_prompt
-          echo ""
+          if test $status -ne 0
+            set prompt_color $fish_color_error
+          else
+            set prompt_color $fish_color_cwd
+          end
+
+          printf '%s%s%s ' (set_color $prompt_color) (prompt_pwd) (set_color normal)
         end
       '';
       loginShellInit = "";
