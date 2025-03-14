@@ -66,7 +66,10 @@
     packages = with pkgs; [
       (fenix.latest.withComponents [
         "rust-analyzer-preview"
+        "llvm-tools-preview"
         "rustfmt-preview"
+        "miri-preview"
+        "toolchain"
 
         "rust-analysis"
         "rust-docs"

@@ -10,12 +10,6 @@
   fonts = {
     packages = with pkgs; [
       noto-fonts-color-emoji
-      monoid
-      julia-mono
-      jetbrains-mono
-      input-fonts
-      fira-code
-      agave
 
       # google-fonts
       # dejavu_fonts

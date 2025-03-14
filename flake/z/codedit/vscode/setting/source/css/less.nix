@@ -1,11 +1,11 @@
 {
+  "less.lint.validProperties" = [];
   "[less]" = {
     "editor.defaultFormatter" = "vscode.css-language-features";
   };
   "less.validate" = true;
   "less.lint.zeroUnits" = "ignore";
   "less.lint.vendorPrefix" = "warning";
-  "less.lint.validProperties" = [];
   "less.lint.unknownVendorSpecificProperties" = "ignore";
   "less.lint.unknownProperties" = "warning";
   "less.lint.unknownAtRules" = "warning";

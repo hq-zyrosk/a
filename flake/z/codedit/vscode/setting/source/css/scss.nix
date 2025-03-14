@@ -1,11 +1,11 @@
 {
+  "scss.lint.validProperties" = [];
   "[scss]" = {
     "editor.defaultFormatter" = "vscode.css-language-features";
   };
   "scss.validate" = true;
   "scss.lint.zeroUnits" = "ignore";
   "scss.lint.vendorPrefix" = "warning";
-  "scss.lint.validProperties" = [];
   "scss.lint.unknownVendorSpecificProperties" = "ignore";
   "scss.lint.unknownProperties" = "warning";
   "scss.lint.unknownAtRules" = "warning";

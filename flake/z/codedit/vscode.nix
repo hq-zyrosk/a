@@ -35,7 +35,7 @@
       package = (pkgs.vscode.override {isInsiders = true;}).overrideAttrs (o2: {
         src = (
           builtins.fetchTarball {
-            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#9";
+            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#68";
           }
         );
         meta = {
