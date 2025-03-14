@@ -34,7 +34,6 @@ in {
   "editor.stickyTabStops" = false;
   "editor.stablePeek" = true;
   "editor.snippets.codeActions.enabled" = true;
-  "editor.smoothScrolling" = true;
   "editor.smartSelect.selectSubwords" = true;
   "editor.smartSelect.selectLeadingAndTrailingWhitespace" = true;
   "editor.showUnused" = true;

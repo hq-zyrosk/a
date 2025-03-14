@@ -4,6 +4,7 @@
       google-fonts
       dejavu_fonts
       corefonts
+      mononoki
     ];
     fontconfig = {
       subpixel = {

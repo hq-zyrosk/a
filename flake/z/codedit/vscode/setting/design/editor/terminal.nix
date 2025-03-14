@@ -70,7 +70,6 @@ in {
   "terminal.integrated.suggest.enabled" = true;
   "terminal.integrated.suggest.cdPath" = "absolute";
   "terminal.integrated.splitCwd" = "inherited";
-  "terminal.integrated.smoothScrolling" = true;
   "terminal.integrated.showLinkHover" = true;
   "terminal.integrated.showExitAlert" = true;
   "terminal.integrated.shellIntegration.showCommandGuide" = true;
