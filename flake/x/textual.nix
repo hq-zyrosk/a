@@ -1,10 +1,25 @@
 {pkgs, ...}: {
+  nixpkgs = {
+    config = {
+      input-fonts = {
+        acceptLicense = true;
+      };
+    };
+  };
+
   fonts = {
     packages = with pkgs; [
-      google-fonts
-      dejavu_fonts
-      corefonts
-      mononoki
+      noto-fonts-color-emoji
+      monoid
+      julia-mono
+      jetbrains-mono
+      input-fonts
+      fira-code
+      agave
+
+      # google-fonts
+      # dejavu_fonts
+      # corefonts
     ];
     fontconfig = {
       subpixel = {

@@ -1,4 +1,5 @@
 {
+  fenix,
   extensions,
   pkgs,
   ...
@@ -13,6 +14,8 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
           extensions = with extensions.vscode-marketplace; [
+            fenix.rust-analyzer-vscode-extension
+
             nefrob.vscode-just-syntax
             fill-labs.dependi
             tyriar.sort-lines
@@ -23,7 +26,7 @@
             redhat.vscode-yaml
             redhat.vscode-xml
 
-            rust-lang.rust-analyzer
+            # rust-lang.rust-analyzer
             dbaeumer.vscode-eslint
             jnoortheen.nix-ide
           ];

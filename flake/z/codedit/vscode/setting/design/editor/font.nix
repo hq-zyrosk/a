@@ -1,6 +1,7 @@
 let
   text-type = "'PragmataPro Mono Liga', monospace";
   text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
+  text-kind = "Bold";
   text-high = 1.375;
   text-wrap = 96;
   text-tall = 0;
@@ -15,8 +16,8 @@ in {
   "terminal.integrated.wordSeparators" = text-trip;
   "terminal.integrated.lineHeight" = text-high;
   "terminal.integrated.letterSpacing" = text-tall;
-  "terminal.integrated.fontWeightBold" = "bold";
-  "terminal.integrated.fontWeight" = "normal";
+  "terminal.integrated.fontWeightBold" = text-kind;
+  "terminal.integrated.fontWeight" = text-kind;
   "terminal.integrated.fontSize" = text-size;
   "terminal.integrated.fontFamily" = text-type;
   "screencastMode.fontSize" = 24;
@@ -43,7 +44,7 @@ in {
   "editor.inlineSuggest.fontFamily" = "default";
   "editor.inlayHints.fontSize" = 0;
   "editor.inlayHints.fontFamily" = "";
-  "editor.fontWeight" = "normal";
+  "editor.fontWeight" = text-kind;
   "editor.fontVariations" = true;
   "editor.fontSize" = text-size;
   "editor.fontLigatures" = true;
@@ -56,7 +57,7 @@ in {
   "debug.console.fontFamily" = "default";
   "chat.editor.wordWrap" = "off";
   "chat.editor.lineHeight" = 0;
-  "chat.editor.fontWeight" = "default";
+  "chat.editor.fontWeight" = text-kind;
   "chat.editor.fontSize" = text-size;
   "chat.editor.fontFamily" = "default";
 }
