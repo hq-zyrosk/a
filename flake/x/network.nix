@@ -48,15 +48,22 @@
     networkmanager = {
       enable = true;
     };
-    nftables = {
-      enable = true;
+    interfaces = {
+      "usb0" = {
+        useDHCP = true;
+      };
     };
+
     nameservers = [
       "127.0.0.1"
     ];
+    nftables = {
+      enable = true;
+    };
     firewall = {
       enable = false;
     };
+
     usePredictableInterfaceNames = true;
     hostName = lib.mkForce "x";
   };

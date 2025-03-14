@@ -51,20 +51,22 @@ in {
 
   environment = {
     defaultPackages = with pkgs; [
-      libimobiledevice
-      ifuse
-
       curlHTTP3
-
-      alejandra
-      nil
-
       unzip
       just
       file
       eza
+
+      alejandra
+      nil
     ];
     systemPackages = with pkgs; [
+      libimobiledevice
+      libusbmuxd
+      usbmuxd
+      lsusb
+      ifuse
+
       watchexec
       xdg-utils
       timelimit
