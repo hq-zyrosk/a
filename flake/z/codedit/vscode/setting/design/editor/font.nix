@@ -1,11 +1,11 @@
 let
-  text-wrap = 96;
   text-type = "'PragmataPro Mono Liga', monospace";
   text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
+  text-high = 1.375;
+  text-wrap = 96;
   text-tall = 0;
   text-size = 16;
   text-wide = 8;
-  text-high = 1;
 in {
   "editor.rulers" = [
     text-wrap

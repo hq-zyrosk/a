@@ -46,7 +46,6 @@
 
   networking = {
     networkmanager = {
-      dns = lib.mkForce "systemd-resolved";
       enable = true;
     };
     nftables = {

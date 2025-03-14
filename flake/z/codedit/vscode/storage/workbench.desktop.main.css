@@ -244,7 +244,7 @@
 
 :root {
   --text-type: 'PragmataPro Mono', monospace;
+  --text-high: 1.375;
   --text-size: 16px;
   --text-wide: 8px;
-  --text-high: 1;
 }
