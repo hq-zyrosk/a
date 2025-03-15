@@ -32,8 +32,6 @@ in {
           decorations_theme_variant = "Dark";
           decorations = "None";
           blur = false;
-          background_opacity = 1.0;
-          background = "Transparent";
         };
         terminal = {
           shell = "fish";
