@@ -1,4 +1,43 @@
 {lib, ...}: {
+  # Add this section to enforce DNS through Tor for networkd
+  systemd = {
+    network = {
+      enable = true;
+      networks."40-wireless" = {
+        matchConfig = {
+          Name = "w*";
+        };
+        networkConfig = {
+          DHCP = "yes";
+          DNS = "127.0.0.1:9053";
+          DNSDefaultRoute = true;
+        };
+        linkConfig = {
+          RequiredForOnline = "carrier";
+        };
+        dhcpV4Config = {
+          UseDNS = false;
+        };
+      };
+      networks."40-ethernet" = {
+        matchConfig = {
+          Name = "e* usb*";
+        };
+        networkConfig = {
+          DHCP = "yes";
+          DNS = "127.0.0.1:9053";
+          DNSDefaultRoute = true;
+        };
+        linkConfig = {
+          RequiredForOnline = "carrier";
+        };
+        dhcpV4Config = {
+          UseDNS = false;
+        };
+      };
+    };
+  };
+
   services = {
     tor = {
       torsocks = {
@@ -36,11 +75,13 @@
     };
     resolved = {
       extraConfig = ''
-        DNSStubListener=yes
+        DNSStubListener=no
         DNS=127.0.0.1:9053
-        Domains=~onion
+        Domains=~.
+        DNSOverTLS=no
       '';
       enable = true;
+      fallbackDns = ["127.0.0.1:9053"];
     };
   };
 
@@ -56,18 +97,63 @@
         useDHCP = true;
       };
     };
-    # usePredictableInterfaceNames = true;
-    # useNetworkd = true;
 
     wireless = {
       enable = true;
     };
     nftables = {
       enable = true;
+      ruleset = ''
+        table inet filter {
+          chain input {
+            type filter hook input priority 0; policy drop;
+
+            # Allow loopback
+            iifname lo accept
+
+            # Allow established/related connections
+            ct state established,related accept
+
+            # Allow SSH (adjust as needed)
+            tcp dport 22 accept
+
+            # Drop everything else
+            reject with icmp type port-unreachable
+          }
+
+          chain forward {
+            type filter hook forward priority 0; policy drop;
+          }
+
+          chain output {
+            type filter hook output priority 0; policy accept;
+
+            # Allow DNS requests to Tor
+            ip daddr 127.0.0.1 udp dport 9053 accept
+            ip daddr 127.0.0.1 tcp dport 9053 accept
+
+            # Block all other DNS requests
+            udp dport 53 drop
+            tcp dport 53 drop
+          }
+        }
+
+        table ip nat {
+          chain prerouting {
+            type nat hook prerouting priority 0; policy accept;
+            # Redirect all DNS requests to Tor DNSPort
+            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+          }
+        }
+      '';
     };
     firewall = {
-      enable = false;
+      enable = true;
     };
+
+    usePredictableInterfaceNames = true;
+    useNetworkd = true;
     hostName = "x";
   };
 }
