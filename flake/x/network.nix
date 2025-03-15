@@ -46,25 +46,28 @@
 
   networking = {
     networkmanager = {
-      enable = true;
+      enable = false;
     };
-    interfaces = {
-      "usb0" = {
-        useDHCP = true;
-      };
-    };
-
     nameservers = [
       "127.0.0.1"
     ];
+    interfaces = {
+      usb0 = {
+        useDHCP = true;
+      };
+    };
+    # usePredictableInterfaceNames = true;
+    # useNetworkd = true;
+
+    wireless = {
+      enable = true;
+    };
     nftables = {
       enable = true;
     };
     firewall = {
       enable = false;
     };
-
-    usePredictableInterfaceNames = true;
-    hostName = lib.mkForce "x";
+    hostName = "x";
   };
 }

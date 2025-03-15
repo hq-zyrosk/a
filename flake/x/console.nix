@@ -61,17 +61,14 @@ in {
       nil
     ];
     systemPackages = with pkgs; [
-      libimobiledevice
-      libusbmuxd
-      usbmuxd
-      lsusb
-      ifuse
-
       watchexec
       xdg-utils
       timelimit
       libnotify
       killall
+
+      lshw
+      cyme
     ];
   };
 
