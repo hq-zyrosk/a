@@ -1,5 +1,7 @@
 let
-  text-size = 12;
+  text-size = 13;
+  text-high = 4;
+  text-wide = 0;
 in {
   programs = {
     alacritty = {
@@ -95,6 +97,10 @@ in {
           normal = {
             family = "PragmataPro Mono";
             style = "Regular";
+          };
+          offset = {
+            y = text-high;
+            x = text-wide;
           };
           builtin_box_drawing = true;
           size = text-size;
