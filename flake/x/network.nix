@@ -1,5 +1,4 @@
 {
-  # Add this section to enforce DNS through Tor for networkd
   systemd = {
     network = {
       enable = true;
@@ -40,11 +39,6 @@
 
   services = {
     tor = {
-      settings = {
-        DNSPort = 9053;
-        AutomapHostsOnResolve = 1;
-        AutomapHostsSuffixes = [".onion"];
-      };
       client = {
         transparentProxy = {
           enable = true;
@@ -105,7 +99,7 @@
             type nat hook output priority -100; policy accept;
 
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
-            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
           }
         }
 
