@@ -1,4 +1,4 @@
-{lib, ...}: {
+{
   # Add this section to enforce DNS through Tor for networkd
   systemd = {
     network = {
@@ -44,10 +44,13 @@
         enable = true;
       };
       settings = {
-        MapAddress = [
-          "*.onion 10.192.0.0"
-          "*.exit 10.192.0.0"
-        ];
+        # Add TransPort for Tor traffic routing
+        # TransPort = [
+        #   {
+        #     addr = "127.0.0.1";
+        #     port = 9040;
+        #   }
+        # ];
         DNSPort = [
           {
             addr = "127.0.0.1";
@@ -62,6 +65,9 @@
         AutomapHostsOnResolve = true;
       };
       client = {
+        transparentProxy = {
+          enable = true;
+        };
         socksListenAddress = {
           addr = "127.0.0.1";
           port = 9050;
@@ -74,14 +80,16 @@
       enable = true;
     };
     resolved = {
+      fallbackDns = [
+        "127.0.0.1:9053"
+      ];
       extraConfig = ''
         DNSStubListener=no
         DNS=127.0.0.1:9053
-        Domains=~.
         DNSOverTLS=no
+        Domains=~.
       '';
       enable = true;
-      fallbackDns = ["127.0.0.1:9053"];
     };
   };
 
@@ -104,6 +112,26 @@
     nftables = {
       enable = true;
       ruleset = ''
+        table ip nat {
+          chain prerouting {
+            type nat hook prerouting priority 0; policy accept;
+            # Redirect all DNS requests to Tor DNSPort
+            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+          }
+
+          chain output {
+            type nat hook output priority -100; policy accept;
+
+            # Redirect outgoing DNS requests to Tor
+            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+
+            # Redirect .onion traffic to Tor
+            ip daddr 10.192.0.0/10 tcp dport != 9053 dnat to 127.0.0.1:9040
+          }
+        }
+
         table inet filter {
           chain input {
             type filter hook input priority 0; policy drop;
@@ -127,22 +155,6 @@
 
           chain output {
             type filter hook output priority 0; policy accept;
-          }
-        }
-
-        table ip nat {
-          chain prerouting {
-            type nat hook prerouting priority 0; policy accept;
-            # Redirect all DNS requests to Tor DNSPort
-            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
-            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
-          }
-
-          chain output {
-            type nat hook output priority -100; policy accept;
-            # Redirect outgoing DNS requests to Tor
-            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
-            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
           }
         }
       '';
