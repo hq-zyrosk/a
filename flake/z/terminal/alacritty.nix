@@ -98,11 +98,15 @@ in {
             family = "PragmataPro Mono";
             style = "Regular";
           };
+          glyph_offset = {
+            y = text-high;
+            x = text-wide;
+          };
           offset = {
             y = text-high;
             x = text-wide;
           };
-          builtin_box_drawing = true;
+          builtin_box_drawing = false;
           size = text-size;
         };
         cursor = {
@@ -163,6 +167,7 @@ in {
             blue = "#CFCFFF";
             black = "#5A5A5A";
           };
+          draw_bold_text_with_bright_colors = true;
         };
       };
       enable = true;
