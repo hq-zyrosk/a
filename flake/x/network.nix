@@ -75,8 +75,13 @@
         }
 
         table inet filter {
-          # Define custom counter
-          counter dns_queries_counter {}
+          chain forward {
+            type filter hook forward priority 0; policy drop;
+          }
+
+          chain output {
+            type filter hook output priority 0; policy accept;
+          }
 
           chain input {
             type filter hook input priority 0; policy drop;
@@ -89,8 +94,8 @@
             ct state established,related accept
 
             # ICMP and ICMPv6 for diagnostic purposes (optional, can be removed for stricter security)
-            ip protocol icmp icmp type { echo-request, destination-unreachable, time-exceeded } accept
             ip6 nexthdr icmpv6 icmpv6 type { echo-request, destination-unreachable, time-exceeded, packet-too-big, parameter-problem, nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert } accept
+            ip protocol icmp icmp type { echo-request, destination-unreachable, time-exceeded } accept
 
             # Allow SSH but rate limit to prevent brute force
             tcp dport 22 ct state new limit rate 5/minute accept
@@ -100,18 +105,6 @@
 
             # Default drop with reject message
             reject with icmp type port-unreachable
-          }
-
-          chain forward {
-            type filter hook forward priority 0; policy drop;
-          }
-
-          chain output {
-            type filter hook output priority 0; policy accept;
-
-            # Count DNS queries for monitoring
-            udp dport 53 counter name dns_queries_counter
-            tcp dport 53 counter name dns_queries_counter
           }
         }
       '';
