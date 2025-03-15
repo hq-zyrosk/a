@@ -95,22 +95,24 @@
       ruleset = ''
         table ip nat {
           chain prerouting {
+            type nat hook prerouting priority 0; policy accept;
+
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
             ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
-
-            type nat hook prerouting priority 0; policy accept;
           }
 
           chain output {
+            type nat hook output priority -100; policy accept;
+
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
             ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:
-
-            type nat hook output priority -100; policy accept;
           }
         }
 
         table inet filter {
           chain input {
+            type filter hook input priority 0; policy drop;
+
             # Allow loopback
             iifname lo accept
 
@@ -122,8 +124,6 @@
 
             # Drop everything else
             reject with icmp type port-unreachable
-
-            type filter hook input priority 0; policy drop;
           }
 
           chain forward {
