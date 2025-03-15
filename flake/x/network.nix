@@ -40,34 +40,7 @@
 
   services = {
     tor = {
-      torsocks = {
-        enable = true;
-      };
-      settings = {
-        # Add TransPort for Tor traffic routing
-        # TransPort = [
-        #   {
-        #     addr = "127.0.0.1";
-        #     port = 9040;
-        #   }
-        # ];
-        DNSPort = [
-          {
-            addr = "127.0.0.1";
-            port = 9053;
-          }
-        ];
-        AutomapHostsSuffixes = [
-          ".onion"
-          ".exit"
-        ];
-        VirtualAddrNetworkIPv4 = "10.192.0.0/10";
-        AutomapHostsOnResolve = true;
-      };
       client = {
-        transparentProxy = {
-          enable = true;
-        };
         socksListenAddress = {
           addr = "127.0.0.1";
           port = 9050;
@@ -126,9 +99,6 @@
             # Redirect outgoing DNS requests to Tor
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
             ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
-
-            # Redirect .onion traffic to Tor
-            ip daddr 10.192.0.0/10 tcp dport != 9053 dnat to 127.0.0.1:9040
           }
         }
 
