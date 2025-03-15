@@ -38,7 +38,9 @@ in {
             set prompt_color $fish_color_cwd
           end
 
-          printf '%s%s%s ' (set_color $prompt_color) (string replace -r "^~/" "" (prompt_pwd)) (set_color normal)
+          printf '%s%s%s ' (set_color $prompt_color) (
+            string replace -r "^~[/]?" "" (prompt_pwd)
+          ) (set_color normal)
         end
       '';
       loginShellInit = "";
