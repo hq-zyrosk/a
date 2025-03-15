@@ -1,9 +1,40 @@
 let
-  text-size = 10;
+  text-size = 12;
 in {
   programs = {
     alacritty = {
       settings = {
+        window = {
+          position = {
+            x = 0;
+            y = 0;
+          };
+          padding = {
+            x = 0;
+            y = 0;
+          };
+          dimensions = {
+            columns = 0;
+            lines = 0;
+          };
+          class = {
+            instance = "Alacritty";
+            general = "Alacritty";
+          };
+          title = "Alacritty";
+          startup_mode = "Fullscreen";
+          resize_increments = false;
+          option_as_alt = "None";
+          opacity = 1.0;
+          level = "Normal";
+          dynamic_title = true;
+          dynamic_padding = false;
+          decorations_theme_variant = "Dark";
+          decorations = "None";
+          blur = false;
+          background_opacity = 1.0;
+          background = "Transparent";
+        };
         terminal = {
           shell = "fish";
         };
@@ -40,6 +71,11 @@ in {
               action = "Copy";
             }
           ];
+        };
+        general = {
+          working_directory = "None";
+          live_config_reload = true;
+          import = [];
         };
         font = {
           bold_italic = {
