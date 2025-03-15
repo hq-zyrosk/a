@@ -40,7 +40,15 @@
 
   services = {
     tor = {
+      settings = {
+        DNSPort = 9053;
+        AutomapHostsOnResolve = 1;
+        AutomapHostsSuffixes = [".onion"];
+      };
       client = {
+        transparentProxy = {
+          enable = true;
+        };
         socksListenAddress = {
           addr = "127.0.0.1";
           port = 9050;
@@ -87,25 +95,22 @@
       ruleset = ''
         table ip nat {
           chain prerouting {
-            type nat hook prerouting priority 0; policy accept;
-            # Redirect all DNS requests to Tor DNSPort
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
             ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+
+            type nat hook prerouting priority 0; policy accept;
           }
 
           chain output {
-            type nat hook output priority -100; policy accept;
-
-            # Redirect outgoing DNS requests to Tor
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
-            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:
+
+            type nat hook output priority -100; policy accept;
           }
         }
 
         table inet filter {
           chain input {
-            type filter hook input priority 0; policy drop;
-
             # Allow loopback
             iifname lo accept
 
@@ -117,6 +122,8 @@
 
             # Drop everything else
             reject with icmp type port-unreachable
+
+            type filter hook input priority 0; policy drop;
           }
 
           chain forward {
