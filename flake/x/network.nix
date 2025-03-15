@@ -1,52 +1,7 @@
 {
-  systemd = {
-    network = {
-      enable = true;
-      networks."40-wireless" = {
-        matchConfig = {
-          Name = "w*";
-        };
-        networkConfig = {
-          DHCP = "yes";
-          DNS = "127.0.0.1:9053";
-          DNSDefaultRoute = true;
-        };
-        linkConfig = {
-          RequiredForOnline = "carrier";
-        };
-        dhcpV4Config = {
-          UseDNS = false;
-        };
-      };
-      networks."40-ethernet" = {
-        matchConfig = {
-          Name = "e* usb*";
-        };
-        networkConfig = {
-          DHCP = "yes";
-          DNS = "127.0.0.1:9053";
-          DNSDefaultRoute = true;
-        };
-        linkConfig = {
-          RequiredForOnline = "carrier";
-        };
-        dhcpV4Config = {
-          UseDNS = false;
-        };
-      };
-    };
-  };
-
   services = {
     tor = {
       client = {
-        transparentProxy = {
-          enable = true;
-        };
-        socksListenAddress = {
-          addr = "127.0.0.1";
-          port = 9050;
-        };
         dns = {
           enable = true;
         };
@@ -56,7 +11,7 @@
     };
     resolved = {
       fallbackDns = [
-        "127.0.0.1:9053"
+        "1.1.1.1:53"
       ];
       extraConfig = ''
         DNSStubListener=no
@@ -75,17 +30,11 @@
     nameservers = [
       "127.0.0.1"
     ];
-    interfaces = {
-      usb0 = {
-        useDHCP = true;
-      };
-    };
 
     wireless = {
       enable = true;
     };
     nftables = {
-      enable = true;
       ruleset = ''
         table ip nat {
           chain prerouting {
@@ -129,13 +78,12 @@
           }
         }
       '';
-    };
-    firewall = {
       enable = true;
     };
+    firewall = {
+      enable = false;
+    };
 
-    usePredictableInterfaceNames = true;
-    useNetworkd = true;
     hostName = "x";
   };
 }
