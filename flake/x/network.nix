@@ -127,14 +127,6 @@
 
           chain output {
             type filter hook output priority 0; policy accept;
-
-            # Allow DNS requests to Tor
-            ip daddr 127.0.0.1 udp dport 9053 accept
-            ip daddr 127.0.0.1 tcp dport 9053 accept
-
-            # Block all other DNS requests
-            udp dport 53 drop
-            tcp dport 53 drop
           }
         }
 
@@ -142,6 +134,13 @@
           chain prerouting {
             type nat hook prerouting priority 0; policy accept;
             # Redirect all DNS requests to Tor DNSPort
+            ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
+            ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
+          }
+
+          chain output {
+            type nat hook output priority -100; policy accept;
+            # Redirect outgoing DNS requests to Tor
             ip daddr != 127.0.0.1 udp dport 53 dnat to 127.0.0.1:9053
             ip daddr != 127.0.0.1 tcp dport 53 dnat to 127.0.0.1:9053
           }
