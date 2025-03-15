@@ -36,6 +36,10 @@ in {
         terminal = {
           shell = "fish";
         };
+        scrolling = {
+          history = 65536;
+          multiplier = 3;
+        };
         keyboard = {
           bindings = [
             {
@@ -77,19 +81,19 @@ in {
         };
         font = {
           bold_italic = {
-            family = "PragmataPro Mono Liga";
+            family = "PragmataPro Mono";
             style = "Bold Italic";
           };
           italic = {
-            family = "PragmataPro Mono Liga";
+            family = "PragmataPro Mono";
             style = "Italic";
           };
           bold = {
-            family = "PragmataPro Mono Liga";
+            family = "PragmataPro Mono";
             style = "Bold";
           };
           normal = {
-            family = "PragmataPro Mono Liga";
+            family = "PragmataPro Mono";
             style = "Regular";
           };
           builtin_box_drawing = true;
