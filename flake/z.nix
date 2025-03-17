@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./z/utility/waybar.nix
+    ./z/utility/tmux.nix
     ./z/utility/rofi.nix
     ./z/terminal/wezterm.nix
     ./z/terminal/alacritty.nix
