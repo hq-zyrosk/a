@@ -18,7 +18,7 @@
         homeConfigurations = {
           "z@x" = home-manager.lib.homeManagerConfiguration {
             extraSpecialArgs = {
-              extensions = nix-vscode-extensions.extensions.${system};
+              nix-vscode-extensions = nix-vscode-extensions.extensions.${system};
               fenix = fenix.packages.${system};
             };
             modules = [
