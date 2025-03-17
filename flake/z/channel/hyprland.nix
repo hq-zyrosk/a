@@ -155,8 +155,10 @@
           };
           cursor = {
             zoom_factor = 1.0;
+            warp_on_change_workspace = 0;
             no_warps = true;
-            no_hardware_cursors = false;
+            no_hardware_cursors = 0;
+            min_refresh_rate = 512;
             inactive_timeout = 0;
             hotspot_padding = 0;
             hide_on_touch = false;
@@ -193,8 +195,8 @@
             "mod4,       space, togglespecialworkspace, browser"
             "mod4 shift, tab, movetoworkspace, special:manager"
             "mod4,       tab, togglespecialworkspace, manager"
-            "mod4 shift, return, exec, rofi -show window"
-            "mod4,       return, exec, rofi -show drun"
+            "mod4 shift, return, exec, alacritty --command sh"
+            "mod4,       return, exec, alacritty"
 
             "mod4 shift, right, movewindow, r"
             "mod4,       right, movefocus, r"
@@ -205,8 +207,8 @@
             "mod4 shift, up, movewindow, u"
             "mod4,       up, movefocus, u"
 
-            "mod4 shift, t, exec, alacritty --command sh"
-            "mod4,       t, exec, alacritty"
+            "mod4 shift, t, exec, rofi -show window"
+            "mod4,       t, exec, rofi -show drun"
             "mod4 shift, f, fullscreen, 1"
             "mod4,       f, fullscreen, 0"
             "mod4 shift, q, exit"
