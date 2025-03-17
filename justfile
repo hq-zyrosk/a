@@ -7,8 +7,8 @@ commit:
   git push
 
 config:
-  sudo chown --recursive --no-dereference    x ~/.config/{Code\ -\ Insiders/User,hypr,wezterm}/*
-  sudo chmod --recursive                  0777 ~/.config/{Code\ -\ Insiders/User,hypr,wezterm}/*
+  sudo chown --recursive --no-dereference    x ~/.config/{Code\ -\ Insiders/User,hypr}/*
+  sudo chmod --recursive                  0777 ~/.config/{Code\ -\ Insiders/User,hypr}/*
 
 finder:
   cd /nix/store/ && ls | grep "vscode-insiders" | grep -v '.drv$'

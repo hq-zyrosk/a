@@ -45,14 +45,9 @@ in {
         keyboard = {
           bindings = [
             {
-              key = "Q";
+              key = "Escape";
               mods = "Control";
               chars = "\\u0003";
-            }
-            {
-              key = "T";
-              mods = "Control";
-              action = "SpawnNewInstance";
             }
             {
               key = "F";
