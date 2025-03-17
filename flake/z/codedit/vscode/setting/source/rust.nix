@@ -110,10 +110,10 @@
     }
   ];
   "rust-analyzer.check.targets" = [];
-  "rust-analyzer.check.ignore" = [];
-  "rust-analyzer.check.features" = [];
-  "rust-analyzer.check.extraEnv" = {};
-  "rust-analyzer.check.extraArgs" = [
+  "rust-analyzer.check.overrideCommand" = [
+    "cargo"
+    "clippy"
+    "--message-format=json-diagnostic-rendered-ansi"
     "--"
     "-W"
     "clippy::all"
@@ -124,6 +124,10 @@
     "-W"
     "clippy::cargo"
   ];
+  "rust-analyzer.check.ignore" = [];
+  "rust-analyzer.check.features" = [];
+  "rust-analyzer.check.extraEnv" = {};
+  "rust-analyzer.check.extraArgs" = [];
   "rust-analyzer.cargo.features" = [];
   "rust-analyzer.cargo.extraEnv" = {};
   "rust-analyzer.cargo.extraArgs" = [];
@@ -271,7 +275,6 @@
   "rust-analyzer.completion.addSemicolonToUnit" = true;
   "rust-analyzer.checkOnSave" = true;
   "rust-analyzer.check.workspace" = true;
-  "rust-analyzer.check.overrideCommand" = null;
   "rust-analyzer.check.noDefaultFeatures" = true;
   "rust-analyzer.check.invocationStrategy" = "once";
   "rust-analyzer.check.command" = "clippy";
