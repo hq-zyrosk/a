@@ -93,10 +93,6 @@
       pavucontrol
       obsidian
 
-      rust-parallel
-      rustscan
-      rustic
-
       gcc
     ];
     language = {};
