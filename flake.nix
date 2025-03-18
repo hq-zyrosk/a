@@ -17,13 +17,14 @@
       ${system} = {
         homeConfigurations = {
           "z@x" = home-manager.lib.homeManagerConfiguration {
-            extraSpecialArgs = {
-              nix-vscode-extensions = nix-vscode-extensions.extensions.${system};
-              fenix = fenix.packages.${system};
-            };
+            extraSpecialArgs = {};
             modules = [
               ./flake/z.nix
               {
+                nixpkgs.overlays = [
+                  nix-vscode-extensions.overlays.default
+                  fenix.overlays.default
+                ];
                 home = {
                   pointerCursor = {
                     hyprcursor = {

@@ -1,9 +1,4 @@
-{
-  pkgs,
-  nix-vscode-extensions,
-  fenix,
-  ...
-}: {
+{pkgs, ...}: {
   programs = {
     vscode = {
       profiles = {
@@ -13,8 +8,8 @@
           languageSnippets = import ./vscode/snippet.nix;
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
-          extensions = with nix-vscode-extensions.vscode-marketplace; [
-            fenix.rust-analyzer-vscode-extension
+          extensions = with pkgs.vscode-marketplace; [
+            pkgs.fenix.rust-analyzer-vscode-extension
             tamasfe.even-better-toml
             jnoortheen.nix-ide
             redhat.vscode-yaml

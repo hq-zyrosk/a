@@ -1,8 +1,4 @@
-{
-  fenix,
-  pkgs,
-  ...
-}: {
+{pkgs, ...}: {
   imports = [
     ./z/utility/waybar.nix
     ./z/utility/zellij.nix
