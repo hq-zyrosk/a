@@ -78,8 +78,8 @@
 /*explorer*/
 .explorer-folders-view .editor-group,
 .explorer-folders-view .explorer-item {
-  line-height: var(--text-type) !important;
-  height: var(--text-type) !important;
+  line-height: var(--text-size) !important;
+  height: var(--text-size) !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -251,8 +251,8 @@
   order: 1;
 }
 
-.monaco-workbench .part.panel.top,
 .monaco-workbench .auxiliarybar,
+.monaco-workbench .part.panel,
 .monaco-workbench .sidebar {
   display: flex !important;
   flex-direction: column;
