@@ -10,7 +10,7 @@
       ${system} = {
         pointer-dot-red = pkgs.stdenv.mkDerivation {
           pname = "pointer-dot-red";
-          version = "1.1.1";
+          version = "1.6.8";
           src = ./svg;
 
           buildInputs = [

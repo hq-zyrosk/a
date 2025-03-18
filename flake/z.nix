@@ -61,7 +61,7 @@
     };
     pointerCursor = {
       hyprcursor = {
-        size = 12;
+        size = 8;
         enable = true;
       };
       package = pkgs.pointer-dot-red;
