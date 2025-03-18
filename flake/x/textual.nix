@@ -10,6 +10,7 @@
   fonts = {
     packages = with pkgs; [
       noto-fonts-color-emoji
+      textual-pragmata-pro
 
       # google-fonts
       # dejavu_fonts

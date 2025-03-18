@@ -47,17 +47,20 @@
             inherit system;
 
             modules = [
+              {
+                nixpkgs.overlays = [
+                  textual-pragmata-pro.overlays.default
+                ];
+                # fonts = {
+                #   packages = [
+                #     textual-pragmata-pro.packages.${system}.textual-pragmata-pro
+                #   ];
+                # };
+              }
               home-manager.nixosModules.home-manager
               nixos-hardware.nixosModules.apple-t2
               /etc/nixos/hardware-configuration.nix
               ./flake/x.nix
-              {
-                fonts = {
-                  packages = [
-                    textual-pragmata-pro.packages.${system}.textual-pragmata-pro
-                  ];
-                };
-              }
             ];
           };
         };
