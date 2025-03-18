@@ -11,7 +11,8 @@
     };
     resolved = {
       fallbackDns = [
-        "1.1.1.1:53"
+        "8.8.8.8"
+        "1.1.1.1"
       ];
       extraConfig = ''
         DNSStubListener=no
@@ -27,10 +28,6 @@
     networkmanager = {
       enable = false;
     };
-    nameservers = [
-      "127.0.0.1"
-    ];
-
     wireless = {
       enable = true;
     };
