@@ -26,20 +26,6 @@
         style = "full";
         enable = true;
       };
-      defaultFonts = {
-        monospace = [
-          "PragmataPro Mono Liga"
-        ];
-        sansSerif = [
-          "PragmataPro Mono"
-        ];
-        serif = [
-          "PragmataPro Mono"
-        ];
-        emoji = [
-          "Noto Color Emoji"
-        ];
-      };
       useEmbeddedBitmaps = false;
       enable = true;
       cache32Bit = false;

@@ -114,6 +114,20 @@
 
   fonts = {
     fontconfig = {
+      defaultFonts = {
+        monospace = [
+          "PragmataPro Mono Liga"
+        ];
+        sansSerif = [
+          "PragmataPro Mono"
+        ];
+        serif = [
+          "PragmataPro Mono"
+        ];
+        emoji = [
+          "Noto Color Emoji"
+        ];
+      };
       enable = true;
     };
   };
