@@ -68,15 +68,77 @@
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
   line-height: var(--norm-high) !important;
   height: var(--norm-high) !important;
-  top: unset !important;
   display: list-item !important;
   position: static !important;
+  top: unset !important;
 }
 
 .monaco-workbench.hc-black .explorer-folders-view .explorer-item,
 .monaco-workbench.hc-light .explorer-folders-view .explorer-item {
   line-height: var(--norm-high) !important;
   height: var(--norm-high) !important;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*tab*/
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
+  padding-right: var(--norm-wide) !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  padding-left: var(--norm-wide) !important;
+  box-sizing: border-box;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
+  line-height: var(--norm-high);
+  height: var(--norm-high);
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*reverse-layout-tab*/
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+  order: 1;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*reverse-layout*/
+.monaco-workbench .part > .composite.title {
+  transform: scale(0.75);
+  order: 1;
+}
+
+.monaco-workbench .auxiliarybar,
+.monaco-workbench .part.panel,
+.monaco-workbench .sidebar {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*scrollbar-shadow-panel*/
+.monaco-scrollable-element > .shadow.top {
+  box-shadow: #00000000 0 0 0 0 inset;
+  height: 0;
+}
+
+/*scrollbar-shadow-tab*/
+.monaco-editor .scroll-decoration {
+  box-shadow: #00000000 0 0 0 0 inset;
+  height: 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -135,32 +197,6 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*tab*/
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
-  padding-right: var(--norm-wide) !important;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  padding-left: var(--norm-wide) !important;
-  box-sizing: border-box;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,
-.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {
-  line-height: var(--norm-high);
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions,
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
-  height: var(--norm-high);
-}
-
-/*--------------------------------------------------------------------------------------------*/
 /*statusbar-text*/
 .monaco-workbench .part.statusbar {
   font-family: var(--text-type);
@@ -169,21 +205,9 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*scrollbar-shadow-panel*/
-.monaco-scrollable-element > .shadow.top {
-  box-shadow: #00000000 0 0 0 0 inset;
-  height: 0;
-}
-
-/*scrollbar-shadow-tab*/
-.monaco-editor .scroll-decoration {
-  box-shadow: #00000000 0 0 0 0 inset;
-  height: 0;
-}
-
-/*--------------------------------------------------------------------------------------------*/
 /*text*/
 .label-name {
+  line-height: var(--norm-high) !important;
   font-weight: var(--norm-kind) !important;
   font-family: var(--norm-type) !important;
   font-size: var(--norm-size) !important;
@@ -228,31 +252,6 @@
 /*icon*/
 .monaco-workbench .codicon[class*=codicon-] {
   font-size: var(--text-size);
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*reverse-layout-tab*/
-.monaco-workbench .part.editor > .content .editor-group-container > .title {
-  order: 1;
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container {
-  display: flex !important;
-  flex-direction: column;
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*reverse-layout*/
-.monaco-workbench .part > .composite.title {
-  transform: scale(0.75);
-  order: 1;
-}
-
-.monaco-workbench .auxiliarybar,
-.monaco-workbench .part.panel,
-.monaco-workbench .sidebar {
-  display: flex !important;
-  flex-direction: column;
 }
 
 /*--------------------------------------------------------------------------------------------*/
