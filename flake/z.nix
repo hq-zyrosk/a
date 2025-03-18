@@ -59,6 +59,14 @@
     shell = {
       enableShellIntegration = true;
     };
+    pointerCursor = {
+      hyprcursor = {
+        size = 12;
+        enable = true;
+      };
+      package = pkgs.pointer-dot-red;
+      name = "dot-red";
+    };
     packages = with pkgs; [
       (fenix.latest.withComponents [
         "rust-analyzer-preview"

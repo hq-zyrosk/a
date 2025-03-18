@@ -19,23 +19,16 @@
           "z@x" = home-manager.lib.homeManagerConfiguration {
             extraSpecialArgs = {};
             modules = [
-              ./flake/z.nix
               {
                 nixpkgs.overlays = [
                   nix-vscode-extensions.overlays.default
                   fenix.overlays.default
+
+                  textual-pragmata-pro.overlays.default
+                  pointer-dot-red.overlays.default
                 ];
-                home = {
-                  pointerCursor = {
-                    hyprcursor = {
-                      size = 5;
-                      enable = true;
-                    };
-                    package = pointer-dot-red.packages.${system}.pointer-dot-red;
-                    name = "dot-red";
-                  };
-                };
               }
+              ./flake/z.nix
             ];
             pkgs = pkgs;
           };
@@ -51,11 +44,6 @@
                 nixpkgs.overlays = [
                   textual-pragmata-pro.overlays.default
                 ];
-                # fonts = {
-                #   packages = [
-                #     textual-pragmata-pro.packages.${system}.textual-pragmata-pro
-                #   ];
-                # };
               }
               home-manager.nixosModules.home-manager
               nixos-hardware.nixosModules.apple-t2
