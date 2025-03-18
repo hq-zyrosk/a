@@ -235,6 +235,30 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+/*reverse-layout-tab*/
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+  order: 1;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*reverse-layout*/
+.monaco-workbench .part > .composite.title {
+  order: 1;
+}
+
+.monaco-workbench .part.panel.top,
+.monaco-workbench .auxiliarybar,
+.monaco-workbench .sidebar {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------------------------------------------*/
 .linux,
 .mac {
   --monaco-monospace-font: var(--text-type);
