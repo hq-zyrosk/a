@@ -56,30 +56,27 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows*/
+.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie:before {
+  display: none !important;
+}
+
+.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
+  margin: 0 calc(-1 * var(--text-wide)) 0 0 !important;
+  padding-right: 0 !important;
+}
+
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row {
-  line-height: var(--text-type) !important;
-  height: var(--text-type) !important;
+  line-height: var(--text-high) !important;
+  height: var(--text-high) !important;
+  top: unset !important;
+  display: list-item !important;
+  position: static !important;
 }
 
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows span {
-  font-family: var(--text-type);
-  font-size: var(--text-size);
-}
-
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows {
-  margin-left: calc(var(--text-wide) * -1.6);
-}
-
-.explorer-folders-view .monaco-list-row {
-  padding-left: 0;
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*explorer*/
-.explorer-folders-view .editor-group,
-.explorer-folders-view .explorer-item {
-  line-height: var(--text-size) !important;
-  height: var(--text-size) !important;
+.monaco-workbench.hc-black .explorer-folders-view .explorer-item,
+.monaco-workbench.hc-light .explorer-folders-view .explorer-item {
+  line-height: var(--text-high) !important;
+  height: var(--text-high) !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -139,30 +136,34 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*tab*/
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.tab-label a,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a,
-.label-name {
-  font-weight: var(--text-kind) !important;
-  font-family: var(--text-type) !important;
-  font-size: var(--text-size) !important;
-}
-
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
-  padding-right: var(--text-wide) !important;
+  padding-right: var(--norm-wide) !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  padding-left: var(--text-wide) !important;
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
+  padding-left: var(--norm-wide) !important;
   box-sizing: border-box;
 }
 
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
-  font-family: var(--text-type);
-  font-size: var(--text-size);
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {
+  line-height: var(--norm-high);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
+  height: var(--norm-high);
+}
+
+.label-name {
+  font-weight: var(--norm-kind) !important;
+  font-family: var(--norm-type) !important;
+  font-size: var(--norm-size) !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -184,13 +185,6 @@
 .monaco-editor .scroll-decoration {
   box-shadow: #00000000 0 0 0 0 inset;
   height: 0;
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*icon-explorer-expander*/
-.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie {
-  font-size: 0px !important;
-  margin: 0 -14px 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -248,6 +242,7 @@
 /*--------------------------------------------------------------------------------------------*/
 /*reverse-layout*/
 .monaco-workbench .part > .composite.title {
+  transform: scale(0.75);
   order: 1;
 }
 
@@ -268,7 +263,11 @@
 
 :root {
   --text-type: 'PragmataPro Mono Liga', monospace;
-  --text-high: 1.375;
+  --text-high: calc(var(--text-size) * 1.25);
   --text-size: 16px;
   --text-wide: 8px;
+  --norm-type: 'PragmataPro Mono Liga', monospace;
+  --norm-high: calc(var(--norm-size) * 1.25);
+  --norm-size: 12px;
+  --norm-wide: 6px;
 }
