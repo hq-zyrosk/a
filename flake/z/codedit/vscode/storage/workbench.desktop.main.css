@@ -11,39 +11,40 @@
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-header*/
 .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item {
-  font-family: var(--text-type);
-  font-size: var(--text-size);
+  font-family: var(--norm-type);
+  font-size: var(--norm-size);
   text-transform: lowercase;
 }
 
 .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar {
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
+  line-height: calc(2 * var(--text-size));
+  height: calc(2 * var(--text-size));
 }
 
 .monaco-action-bar .action-label {
-  font-size: var(--text-size);
+  font-size: var(--norm-size);
 }
 
 .monaco-workbench .part > .composite.header-or-footer,
 .monaco-workbench .part > .composite.title {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
   padding: 1px 0 0 3px;
 }
 
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
-  font-family: var(--text-type);
-  font-size: var(--text-size);
+  font-family: var(--norm-type);
+  font-size: var(--norm-size);
   text-transform: lowercase;
 }
 
 .monaco-workbench .part > .title > .title-actions {
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
+  line-height: calc(2 * var(--text-size));
+  height: calc(2 * var(--text-size));
 }
 
 .monaco-workbench .part > .title > .title-label {
-  line-height: calc(var(--text-size) * 2);
-  height: calc(var(--text-size) * 2);
+  line-height: calc(2 * var(--text-size));
+  height: calc(2 * var(--text-size));
 }
 
 /*--------------------------------------------------------------------------------------------*/
