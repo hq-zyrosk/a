@@ -11,7 +11,7 @@
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-content*/
 .monaco-list > .monaco-scrollable-element {
-  border-left: 1px solid rgba(255, 255, 255, 0.25);
+  border-left: var(--norm-line);
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -33,8 +33,8 @@
 
 .monaco-workbench .part > .composite.header-or-footer,
 .monaco-workbench .part > .composite.title {
-  border-left: 1px solid rgba(255, 255, 255, 0.25);
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  border-left: var(--norm-line);
+  border-top: var(--norm-line);
   padding: 1px 0 0 3px;
 }
 
@@ -141,6 +141,10 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
   line-height: var(--norm-high);
   height: var(--norm-high);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container {
+  border-top: var(--norm-line);
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -351,6 +355,7 @@
 
 :root {
   --text-size: 16px;
+  --norm-line: 1px solid rgba(255, 255, 255, 0.25);
   --norm-type: 'PragmataPro Mono Liga', monospace;
   --norm-high: calc(1.375 * var(--norm-size));
   --norm-size: 12px;
