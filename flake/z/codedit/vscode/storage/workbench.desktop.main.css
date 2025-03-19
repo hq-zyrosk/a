@@ -270,6 +270,22 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {
+  line-height: var(--norm-high);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions,
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+  height: var(--norm-high);
+}
+
+/*--------------------------------------------------------------------------------------------*/
 .linux,
 .mac {
   --monaco-monospace-font: var(--text-type);

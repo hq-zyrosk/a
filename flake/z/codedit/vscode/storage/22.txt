@@ -1,4 +1,3 @@
-
 .action-widget-action-bar .action-label {line-height: 22px}
 .monaco-hover .hover-row.status-bar {line-height: 22px}
 .colorpicker-body .standalone-strip {height: 122px}
