@@ -23,7 +23,7 @@
           ];
           windowrule = [];
           monitor = [
-            ",3200x1800,0x0,1,bitdepth,10"
+            ",3840x2160,0x0,1,bitdepth,10"
           ];
           misc = {
             vrr = 0;
