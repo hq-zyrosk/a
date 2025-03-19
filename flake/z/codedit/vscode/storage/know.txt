@@ -1,0 +1,16 @@
+.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-inputbox {
+  height: 22px;
+  line-height: 19px
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message {
+  min-height: 48px
+}
+
+.profiles-editor .contents-container .profile-content-tree-header {
+  height: 30px
+}
+
+#monaco-pane-drop-overlay > .pane-overlay-indicator {
+  min-height: 22px
+}
