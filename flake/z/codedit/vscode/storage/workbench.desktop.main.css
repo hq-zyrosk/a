@@ -78,13 +78,18 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*tab*/
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
-  padding-right: var(--norm-wide) !important;
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
+.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a {
   font-size: var(--norm-size);
 }
 
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
+  padding-right: var(--norm-wide);
+  font-size: var(--icon-size);
+}
+
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  padding-left: var(--norm-wide) !important;
+  padding-left: var(--norm-wide);
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,
@@ -194,6 +199,12 @@
 /*--------------------------------------------------------------------------------------------*/
 /*icon*/
 .monaco-workbench .codicon[class*=codicon-] {
+  font-size: var(--icon-size);
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*text*/
+.monaco-workbench .part > .content {
   font-size: var(--icon-size);
 }
 
@@ -332,6 +343,6 @@
   --norm-type: 'PragmataPro Mono Liga', monospace;
   --norm-high: calc(1.25 * var(--norm-size));
   --norm-size: 16px;
-  --icon-size: 12px;
   --norm-wide: 8px;
+  --icon-size: 12px;
 }
