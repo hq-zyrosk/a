@@ -2,11 +2,8 @@
 .monaco-scrollable-element > .shadow.top {height: 3px;}
 .monaco-scrollable-element > .shadow.top-left-corner {height: 3px;}
 .monaco-editor .scroll-decoration {height: 6px;}
-.monaco-editor .inputarea {min-height: 0;}
-.monaco-editor .native-edit-context-textarea {min-height: 0;}
 .monaco-select-box-dropdown-container > .select-box-details-pane > .select-box-description-markdown code {line-height: 15px}
 .monaco-select-box-dropdown-container > .select-box-dropdown-list-container .monaco-list .monaco-list-row > .visually-hidden {height: 1px;}
-.monaco-select-box-dropdown-container > .select-box-dropdown-container-width-control > .width-control-div {max-height: 0;}
 .monaco-action-bar .action-item .monaco-select-box {min-height: 18px;}
 .monaco-action-bar .action-item .codicon {height: 16px;}
 .monaco-action-bar .action-item .action-label.separator {height: 16px;}
@@ -17,7 +14,7 @@
 .monaco-action-bar .action-item.menu-entry .action-label.icon {height: 16px;}
 .monaco-dropdown-with-default > .action-container.menu-entry > .action-label.icon {height: 16px;}
 .monaco-dropdown-with-default > .dropdown-action-container > .monaco-dropdown > .dropdown-label .codicon[class*=codicon-] {line-height: 16px;}
-.monaco-editor .diff-hidden-lines {height: 0;line-height: 14px;}
+.monaco-editor .diff-hidden-lines {line-height: 14px;}
 .monaco-editor .diff-hidden-lines .bottom .monaco-editor .diff-hidden-lines .top {height: 4px;}
 .monaco-editor .diff-hidden-lines .center {height: 24px;}
 .monaco-diff-editor .diff-moved-code-block .action-bar .action-label.codicon {height: 12px;}
@@ -27,7 +24,6 @@
 .monaco-diff-editor .diff-hidden-lines-compact .line-left .monaco-diff-editor .diff-hidden-lines-compact .line-right {height: 1px;}
 .monaco-diff-editor .diff-hidden-lines-compact .text {line-height: 11px;}
 .inline-editor-progress-decoration {height: 1em;}
-.monaco-editor .monaco-editor-overlaymessage .anchor {height: 0 !important;}
 .monaco-text-button {line-height: 18px;}
 .monaco-text-button.monaco-text-button-with-short-label {height: 28px;}
 .action-widget-action-bar .action-label {line-height: 22px;}
@@ -58,22 +54,17 @@
 .monaco-inputbox-container .monaco-inputbox-message {line-height: 17px;}
 .monaco-inputbox .monaco-action-bar .action-item .codicon {height: 16px;}
 .monaco-tree-type-filter-input .monaco-inputbox {height: 23px}
-.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container {height: 0;}
-.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-container-shadow {height: 0;}
 .monaco-editor .reference-zone-widget .ref-tree {line-height: 23px}
 .monaco-count-badge {line-height: 11px;min-height: 18px;}
-.monaco-count-badge.long {line-height: normal;min-height: auto;}
 .monaco-icon-label:before {height: 22px;line-height: inherit !important;}
 .monaco-icon-label-iconpath {height: 16px;}
 .monaco-editor .find-widget {height: 33px;line-height: 19px;}
-.monaco-editor .find-widget .monaco-inputbox .input {min-height: 0}
 .monaco-editor .find-widget > .find-part .monaco-inputbox .monaco-editor .find-widget > .replace-part .monaco-inputbox {min-height: 25px}
 .monaco-editor .find-widget > .find-part .find-actions .monaco-editor .find-widget > .replace-part .replace-actions {height: 25px}
 .monaco-editor .find-widget .matchesCount {height: 25px;line-height: 23px;}
 .monaco-editor .find-widget .button {height: 16px;}
 .monaco-editor .find-widget .codicon-find-selection {height: 22px;}
 .monaco-editor .inline-folded:after {line-height: 1em;}
-.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .left > .qualifier-label {line-height: normal;}
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {height: 18px;}
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row .icon {height: 16px;}
 .monaco-editor .suggest-widget .monaco-list .monaco-list-row .icon.customcolor .colorspan {height: .7em;}
@@ -88,14 +79,12 @@
 .editor-banner .message-actions-container {line-height: 26px;}
 .monaco-workbench .notebookOverlay.notebook-editor {line-height: 22px;}
 .monaco-workbench .notebookOverlay.notebook-editor .monaco-editor {line-height: 1.4em}
-.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .collapsed-execution-icon {line-height: normal;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .cell-collapse-preview .expandInputIcon {height: 16px;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .cell-collapse-preview .expandInputIcon:before {line-height: 16px;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputPlaceholder {min-height: 24px;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputIcon {height: 16px;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-expand-part-button {height: 16px;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-expand-part-button:before .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputIcon:before {line-height: 16px;}
-.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .run-button-container .monaco-toolbar {height: auto;}
 .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-statusbar-hidden .execution-count-label {line-height: 15px}
 .monaco-workbench .notebookOverlay > .cell-list-container > .cell-list-insertion-indicator {height: 2px;}
 .monaco-action-bar .action-item.verticalSeparator {height: 16px !important;}
@@ -112,12 +101,10 @@
 .monaco-workbench .notebookOverlay > .cell-list-container .notebook-folding-indicator {height: 20px;}
 .monaco-workbench .notebookOverlay > .cell-list-container .notebook-folding-indicator .codicon {height: 16px;}
 .monaco-workbench .notebookOverlay > .cell-list-container .folded-cell-run-section-button {height: 16px;}
-.monaco-workbench .notebookOverlay .output {height: 0;}
 .monaco-workbench .notebookOverlay .output > div.foreground {min-height: 24px;}
 .monaco-workbench .notebookOverlay .output .cell-output-toolbar {height: 16px;}
 .monaco-workbench .kernel-action-view-item .kernel-label {height: 16px;}
 .monaco-breadcrumbs > .notebook-outline-element > .element-icon.file-icon {height: 18px}
-.monaco-workbench .notebookOverlay .view-zones .cell-editor-container > div > div {line-height: normal;}
 .notebook-chat-editor-overlay-widget {line-height: 1.4em;}
 .monaco-pane-view .pane > .pane-header > .icon {height: 16px;}
 .monaco-pane-view .pane > .pane-header {height: 22px;}
@@ -125,7 +112,6 @@
 #monaco-pane-drop-overlay > .pane-overlay-indicator {min-height: 22px;}
 .monaco-progress-container {height: 2px;}
 .monaco-progress-container .progress-bit {height: 2px;}
-.pane-header .open-editors-dirty-count-container > .dirty-count.monaco-count-badge {min-height: auto;}
 .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .action-close-all-files .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .save-all {height: 22px;}
 .open-editors .editor-group .open-editors .open-editor {height: 22px;line-height: 22px}
 .monaco-workbench.hc-black .open-editors .editor-group .monaco-workbench.hc-black .open-editors .open-editor .monaco-workbench.hc-light .open-editors .editor-group .monaco-workbench.hc-light .open-editors .open-editor {line-height: 20px}
@@ -140,7 +126,6 @@
 .monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree > .input {height: 36px;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.tabs-border-bottom:after {height: 1px;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {height: var(--editor-group-tab-height);}
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container {height: auto}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {height: var(--editor-group-tab-height);}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top:not(:focus) > .tab-border-top-container .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.selected.tab-border-top:not(:focus) > .tab-border-top-container {height: 1px;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-bottom > .tab-border-bottom-container {height: 1px;}
@@ -155,15 +140,12 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-breadcrumb-item:before {height: inherit;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-icon-label:before {height: 18px;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {height: var(--editor-group-tab-height);}
-.monaco-action-bar .action-item .action-label.extension-action {line-height: normal;}
-.monaco-action-bar .action-dropdown-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.text {height: auto;line-height: 14px;}
+.monaco-action-bar .action-dropdown-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.text {line-height: 14px;}
 .chat-inline-anchor-widget .icon {line-height: 1em;}
 .interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-action-bar .interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-toolbar {height: 26px;line-height: 26px;}
 .interactive-result-code-block .monaco-toolbar .action-item {height: 24px;}
 .interactive-result-code-block .interactive-result-vulns-header {height: 22px}
 .tiw-metadata-separator {height: 1px}
-.tiw-metadata-values {max-height: 300px;}
-.tiw-metadata-scopes {line-height: normal}
 .chat-codeblock-pill-widget .icon {line-height: 1em;}
 .interactive-item-container .header .avatar {height: 24px;}
 .interactive-item-container .header .avatar .icon {height: 24px;}
@@ -173,7 +155,6 @@
 .interactive-item-container.interactive-item-compact .header {height: 16px}
 .interactive-item-container.interactive-item-compact .header .avatar {height: 18px;}
 .interactive-item-container.interactive-item-compact .header .avatar .icon {height: 16px;}
-.interactive-item-container.interactive-item-compact .value {min-height: 0}
 .interactive-session .chat-dnd-overlay .attach-context-overlay-text {height: 12px;line-height: 12px;}
 .interactive-session .chat-dnd-overlay .attach-context-overlay-text .codicon {height: 12px;}
 .interactive-session .chat-editing-session .monaco-button {height: 17px;}
@@ -188,16 +169,13 @@
 .action-item.chat-attached-context-attachment.chat-add-files {height: 20px}
 .action-item.chat-attached-context-attachment.chat-add-files .action-label .action-item.chat-mcp .action-label .interactive-session .chat-attached-context .chat-attached-context-attachment {height: 18px;}
 .interactive-session .chat-attached-context .chat-attached-context-attachment .monaco-icon-label:before {height: 1em;line-height: 1em !important;}
-.quick-input-widget .interactive-session .interactive-input-part .chat-input-toolbars .actions-container .quick-input-widget .interactive-session .interactive-input-part .chat-input-toolbars .monaco-toolbar {height: auto}
 .quick-input-widget .interactive-response {min-height: 86px}
 .interactive-item-container .progress-container > .codicon[class*=codicon-] {height: 12px}
-.chat-attached-context-hover .chat-attached-context-image {height: auto;max-height: 512px;}
 .chat-attached-context-attachment .chat-attached-context-pill-image {height: 14px;}
 .interactive-session .chat-scroll-down {height: 27px;}
 .chat-agent-hover {line-height: unset;}
 .chat-agent-hover-icon .codicon .chat-agent-hover-icon img {height: 32px;}
 div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
-div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .monaco-workbench .inline-chat .status .label > .codicon {line-height: 18px;}
 .monaco-workbench .inline-chat .status .actions .monaco-workbench .inline-chat-diff-overlay {height: 18px}
 .review-widget .body .review-comment .comment-actions .monaco-toolbar {height: 22px}
@@ -207,21 +185,18 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .review-widget .body .review-comment .review-comment-contents .author {line-height: 22px}
 .review-widget .body .review-comment .review-comment-contents .isPending {line-height: 22px;}
 .review-widget .body .review-comment .review-comment-contents .timestamp {line-height: 22px;}
-.review-widget .body .review-comment .review-comment-contents .comment-body-max-height {max-height: 20em}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions {min-height: 25px}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item .action-label .reaction-label {line-height: 20px;}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item a.action-label.toolbar-toggle-pickReactions {height: 16px;}
 .review-widget .body .review-comment .comment-title .action-label {height: 16px;line-height: 16px}
 .review-widget .validation-error {line-height: 17px;min-height: 34px;}
 .review-widget .body .comment-form .review-thread-reply-button {line-height: 20px;}
-.review-widget .body .comment-form .monaco-editor .review-widget .body .edit-container .monaco-editor {max-height: 500px;min-height: 90px;}
 .review-widget .action-item {min-height: 20px;}
 .review-widget .head .review-actions > .monaco-action-bar .action-label {line-height: inherit;}
 .monaco-editor .margin-view-overlays .comment-range-glyph.multiline-add {height: 16px;}
 .monaco-editor .editor-dictation-widget {line-height: var(--vscode-editor-dictation-widget-height);min-height: var(--vscode-editor-dictation-widget-height);}
 .notebook-text-diff-editor .cell-diff-editor-container .input-header-container .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .notebook-text-diff-editor .cell-diff-editor-container .output-header-container {height: 24px}
 .notebook-text-diff-editor .cell-diff-editor-container .input-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .output-header-container .property-status span {line-height: 21px;}
-.monaco-workbench .notebook-text-diff-editor .cell-body {height: 0}
 .monaco-workbench .notebook-text-diff-editor .output-view-container > div.foreground {min-height: 24px;}
 .monaco-workbench .notebook-text-diff-editor .output-view-container .multi-mimetype-output {height: 16px;}
 .monaco-workbench .notebook-text-diff-editor .output-view-container .output-empty-view {height: 24px;}
@@ -233,23 +208,17 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .comments-panel .comments-panel-container .message-box-container {height: inherit;line-height: 22px;}
 .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-snippet-container {line-height: 22px;}
 .monaco-workbench .screencast-keyboard {line-height: 1.75em;}
-.quick-input-count .monaco-count-badge {line-height: normal;min-height: auto;}
 .quick-input-action .monaco-text-button {height: 25px;}
 .quick-input-list {line-height: 12px;}
-.quick-input-list .monaco-list {max-height: 440px;}
 .quick-input-list .quick-input-list-icon {height: 22px;}
-.quick-input-list .quick-input-list-label-meta {line-height: normal;}
-.quick-input-widget-snapline.horizontal {height: 0;}
 .monaco-workbench .pane > .pane-body .welcome-view-content > p .codicon[class*=codicon-] {line-height: 1.4em;}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {height: 22px;line-height: 22px;}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox {height: 16px;}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox.codicon {line-height: 15px}
-.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .monaco-inputbox {line-height: normal}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-resourceLabel > .custom-view-tree-node-item-icon .timeline-tree-view .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-icon {height: 22px;}
 .viewpane-filter-container > .viewpane-filter .monaco-inputbox {height: 24px}
 .pane-header .viewpane-filter-container > .viewpane-filter .monaco-inputbox .monaco-inputbox {height: 20px;line-height: 18px}
 .monaco-workbench.vs .viewpane-filter-container > .viewpane-filter .monaco-inputbox {height: 25px}
-.pane-body .viewpane-filter-container:not(:empty) {height: auto;}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell {height: 22px;}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-inputbox {height: 22px;line-height: 19px}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-button {line-height: 1.4em;}
@@ -258,14 +227,12 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .monaco-workbench .part > .header-or-footer .monaco-workbench .part > .title {height: 35px;}
 .monaco-workbench .part > .title > .title-label {line-height: 35px;}
 .monaco-workbench .part > .title > .title-actions {height: 35px;}
-#monaco-workbench-editor-drop-overlay .editor-group-overlay-drop-into-prompt {line-height: normal;}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar {line-height: 27px}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon {height: 35px;}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) {height: 16px;}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before {height: 24px;}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content {height: 16px;line-height: 10px;}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 13px;line-height: 13px;}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.checked .active-item-indicator:before .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:focus .active-item-indicator:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.checked .active-item-indicator:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:focus .active-item-indicator:before {height: 0;}
 .monaco-workbench .viewlet .collapsible.header .actions .action-label {height: 22px;}
 .monaco-workbench .viewlet .collapsible.header .action-label {height: 16px;}
 .monaco-workbench .activitybar .menubar .monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {height: 35px;}
@@ -293,7 +260,6 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .monaco-workbench .workbench-hover-container:not(:focus-within).locked .workbench-hover-pointer:after {height: 4px;}
 .preferences-editor > .preferences-editors-container.side-by-side-preferences-editor .preferences-header-container {line-height: 28px}
 .settings-header-widget > .settings-search-container > .settings-search-input > .monaco-inputbox {height: 30px}
-.keybindings-overflow-widgets-container {height: 0;}
 .keybindings-editor > .keybindings-header > .search-container > .keybindings-search-actions-container .monaco-action-bar .action-item > .icon {height: 18px;}
 .keybindings-editor > .keybindings-body > .keybindings-table-container .monaco-table-tr .monaco-table-td .monaco-action-bar .action-item > .icon {height: 16px;}
 .settings-editor > .settings-header > .settings-header-controls {height: 32px;}
@@ -306,7 +272,6 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .settings-editor > .settings-body .settings-tree-container .setting-item-contents .monaco-select-box {height: 26px;}
 .settings-editor > .settings-body .settings-tree-container .setting-item-bool .setting-list-object-input-key-checkbox {height: 24px;}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-key .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-sibling .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-value {line-height: 24px;min-height: 24px}
-.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row-header {max-height: 24px;}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row .monaco-action-bar .action-label {height: 20px;}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-siblingInput .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-valueInput {height: 24px;}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input select .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value-container {height: 24px;}
@@ -326,28 +291,19 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .interactive-editor .input-cell-container .input-focus-indicator {height: 19px;}
 .monaco-workbench .repl .repl-tree .monaco-tl-contents .expression {line-height: var(--vscode-repl-line-height)}
 .monaco-workbench .repl .repl-tree .output.expression.value-and-source .count-badge-wrapper .monaco-count-badge {min-height: 16px;}
-.monaco-workbench .repl .repl-tree .output.expression .code-subscript {line-height: normal;}
-.monaco-workbench .repl .repl-tree .output.expression .code-superscript {line-height: normal;}
 .multiCallStackFrame .header {height: 24px;}
-.multiCallStackFrame .title .monaco-icon-label:before {height: auto}
-.multiCallStackFrame .collapse-button {line-height: 0;min-height: 1px;}
-.test-explorer > .test-explorer-tree {height: 0;}
 .test-explorer .monaco-list-row .error {height: 17px;line-height: 17px;}
 .test-explorer .result-summary-container {height: 27px;}
 .monaco-workbench .part > .title > .title-actions .action-label.codicon-testing-autorun:after {height: .4em;}
-.test-output-peek-message-container .preview-text {line-height: normal;}
 .testing-followup-action {line-height: 25px;}
-.monaco-action-bar.testing-filter-action-bar {height: auto;}
 .testing-diff-title-widget {line-height: 19px;}
 .test-coverage-bars .bar {height: 8px;}
 .coverage-summary-widget > div {height: 25px;}
 .test-coverage-tree-per-test-switcher {line-height: 20px;}
 .explorer-folders-view .editor-group .explorer-folders-view .explorer-item {height: 22px;line-height: 22px}
-.explorer-folders-view .explorer-item .monaco-inputbox {line-height: normal;}
 .monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox .monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox {height: 22px}
 .monaco-workbench .explorer-folders-view .explorer-item .monaco-inputbox > .ibwrapper > .input {height: 20px;}
 .monaco-workbench.hc-black .explorer-folders-view .explorer-item .monaco-workbench.hc-light .explorer-folders-view .explorer-item {line-height: 20px}
-.search-view .results {min-height: 0}
 .search-view .search-widget .monaco-inputbox > .ibwrapper > textarea.input {height: 26px;}
 .search-view .search-widget .replace-container .monaco-action-bar {height: 25px;}
 .search-view .query-details {min-height: 1em;}
@@ -357,17 +313,13 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .search-view .linematch {line-height: 22px;}
 .search-view .monaco-list .monaco-list-row .monaco-action-bar {line-height: 1em;}
 .monaco-workbench.hc-black .search-view .filematch .monaco-workbench.hc-black .search-view .foldermatch .monaco-workbench.hc-black .search-view .linematch .monaco-workbench.hc-light .search-view .filematch .monaco-workbench.hc-light .search-view .foldermatch .monaco-workbench.hc-light .search-view .linematch {line-height: 20px}
-.search-editor .search-widget .monaco-inputbox > .ibwrapper > .mirror {max-height: 134px}
 .search-editor .search-widget .monaco-inputbox > .ibwrapper > textarea.input {height: 26px;}
 .search-editor .search-widget .replace-input {height: 25px;}
 .search-editor .search-widget .replace-container .monaco-action-bar {height: 25px;}
 .search-editor .search-widget .replace-container .monaco-action-bar .action-item .codicon {height: 25px;}
 .search-editor .includes-excludes {min-height: 1em;}
 .search-editor .includes-excludes .expand {height: 16px;}
-.monaco-editor .dirty-diff-deleted:after {height: 0;}
-.monaco-editor .dirty-diff-deleted:before {height: 0;}
 .dirty-diff .peekview-title .dropdown .monaco-select-box {min-height: 18px;}
-.scm-overflow-widgets-container {height: 0;}
 .scm-view .scm-provider > .actions > .monaco-toolbar > .monaco-action-bar > .actions-container > .action-item > .action-label .scm-view .scm-provider > .actions > .monaco-toolbar > .monaco-action-bar > .actions-container > .action-item > .monaco-dropdown > .dropdown-label > .action-label {line-height: 16px;}
 .scm-view .monaco-list-row {line-height: 22px}
 .scm-view .monaco-list-row .monaco-icon-label-container {height: 22px}
@@ -385,13 +337,11 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .monaco-workbench .monaco-action-bar .start-debug-action-item .configuration .monaco-select-box {line-height: inherit;}
 .debug-pane .session .codicon {line-height: 22px;}
 .debug-pane .monaco-list-row .expression .value {height: 22px;}
-.debug-pane .monaco-inputbox {line-height: normal;}
 .debug-pane .monaco-inputbox > .ibwrapper {height: 19px}
 .debug-pane .monaco-list-row {line-height: 22px}
 .debug-pane .debug-breakpoints .breakpoint > .codicon {height: 19px;}
 .monaco-editor .debug-hover-widget .complex-value .tip .monaco-editor .debug-hover-widget .complex-value .title {height: 18px;line-height: 18px;}
 .monaco-editor .debug-hover-widget .debug-hover-tree {line-height: 18px}
-.monaco-editor .debug-hover-widget > .monaco-scrollable-element > .value {max-height: 500px;}
 .markers-panel .markers-panel-container .message-box-container {line-height: 22px;}
 .markers-panel .markers-panel-container .tree-container .monaco-tl-contents {line-height: 22px;}
 .monaco-workbench.hc-black .markers-panel .markers-panel-container .tree-container .monaco-tl-contents .monaco-workbench.hc-light .markers-panel .markers-panel-container .tree-container .monaco-tl-contents {line-height: 20px}
@@ -426,7 +376,6 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .extension-list-item > .icon-container .extension-badge.extension-remote-badge {height: 22px;line-height: 22px;}
 .extension-list-item > .details > .header-container {height: 19px;}
 .extension-list-item > .details > .header-container > .header .extension-remote-badge {height: 14px;line-height: 14px;}
-.extension-list-item > .details > .description {line-height: normal;}
 .extension-list-item > .details > .footer {height: 24px;}
 .extension-list-item > .details > .footer > .publisher-container {line-height: 24px}
 .extension-list-item > .details > .footer > .monaco-action-bar > .actions-container .extension-action.label {line-height: 16px;}
@@ -445,31 +394,20 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .terminal-voice.codicon.codicon-mic-filled {height: 16px;}
 .monaco-workbench .terminal-env-var-info {height: 28px;}
 .monaco-workbench .terminal-env-var-info.codicon {line-height: 28px}
-.xterm .xterm-helper-textarea {height: 0;}
-.xterm-char-measure-element {line-height: normal;}
 .xterm .live-region {height: 1px;}
 .xterm .xterm-scrollable-element > .shadow.top {height: 3px;}
 .xterm .xterm-scrollable-element > .shadow.top-left-corner {height: 3px;}
 .icon-select-box .icon-select-id-container .icon-select-id-label {height: 24px;}
 .monaco-workbench .simple-find-part .button {height: 20px;line-height: 20px;}
-.monaco-workbench .terminal-inline-chat {height: auto !important;}
 .workbench-suggest-widget .monaco-list .monaco-list-row .icon {height: 16px;}
 .workbench-suggest-widget .monaco-list .monaco-list-row .icon.customcolor .colorspan {height: .7em;}
-.workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .left > .qualifier-label {line-height: normal;}
 .workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {height: 18px;}
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item {height: 22px;line-height: 22px;}
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item > .remote-help-tree-node-item-icon {height: 22px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer {height: inherit;line-height: 22px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer h2 {line-height: normal;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories ul {line-height: 24px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .start-container img {max-height: 16px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .progress-bar-outer {height: 4px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-category {line-height: normal;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-category .featured {height: 20px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .getting-started-category img.category-icon {max-height: 20px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .getting-started-category img.featured-icon {max-height: 24px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-category img.category-icon {max-height: 32px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-category {min-height: auto}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step:not(.expanded) {height: 48px}
 .monaco-workbench .part.editor > .content .gettingStartedContainer.width-semi-constrained .gettingStartedSlideDetails .gettingStartedDetailsContent.video > .getting-started-media {height: inherit;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent.markdown > .getting-started-media {height: inherit}
@@ -500,8 +438,6 @@ div.chat-welcome-view > .chat-welcome-view-title {line-height: normal;}
 .workspace-trust-editor .workspace-trust-features .workspace-trust-limitations .list-item-icon {line-height: 24px;}
 .workspace-trust-editor .workspace-trust-features .workspace-trust-limitations .list-item-text {line-height: 24px}
 .workspace-trust-editor .workspace-trust-features .workspace-trust-limitations-header .workspace-trust-limitations-title {line-height: 24px;}
-.workspace-trust-intro-dialog .workspace-trust-dialog-image-row.badge-row img {max-height: 40px;}
-.workspace-trust-intro-dialog .workspace-trust-dialog-image-row.status-bar img {max-height: 32px;}
 .workspace-trust-editor .workspace-trust-settings .monaco-table-tr .monaco-table-td .monaco-button {height: 18px;}
 div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px;}
 .monaco-workbench {line-height: 1.4em;}
@@ -524,9 +460,7 @@ div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px;}
 .issue-reporter input[type=text] .issue-reporter textarea {line-height: 1.5;}
 .issue-reporter textarea {height: 200px}
 .issue-reporter ::-webkit-scrollbar-thumb {min-height: 20px}
-.issue-reporter .issues-container {max-height: 92px;}
 .issue-reporter-body input[type=text] .issue-reporter-body textarea {line-height: 1.5;}
 body.issue-reporter-body {height: 100% !important;}
 .issue-reporter-body textarea {height: 200px}
 .issue-reporter-body::-webkit-scrollbar-thumb {min-height: 20px}
-.issue-reporter-body .issues-container {max-height: 92px;}
