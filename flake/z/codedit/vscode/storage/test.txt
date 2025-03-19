@@ -7,8 +7,6 @@
 .monaco-action-bar .action-item .codicon {height: 16px}
 .monaco-action-bar .action-item .action-label.separator {height: 16px}
 .monaco-component.diff-review .diff-review-actions .action-label {height: 16px}
-.monaco-sash.horizontal {height: var(--vscode-sash-size)}
-.monaco-sash.horizontal:before {height: var(--vscode-sash-hover-size)}
 .monaco-dropdown-with-primary > .dropdown-action-container > .monaco-dropdown > .dropdown-label .codicon[class*=codicon-] {line-height: 16px}
 .monaco-action-bar .action-item.menu-entry .action-label.icon {height: 16px}
 .monaco-dropdown-with-default > .action-container.menu-entry > .action-label.icon {height: 16px}
@@ -26,14 +24,12 @@
 .monaco-text-button.monaco-text-button-with-short-label {height: 28px}
 .action-widget-action-bar .action-label {line-height: 22px}
 .monaco-keybinding {line-height: 10px}
-.monaco-editor .codelens-decoration {line-height: var(--vscode-editorCodeLens-lineHeight)}
-.monaco-editor .codelens-decoration .codicon[class*=codicon-] {line-height: var(--vscode-editorCodeLens-lineHeight)}
 .monaco-hover {line-height: 1.5em}
 .monaco-hover h1 .monaco-hover h2 .monaco-hover h3 .monaco-hover h4 .monaco-hover h5 .monaco-hover h6 {line-height: 1.1}
 .monaco-hover hr {height: 1px}
 .monaco-hover .hover-row.status-bar {line-height: 22px}
 .colorpicker-widget {height: 190px}
-.colorpicker-color-decoration .hc-light .colorpicker-color-decoration {height: .8em;line-height: .8em}
+.colorpicker-color-decoration .hc-light .colorpicker-color-decoration {height: .8em; line-height: .8em}
 .colorpicker-header {height: 24px}
 .colorpicker-header .picked-color {line-height: 24px}
 .colorpicker-body .saturation-wrap {height: 150px}
@@ -52,13 +48,13 @@
 .monaco-inputbox .monaco-action-bar .action-item .codicon {height: 16px}
 .monaco-tree-type-filter-input .monaco-inputbox {height: 23px}
 .monaco-editor .reference-zone-widget .ref-tree {line-height: 23px}
-.monaco-count-badge {line-height: 11px;min-height: 18px}
+.monaco-count-badge {line-height: 11px; min-height: 18px}
 .monaco-icon-label:before {height: 22px}
 .monaco-icon-label-iconpath {height: 16px}
-.monaco-editor .find-widget {height: 33px;line-height: 19px}
+.monaco-editor .find-widget {height: 33px; line-height: 19px}
 .monaco-editor .find-widget > .find-part .monaco-inputbox .monaco-editor .find-widget > .replace-part .monaco-inputbox {min-height: 25px}
 .monaco-editor .find-widget > .find-part .find-actions .monaco-editor .find-widget > .replace-part .replace-actions {height: 25px}
-.monaco-editor .find-widget .matchesCount {height: 25px;line-height: 23px}
+.monaco-editor .find-widget .matchesCount {height: 25px; line-height: 23px}
 .monaco-editor .find-widget .button {height: 16px}
 .monaco-editor .find-widget .codicon-find-selection {height: 22px}
 .monaco-editor .inline-folded:after {line-height: 1em}
@@ -70,7 +66,7 @@
 .monaco-editor .parameter-hints-widget {line-height: 1.5em}
 .monaco-editor .parameter-hints-widget.multiple {min-height: 3.3em}
 .monaco-editor .parameter-hints-widget.multiple .button {height: 16px}
-.monaco-editor .parameter-hints-widget .overloads {height: 12px;line-height: 12px}
+.monaco-editor .parameter-hints-widget .overloads {height: 12px; line-height: 12px}
 .editor-banner {height: 26px}
 .editor-banner .message-container {line-height: 26px}
 .editor-banner .message-actions-container {line-height: 26px}
@@ -110,48 +106,38 @@
 .monaco-progress-container {height: 2px}
 .monaco-progress-container .progress-bit {height: 2px}
 .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .action-close-all-files .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .save-all {height: 22px}
-.open-editors .editor-group .open-editors .open-editor {height: 22px;line-height: 22px}
+.open-editors .editor-group .open-editors .open-editor {height: 22px; line-height: 22px}
 .monaco-workbench.hc-black .open-editors .editor-group .monaco-workbench.hc-black .open-editors .open-editor .monaco-workbench.hc-light .open-editors .editor-group .monaco-workbench.hc-light .open-editors .open-editor {line-height: 20px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after {height: 1px}
 .monaco-workbench .part.editor > .content .editor-group-container > .editor-group-container-toolbar {height: 35px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control {height: 22px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label {height: 22px;line-height: 22px}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label {height: 22px; line-height: 22px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label:before {height: 22px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .outline-element-icon {height: 22px;line-height: 22px}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .outline-element-icon {height: 22px; line-height: 22px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-breadcrumb-item:before {height: 22px}
 .monaco-workbench .monaco-breadcrumbs-picker .picker-item {line-height: 22px}
 .monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree > .input {height: 36px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.tabs-border-bottom:after {height: 1px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {height: var(--editor-group-tab-height)}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {height: var(--editor-group-tab-height)}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top:not(:focus) > .tab-border-top-container .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.selected.tab-border-top:not(:focus) > .tab-border-top-container {height: 1px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-bottom > .tab-border-bottom-container {height: 1px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.dirty-border-top:not(:focus) > .tab-border-top-container {height: 2px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label {line-height: var(--editor-group-tab-height)}
 .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab > .tab-actions .action-label.codicon {height: 16px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {height: var(--editor-group-tab-height)}
-.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before {height: var(--editor-group-tab-height)}
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container {height: var(--editor-group-tab-height)}
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {line-height: var(--editor-group-tab-height)}
-.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {line-height: var(--editor-group-tab-height)}
 .monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-icon-label:before {height: 18px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {height: var(--editor-group-tab-height)}
 .monaco-action-bar .action-dropdown-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.text {line-height: 14px}
 .chat-inline-anchor-widget .icon {line-height: 1em}
-.interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-action-bar .interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-toolbar {height: 26px;line-height: 26px}
+.interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-action-bar .interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-toolbar {height: 26px; line-height: 26px}
 .interactive-result-code-block .monaco-toolbar .action-item {height: 24px}
 .interactive-result-code-block .interactive-result-vulns-header {height: 22px}
 .tiw-metadata-separator {height: 1px}
 .chat-codeblock-pill-widget .icon {line-height: 1em}
 .interactive-item-container .header .avatar {height: 24px}
 .interactive-item-container .header .avatar .icon {height: 24px}
-.interactive-item-container.interactive-response.chat-most-recent-response {min-height: var(--chat-current-response-min-height)}
 .interactive-item-container.interactive-response:not(.chat-response-loading) .chat-footer-toolbar {height: 22px}
 .interactive-item-container .value .rendered-markdown {line-height: 1.5em}
 .interactive-item-container.interactive-item-compact .header {height: 16px}
 .interactive-item-container.interactive-item-compact .header .avatar {height: 18px}
 .interactive-item-container.interactive-item-compact .header .avatar .icon {height: 16px}
-.interactive-session .chat-dnd-overlay .attach-context-overlay-text {height: 12px;line-height: 12px}
+.interactive-session .chat-dnd-overlay .attach-context-overlay-text {height: 12px; line-height: 12px}
 .interactive-session .chat-dnd-overlay .attach-context-overlay-text .codicon {height: 12px}
 .interactive-session .chat-editing-session .monaco-button {height: 17px}
 .interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button.codicon.codicon-close {height: 17px}
@@ -164,7 +150,7 @@
 .interactive-session .chat-input-toolbars .chat-dropdown-item .action-label {height: 16px}
 .action-item.chat-attached-context-attachment.chat-add-files {height: 20px}
 .action-item.chat-attached-context-attachment.chat-add-files .action-label .action-item.chat-mcp .action-label .interactive-session .chat-attached-context .chat-attached-context-attachment {height: 18px}
-.interactive-session .chat-attached-context .chat-attached-context-attachment .monaco-icon-label:before {height: 1em;line-height: 1em !important}
+.interactive-session .chat-attached-context .chat-attached-context-attachment .monaco-icon-label:before {height: 1em; line-height: 1em !important}
 .quick-input-widget .interactive-response {min-height: 86px}
 .interactive-item-container .progress-container > .codicon[class*=codicon-] {height: 12px}
 .chat-attached-context-attachment .chat-attached-context-pill-image {height: 14px}
@@ -175,20 +161,19 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .inline-chat .status .actions .monaco-workbench .inline-chat-diff-overlay {height: 18px}
 .review-widget .body .review-comment .comment-actions .monaco-toolbar {height: 22px}
 .review-widget .body .review-comment .comment-title .action-label.codicon {line-height: 18px}
-.review-widget .body .review-comment .comment-title .monaco-dropdown .toolbar-toggle-more {height: 18px;line-height: 18px}
-.review-widget .body .review-comment .avatar-container img.avatar {height: 28px;line-height: 1}
+.review-widget .body .review-comment .comment-title .monaco-dropdown .toolbar-toggle-more {height: 18px; line-height: 18px}
+.review-widget .body .review-comment .avatar-container img.avatar {height: 28px; line-height: 1}
 .review-widget .body .review-comment .review-comment-contents .author {line-height: 22px}
 .review-widget .body .review-comment .review-comment-contents .isPending {line-height: 22px}
 .review-widget .body .review-comment .review-comment-contents .timestamp {line-height: 22px}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions {min-height: 25px}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item .action-label .reaction-label {line-height: 20px}
 .review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item a.action-label.toolbar-toggle-pickReactions {height: 16px}
-.review-widget .body .review-comment .comment-title .action-label {height: 16px;line-height: 16px}
-.review-widget .validation-error {line-height: 17px;min-height: 34px}
+.review-widget .body .review-comment .comment-title .action-label {height: 16px; line-height: 16px}
+.review-widget .validation-error {line-height: 17px; min-height: 34px}
 .review-widget .body .comment-form .review-thread-reply-button {line-height: 20px}
 .review-widget .action-item {min-height: 20px}
 .monaco-editor .margin-view-overlays .comment-range-glyph.multiline-add {height: 16px}
-.monaco-editor .editor-dictation-widget {line-height: var(--vscode-editor-dictation-widget-height);min-height: var(--vscode-editor-dictation-widget-height)}
 .notebook-text-diff-editor .cell-diff-editor-container .input-header-container .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .notebook-text-diff-editor .cell-diff-editor-container .output-header-container {height: 24px}
 .notebook-text-diff-editor .cell-diff-editor-container .input-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .output-header-container .property-status span {line-height: 21px}
 .monaco-workbench .notebook-text-diff-editor .output-view-container > div.foreground {min-height: 24px}
@@ -206,15 +191,15 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .quick-input-list {line-height: 12px}
 .quick-input-list .quick-input-list-icon {height: 22px}
 .monaco-workbench .pane > .pane-body .welcome-view-content > p .codicon[class*=codicon-] {line-height: 1.4em}
-.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {height: 22px;line-height: 22px}
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {height: 22px; line-height: 22px}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox {height: 16px}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox.codicon {line-height: 15px}
 .customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-resourceLabel > .custom-view-tree-node-item-icon .timeline-tree-view .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-icon {height: 22px}
 .viewpane-filter-container > .viewpane-filter .monaco-inputbox {height: 24px}
-.pane-header .viewpane-filter-container > .viewpane-filter .monaco-inputbox .monaco-inputbox {height: 20px;line-height: 18px}
+.pane-header .viewpane-filter-container > .viewpane-filter .monaco-inputbox .monaco-inputbox {height: 20px; line-height: 18px}
 .monaco-workbench.vs .viewpane-filter-container > .viewpane-filter .monaco-inputbox {height: 25px}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell {height: 22px}
-.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-inputbox {height: 22px;line-height: 19px}
+.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-inputbox {height: 22px; line-height: 19px}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-button {line-height: 1.4em}
 .monaco-workbench .screen-reader-detected-explanation .cancel {height: 22px}
 .monaco-workbench .screen-reader-detected-explanation hr {height: 2px}
@@ -225,15 +210,15 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon {height: 35px}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) {height: 16px}
 .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before {height: 24px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content {height: 16px;line-height: 10px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 13px;line-height: 13px}
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content {height: 16px; line-height: 10px}
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 13px; line-height: 13px}
 .monaco-workbench .viewlet .collapsible.header .actions .action-label {height: 22px}
 .monaco-workbench .viewlet .collapsible.header .action-label {height: 16px}
 .monaco-workbench .activitybar .menubar .monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {height: 35px}
 .monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:before {height: 2px}
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label {height: 48px}
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label:not(.codicon) {line-height: 40px}
-.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .badge .badge-content {height: 16px;line-height: 16px}
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .badge .badge-content {height: 16px; line-height: 16px}
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .profile-badge .profile-text-overlay {line-height: 10px}
 .menubar .toolbar-toggle-more {height: 22px}
 .monaco-workbench .part.banner .message-container {line-height: 26px}
@@ -246,7 +231,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-dialog-box {min-height: 75px}
 .monaco-dialog-box .dialog-toolbar-row {height: 22px}
 .monaco-dialog-box .dialog-message-row > .dialog-icon.codicon {height: 48px}
-.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message {line-height: 22px;min-height: 48px}
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message {line-height: 22px; min-height: 48px}
 .monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-detail {line-height: 22px}
 .profile-edit-widget > .profile-type-container > .profile-type-select-container > .monaco-select-box {line-height: 17px}
 .monaco-workbench .workbench-hover {line-height: 19px}
@@ -265,7 +250,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .settings-editor > .settings-body .settings-tree-container .setting-item-bool .setting-value-checkbox {height: 18px}
 .settings-editor > .settings-body .settings-tree-container .setting-item-contents .monaco-select-box {height: 26px}
 .settings-editor > .settings-body .settings-tree-container .setting-item-bool .setting-list-object-input-key-checkbox {height: 24px}
-.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-key .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-sibling .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-value {line-height: 24px;min-height: 24px}
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-key .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-sibling .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-value {line-height: 24px; min-height: 24px}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row .monaco-action-bar .action-label {height: 20px}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-siblingInput .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-valueInput {height: 24px}
 .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input select .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value-container {height: 24px}
@@ -283,10 +268,9 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .chat-status-bar-entry-tooltip .quota-indicator .quota-bar {height: 4px}
 .chat-status-bar-entry-tooltip .settings .setting .monaco-checkbox {height: 14px}
 .interactive-editor .input-cell-container .input-focus-indicator {height: 19px}
-.monaco-workbench .repl .repl-tree .monaco-tl-contents .expression {line-height: var(--vscode-repl-line-height)}
 .monaco-workbench .repl .repl-tree .output.expression.value-and-source .count-badge-wrapper .monaco-count-badge {min-height: 16px}
 .multiCallStackFrame .header {height: 24px}
-.test-explorer .monaco-list-row .error {height: 17px;line-height: 17px}
+.test-explorer .monaco-list-row .error {height: 17px; line-height: 17px}
 .test-explorer .result-summary-container {height: 27px}
 .monaco-workbench .part > .title > .title-actions .action-label.codicon-testing-autorun:after {height: .4em}
 .testing-followup-action {line-height: 25px}
@@ -294,7 +278,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .test-coverage-bars .bar {height: 8px}
 .coverage-summary-widget > div {height: 25px}
 .test-coverage-tree-per-test-switcher {line-height: 20px}
-.explorer-folders-view .editor-group .explorer-folders-view .explorer-item {height: 22px;line-height: 22px}
+.explorer-folders-view .editor-group .explorer-folders-view .explorer-item {height: 22px; line-height: 22px}
 .monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox .monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox {height: 22px}
 .monaco-workbench .explorer-folders-view .explorer-item .monaco-inputbox > .ibwrapper > .input {height: 20px}
 .monaco-workbench.hc-black .explorer-folders-view .explorer-item .monaco-workbench.hc-light .explorer-folders-view .explorer-item {line-height: 20px}
@@ -332,7 +316,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .debug-pane .monaco-inputbox > .ibwrapper {height: 19px}
 .debug-pane .monaco-list-row {line-height: 22px}
 .debug-pane .debug-breakpoints .breakpoint > .codicon {height: 19px}
-.monaco-editor .debug-hover-widget .complex-value .tip .monaco-editor .debug-hover-widget .complex-value .title {height: 18px;line-height: 18px}
+.monaco-editor .debug-hover-widget .complex-value .tip .monaco-editor .debug-hover-widget .complex-value .title {height: 18px; line-height: 18px}
 .monaco-editor .debug-hover-widget .debug-hover-tree {line-height: 18px}
 .markers-panel .markers-panel-container .message-box-container {line-height: 22px}
 .markers-panel .markers-panel-container .tree-container .monaco-tl-contents {line-height: 22px}
@@ -342,15 +326,15 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .merge-editor .code-view > .header {height: 30px}
 .accept-conflict-group.monaco-custom-toggle {height: 18px}
 .extension-editor > .header > .icon-container .icon {height: 128px}
-.extension-editor > .header > .icon-container .extension-remote-badge {height: 38px;line-height: 38px}
+.extension-editor > .header > .icon-container .extension-remote-badge {height: 38px; line-height: 38px}
 .extension-editor > .header > .details > .title > .name {line-height: 30px}
-.extension-editor > .header > .details > .subtitle {height: 20px;line-height: 20px}
+.extension-editor > .header > .details > .subtitle {height: 20px; line-height: 20px}
 .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .monaco-dropdown .extension-action.action-dropdown .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item > .extension-action {line-height: 22px}
 .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.checkbox-action-item > .extension-action {height: 18px}
 .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator {height: 22px}
 .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator > div {height: 16px}
 .extension-editor > .header > .details > .actions-status-container > .status {line-height: 22px}
-.extension-editor > .body > .navbar {height: 36px;line-height: 36px}
+.extension-editor > .body > .navbar {height: 36px; line-height: 36px}
 .extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack {height: 224px}
 .extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.one-row > .extension-pack {height: 142px}
 .extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.two-rows > .extension-pack {height: 224px}
@@ -365,9 +349,9 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .extension-editor .subcontent .monaco-list-row .extension > .details > .footer {line-height: 19px}
 .extension-editor .subcontent.feature-contributions .extension-feature-content .feature-header {line-height: 20px}
 .extension-list-item > .icon-container > .icon {height: 42px}
-.extension-list-item > .icon-container .extension-badge.extension-remote-badge {height: 22px;line-height: 22px}
+.extension-list-item > .icon-container .extension-badge.extension-remote-badge {height: 22px; line-height: 22px}
 .extension-list-item > .details > .header-container {height: 19px}
-.extension-list-item > .details > .header-container > .header .extension-remote-badge {height: 14px;line-height: 14px}
+.extension-list-item > .details > .header-container > .header .extension-remote-badge {height: 14px; line-height: 14px}
 .extension-list-item > .details > .footer {height: 24px}
 .extension-list-item > .details > .footer > .publisher-container {line-height: 24px}
 .extension-list-item > .details > .footer > .monaco-action-bar > .actions-container .extension-action.label {line-height: 16px}
@@ -375,7 +359,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .extension-list-item .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator > div {height: 10px}
 .extension-bookmark {height: 20px}
 .extensions-viewlet > .header {height: 41px}
-.extensions-viewlet > .header > .extensions-search-container > .search-box {height: 28px;line-height: 18px}
+.extensions-viewlet > .header > .extensions-search-container > .search-box {height: 28px; line-height: 18px}
 .extensions-viewlet .notification-container .message-action {height: 16px}
 .extensions-viewlet > .extensions .extension-view-header .monaco-action-bar .action-item > .action-label.icon.codicon {line-height: 22px}
 .extensions-viewlet.narrow > .extensions .extension-list-item > .icon-container > .icon {height: 24px}
@@ -389,11 +373,11 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .xterm .xterm-scrollable-element > .shadow.top {height: 3px}
 .xterm .xterm-scrollable-element > .shadow.top-left-corner {height: 3px}
 .icon-select-box .icon-select-id-container .icon-select-id-label {height: 24px}
-.monaco-workbench .simple-find-part .button {height: 20px;line-height: 20px}
+.monaco-workbench .simple-find-part .button {height: 20px; line-height: 20px}
 .workbench-suggest-widget .monaco-list .monaco-list-row .icon {height: 16px}
 .workbench-suggest-widget .monaco-list .monaco-list-row .icon.customcolor .colorspan {height: .7em}
 .workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {height: 18px}
-.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item {height: 22px;line-height: 22px}
+.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item {height: 22px; line-height: 22px}
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item > .remote-help-tree-node-item-icon {height: 22px}
 .monaco-workbench .part.editor > .content .gettingStartedContainer {line-height: 22px}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories ul {line-height: 24px}
@@ -417,7 +401,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .profiles-editor .contents-container .profile-body .profile-row-container .profile-icon-container {line-height: 22px}
 .profiles-editor .contents-container .profile-select-container > .monaco-select-box {line-height: 18px}
 .profiles-editor .contents-container .profile-use-as-default-container .profiles-editor .contents-container .profile-use-for-current-container {line-height: 22px}
-.profiles-editor .contents-container .profile-content-tree-header {height: 30px;line-height: 22px}
+.profiles-editor .contents-container .profile-content-tree-header {height: 30px; line-height: 22px}
 .monaco-custom-radio > .monaco-button {line-height: 1em}
 .workspace-trust-editor .workspace-trust-header .workspace-trust-title {line-height: 32px}
 .workspace-trust-editor .workspace-trust-subsection-title {line-height: 32px}
@@ -428,7 +412,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .workspace-trust-editor .workspace-trust-settings .monaco-table-tr .monaco-table-td .monaco-button {height: 18px}
 div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px}
 .monaco-workbench {line-height: 1.4em}
-.monaco-workbench .select-container:after {height: 16px;line-height: 16px}
+.monaco-workbench .select-container:after {height: 16px; line-height: 16px}
 .monaco-workbench > .notifications-center > .notifications-center-header {height: 35px}
 .monaco-workbench .notifications-list-container .notification-offset-helper {line-height: 22px}
 .monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-icon {height: 22px}
@@ -441,9 +425,9 @@ div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px}
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left > .window-appicon.codicon {line-height: 30px}
 .monaco-workbench.web .part.titlebar .titlebar-right .window-controls-container {height: env(titlebar-area-height, 35px)}
 .monaco-workbench.web .part.titlebar .titlebar-left .window-controls-container {height: env(titlebar-area-height, 35px)}
-.monaco-workbench .part.titlebar .window-controls-container > .window-icon:before {height: 16px;line-height: 16px}
-.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .badge .badge-content {height: 16px;line-height: 11px}
-.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 12px;line-height: 12px}
+.monaco-workbench .part.titlebar .window-controls-container > .window-icon:before {height: 16px; line-height: 16px}
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .badge .badge-content {height: 16px; line-height: 11px}
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 12px; line-height: 12px}
 .issue-reporter input[type=text] .issue-reporter textarea {line-height: 1.5}
 .issue-reporter textarea {height: 200px}
 .issue-reporter ::-webkit-scrollbar-thumb {min-height: 20px}

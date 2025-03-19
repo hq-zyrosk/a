@@ -1,0 +1,64 @@
+.monaco-sash.horizontal {
+  height: var(--vscode-sash-size)
+}
+
+.monaco-sash.horizontal:before {
+  height: var(--vscode-sash-hover-size)
+}
+
+.monaco-editor .codelens-decoration {
+  line-height: var(--vscode-editorCodeLens-lineHeight)
+}
+
+.monaco-editor .codelens-decoration .codicon[class*=codicon-] {
+  line-height: var(--vscode-editorCodeLens-lineHeight)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label {
+  line-height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {
+  line-height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {
+  line-height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
+  height: var(--editor-group-tab-height)
+}
+
+.interactive-item-container.interactive-response.chat-most-recent-response {
+  min-height: var(--chat-current-response-min-height)
+}
+
+.monaco-editor .editor-dictation-widget {
+  line-height: var(--vscode-editor-dictation-widget-height);
+  min-height: var(--vscode-editor-dictation-widget-height)
+}
+
+.monaco-workbench .repl .repl-tree .monaco-tl-contents .expression {
+  line-height: var(--vscode-repl-line-height)
+}
