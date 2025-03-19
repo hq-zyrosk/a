@@ -1,5 +1,5 @@
 let
-  text-size = 13;
+  text-size = 12;
   text-high = 4;
   text-wide = 0;
 in {
