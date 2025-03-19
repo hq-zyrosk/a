@@ -14,3 +14,11 @@
 #monaco-pane-drop-overlay > .pane-overlay-indicator {
   min-height: 22px
 }
+
+.monaco-workbench.web .part.titlebar .titlebar-right .window-controls-container {
+  height: env(titlebar-area-height, 35px)
+}
+
+.monaco-workbench.web .part.titlebar .titlebar-left .window-controls-container {
+  height: env(titlebar-area-height, 35px)
+}

@@ -22,11 +22,6 @@
   text-transform: lowercase;
 }
 
-.monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar {
-  line-height: calc(2 * var(--text-size));
-  height: calc(2 * var(--text-size));
-}
-
 .monaco-action-bar .action-label {
   font-size: var(--norm-size);
 }
@@ -239,7 +234,25 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*app*/
+/*35*/
+.monaco-workbench .part > .title > .title-label {
+  line-height: var(--norm-high);
+}
+
+.monaco-workbench > .notifications-center > .notifications-center-header,
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-group-container-toolbar,
+.monaco-workbench .part > .title > .title-actions,
+.monaco-workbench .part > .header-or-footer,
+.monaco-workbench .part > .title,
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon,
+.monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon,
+.monaco-workbench .activitybar .menubar,
+.monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {
+  height: var(--norm-high);
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*22*/
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item,
 .open-editors .editor-group .open-editors .open-editor,
 .monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .outline-element-icon,
@@ -263,7 +276,9 @@
 .profiles-editor .contents-container .profile-content-tree-header,
 .profiles-editor .contents-container .profile-body .profile-row-container .profile-icon-container,
 .monaco-workbench.mac .part.titlebar > .titlebar-container,
-.monaco-workbench.linux .part.titlebar > .titlebar-container .monaco-workbench.web .part.titlebar > .titlebar-container .monaco-workbench.windows .part.titlebar > .titlebar-container,
+.monaco-workbench.linux .part.titlebar > .titlebar-container,
+.monaco-workbench.web .part.titlebar > .titlebar-container,
+.monaco-workbench.windows .part.titlebar > .titlebar-container,
 .monaco-workbench .part.statusbar > .items-container > .statusbar-item,
 .monaco-workbench .part.editor > .content .walkThroughContent,
 .monaco-workbench .part.editor > .content .gettingStartedContainer,
@@ -300,7 +315,8 @@
 .quick-input-list .quick-input-list-icon,
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell,
 .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .action-close-all-files .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .save-all,
-.monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox .monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox,
+.monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox,
+.monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox,
 .monaco-workbench .viewlet .collapsible.header .actions .action-label,
 .monaco-workbench .screen-reader-detected-explanation .cancel,
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center,
@@ -346,6 +362,11 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+/*1*/
+.monaco-workbench {
+  line-height: var(--norm-high);
+}
+
 .linux,
 .mac {
   --monaco-monospace-font: var(--norm-type);

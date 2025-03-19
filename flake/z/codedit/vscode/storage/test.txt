@@ -94,8 +94,6 @@
 .monaco-progress-container {height: 2px}
 .monaco-progress-container .progress-bit {height: 2px}
 .monaco-workbench.hc-black .open-editors .editor-group .monaco-workbench.hc-black .open-editors .open-editor .monaco-workbench.hc-light .open-editors .editor-group .monaco-workbench.hc-light .open-editors .open-editor {line-height: 20px}
-.monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after {height: 1px}
-.monaco-workbench .part.editor > .content .editor-group-container > .editor-group-container-toolbar {height: 35px}
 .monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree > .input {height: 36px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.tabs-border-bottom:after {height: 1px}
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top:not(:focus) > .tab-border-top-container .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.selected.tab-border-top:not(:focus) > .tab-border-top-container {height: 1px}
@@ -167,17 +165,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench.vs .viewpane-filter-container > .viewpane-filter .monaco-inputbox {height: 25px}
 .ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-button {line-height: 1.4em}
 .monaco-workbench .screen-reader-detected-explanation hr {height: 2px}
-.monaco-workbench .part > .header-or-footer .monaco-workbench .part > .title {height: 35px}
-.monaco-workbench .part > .title > .title-label {line-height: 35px}
-.monaco-workbench .part > .title > .title-actions {height: 35px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar {line-height: 27px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon {height: 35px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) {height: 16px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before {height: 24px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content {height: 16px; line-height: 10px}
-.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 13px; line-height: 13px}
 .monaco-workbench .viewlet .collapsible.header .action-label {height: 16px}
-.monaco-workbench .activitybar .menubar .monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {height: 35px}
 .monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:before {height: 2px}
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label {height: 48px}
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label:not(.codicon) {line-height: 40px}
@@ -332,13 +320,9 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .workspace-trust-editor .workspace-trust-features .workspace-trust-limitations-header .workspace-trust-limitations-title {line-height: 24px}
 .workspace-trust-editor .workspace-trust-settings .monaco-table-tr .monaco-table-td .monaco-button {height: 18px}
 div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px}
-.monaco-workbench {line-height: 1.4em}
 .monaco-workbench .select-container:after {height: 16px; line-height: 16px}
-.monaco-workbench > .notifications-center > .notifications-center-header {height: 35px}
 .monaco-workbench.linux .part.titlebar > .titlebar-container > .resizer .monaco-workbench.windows .part.titlebar > .titlebar-container > .resizer {height: 4px}
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left > .window-appicon.codicon {line-height: 30px}
-.monaco-workbench.web .part.titlebar .titlebar-right .window-controls-container {height: env(titlebar-area-height, 35px)}
-.monaco-workbench.web .part.titlebar .titlebar-left .window-controls-container {height: env(titlebar-area-height, 35px)}
 .monaco-workbench .part.titlebar .window-controls-container > .window-icon:before {height: 16px; line-height: 16px}
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .badge .badge-content {height: 16px; line-height: 11px}
 .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .action-item.icon .badge.compact .badge-content {height: 12px; line-height: 12px}

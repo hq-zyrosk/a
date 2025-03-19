@@ -26,3 +26,12 @@
 .monaco-workbench .repl .repl-tree .monaco-tl-contents .expression {
   line-height: var(--vscode-repl-line-height)
 }
+
+.monaco-workbench .part > .header-or-footer,
+.monaco-workbench .part > .title {
+  box-sizing: border-box;
+  display: none;
+  display: flex;
+  height: 35px;
+  overflow: hidden;
+}
