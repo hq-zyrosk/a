@@ -9,26 +9,6 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*sidebar-header*/
-.monaco-workbench .part.sidebar > .title > .title-label h2 {
-  font-family: var(--norm-type);
-  font-size: var(--norm-size);
-  text-transform: lowercase;
-}
-
-.monaco-workbench .part > .title > .title-label {
-  padding-left: 0;
-}
-
-.monaco-workbench .part > .title {
-  margin: 17px 0 0 0;
-}
-
-.monaco-workbench .part > .composite.title {
-  padding: 0;
-}
-
-/*--------------------------------------------------------------------------------------------*/
 /*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
   color: #D3D3D380;
@@ -77,6 +57,26 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+/*sidebar-header*/
+.monaco-workbench .part.sidebar > .title > .title-label h2 {
+  font-family: var(--norm-type);
+  font-size: var(--norm-size);
+  text-transform: lowercase;
+}
+
+.monaco-workbench .part > .composite.title {
+  padding: 0;
+}
+
+.monaco-workbench .part > .title > .title-label {
+  padding-left: 0;
+}
+
+.monaco-workbench .part > .title {
+  margin: 19px 0 0 0;
+}
+
+/*--------------------------------------------------------------------------------------------*/
 /*tab*/
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
   padding-right: var(--norm-wide) !important;
@@ -98,6 +98,10 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
   line-height: var(--norm-high);
   height: var(--norm-high);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+  margin: 6px 0 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -325,17 +329,6 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*1*/
-.monaco-workbench {
-  line-height: var(--norm-high);
-}
-
-.linux,
-.mac {
-  --monaco-monospace-font: var(--norm-type);
-  font-family: var(--norm-type);
-  font-size: var(--norm-size);
-}
-
 :root {
   --text-size: 16px;
   --norm-line: 1px solid rgba(255, 255, 255, 0.25);
