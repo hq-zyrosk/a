@@ -344,16 +344,13 @@
 /*--------------------------------------------------------------------------------------------*/
 .linux,
 .mac {
-  --monaco-monospace-font: var(--text-type);
-  font-family: var(--text-type);
-  font-size: var(--text-size);
+  --monaco-monospace-font: var(--norm-type);
+  font-family: var(--norm-type);
+  font-size: var(--norm-size);
 }
 
 :root {
-  --text-type: 'PragmataPro Mono Liga', monospace;
-  --text-high: calc(1.375 * var(--text-size));
   --text-size: 16px;
-  --text-wide: 8px;
   --norm-type: 'PragmataPro Mono Liga', monospace;
   --norm-high: calc(1.375 * var(--norm-size));
   --norm-size: 12px;
