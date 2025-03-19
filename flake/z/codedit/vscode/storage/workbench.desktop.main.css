@@ -73,7 +73,7 @@
 }
 
 .monaco-workbench .part > .title {
-  margin: 19px 0 0 0;
+  margin: 21px 0 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -101,7 +101,7 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title {
-  margin: 6px 0 0 0;
+  margin: 8px 0 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -330,10 +330,9 @@
 /*--------------------------------------------------------------------------------------------*/
 /*1*/
 :root {
-  --text-size: 16px;
   --norm-line: 1px solid rgba(255, 255, 255, 0.25);
   --norm-type: 'PragmataPro Mono Liga', monospace;
-  --norm-high: calc(1.375 * var(--norm-size));
+  --norm-high: calc(1.25 * var(--norm-size));
   --norm-size: 12px;
   --norm-wide: 6px;
 }
