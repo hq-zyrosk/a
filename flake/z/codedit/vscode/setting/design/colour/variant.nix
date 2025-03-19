@@ -21,6 +21,7 @@ in {
   "tab.activeModifiedBorder" = yellow;
   "settings.modifiedItemIndicator" = yellow;
   "minimapGutter.modifiedBackground" = yellow;
+  "inlineEdit.tabWillAcceptModifiedBorder" = yellow;
   "inlineEdit.modifiedBorder" = yellow;
   "gitDecoration.stageModifiedResourceForeground" = yellow;
   "gitDecoration.modifiedResourceForeground" = yellow;

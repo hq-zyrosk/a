@@ -84,6 +84,14 @@
     "announcement" = "never";
     "sound" = "never";
   };
+  "accessibility.signals.editsUndone" = {
+    "sound" = "auto";
+    "announcement" = "auto";
+  };
+  "accessibility.signals.editsKept" = {
+    "sound" = "auto";
+    "announcement" = "auto";
+  };
   "accessibility.signals.diffLineModified" = {
     "sound" = "auto";
   };

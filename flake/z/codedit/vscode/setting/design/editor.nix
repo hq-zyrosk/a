@@ -42,15 +42,15 @@ in {
   "editor.semanticHighlighting.enabled" = true;
   "editor.selectionHighlight" = true;
   "editor.selectionClipboard" = true;
+  "editor.scrollPredominantAxis" = true;
+  "editor.scrollBeyondLastLine" = false;
+  "editor.scrollBeyondLastColumn" = 4;
   "editor.scrollbar.verticalScrollbarSize" = 8;
   "editor.scrollbar.vertical" = "hidden";
   "editor.scrollbar.scrollByPage" = false;
   "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight" = false;
   "editor.scrollbar.horizontalScrollbarSize" = 8;
   "editor.scrollbar.horizontal" = "hidden";
-  "editor.scrollPredominantAxis" = true;
-  "editor.scrollBeyondLastLine" = false;
-  "editor.scrollBeyondLastColumn" = 4;
   "editor.roundedSelection" = true;
   "editor.renderWhitespace" = "trailing";
   "editor.renderLineHighlightOnlyWhenFocus" = true;
@@ -97,6 +97,7 @@ in {
   "editor.experimentalEditContextEnabled" = true;
   "editor.experimental.treeSitterTelemetry" = true;
   "editor.experimental.preferTreeSitter.typescript" = true;
+  "editor.experimental.preferTreeSitter.regex" = true;
   "editor.experimental.preferTreeSitter.ini" = true;
   "editor.experimental.asyncTokenizationVerification" = false;
   "editor.experimental.asyncTokenizationLogging" = false;

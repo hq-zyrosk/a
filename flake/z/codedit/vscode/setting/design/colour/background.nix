@@ -41,6 +41,7 @@ in {
   "editorSuggestWidget.selectedBackground" = c9;
   "editorSuggestWidget.background" = c9;
   "editorHoverWidget.background" = c9;
+  "editorGutter.itemBackground" = c9;
   "editorGutter.background" = c9;
   "editorGroupHeader.tabsBackground" = c9;
   "editorGroup.dropBackground" = c9;

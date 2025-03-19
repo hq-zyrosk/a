@@ -6,9 +6,12 @@
     "panel" = "always";
     "editing-session" = "first";
   };
+  "chat.useFileStorage" = true;
   "chat.renderRelatedFiles" = true;
   "chat.promptFiles" = true;
+  "chat.mcp.discovery.enabled" = true;
   "chat.experimental.statusIndicator.enabled" = true;
+  "chat.experimental.setupFromDialog" = true;
   "chat.editing.confirmEditRequestRetry" = true;
   "chat.editing.confirmEditRequestRemoval" = true;
   "chat.editing.autoAcceptDelay" = 0;

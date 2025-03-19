@@ -63,6 +63,7 @@ in {
   "notebook.inactiveSelectedCellBorder" = c5;
   "notebook.inactiveFocusedCellBorder" = c5;
   "notebook.focusedEditorBorder" = c5;
+  "inlineEdit.tabWillAcceptOriginalBorder" = c5;
   "inlineEdit.originalBorder" = c5;
   "inlineEdit.indicator.border" = c5;
   "editorGroup.dropIntoPromptBorder" = c5;

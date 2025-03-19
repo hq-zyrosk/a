@@ -146,16 +146,14 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
-/*text*/
-.label-name {
-  line-height: var(--norm-high) !important;
-  height: var(--norm-high) !important;
-  font-weight: var(--norm-kind) !important;
-  font-family: var(--norm-type) !important;
-  font-size: var(--norm-size) !important;
-  vertical-align: middle !important;
-  padding: 0 !important;
-  margin: 0 !important;
+/*terminal*/
+.monaco-workbench .pane-body.integrated-terminal .xterm,
+.monaco-workbench .terminal-editor .xterm {
+  top: 0;
+}
+
+.monaco-workbench .xterm {
+  padding-left: 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/

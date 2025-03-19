@@ -159,12 +159,14 @@ in {
   "icon.foreground" = c5;
   "gauge.foreground" = c5;
   "foreground" = c5;
+  "extensionIcon.privateForeground" = c5;
   "extensionButton.prominentForeground" = c5;
   "editorWidget.foreground" = c5;
   "editorSuggestWidgetStatus.foreground" = c5;
   "editorSuggestWidget.foreground" = c5;
   "editorInlayHint.parameterForeground" = c5;
   "editorInlayHint.foreground" = c5;
+  "editorGutter.itemGlyphForeground" = c5;
   "editorGutter.foldingControlForeground" = c5;
   "editorGutter.commentUnresolvedGlyphForeground" = c5;
   "editorGutter.commentRangeForeground" = c5;
