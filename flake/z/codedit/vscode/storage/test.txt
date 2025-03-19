@@ -1,4 +1,3 @@
-
 .monaco-scrollable-element > .shadow.top {height: 3px;}
 .monaco-scrollable-element > .shadow.top-left-corner {height: 3px;}
 .monaco-editor .scroll-decoration {height: 6px;}
@@ -18,7 +17,6 @@
 .monaco-editor .diff-hidden-lines .bottom .monaco-editor .diff-hidden-lines .top {height: 4px;}
 .monaco-editor .diff-hidden-lines .center {height: 24px;}
 .monaco-diff-editor .diff-moved-code-block .action-bar .action-label.codicon {height: 12px;}
-.monaco-diff-editor .gutter .gutterItem .buttons .monaco-toolbar {height: fit-content}
 .monaco-diff-editor .gutter .gutterItem .buttons .monaco-toolbar .monaco-action-bar {line-height: 1}
 .monaco-diff-editor .diff-hidden-lines-compact {height: 11px}
 .monaco-diff-editor .diff-hidden-lines-compact .line-left .monaco-diff-editor .diff-hidden-lines-compact .line-right {height: 1px;}
@@ -50,13 +48,12 @@
 .monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before {height: 1px;}
 .monaco-custom-toggle {height: 20px;}
 .monaco-custom-toggle.monaco-checkbox {height: 18px;}
-.monaco-inputbox > .ibwrapper > .input {height: 100%;line-height: inherit;}
 .monaco-inputbox-container .monaco-inputbox-message {line-height: 17px;}
 .monaco-inputbox .monaco-action-bar .action-item .codicon {height: 16px;}
 .monaco-tree-type-filter-input .monaco-inputbox {height: 23px}
 .monaco-editor .reference-zone-widget .ref-tree {line-height: 23px}
 .monaco-count-badge {line-height: 11px;min-height: 18px;}
-.monaco-icon-label:before {height: 22px;line-height: inherit !important;}
+.monaco-icon-label:before {height: 22px}
 .monaco-icon-label-iconpath {height: 16px;}
 .monaco-editor .find-widget {height: 33px;line-height: 19px;}
 .monaco-editor .find-widget > .find-part .monaco-inputbox .monaco-editor .find-widget > .replace-part .monaco-inputbox {min-height: 25px}
@@ -137,7 +134,6 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container {height: var(--editor-group-tab-height);}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {line-height: var(--editor-group-tab-height);}
 .monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {line-height: var(--editor-group-tab-height);}
-.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-breadcrumb-item:before {height: inherit;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-icon-label:before {height: 18px;}
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {height: var(--editor-group-tab-height);}
 .monaco-action-bar .action-dropdown-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.text {line-height: 14px;}
@@ -173,7 +169,6 @@
 .interactive-item-container .progress-container > .codicon[class*=codicon-] {height: 12px}
 .chat-attached-context-attachment .chat-attached-context-pill-image {height: 14px;}
 .interactive-session .chat-scroll-down {height: 27px;}
-.chat-agent-hover {line-height: unset;}
 .chat-agent-hover-icon .codicon .chat-agent-hover-icon img {height: 32px;}
 div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .inline-chat .status .label > .codicon {line-height: 18px;}
@@ -192,7 +187,6 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .review-widget .validation-error {line-height: 17px;min-height: 34px;}
 .review-widget .body .comment-form .review-thread-reply-button {line-height: 20px;}
 .review-widget .action-item {min-height: 20px;}
-.review-widget .head .review-actions > .monaco-action-bar .action-label {line-height: inherit;}
 .monaco-editor .margin-view-overlays .comment-range-glyph.multiline-add {height: 16px;}
 .monaco-editor .editor-dictation-widget {line-height: var(--vscode-editor-dictation-widget-height);min-height: var(--vscode-editor-dictation-widget-height);}
 .notebook-text-diff-editor .cell-diff-editor-container .input-header-container .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .notebook-text-diff-editor .cell-diff-editor-container .output-header-container {height: 24px}
@@ -205,7 +199,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .notebook-text-diff-editor .cell-placeholder-body {min-height: 24px}
 .notebook-text-diff-editor .cell-placeholder-body div.diff-hidden-cells .center {height: 24px;}
 .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .relevance {line-height: 14px;}
-.comments-panel .comments-panel-container .message-box-container {height: inherit;line-height: 22px;}
+.comments-panel .comments-panel-container .message-box-container {line-height: 22px;}
 .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-snippet-container {line-height: 22px;}
 .monaco-workbench .screencast-keyboard {line-height: 1.75em;}
 .quick-input-action .monaco-text-button {height: 25px;}
@@ -246,7 +240,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .part.banner .message-actions-container {line-height: 26px}
 .monaco-workbench .part.statusbar {height: 22px;}
 .monaco-workbench .part.statusbar.status-border-top:after {height: 1px;}
-.monaco-workbench .part.statusbar > .items-container > .statusbar-item {height: 100%;line-height: 22px;}
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item {line-height: 22px;}
 .monaco-workbench .part.statusbar > .items-container > .statusbar-item.has-beak > .status-bar-item-beak-container {height: 5px;}
 .monaco-workbench .progress-badge > .badge-content:before {height: 14px;}
 .monaco-dialog-box {min-height: 75px;}
@@ -309,7 +303,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .search-view .query-details {min-height: 1em;}
 .search-view .query-details .more {height: 16px;}
 .search-view .query-details .file-types > .monaco-inputbox {height: 25px;}
-.search-view .filematch .search-view .foldermatch .search-view .textsearchresult {height: 100%;line-height: 22px;}
+.search-view .filematch .search-view .foldermatch .search-view .textsearchresult {line-height: 22px;}
 .search-view .linematch {line-height: 22px;}
 .search-view .monaco-list .monaco-list-row .monaco-action-bar {line-height: 1em;}
 .monaco-workbench.hc-black .search-view .filematch .monaco-workbench.hc-black .search-view .foldermatch .monaco-workbench.hc-black .search-view .linematch .monaco-workbench.hc-light .search-view .filematch .monaco-workbench.hc-light .search-view .foldermatch .monaco-workbench.hc-light .search-view .linematch {line-height: 20px}
@@ -332,9 +326,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .debug-toolbar {height: 26px;}
 .monaco-workbench .debug-action.notification:after {height: 6px;}
 .monaco-workbench .part > .title > .title-actions .start-debug-action-item {line-height: 20px}
-.monaco-workbench .part > .title > .title-actions .start-debug-action-item .codicon {line-height: inherit}
 .monaco-workbench .part > .title > .title-actions .start-debug-action-item .codicon-debug-start {height: 21px;}
-.monaco-workbench .monaco-action-bar .start-debug-action-item .configuration .monaco-select-box {line-height: inherit;}
 .debug-pane .session .codicon {line-height: 22px;}
 .debug-pane .monaco-list-row .expression .value {height: 22px;}
 .debug-pane .monaco-inputbox > .ibwrapper {height: 19px}
@@ -387,7 +379,6 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .extensions-viewlet .notification-container .message-action {height: 16px;}
 .extensions-viewlet > .extensions .extension-view-header .monaco-action-bar .action-item > .action-label.icon.codicon {line-height: 22px;}
 .extensions-viewlet.narrow > .extensions .extension-list-item > .icon-container > .icon {height: 24px;}
-.runtime-extensions-editor .monaco-action-bar {height: unset}
 .runtime-extensions-editor .extension > .icon-container > .icon {height: 42px;}
 .monaco-workbench .part.sidebar > .title > .title-actions .switch-terminal {height: 20px;}
 .monaco-action-bar .terminal-uri-icon.single-terminal-tab.action-label:not(.alt-command) .codicon:before .monaco-workbench .terminal-uri-icon .monaco-highlighted-label .codicon:before {height: 16px;}
@@ -404,14 +395,11 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {height: 18px;}
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item {height: 22px;line-height: 22px;}
 .remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item > .remote-help-tree-node-item-icon {height: 22px;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer {height: inherit;line-height: 22px;}
+.monaco-workbench .part.editor > .content .gettingStartedContainer {line-height: 22px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories ul {line-height: 24px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .progress-bar-outer {height: 4px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-category .featured {height: 20px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step:not(.expanded) {height: 48px}
-.monaco-workbench .part.editor > .content .gettingStartedContainer.width-semi-constrained .gettingStartedSlideDetails .gettingStartedDetailsContent.video > .getting-started-media {height: inherit;}
-.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent.markdown > .getting-started-media {height: inherit}
-.monaco-workbench .part.editor > .content .gettingStartedContainer.width-semi-constrained .gettingStartedSlideDetails .gettingStartedDetailsContent.image > .getting-started-media {height: inherit;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-detail-right {min-height: 300px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-checkbox {height: 18px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories > .gettingStartedCategoriesContainer .index-list.start-container {min-height: 156px}
@@ -419,7 +407,7 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step .step-description-container .monaco-button {height: 24px;}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .description {line-height: 1.4em}
 .monaco-workbench .part.editor > .content .gettingStartedContainer .start-container .button-link {line-height: 24px}
-.monaco-workbench .part.editor > .content .walkThroughContent {height: inherit;line-height: 22px;}
+.monaco-workbench .part.editor > .content .walkThroughContent {line-height: 22px;}
 .monaco-workbench .part.editor > .content .walkThroughContent hr {height: 2px}
 .monaco-workbench .part.editor > .content .walkThroughContent h1 {line-height: 1.2;}
 .monaco-workbench .part.editor > .content .walkThroughContent .shortcut .monaco-workbench .part.editor > .content .walkThroughContent code {line-height: 19px}
@@ -430,7 +418,6 @@ div.chat-welcome-view > .chat-welcome-view-icon {min-height: 48px}
 .profiles-editor .contents-container .profile-select-container > .monaco-select-box {line-height: 18px;}
 .profiles-editor .contents-container .profile-use-as-default-container .profiles-editor .contents-container .profile-use-for-current-container {line-height: 22px}
 .profiles-editor .contents-container .profile-content-tree-header {height: 30px;line-height: 22px;}
-.profiles-editor .contents-container .profile-tree-item-container .profile-resource-options-container {height: fit-content;}
 .monaco-custom-radio > .monaco-button {line-height: 1em;}
 .workspace-trust-editor .workspace-trust-header .workspace-trust-title {line-height: 32px;}
 .workspace-trust-editor .workspace-trust-subsection-title {line-height: 32px}
@@ -461,6 +448,5 @@ div.share-dialog-input-link div.share-dialog-input-text {line-height: 24px;}
 .issue-reporter textarea {height: 200px}
 .issue-reporter ::-webkit-scrollbar-thumb {min-height: 20px}
 .issue-reporter-body input[type=text] .issue-reporter-body textarea {line-height: 1.5;}
-body.issue-reporter-body {height: 100% !important;}
 .issue-reporter-body textarea {height: 200px}
 .issue-reporter-body::-webkit-scrollbar-thumb {min-height: 20px}
