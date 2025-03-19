@@ -1,0 +1,3124 @@
+.monaco-editor .editorCanvas {
+  height: 100%;
+}
+
+.monaco-editor .squiggly-error:before {
+  height: 100%;
+}
+
+.monaco-editor .squiggly-warning:before {
+  height: 100%;
+}
+
+.monaco-editor .squiggly-info:before {
+  height: 100%;
+}
+
+.monaco-scrollable-element > .shadow.top {
+  height: 3px;
+}
+
+.monaco-scrollable-element > .shadow.left {
+  height: 100%;
+}
+
+.monaco-scrollable-element > .shadow.top-left-corner {
+  height: 3px;
+}
+
+.monaco-editor .margin-view-overlays .current-line .monaco-editor .view-overlays .current-line {
+  height: 100%;
+}
+
+.monaco-editor .lines-content .cdr {
+  height: 100%;
+}
+
+.monaco-editor .lines-content .core-guide {
+  height: 100%;
+}
+
+.monaco-editor .margin-view-overlays .cldr {
+  height: 100%;
+}
+
+.monaco-editor .margin-view-overlays .cmdr {
+  height: 100%;
+}
+
+.monaco-editor .scroll-decoration {
+  height: 6px;
+}
+
+.monaco-editor .inputarea {
+  min-height: 0;
+}
+
+.monaco-editor .native-edit-context-textarea {
+  min-height: 0;
+}
+
+.monaco-list {
+  height: 100%;
+}
+
+.monaco-list > .monaco-scrollable-element {
+  height: 100%
+}
+
+.monaco-list-rows {
+  height: 100%;
+}
+
+.monaco-list-type-filter-message {
+  height: 100%;
+}
+
+.monaco-select-box-dropdown-container > .select-box-details-pane > .select-box-description-markdown code {
+  line-height: 15px
+}
+
+.monaco-select-box-dropdown-container > .select-box-dropdown-list-container .monaco-list .monaco-list-row > .visually-hidden {
+  height: 1px;
+}
+
+.monaco-select-box-dropdown-container > .select-box-dropdown-container-width-control > .width-control-div {
+  max-height: 0;
+}
+
+.monaco-action-bar .action-item .monaco-select-box {
+  min-height: 18px;
+}
+
+.monaco-action-bar {
+  height: 100%;
+}
+
+.monaco-action-bar .actions-container {
+  height: 100%;
+}
+
+.monaco-action-bar .action-item .codicon {
+  height: 16px;
+}
+
+.monaco-action-bar .action-item .action-label.separator {
+  height: 16px;
+}
+
+.monaco-component.diff-review .diff-review-actions .action-label {
+  height: 16px;
+}
+
+.monaco-sash.vertical {
+  height: 100%;
+}
+
+.monaco-sash.horizontal {
+  height: var(--vscode-sash-size);
+}
+
+.monaco-sash:not(.disabled) > .orthogonal-drag-handle {
+  height: calc(var(--vscode-sash-size)*2);
+}
+
+.monaco-sash:before {
+  height: 100%;
+}
+
+.monaco-sash.horizontal:before {
+  height: var(--vscode-sash-hover-size);
+}
+
+.monaco-dropdown {
+  height: 100%;
+}
+
+.monaco-dropdown > .dropdown-label {
+  height: 100%;
+}
+
+.monaco-dropdown-with-primary > .dropdown-action-container > .monaco-dropdown > .dropdown-label .codicon[class*=codicon-] {
+  line-height: 16px;
+}
+
+.monaco-toolbar {
+  height: 100%
+}
+
+.monaco-action-bar .action-item.menu-entry .action-label.icon {
+  height: 16px;
+}
+
+.monaco-dropdown-with-default > .action-container.menu-entry > .action-label.icon {
+  height: 16px;
+}
+
+.monaco-dropdown-with-default > .dropdown-action-container > .monaco-dropdown > .dropdown-label .codicon[class*=codicon-] {
+  line-height: 16px;
+}
+
+.monaco-editor .diff-hidden-lines {
+  height: 0;
+  line-height: 14px;
+}
+
+.monaco-editor .diff-hidden-lines .bottom .monaco-editor .diff-hidden-lines .top {
+  height: 4px;
+}
+
+.monaco-editor .diff-hidden-lines .center {
+  height: 24px;
+}
+
+.monaco-diff-editor .diff-moved-code-block .action-bar .action-label.codicon {
+  height: 12px;
+}
+
+.monaco-diff-editor .gutter .gutterItem .background {
+  height: 100%;
+}
+
+.monaco-diff-editor .gutter .gutterItem .buttons .monaco-toolbar {
+  height: fit-content
+}
+
+.monaco-diff-editor .gutter .gutterItem .buttons .monaco-toolbar .monaco-action-bar {
+  line-height: 1
+}
+
+.monaco-diff-editor .diff-hidden-lines-compact {
+  height: 11px
+}
+
+.monaco-diff-editor .diff-hidden-lines-compact .line-left .monaco-diff-editor .diff-hidden-lines-compact .line-right {
+  height: 1px;
+}
+
+.monaco-diff-editor .diff-hidden-lines-compact .text {
+  line-height: 11px;
+}
+
+.inline-editor-progress-decoration {
+  height: 1em;
+}
+
+.monaco-editor .monaco-editor-overlaymessage .anchor {
+  height: 0 !important;
+}
+
+.monaco-text-button {
+  line-height: 18px;
+}
+
+.monaco-text-button.monaco-text-button-with-short-label {
+  height: 28px;
+}
+
+.monaco-button-dropdown .monaco-button-dropdown-separator > div {
+  height: 100%;
+}
+
+.context-view-block .context-view-pointerBlock {
+  height: 100%;
+}
+
+.action-widget-action-bar .action-label {
+  line-height: 22px;
+}
+
+.monaco-keybinding {
+  line-height: 10px
+}
+
+.monaco-editor .lightBulbWidget:after {
+  height: 100%;
+}
+
+.monaco-editor .codelens-decoration {
+  line-height: var(--vscode-editorCodeLens-lineHeight);
+}
+
+.monaco-editor .codelens-decoration .codicon[class*=codicon-] {
+  line-height: var(--vscode-editorCodeLens-lineHeight);
+}
+
+.monaco-hover {
+  line-height: 1.5em;
+}
+
+.monaco-hover h1 .monaco-hover h2 .monaco-hover h3 .monaco-hover h4 .monaco-hover h5 .monaco-hover h6 {
+  line-height: 1.1
+}
+
+.monaco-hover hr {
+  height: 1px;
+}
+
+.monaco-hover .hover-row.status-bar {
+  line-height: 22px
+}
+
+.colorpicker-widget {
+  height: 190px;
+}
+
+.colorpicker-color-decoration .hc-light .colorpicker-color-decoration {
+  height: .8em;
+  line-height: .8em;
+}
+
+.colorpicker-header {
+  height: 24px;
+}
+
+.colorpicker-header .picked-color {
+  line-height: 24px;
+}
+
+.colorpicker-header .close-button-inner-div {
+  height: 100%;
+}
+
+.colorpicker-body .saturation-wrap {
+  height: 150px;
+}
+
+.colorpicker-body .saturation-box {
+  height: 150px;
+}
+
+.colorpicker-body .saturation-selection {
+  height: 9px;
+}
+
+.colorpicker-body .strip {
+  height: 150px;
+}
+
+.colorpicker-body .standalone-strip {
+  height: 122px;
+}
+
+.colorpicker-body .slider {
+  height: 4px;
+}
+
+.colorpicker-body .strip .overlay {
+  height: 150px;
+}
+
+.colorpicker-body .standalone-strip .standalone-overlay {
+  height: 122px;
+}
+
+.colorpicker-body .insert-button {
+  height: 20px;
+}
+
+.monaco-editor .peekview-widget .head .peekview-actions > .monaco-action-bar .monaco-editor .peekview-widget .head .peekview-actions > .monaco-action-bar > .actions-container {
+  height: 100%
+}
+
+.monaco-split-view2 {
+  height: 100%;
+}
+
+.monaco-split-view2 > .sash-container {
+  height: 100%;
+}
+
+.monaco-split-view2 > .monaco-scrollable-element {
+  height: 100%;
+}
+
+.monaco-split-view2 > .monaco-scrollable-element > .split-view-container {
+  height: 100%;
+}
+
+.monaco-split-view2.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view {
+  height: 100%
+}
+
+.monaco-split-view2.separator-border.horizontal > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before {
+  height: 100%;
+}
+
+.monaco-split-view2.separator-border.vertical > .monaco-scrollable-element > .split-view-container > .split-view-view:not(:first-child):before {
+  height: 1px;
+}
+
+.monaco-table {
+  height: 100%;
+}
+
+.monaco-table-tr {
+  height: 100%
+}
+
+.monaco-table-th {
+  height: 100%;
+}
+
+.monaco-custom-toggle {
+  height: 20px;
+}
+
+.monaco-custom-toggle.monaco-checkbox {
+  height: 18px;
+}
+
+.monaco-inputbox > .ibwrapper > .input {
+  height: 100%;
+  line-height: inherit;
+}
+
+.monaco-inputbox-container .monaco-inputbox-message {
+  line-height: 17px;
+}
+
+.monaco-inputbox .monaco-action-bar .action-item .codicon {
+  height: 16px;
+}
+
+.monaco-tl-row {
+  height: 100%;
+}
+
+.monaco-tl-indent {
+  height: 100%;
+}
+
+.monaco-tl-indent > .indent-guide {
+  height: 100%
+}
+
+.monaco-tl-contents .monaco-tl-twistie {
+  height: 100%
+}
+
+.monaco-tree-type-filter-input .monaco-inputbox {
+  height: 23px
+}
+
+.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container {
+  height: 0;
+}
+
+.monaco-list .monaco-scrollable-element .monaco-tree-sticky-container .monaco-tree-sticky-container-shadow {
+  height: 0;
+}
+
+.monaco-editor .reference-zone-widget .messages {
+  height: 100%;
+}
+
+.monaco-editor .reference-zone-widget .ref-tree {
+  line-height: 23px
+}
+
+.monaco-editor .reference-zone-widget .ref-tree .reference-file {
+  height: 100%;
+}
+
+.monaco-count-badge {
+  line-height: 11px;
+  min-height: 18px;
+}
+
+.monaco-count-badge.long {
+  line-height: normal;
+  min-height: auto;
+}
+
+.monaco-icon-label:before {
+  height: 22px;
+  line-height: inherit !important;
+}
+
+.monaco-icon-label-iconpath {
+  height: 16px;
+}
+
+.monaco-editor .find-widget {
+  height: 33px;
+  line-height: 19px;
+}
+
+.monaco-editor .find-widget .monaco-inputbox .input {
+  min-height: 0
+}
+
+.monaco-editor .find-widget > .find-part .monaco-inputbox .monaco-editor .find-widget > .replace-part .monaco-inputbox {
+  min-height: 25px
+}
+
+.monaco-editor .find-widget > .find-part .find-actions .monaco-editor .find-widget > .replace-part .replace-actions {
+  height: 25px
+}
+
+.monaco-editor .find-widget .matchesCount {
+  height: 25px;
+  line-height: 23px;
+}
+
+.monaco-editor .find-widget .button {
+  height: 16px;
+}
+
+.monaco-editor .find-widget .codicon-find-selection {
+  height: 22px;
+}
+
+.monaco-editor .find-widget .button.toggle {
+  height: 100%;
+}
+
+.monaco-editor .inline-folded:after {
+  line-height: 1em;
+}
+
+.monaco-editor .suggest-widget > .tree {
+  height: 100%;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents {
+  height: 100%;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .left > .qualifier-label {
+  line-height: normal;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {
+  height: 18px;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row .monaco-icon-label:before {
+  height: 100%
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row .icon {
+  height: 16px;
+}
+
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row .icon.customcolor .colorspan {
+  height: .7em;
+}
+
+.monaco-editor .suggest-details > .monaco-scrollable-element > .body {
+  height: 100%;
+}
+
+.monaco-editor .suggest-details > .monaco-scrollable-element > .body > .docs.markdown-docs {
+  min-height: calc(1rem + 8px);
+}
+
+.monaco-editor .inline-edits-view-indicator {
+  height: 20px;
+}
+
+.monaco-menu-option {
+  line-height: 26px;
+}
+
+.monaco-editor .parameter-hints-widget {
+  line-height: 1.5em;
+}
+
+.monaco-editor .parameter-hints-widget.multiple {
+  min-height: 3.3em;
+}
+
+.monaco-editor .parameter-hints-widget.multiple .body:before {
+  height: 100%;
+}
+
+.monaco-editor .parameter-hints-widget .body .monaco-editor .parameter-hints-widget .monaco-scrollable-element {
+  min-height: 100%
+}
+
+.monaco-editor .parameter-hints-widget.multiple .button {
+  height: 16px;
+}
+
+.monaco-editor .parameter-hints-widget .overloads {
+  height: 12px;
+  line-height: 12px;
+}
+
+.editor-banner {
+  height: 26px;
+}
+
+.editor-banner .message-container {
+  line-height: 26px;
+}
+
+.editor-banner .message-actions-container {
+  line-height: 26px;
+}
+
+.monaco-workbench .notebookOverlay.notebook-editor {
+  line-height: 22px;
+}
+
+.monaco-workbench .notebookOverlay.notebook-editor .monaco-editor {
+  line-height: 1.4em
+}
+
+.monaco-workbench .notebookOverlay .cell-list-container .monaco-list-rows {
+  min-height: 100%;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .collapsed-execution-icon {
+  line-height: normal;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .cell-collapse-preview .expandInputIcon {
+  height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .input-collapse-container .cell-collapse-preview .expandInputIcon:before {
+  line-height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputPlaceholder {
+  min-height: 24px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputIcon {
+  height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-expand-part-button {
+  height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-expand-part-button:before .monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .output-collapse-container .expandOutputIcon:before {
+  line-height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .run-button-container .monaco-toolbar {
+  height: auto;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-statusbar-hidden .execution-count-label {
+  line-height: 15px
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .cell-list-insertion-indicator {
+  height: 2px;
+}
+
+.monaco-action-bar .action-item.verticalSeparator {
+  height: 16px !important;
+}
+
+.monaco-workbench .notebookOverlay .cell-chat-part .inline-chat .status .label.info > .codicon {
+  line-height: 18px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-bottom-toolbar-container {
+  height: 33px;
+}
+
+.monaco-workbench .notebookOverlay .cell-statusbar-container {
+  height: 22px;
+}
+
+.monaco-workbench .notebookOverlay .cell-statusbar-container .cell-status-item {
+  height: 21px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-title-toolbar {
+  height: 26px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row .cell-title-toolbar .action-item.menu-entry {
+  height: 24px;
+}
+
+.monaco-workbench .notebookOverlay .monaco-list .monaco-list-row .cell-focus-indicator-left .codeOutput-focus-indicator {
+  height: 100%;
+}
+
+.monaco-workbench .notebookOverlay .notebook-toolbar-container .monaco-action-bar .action-item {
+  height: 22px;
+}
+
+.monaco-workbench .notebookOverlay .notebook-toolbar-container .monaco-action-bar .action-item .kernel-label {
+  height: 22px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row.cell-drag-image.code-cell-row .cell-focus-indicator-side {
+  height: 44px !important
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row.cell-drag-image .cell-editor-container > div > div {
+  height: 20px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container .notebook-folding-indicator {
+  height: 20px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container .notebook-folding-indicator .codicon {
+  height: 16px;
+}
+
+.monaco-workbench .notebookOverlay > .cell-list-container .folded-cell-run-section-button {
+  height: 16px;
+}
+
+.monaco-workbench .notebookOverlay .output {
+  height: 0;
+}
+
+.monaco-workbench .notebookOverlay .output > div.foreground {
+  min-height: 24px;
+}
+
+.monaco-workbench .notebookOverlay .output .cell-output-toolbar {
+  height: 16px;
+}
+
+.monaco-workbench .kernel-action-view-item .kernel-label {
+  height: 16px;
+}
+
+.monaco-list .notebook-outline-element > .element-icon.file-icon {
+  height: 100%
+}
+
+.monaco-breadcrumbs > .notebook-outline-element > .element-icon.file-icon {
+  height: 18px
+}
+
+.monaco-workbench .notebookOverlay .view-zones .cell-editor-container > div > div {
+  line-height: normal;
+}
+
+.notebook-chat-editor-overlay-widget {
+  line-height: 1.4em;
+}
+
+.monaco-pane-view .pane > .pane-header > .icon {
+  height: 16px;
+}
+
+.monaco-pane-view {
+  height: 100%;
+}
+
+.monaco-pane-view .pane {
+  height: 100%;
+}
+
+.monaco-pane-view .pane > .pane-header {
+  height: 22px;
+}
+
+.monaco-pane-view .pane.horizontal:not(.expanded) > .pane-header {
+  height: 100%;
+}
+
+.monaco-pane-view .pane > .pane-header .action-item .monaco-select-box {
+  min-height: 18px;
+}
+
+#monaco-pane-drop-overlay {
+  height: 100%;
+}
+
+#monaco-pane-drop-overlay > .pane-overlay-indicator {
+  height: 100%;
+  min-height: 22px;
+}
+
+.monaco-progress-container {
+  height: 2px;
+}
+
+.monaco-progress-container .progress-bit {
+  height: 2px;
+}
+
+.side-by-side-editor-container {
+  height: 100%;
+}
+
+.pane-header .open-editors-dirty-count-container > .dirty-count.monaco-count-badge {
+  min-height: auto;
+}
+
+.open-editors .monaco-list .monaco-list-row > .monaco-action-bar .action-close-all-files .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .save-all {
+  height: 22px;
+}
+
+.open-editors .editor-group .open-editors .open-editor {
+  height: 22px;
+  line-height: 22px
+}
+
+.monaco-workbench.hc-black .open-editors .editor-group .monaco-workbench.hc-black .open-editors .open-editor .monaco-workbench.hc-light .open-editors .editor-group .monaco-workbench.hc-light .open-editors .open-editor {
+  line-height: 20px
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-group-watermark {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content.auxiliary .editor-group-container.empty > .editor-group-watermark .monaco-workbench .part.editor > .content:not(.empty) .editor-group-container.empty > .editor-group-watermark {
+  height: calc(100% - 70px);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-group-watermark > .letterpress {
+  max-height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after {
+  height: 1px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-group-container-toolbar {
+  height: 35px
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-container > .editor-instance {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .grid-view-container {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control {
+  height: 22px
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label {
+  height: 22px;
+  line-height: 22px
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label:before {
+  height: 22px
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .outline-element-icon {
+  height: 22px;
+  line-height: 22px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-breadcrumb-item:before {
+  height: 22px;
+}
+
+.monaco-breadcrumbs .monaco-breadcrumb-item {
+  height: 100%;
+}
+
+.monaco-workbench .monaco-breadcrumbs-picker .picker-item {
+  line-height: 22px
+}
+
+.monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree {
+  height: 100%;
+}
+
+.monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree > .input {
+  height: 36px;
+}
+
+.monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree > .tree {
+  height: calc(100% - 36px)
+}
+
+.monaco-workbench .monaco-breadcrumbs-picker .highlighting-tree.inactive > .tree {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.tabs-border-bottom:after {
+  height: 1px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container {
+  height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container {
+  height: auto
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top:not(:focus) > .tab-border-top-container .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.selected.tab-border-top:not(:focus) > .tab-border-top-container {
+  height: 1px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-bottom > .tab-border-bottom-container {
+  height: 1px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.dirty-border-top:not(:focus) > .tab-border-top-container {
+  height: 2px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label {
+  line-height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed > .tab-label > .monaco-icon-label-container:after .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-shrink > .tab-label > .monaco-icon-label-container:after {
+  height: calc(100% - 2px);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab > .tab-actions .action-label.codicon {
+  height: 16px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+  height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.drop-target-left:after .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.drop-target-right:before {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before {
+  height: var(--editor-group-tab-height)
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container {
+  height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {
+  line-height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control {
+  line-height: var(--editor-group-tab-height);
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-breadcrumb-item:before {
+  height: inherit;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control .monaco-icon-label:before {
+  height: 18px;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions {
+  height: var(--editor-group-tab-height);
+}
+
+.monaco-action-bar .action-item .action-label.extension-action {
+  line-height: normal;
+}
+
+.monaco-action-bar .action-dropdown-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.label .monaco-action-bar .action-item .action-label.extension-action.text {
+  height: auto;
+  line-height: 14px;
+}
+
+.chat-inline-anchor-widget .icon {
+  line-height: 1em;
+}
+
+.show-file-icons.chat-inline-anchor-widget .icon:before {
+  line-height: 100%;
+}
+
+.interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-action-bar .interactive-result-code-block .interactive-result-code-block-toolbar > .monaco-toolbar {
+  height: 26px;
+  line-height: 26px;
+}
+
+.interactive-result-code-block .monaco-toolbar .action-item {
+  height: 24px;
+}
+
+.interactive-result-code-block .interactive-result-vulns-header {
+  height: 22px
+}
+
+.tiw-metadata-separator {
+  height: 1px
+}
+
+.tiw-metadata-values {
+  max-height: 300px;
+}
+
+.tiw-metadata-scopes {
+  line-height: normal
+}
+
+.chat-codeblock-pill-widget .icon {
+  line-height: 1em;
+}
+
+.show-file-icons.chat-codeblock-pill-widget .icon:before {
+  line-height: 100%;
+}
+
+.interactive-item-container .header .avatar {
+  height: 24px;
+}
+
+.interactive-item-container .header .avatar .icon {
+  height: 24px;
+}
+
+.interactive-item-container.interactive-response.chat-most-recent-response {
+  min-height: var(--chat-current-response-min-height)
+}
+
+.interactive-item-container.interactive-response:not(.chat-response-loading) .chat-footer-toolbar {
+  height: 22px;
+}
+
+.interactive-item-container .value .rendered-markdown {
+  line-height: 1.5em
+}
+
+.interactive-item-container.interactive-item-compact .header {
+  height: 16px
+}
+
+.interactive-item-container.interactive-item-compact .header .avatar {
+  height: 18px;
+}
+
+.interactive-item-container.interactive-item-compact .header .avatar .icon {
+  height: 16px;
+}
+
+.interactive-item-container.interactive-item-compact .value {
+  min-height: 0
+}
+
+.interactive-session .chat-dnd-overlay {
+  height: 100%;
+}
+
+.interactive-session .chat-dnd-overlay .attach-context-overlay-text {
+  height: 12px;
+  line-height: 12px;
+}
+
+.interactive-session .chat-dnd-overlay .attach-context-overlay-text .codicon {
+  height: 12px;
+}
+
+.interactive-session .chat-editing-session .monaco-button {
+  height: 17px;
+}
+
+.interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button.codicon.codicon-close {
+  height: 17px;
+}
+
+.interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button.secondary {
+  height: 22px;
+}
+
+.chat-related-files .monaco-button-dropdown .monaco-text-button {
+  height: 18px;
+}
+
+.chat-related-files .monaco-button-dropdown .monaco-text-button span {
+  height: 18px;
+}
+
+.chat-related-files .monaco-button-dropdown {
+  height: 18px;
+}
+
+.chat-related-files .monaco-button.codicon.codicon-add {
+  height: calc(100% - 3px);
+}
+
+.interactive-session .chat-editing-session .chat-editing-session-actions .monaco-button.secondary.monaco-text-button.codicon {
+  height: 16px;
+}
+
+.interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button-dropdown.sidebyside-button > .separator {
+  height: 22px;
+}
+
+.interactive-session .chat-input-toolbars .chat-dropdown-item .action-label {
+  height: 16px;
+}
+
+.action-item.chat-attached-context-attachment.chat-add-files {
+  height: 20px
+}
+
+.action-item.chat-attached-context-attachment.chat-add-files .action-label .action-item.chat-mcp .action-label .interactive-session .chat-attached-context .chat-attached-context-attachment {
+  height: 18px;
+}
+
+.interactive-session .chat-attached-context .chat-attached-context-attachment .monaco-button {
+  height: calc(100% + 4px);
+}
+
+.interactive-session .chat-attached-context .chat-attached-context-attachment .monaco-icon-label:before {
+  height: 1em;
+  line-height: 1em !important;
+}
+
+.quick-input-widget .interactive-session .interactive-input-part .chat-input-toolbars .actions-container .quick-input-widget .interactive-session .interactive-input-part .chat-input-toolbars .monaco-toolbar {
+  height: auto
+}
+
+.quick-input-widget .interactive-response {
+  min-height: 86px
+}
+
+.interactive-item-container .progress-container > .codicon[class*=codicon-] {
+  height: 12px
+}
+
+.chat-attached-context-hover .chat-attached-context-image {
+  height: auto;
+  max-height: 512px;
+}
+
+.chat-attached-context-attachment .chat-attached-context-pill-image {
+  height: 14px;
+}
+
+.interactive-session .chat-scroll-down {
+  height: 27px;
+}
+
+.chat-agent-hover {
+  line-height: unset;
+}
+
+.chat-agent-hover-icon .codicon .chat-agent-hover-icon img {
+  height: 32px;
+}
+
+.pane-body > .chat-view-welcome {
+  height: 100%;
+}
+
+div.chat-welcome-view > .chat-welcome-view-icon {
+  min-height: 48px
+}
+
+div.chat-welcome-view > .chat-welcome-view-title {
+  line-height: normal;
+}
+
+.monaco-workbench .inline-chat .status .label > .codicon {
+  line-height: 18px;
+}
+
+.monaco-workbench .inline-chat .status .actions .monaco-workbench .inline-chat-diff-overlay {
+  height: 18px
+}
+
+.review-widget .body .review-comment .comment-actions .monaco-toolbar {
+  height: 22px
+}
+
+.review-widget .body .review-comment .comment-title .action-label.codicon {
+  line-height: 18px
+}
+
+.review-widget .body .review-comment .comment-title .monaco-dropdown .toolbar-toggle-more {
+  height: 18px;
+  line-height: 18px;
+}
+
+.review-widget .body .review-comment .avatar-container img.avatar {
+  height: 28px;
+  line-height: 1;
+}
+
+.review-widget .body .review-comment .review-comment-contents .author {
+  line-height: 22px
+}
+
+.review-widget .body .review-comment .review-comment-contents .isPending {
+  line-height: 22px;
+}
+
+.review-widget .body .review-comment .review-comment-contents .timestamp {
+  line-height: 22px;
+}
+
+.review-widget .body .review-comment .review-comment-contents .comment-body-max-height {
+  max-height: 20em
+}
+
+.review-widget .body .review-comment .review-comment-contents .comment-reactions {
+  min-height: 25px
+}
+
+.review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item .action-label .reaction-label {
+  line-height: 20px;
+}
+
+.review-widget .body .review-comment .review-comment-contents .comment-reactions .action-item a.action-label.toolbar-toggle-pickReactions {
+  height: 16px;
+}
+
+.review-widget .body .review-comment .comment-title .action-label {
+  height: 16px;
+  line-height: 16px
+}
+
+.review-widget .validation-error {
+  line-height: 17px;
+  min-height: 34px;
+}
+
+.review-widget .body .comment-form .review-thread-reply-button {
+  line-height: 20px;
+}
+
+.review-widget .body .comment-form .monaco-editor .review-widget .body .edit-container .monaco-editor {
+  max-height: 500px;
+  min-height: 90px;
+}
+
+.review-widget .head {
+  height: 100%
+}
+
+.review-widget .head .review-actions > .monaco-action-bar .review-widget .head .review-actions > .monaco-action-bar > .actions-container {
+  height: 100%
+}
+
+.review-widget .action-item {
+  min-height: 20px;
+}
+
+.review-widget .head .review-actions > .monaco-action-bar .action-label {
+  line-height: inherit;
+}
+
+.monaco-editor .comment-range-glyph.comment-thread-unresolved:before .monaco-editor .comment-range-glyph.comment-thread:before .monaco-editor .margin-view-overlays .comment-range-glyph.line-hover:before .monaco-editor .margin-view-overlays > div:hover > .comment-range-glyph.comment-diff-added:before {
+  height: 100%;
+}
+
+.monaco-editor .margin-view-overlays .comment-range-glyph.multiline-add {
+  height: 16px;
+}
+
+.monaco-editor .comment-range-glyph.comment-thread-unresolved:before .monaco-editor .comment-range-glyph.comment-thread:before {
+  line-height: 100%;
+}
+
+.monaco-editor .editor-dictation-widget {
+  line-height: var(--vscode-editor-dictation-widget-height);
+  min-height: var(--vscode-editor-dictation-widget-height);
+}
+
+.notebook-text-diff-editor .cell-diff-editor-container .input-header-container .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .notebook-text-diff-editor .cell-diff-editor-container .output-header-container {
+  height: 24px
+}
+
+.notebook-text-diff-editor .cell-diff-editor-container .input-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .metadata-header-container .property-status span .notebook-text-diff-editor .cell-diff-editor-container .output-header-container .property-status span {
+  line-height: 21px;
+}
+
+.monaco-workbench .notebook-text-diff-editor .cell-body {
+  height: 0
+}
+
+.monaco-workbench .notebook-text-diff-editor .output-view-container > div.foreground {
+  min-height: 24px;
+}
+
+.monaco-workbench .notebook-text-diff-editor .output-view-container .multi-mimetype-output {
+  height: 16px;
+}
+
+.monaco-workbench .notebook-text-diff-editor .output-view-container .output-empty-view {
+  height: 24px;
+}
+
+.notebook-text-diff-editor .cell-body.full div.diff-hidden-cells {
+  line-height: 14px;
+}
+
+.notebook-text-diff-editor .cell-body.full div.diff-hidden-cells .center {
+  height: 24px;
+}
+
+.notebook-text-diff-editor .cell-placeholder-body {
+  min-height: 24px
+}
+
+.notebook-text-diff-editor .cell-placeholder-body div.diff-hidden-cells .center {
+  height: 24px;
+}
+
+.comments-panel .comments-panel-container {
+  height: 100%
+}
+
+.comments-panel .comments-panel-container .tree-container {
+  height: 100%
+}
+
+.comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .relevance {
+  line-height: 14px;
+}
+
+.comments-panel .comments-panel-container .message-box-container {
+  height: inherit;
+  line-height: 22px;
+}
+
+.comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-snippet-container {
+  line-height: 22px;
+}
+
+.monaco-workbench .screencast-keyboard {
+  line-height: 1.75em;
+}
+
+.quick-input-count .monaco-count-badge {
+  line-height: normal;
+  min-height: auto;
+}
+
+.quick-input-action .monaco-text-button {
+  height: 25px;
+}
+
+.quick-input-list {
+  line-height: 12px;
+}
+
+.quick-input-list .monaco-list {
+  max-height: 440px;
+}
+
+.quick-input-list .quick-input-list-label {
+  height: 100%;
+}
+
+.quick-input-list .quick-input-list-icon {
+  height: 22px;
+}
+
+.quick-input-list .quick-input-list-rows {
+  height: 100%;
+}
+
+.quick-input-list .quick-input-list-label-meta {
+  line-height: normal;
+}
+
+.quick-input-widget-snapline.horizontal {
+  height: 0;
+}
+
+.quick-input-widget-snapline.vertical {
+  height: 100%;
+}
+
+.monaco-workbench .tree-explorer-viewlet-tree-view {
+  height: 100%
+}
+
+.monaco-workbench .tree-explorer-viewlet-tree-view .customview-tree {
+  height: 100%
+}
+
+.monaco-workbench .pane > .pane-body > .welcome-view {
+  height: 100%;
+}
+
+.monaco-workbench .pane > .pane-body .welcome-view-content > p .codicon[class*=codicon-] {
+  line-height: 1.4em;
+}
+
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {
+  height: 22px;
+  line-height: 22px;
+}
+
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox {
+  height: 16px;
+}
+
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .custom-view-tree-node-item-checkbox.codicon {
+  line-height: 15px
+}
+
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item .monaco-inputbox {
+  line-height: normal
+}
+
+.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-resourceLabel > .custom-view-tree-node-item-icon .timeline-tree-view .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-icon {
+  height: 22px;
+}
+
+.viewpane-filter-container > .viewpane-filter .monaco-inputbox {
+  height: 24px
+}
+
+.pane-header .viewpane-filter-container > .viewpane-filter .monaco-inputbox .monaco-inputbox {
+  height: 20px;
+  line-height: 18px
+}
+
+.monaco-workbench.vs .viewpane-filter-container > .viewpane-filter .monaco-inputbox {
+  height: 25px
+}
+
+.pane-body .viewpane-filter-container:not(:empty) {
+  height: auto;
+}
+
+.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell {
+  height: 22px;
+}
+
+.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-inputbox {
+  height: 22px;
+  line-height: 19px
+}
+
+.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell .monaco-button {
+  line-height: 1.4em;
+}
+
+.ports-view .monaco-list .ports-view-actionbar-cell .actions .action-label {
+  height: 100%;
+}
+
+.monaco-workbench .screen-reader-detected-explanation .cancel {
+  height: 22px;
+}
+
+.monaco-workbench .screen-reader-detected-explanation hr {
+  height: 2px
+}
+
+.monaco-workbench .part > .drop-block-overlay {
+  height: 100%;
+}
+
+.monaco-workbench .part > .header-or-footer .monaco-workbench .part > .title {
+  height: 35px;
+}
+
+.monaco-workbench .part > .title > .title-label {
+  line-height: 35px;
+}
+
+.monaco-workbench .part > .title > .title-actions {
+  height: 35px;
+}
+
+.monaco-grid-branch-node .monaco-grid-view {
+  height: 100%;
+}
+
+#monaco-workbench-editor-drop-overlay {
+  height: 100%;
+}
+
+#monaco-workbench-editor-drop-overlay > .editor-group-overlay-indicator {
+  height: 100%;
+}
+
+#monaco-workbench-editor-drop-overlay .editor-group-overlay-drop-into-prompt {
+  line-height: normal;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar {
+  line-height: 27px
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon {
+  height: 35px;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .action-label:not(.codicon) {
+  height: 16px;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:before {
+  height: 24px;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .badge .badge-content {
+  height: 16px;
+  line-height: 10px;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact {
+  height: 100%;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon .badge.compact .badge-content {
+  height: 13px;
+  line-height: 13px;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item .active-item-indicator .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item .active-item-indicator {
+  height: 100%;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.checked .active-item-indicator:before .monaco-workbench .pane-composite-part > .header-or-footer > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:focus .active-item-indicator:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.checked .active-item-indicator:before .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item:focus .active-item-indicator:before {
+  height: 0;
+}
+
+.monaco-workbench .pane-composite-part .empty-pane-message-area {
+  height: 100%;
+}
+
+.monaco-workbench .part > .content > .composite {
+  height: 100%
+}
+
+.monaco-workbench .viewlet .collapsible.header .actions .action-label {
+  height: 22px;
+}
+
+.monaco-workbench .viewlet .collapsible.header .action-label {
+  height: 16px;
+}
+
+.monaco-workbench .part.activitybar {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar.bordered:before {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar > .content {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar .menubar .monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {
+  height: 35px;
+}
+
+.monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:after .monaco-workbench .activitybar > .content .composite-bar > .monaco-action-bar .action-item:before {
+  height: 2px;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label {
+  height: 48px;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label:not(.codicon) {
+  line-height: 40px;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item:focus .active-item-indicator:before {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .active-item-indicator .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .badge .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .profile-badge {
+  height: 100%;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .badge .badge-content {
+  height: 16px;
+  line-height: 16px;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .profile-badge .profile-text-overlay {
+  line-height: 10px;
+}
+
+.menubar {
+  height: 100%;
+}
+
+.menubar.compact > .menubar-menu-button {
+  height: 100%;
+}
+
+.menubar .toolbar-toggle-more {
+  height: 22px;
+}
+
+.monaco-workbench .part.banner {
+  height: 100%;
+}
+
+.monaco-workbench .part.banner .message-container {
+  line-height: 26px;
+}
+
+.monaco-workbench .part.banner .message-actions-container {
+  line-height: 26px
+}
+
+.monaco-workbench .part.statusbar {
+  height: 22px;
+}
+
+.monaco-workbench .part.statusbar.status-border-top:after {
+  height: 1px;
+}
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item {
+  height: 100%;
+  line-height: 22px;
+}
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item.has-beak > .status-bar-item-beak-container {
+  height: 5px;
+}
+
+.monaco-workbench .part.statusbar > .items-container > .statusbar-item > .statusbar-item-label {
+  height: 100%;
+}
+
+.monaco-workbench .progress-badge > .badge-content:before {
+  height: 14px;
+}
+
+.monaco-dialog-modal-block {
+  height: 100%;
+}
+
+.monaco-dialog-box {
+  min-height: 75px;
+}
+
+.monaco-dialog-box .dialog-toolbar-row {
+  height: 22px;
+}
+
+.monaco-dialog-box .dialog-message-row > .dialog-icon.codicon {
+  height: 48px
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message {
+  line-height: 22px;
+  min-height: 48px
+}
+
+.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-detail {
+  line-height: 22px
+}
+
+.profile-edit-widget > .profile-type-container > .profile-type-select-container > .monaco-select-box {
+  line-height: 17px;
+}
+
+.monaco-workbench .workbench-hover {
+  line-height: 19px;
+}
+
+.monaco-workbench .workbench-hover-pointer:after {
+  height: 5px;
+}
+
+.monaco-workbench .workbench-hover-container:not(:focus-within).locked .workbench-hover-pointer:after {
+  height: 4px;
+}
+
+.preferences-editor > .preferences-editors-container.side-by-side-preferences-editor .preferences-header-container {
+  line-height: 28px
+}
+
+.settings-header-widget > .settings-search-container > .settings-search-input > .monaco-inputbox {
+  height: 30px
+}
+
+.monaco-editor .settings-group-title-widget .title-container .codicon {
+  height: 100%;
+}
+
+.keybindings-overflow-widgets-container {
+  height: 0;
+}
+
+.keybindings-editor > .keybindings-header > .search-container > .keybindings-search-actions-container .monaco-action-bar .action-item > .icon {
+  height: 18px;
+}
+
+.keybindings-editor > .keybindings-body > .keybindings-table-container .monaco-table-tr .monaco-table-td .monaco-action-bar .action-item > .icon {
+  height: 16px;
+}
+
+.settings-editor {
+  height: 100%;
+}
+
+.settings-editor > .settings-header > .search-container > .settings-clear-widget {
+  height: 100%;
+}
+
+.settings-editor > .settings-header > .settings-header-controls {
+  height: 32px;
+}
+
+.settings-editor > .settings-body .settings-toc-container .settings-editor > .settings-body .settings-tree-container {
+  height: 100%
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-toolbar-container {
+  height: 22px;
+}
+
+.settings-editor > .settings-body .settings-toc-container .monaco-list-row .settings-toc-entry {
+  line-height: 22px;
+}
+
+.settings-editor > .settings-body .settings-toc-container .monaco-list-row .settings-toc-count {
+  line-height: 22px;
+}
+
+.settings-editor > .settings-body .settings-toc-wrapper {
+  height: 100%;
+}
+
+.settings-editor > .settings-body .settings-tree-container .monaco-list-row {
+  line-height: 1.4em !important;
+}
+
+.settings-editor > .settings-body .settings-tree-container .monaco-list-rows {
+  min-height: 100%;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item-contents .setting-item-markdown code {
+  line-height: 15px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item-bool .setting-value-checkbox {
+  height: 18px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item-contents .monaco-select-box {
+  height: 26px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .settings-group-title-label {
+  height: 100%;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item-bool .setting-list-object-input-key-checkbox {
+  height: 24px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-key .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-sibling .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-value {
+  line-height: 24px;
+  min-height: 24px
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row-header {
+  max-height: 24px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-row .monaco-action-bar .action-label {
+  height: 20px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-siblingInput .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-valueInput {
+  height: 24px;
+}
+
+.settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-input select .settings-editor > .settings-body .settings-tree-container .setting-item.setting-item-list .setting-list-object-widget .setting-list-object-value-container {
+  height: 24px;
+}
+
+.monaco-workbench .simple-fr-find-part-wrapper .find-replace-progress {
+  height: 2px;
+}
+
+.monaco-workbench .simple-fr-find-part-wrapper .button {
+  height: 20px;
+}
+
+.monaco-workbench .simple-fr-find-part-wrapper .toggle {
+  height: 100%;
+}
+
+.monaco-workbench .simple-fr-find-part .button {
+  height: 20px;
+}
+
+.monaco-workbench .simple-fr-find-part .monaco-inputbox > .ibwrapper > .input .monaco-workbench .simple-fr-replace-part .monaco-inputbox > .ibwrapper > .input {
+  height: 24px
+}
+
+.monaco-editor .zone-widget .zone-widget-container.breakpoint-widget .monaco-select-box {
+  min-height: 18px;
+}
+
+.monaco-editor .zone-widget .zone-widget-container.breakpoint-widget .select-breakpoint-container .monaco-button {
+  line-height: 14px;
+}
+
+.monaco-component.multiDiffEditor {
+  height: 100%;
+}
+
+.monaco-component.multiDiffEditor > div {
+  height: 100%;
+}
+
+.monaco-component.multiDiffEditor .multiDiffEntry .header .header-content .file-path .title {
+  line-height: 22px
+}
+
+.monaco-component.multiDiffEditor .multiDiffEntry .header .header-content .file-path .status {
+  line-height: 22px;
+}
+
+.chat-editor-overlay-widget .action-item.auto:before {
+  height: 100%;
+}
+
+.chat-diff-change-content-widget .monaco-action-bar .action-item .action-label {
+  height: 14px
+}
+
+.chat-diff-change-content-widget .monaco-action-bar .action-item .action-label.codicon {
+  line-height: 14px;
+}
+
+.chat-welcome-view .chat-setup-view .codicon[class*=codicon-] .dialog-message-body .chat-setup-view .codicon[class*=codicon-] {
+  line-height: 1.4em;
+}
+
+.chat-status-bar-entry-tooltip .quota-indicator .quota-bar {
+  height: 4px;
+}
+
+.chat-status-bar-entry-tooltip .quota-indicator .quota-bar .quota-bit {
+  height: 100%
+}
+
+.chat-status-bar-entry-tooltip .settings .setting .monaco-checkbox {
+  height: 14px;
+}
+
+.interactive-editor .input-cell-container .input-focus-indicator {
+  height: 19px;
+}
+
+.interactive-editor .input-cell-container .input-focus-indicator:before {
+  height: 100%;
+}
+
+.monaco-workbench .repl {
+  height: 100%;
+}
+
+.monaco-workbench .repl .repl-tree .monaco-tl-contents .expression {
+  line-height: var(--vscode-repl-line-height)
+}
+
+.monaco-workbench .repl .repl-tree .output.expression.value-and-source .count-badge-wrapper .monaco-count-badge {
+  min-height: 16px;
+}
+
+.monaco-workbench .repl .repl-input-wrapper .repl-input-chevron {
+  height: 100%;
+}
+
+.monaco-workbench .repl .repl-tree .output.expression .code-subscript {
+  line-height: normal;
+}
+
+.monaco-workbench .repl .repl-tree .output.expression .code-superscript {
+  line-height: normal;
+}
+
+.multiCallStackFrame .header {
+  height: 24px;
+}
+
+.multiCallStackFrame .title .monaco-icon-label:before {
+  height: auto
+}
+
+.multiCallStackFrame .collapse-button {
+  line-height: 0;
+  min-height: 1px;
+}
+
+.test-explorer > .test-explorer-tree {
+  height: 0;
+}
+
+.test-explorer .monaco-list-row .error {
+  height: 17px;
+  line-height: 17px;
+}
+
+.test-explorer .result-summary-container {
+  height: 27px;
+}
+
+.monaco-workbench .part > .title > .title-actions .action-label.codicon-testing-autorun:after {
+  height: .4em;
+}
+
+.test-output-peek-message-container .test-output-peek-tree {
+  height: 100%
+}
+
+.test-output-peek-message-container .preview-text {
+  line-height: normal;
+}
+
+.testing-followup-action {
+  line-height: 25px;
+}
+
+.test-output-call-stack {
+  height: 100%
+}
+
+.monaco-action-bar.testing-filter-action-bar {
+  height: auto;
+}
+
+.testing-diff-title-widget {
+  line-height: 19px;
+}
+
+.monaco-workbench .test-error-content-widget .inner .arrow svg {
+  height: calc(100% + 2px);
+}
+
+.test-coverage-bars .bar {
+  height: 8px;
+}
+
+.test-coverage-bars .bar:before {
+  height: 100%;
+}
+
+.coverage-summary-widget > div {
+  height: 25px;
+}
+
+.test-coverage-tree-per-test-switcher {
+  line-height: 20px;
+}
+
+.monaco-editor .coverage-deco-branch-miss-indicator {
+  height: 100%;
+}
+
+.explorer-folders-view {
+  height: 100%
+}
+
+.explorer-folders-view .editor-group .explorer-folders-view .explorer-item {
+  height: 22px;
+  line-height: 22px
+}
+
+.explorer-folders-view .explorer-item .monaco-inputbox {
+  line-height: normal;
+}
+
+.monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox .monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox {
+  height: 22px
+}
+
+.monaco-workbench .explorer-folders-view .explorer-item .monaco-inputbox > .ibwrapper > .input {
+  height: 20px;
+}
+
+.monaco-workbench.hc-black .explorer-folders-view .explorer-item .monaco-workbench.hc-light .explorer-folders-view .explorer-item {
+  line-height: 20px
+}
+
+.monaco-workbench .bulk-edit-panel .monaco-tl-contents.category .uri-icon .monaco-workbench .bulk-edit-panel .monaco-tl-contents.textedit .uri-icon .monaco-workbench.hc-light .bulk-edit-panel .monaco-tl-contents.category .uri-icon .monaco-workbench.hc-light .bulk-edit-panel .monaco-tl-contents.textedit .uri-icon {
+  height: 100%;
+}
+
+.search-view {
+  height: 100%
+}
+
+.search-view .results {
+  min-height: 0
+}
+
+.search-view .search-widget .toggle-replace-button {
+  height: 100%;
+}
+
+.search-view .search-widget .monaco-inputbox > .ibwrapper {
+  height: 100%
+}
+
+.search-view .search-widget .monaco-inputbox > .ibwrapper > textarea.input {
+  height: 26px;
+}
+
+.search-view .search-widget .replace-container .monaco-action-bar {
+  height: 25px;
+}
+
+.search-view .query-details {
+  min-height: 1em;
+}
+
+.search-view .query-details .more {
+  height: 16px;
+}
+
+.search-view .query-details .file-types > .monaco-inputbox {
+  height: 25px;
+}
+
+.search-view .filematch .search-view .foldermatch .search-view .textsearchresult {
+  height: 100%;
+  line-height: 22px;
+}
+
+.search-view .linematch {
+  line-height: 22px;
+}
+
+.search-view .monaco-list .monaco-list-row .monaco-action-bar {
+  line-height: 1em;
+}
+
+.monaco-workbench.hc-black .search-view .filematch .monaco-workbench.hc-black .search-view .foldermatch .monaco-workbench.hc-black .search-view .linematch .monaco-workbench.hc-light .search-view .filematch .monaco-workbench.hc-light .search-view .foldermatch .monaco-workbench.hc-light .search-view .linematch {
+  line-height: 20px
+}
+
+.search-editor .search-widget .toggle-replace-button {
+  height: 100%;
+}
+
+.search-editor .search-widget .monaco-inputbox > .ibwrapper {
+  height: 100%
+}
+
+.search-editor .search-widget .monaco-inputbox > .ibwrapper > .mirror {
+  max-height: 134px
+}
+
+.search-editor .search-widget .monaco-inputbox > .ibwrapper > textarea.input {
+  height: 26px;
+}
+
+.search-editor .search-widget .replace-input {
+  height: 25px;
+}
+
+.search-editor .search-widget .replace-container .monaco-action-bar {
+  height: 25px;
+}
+
+.search-editor .search-widget .replace-container .monaco-action-bar .action-item .codicon {
+  height: 25px;
+}
+
+.search-editor .includes-excludes {
+  min-height: 1em;
+}
+
+.search-editor .includes-excludes .expand {
+  height: 16px;
+}
+
+.monaco-editor .dirty-diff-glyph:before {
+  height: 100%;
+}
+
+.monaco-editor .dirty-diff-deleted:after {
+  height: 0;
+}
+
+.monaco-editor .dirty-diff-deleted:before {
+  height: 0;
+}
+
+.dirty-diff .peekview-title .dropdown .monaco-select-box {
+  min-height: 18px;
+}
+
+.scm-view {
+  height: 100%;
+}
+
+.scm-overflow-widgets-container {
+  height: 0;
+}
+
+.scm-view .scm-provider {
+  height: 100%
+}
+
+.scm-view .scm-provider > .actions > .monaco-toolbar > .monaco-action-bar > .actions-container > .action-item > .action-label .scm-view .scm-provider > .actions > .monaco-toolbar > .monaco-action-bar > .actions-container > .action-item > .monaco-dropdown > .dropdown-label > .action-label {
+  line-height: 16px;
+}
+
+.scm-view .monaco-list-row {
+  line-height: 22px
+}
+
+.scm-view .monaco-list-row .monaco-icon-label-container {
+  height: 22px
+}
+
+.scm-view .monaco-list-row .history .scm-view .monaco-list-row .history-item-group .scm-view .monaco-list-row .resource-group {
+  height: 100%
+}
+
+.scm-view .monaco-list-row .history-item > .graph-container {
+  height: 22px
+}
+
+.scm-view .monaco-list-row .history-item > .label-container > .label {
+  line-height: 18px
+}
+
+.scm-view .monaco-list-row .history-item .monaco-icon-label .avatar {
+  height: 14px;
+}
+
+.scm-view .monaco-list-row .resource {
+  height: 100%
+}
+
+.scm-view .monaco-list-row .resource > .decoration-icon {
+  height: 100%;
+}
+
+.scm-view .scm-input {
+  height: 100%;
+}
+
+.scm-view .button-container {
+  height: 100%;
+}
+
+.monaco-toolbar .action-item > .action-label.scm-graph-history-item-picker .monaco-toolbar .action-item > .action-label.scm-graph-repository-picker {
+  line-height: 16px
+}
+
+.scm-history-view .history-item-load-more {
+  height: 22px
+}
+
+.scm-history-view .history-item-load-more .history-item-placeholder.shimmer .monaco-icon-label-container {
+  height: 18px;
+}
+
+.monaco-workbench .debug-toolbar {
+  height: 26px;
+}
+
+.debug-pane .debug-view-content {
+  height: 100%
+}
+
+.monaco-workbench .debug-action.notification:after {
+  height: 6px;
+}
+
+.monaco-workbench .part > .title > .title-actions .start-debug-action-item {
+  line-height: 20px
+}
+
+.monaco-workbench .part > .title > .title-actions .start-debug-action-item .codicon {
+  line-height: inherit
+}
+
+.monaco-workbench .part > .title > .title-actions .start-debug-action-item .codicon-debug-start {
+  height: 21px;
+}
+
+.monaco-workbench .monaco-action-bar .start-debug-action-item .configuration .monaco-select-box {
+  line-height: inherit;
+}
+
+.debug-pane .session .codicon {
+  line-height: 22px;
+}
+
+.debug-pane .monaco-list-row .expression .value {
+  height: 22px;
+}
+
+.debug-pane .monaco-inputbox {
+  line-height: normal;
+}
+
+.debug-pane .monaco-inputbox > .ibwrapper {
+  height: 19px
+}
+
+.debug-pane .monaco-list-row {
+  line-height: 22px
+}
+
+.debug-pane .debug-breakpoints .breakpoint > .codicon {
+  height: 19px;
+}
+
+.monaco-editor .debug-hover-widget .complex-value .tip .monaco-editor .debug-hover-widget .complex-value .title {
+  height: 18px;
+  line-height: 18px;
+}
+
+.monaco-editor .debug-hover-widget .debug-hover-tree {
+  line-height: 18px
+}
+
+.monaco-editor .debug-hover-widget > .monaco-scrollable-element > .value {
+  max-height: 500px;
+}
+
+.markers-panel .markers-panel-container {
+  height: 100%
+}
+
+.markers-panel .markers-panel-container .message-box-container {
+  line-height: 22px;
+}
+
+.markers-panel .markers-panel-container .tree-container .monaco-tl-contents {
+  line-height: 22px;
+}
+
+.monaco-workbench.hc-black .markers-panel .markers-panel-container .tree-container .monaco-tl-contents .monaco-workbench.hc-light .markers-panel .markers-panel-container .tree-container .monaco-tl-contents {
+  line-height: 20px
+}
+
+.markers-panel .monaco-tl-contents .marker-icon {
+  height: 22px;
+}
+
+.markers-panel .monaco-tl-contents .actions .markers-panel .monaco-tl-contents .multiline-actions .monaco-action-bar {
+  height: 22px
+}
+
+.monaco-workbench .merge-editor .code-view > .header {
+  height: 30px;
+}
+
+.merge-accept-gutter-marker .background {
+  height: 100%;
+}
+
+.accept-conflict-group.monaco-custom-toggle {
+  height: 18px;
+}
+
+.conflict-zone-root {
+  height: 90%
+}
+
+.conflict-zone-root .text {
+  height: 100%;
+}
+
+.extension-editor {
+  height: 100%;
+}
+
+.extension-editor > .header > .icon-container .icon {
+  height: 128px;
+}
+
+.extension-editor > .header > .icon-container .extension-remote-badge {
+  height: 38px;
+  line-height: 38px;
+}
+
+.extension-editor > .header > .details > .title > .name {
+  line-height: 30px;
+}
+
+.extension-editor > .header > .details > .subtitle {
+  height: 20px;
+  line-height: 20px;
+}
+
+.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .monaco-dropdown .extension-action.action-dropdown .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item > .extension-action {
+  line-height: 22px
+}
+
+.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.checkbox-action-item > .extension-action {
+  height: 18px;
+}
+
+.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator {
+  height: 22px
+}
+
+.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator > div {
+  height: 16px
+}
+
+.extension-editor > .header > .details > .actions-status-container > .status {
+  line-height: 22px;
+}
+
+.extension-editor > .body > .navbar {
+  height: 36px;
+  line-height: 36px;
+}
+
+.extension-editor > .body > .navbar > .monaco-action-bar > .actions-container > .action-item {
+  height: 100%
+}
+
+.extension-editor > .body > .content {
+  height: calc(100% - 37px);
+}
+
+.extension-editor > .body > .content > .monaco-scrollable-element {
+  height: 100%
+}
+
+.extension-editor > .body > .content > .details {
+  height: 100%
+}
+
+.extension-editor > .body > .content > .details > .readme-container {
+  height: 100%;
+}
+
+.extension-editor > .body > .content > .details > .additional-details-container {
+  height: 100%;
+}
+
+.extension-editor > .body > .content > .details > .additional-details-container > .monaco-scrollable-element {
+  height: 100%
+}
+
+.extension-editor > .body > .content > .details > .additional-details-container > .monaco-scrollable-element > .additional-details-content {
+  height: 100%;
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme {
+  height: 100%
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack {
+  height: 224px;
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.one-row > .extension-pack {
+  height: 142px
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.two-rows > .extension-pack {
+  height: 224px
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.three-rows > .extension-pack {
+  height: 306px
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.more-rows > .extension-pack {
+  height: 326px
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.one-row > .readme-content {
+  height: calc(100% - 142px)
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.two-rows > .readme-content {
+  height: calc(100% - 224px)
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.three-rows > .readme-content {
+  height: calc(100% - 306px)
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme.more-rows > .readme-content {
+  height: calc(100% - 326px)
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .footer .extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .header {
+  line-height: 22px;
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .extension-pack-content {
+  height: calc(100% - 60px)
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .extension-pack-content > .monaco-scrollable-element {
+  height: 100%
+}
+
+.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .extension-pack-content > .monaco-scrollable-element > .subcontent {
+  height: 100%;
+}
+
+.extension-editor > .body > .content > .monaco-scrollable-element > .subcontent {
+  height: 100%;
+}
+
+.extension-editor > .body > .content details > summary {
+  line-height: 22px;
+}
+
+.extension-editor > .body > .content table .colorBox {
+  height: .8em;
+}
+
+.extension-editor .subcontent .monaco-list-row .content .unknown-extension {
+  line-height: 62px
+}
+
+.extension-editor .subcontent .monaco-list-row .extension > .details > .header {
+  line-height: 19px;
+}
+
+.extension-editor .subcontent .monaco-list-row .extension > .icon {
+  height: 40px;
+}
+
+.extension-editor .subcontent .monaco-list-row .extension > .details > .footer {
+  line-height: 19px;
+}
+
+.extension-editor .subcontent.feature-contributions .features-list-container {
+  height: 100%
+}
+
+.extension-editor .subcontent.feature-contributions .features-list-container > .features-list-wrapper {
+  height: 100%;
+}
+
+.extension-editor .subcontent.feature-contributions .feature-view-container {
+  height: 100%
+}
+
+.extension-editor .subcontent.feature-contributions .extension-feature-content {
+  height: 100%;
+}
+
+.extension-editor .subcontent.feature-contributions .extension-feature-content .feature-header {
+  line-height: 20px;
+}
+
+.extension-editor .subcontent.feature-contributions .extension-feature-content .feature-header > .feature-title {
+  height: 100%;
+}
+
+.extension-editor .subcontent.feature-contributions .feature-view-container .extension-feature-content .feature-body {
+  height: calc(100% - 50px)
+}
+
+.extension-editor .subcontent.feature-contributions .feature-view-container .extension-feature-content .monaco-scrollable-element {
+  height: 100%
+}
+
+.extension-editor .subcontent.feature-contributions .feature-view-container .extension-feature-content .feature-body .feature-body-content {
+  height: 100%;
+}
+
+.extension-list-item {
+  height: 100%;
+}
+
+.extension-list-item > .icon-container > .icon {
+  height: 42px;
+}
+
+.extension-list-item > .icon-container .extension-badge.extension-remote-badge {
+  height: 22px;
+  line-height: 22px;
+}
+
+.extension-list-item > .details > .header-container {
+  height: 19px;
+}
+
+.extension-list-item > .details > .header-container > .header .extension-remote-badge {
+  height: 14px;
+  line-height: 14px;
+}
+
+.extension-list-item > .details > .description {
+  line-height: normal;
+}
+
+.extension-list-item > .details > .footer {
+  height: 24px;
+}
+
+.extension-list-item > .details > .footer > .publisher-container {
+  line-height: 24px
+}
+
+.extension-list-item > .details > .footer > .monaco-action-bar > .actions-container .extension-action.label {
+  line-height: 16px;
+}
+
+.extension-list-item .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator {
+  height: 16px;
+}
+
+.extension-list-item .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator > div {
+  height: 10px
+}
+
+.extension-bookmark {
+  height: 20px;
+}
+
+.extensions-viewlet {
+  height: 100%;
+}
+
+.extensions-viewlet > .header {
+  height: 41px;
+}
+
+.extensions-viewlet > .header > .extensions-search-container > .search-box {
+  height: 28px;
+  line-height: 18px;
+}
+
+.extensions-viewlet > .header > .extensions-search-container > .extensions-search-actions-container {
+  height: 100%;
+}
+
+.extensions-viewlet .notification-container .message-action {
+  height: 16px;
+}
+
+.extensions-viewlet > .extensions {
+  height: calc(100% - 41px)
+}
+
+.extensions-viewlet > .extensions .extension-view-header .monaco-action-bar .action-item > .action-label.icon.codicon {
+  line-height: 22px;
+}
+
+.extensions-viewlet.narrow > .extensions .extension-list-item > .icon-container > .icon {
+  height: 24px;
+}
+
+.runtime-extensions-editor .monaco-action-bar {
+  height: unset
+}
+
+.runtime-extensions-editor .extension > .icon-container > .icon {
+  height: 42px;
+}
+
+.monaco-workbench .pane-body.integrated-terminal .terminal-group .monaco-workbench .pane-body.integrated-terminal .terminal-groups-container .monaco-workbench .pane-body.integrated-terminal .terminal-outer-container .monaco-workbench .pane-body.integrated-terminal .terminal-split-pane .monaco-workbench .terminal-editor .terminal-outer-container .monaco-workbench .terminal-editor .terminal-split-pane {
+  height: 100%
+}
+
+.monaco-workbench .pane-body.integrated-terminal .terminal-wrapper .monaco-workbench .terminal-editor .terminal-wrapper {
+  height: 100%
+}
+
+.monaco-workbench .pane-body.integrated-terminal .terminal-wrapper > div .monaco-workbench .terminal-editor .terminal-wrapper > div {
+  height: 100%
+}
+
+.monaco-workbench .part.sidebar > .title > .title-actions .switch-terminal {
+  height: 20px;
+}
+
+.monaco-workbench .pane-body.integrated-terminal .tabs-container {
+  height: 100%
+}
+
+.monaco-workbench .terminal-overflow-guard {
+  height: 100%;
+}
+
+.monaco-workbench .pane-body.integrated-terminal .tabs-list-container {
+  height: 100%;
+}
+
+.monaco-workbench .pane-body.integrated-terminal .tabs-list {
+  height: 100%
+}
+
+.monaco-workbench .pane-body.integrated-terminal .tabs-container.has-text .tabs-list .terminal-tabs-entry .uri-icon {
+  height: 100%;
+}
+
+.monaco-action-bar .terminal-uri-icon.single-terminal-tab.action-label:not(.alt-command) .codicon:before .monaco-workbench .terminal-uri-icon .monaco-highlighted-label .codicon:before {
+  height: 16px;
+}
+
+.terminal-voice.codicon.codicon-mic-filled {
+  height: 16px;
+}
+
+.monaco-workbench .terminal-env-var-info {
+  height: 28px;
+}
+
+.monaco-workbench .terminal-env-var-info.codicon {
+  line-height: 28px
+}
+
+.xterm .xterm-helper-textarea {
+  height: 0;
+}
+
+.xterm-char-measure-element {
+  line-height: normal;
+}
+
+.xterm .live-region {
+  height: 1px;
+}
+
+.xterm .xterm-scrollable-element > .shadow.top {
+  height: 3px;
+}
+
+.xterm .xterm-scrollable-element > .shadow.left {
+  height: 100%;
+}
+
+.xterm .xterm-scrollable-element > .shadow.top-left-corner {
+  height: 3px;
+}
+
+.icon-select-box > .icon-select-box-container {
+  height: 100%
+}
+
+.icon-select-box .icon-select-icons-container {
+  height: 100%;
+}
+
+.icon-select-box .icon-select-id-container .icon-select-id-label {
+  height: 24px;
+}
+
+.monaco-workbench .simple-find-part .button {
+  height: 20px;
+  line-height: 20px;
+}
+
+.monaco-workbench .terminal-inline-chat {
+  height: auto !important;
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row > .contents {
+  height: 100%;
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row .monaco-icon-label:before {
+  height: 100%
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row .icon {
+  height: 16px;
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row .icon.customcolor .colorspan {
+  height: .7em;
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .left > .qualifier-label {
+  line-height: normal;
+}
+
+.workbench-suggest-widget .monaco-list .monaco-list-row > .contents > .main > .right > .readMore {
+  height: 18px;
+}
+
+.workbench-suggest-widget .suggest-details > .monaco-scrollable-element > .body {
+  height: 100%;
+}
+
+.workbench-suggest-widget .suggest-details > .monaco-scrollable-element > .body > .docs.markdown-docs {
+  min-height: calc(1rem + 8px);
+}
+
+.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item {
+  height: 22px;
+  line-height: 22px;
+}
+
+.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item > .remote-help-tree-node-item-icon {
+  height: 22px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer {
+  height: inherit;
+  line-height: 22px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer img {
+  max-height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStarted {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer h2 {
+  line-height: normal;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories > .gettingStartedCategoriesContainer {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories ul {
+  line-height: 24px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .start-container img {
+  max-height: 16px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .progress-bar-outer {
+  height: 4px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .progress-bar-inner {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-category {
+  line-height: normal;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-category .featured {
+  height: 20px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .getting-started-category img.category-icon {
+  max-height: 20px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories .getting-started-category img.featured-icon {
+  max-height: 24px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-category img.category-icon {
+  max-height: 32px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-category {
+  min-height: auto
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-detail-columns {
+  max-height: calc(100% - 40px);
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step:not(.expanded) {
+  height: 48px
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .full-height-scrollable .monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-detail-container {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent > .steps-container {
+  height: 100%
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent.video > .getting-started-media {
+  height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer.width-semi-constrained .gettingStartedSlideDetails .gettingStartedDetailsContent.video > .getting-started-media {
+  height: inherit;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent.markdown > .getting-started-media {
+  height: inherit
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer.width-semi-constrained .gettingStartedSlideDetails .gettingStartedDetailsContent.image > .getting-started-media {
+  height: inherit;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .gettingStartedDetailsContent > .getting-started-media > video {
+  max-height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-detail-right {
+  min-height: 300px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlide .getting-started-checkbox {
+  height: 18px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideCategories > .gettingStartedCategoriesContainer .index-list.start-container {
+  min-height: 156px
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step .step-description-container span {
+  line-height: 1.3em
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .gettingStartedSlideDetails .getting-started-step .step-description-container .monaco-button {
+  height: 24px;
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .description {
+  line-height: 1.4em
+}
+
+.monaco-workbench .part.editor > .content .gettingStartedContainer .start-container .button-link {
+  line-height: 24px
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent {
+  height: inherit;
+  line-height: 22px;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent img {
+  max-height: 100%;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent hr {
+  height: 2px
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent h1 {
+  line-height: 1.2;
+}
+
+.monaco-workbench .part.editor > .content .walkThroughContent .shortcut .monaco-workbench .part.editor > .content .walkThroughContent code {
+  line-height: 19px
+}
+
+.monaco-workbench .call-hierarchy[data-state=data] .results {
+  height: 100%
+}
+
+.monaco-workbench .call-hierarchy[data-state=message] .message {
+  height: 100%;
+}
+
+.monaco-workbench .call-hierarchy .editor .monaco-workbench .call-hierarchy .tree {
+  height: 100%
+}
+
+.monaco-workbench .type-hierarchy[data-state=data] .results {
+  height: 100%
+}
+
+.monaco-workbench .type-hierarchy[data-state=message] .message {
+  height: 100%;
+}
+
+.monaco-workbench .type-hierarchy .editor .monaco-workbench .type-hierarchy .tree {
+  height: 100%
+}
+
+.monaco-workbench .outline-pane .outline-progress {
+  height: 2px;
+}
+
+.monaco-workbench .outline-pane .outline-tree {
+  height: 100%
+}
+
+.profiles-editor {
+  height: 100%;
+}
+
+.profiles-editor .contents-view .profiles-editor .sidebar-view {
+  height: 100%
+}
+
+.profiles-editor .contents-container {
+  height: 100%
+}
+
+.profiles-editor .sidebar-container {
+  height: 100%;
+}
+
+.profiles-editor .sidebar-container .new-profile-button {
+  height: 40px;
+}
+
+.profiles-editor .contents-container .profile-header {
+  height: 40px;
+}
+
+.profiles-editor .contents-container .profile-body .profile-row-container .profile-icon-container {
+  line-height: 22px
+}
+
+.profiles-editor .contents-container .profile-select-container > .monaco-select-box {
+  line-height: 18px;
+}
+
+.profiles-editor .contents-container .profile-use-as-default-container .profiles-editor .contents-container .profile-use-for-current-container {
+  line-height: 22px
+}
+
+.profiles-editor .contents-container .profile-content-tree-header {
+  height: 30px;
+  line-height: 22px;
+}
+
+.profiles-editor .contents-container .profile-tree-item-container .profile-resource-options-container {
+  height: fit-content;
+}
+
+.monaco-custom-radio > .monaco-button {
+  line-height: 1em;
+}
+
+.timeline-tree-view .monaco-list .monaco-list-row .custom-view-tree-node-item .timeline-timestamp-container.timeline-timestamp--duplicate:before {
+  height: 100%;
+}
+
+.workspace-trust-editor {
+  height: calc(100% - 11px);
+}
+
+.workspace-trust-editor .workspace-trust-header .workspace-trust-title {
+  line-height: 32px;
+}
+
+.workspace-trust-editor .workspace-trust-subsection-title {
+  line-height: 32px
+}
+
+.workspace-trust-editor .workspace-trust-editor-body {
+  height: 100%
+}
+
+.workspace-trust-editor .workspace-trust-features .workspace-trust-limitations {
+  min-height: 315px;
+}
+
+.workspace-trust-editor .workspace-trust-features .workspace-trust-limitations .list-item-icon {
+  line-height: 24px;
+}
+
+.workspace-trust-editor .workspace-trust-features .workspace-trust-limitations .list-item-text {
+  line-height: 24px
+}
+
+.workspace-trust-editor .workspace-trust-features .workspace-trust-limitations-header .workspace-trust-limitations-title {
+  line-height: 24px;
+}
+
+.workspace-trust-intro-dialog .workspace-trust-dialog-image-row.badge-row img {
+  max-height: 40px;
+}
+
+.workspace-trust-intro-dialog .workspace-trust-dialog-image-row.status-bar img {
+  max-height: 32px;
+}
+
+.workspace-trust-editor .workspace-trust-settings .monaco-table-tr .monaco-table-td .monaco-button {
+  height: 18px;
+}
+
+div.share-dialog-input-link div.share-dialog-input-text {
+  line-height: 24px;
+}
+
+body {
+  height: 100%;
+}
+
+.monaco-workbench {
+  line-height: 1.4em;
+}
+
+.monaco-workbench .select-container:after {
+  height: 16px;
+  line-height: 16px;
+}
+
+.monaco-workbench .monaco-list:not(.element-focused):focus:before {
+  height: 100%;
+}
+
+.monaco-workbench > .notifications-center > .notifications-center-header {
+  height: 35px;
+}
+
+.monaco-workbench .notifications-list-container .notification-list-item {
+  height: 100%;
+}
+
+.monaco-workbench .notifications-list-container .notification-offset-helper {
+  line-height: 22px;
+}
+
+.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-icon {
+  height: 22px;
+}
+
+.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-message {
+  line-height: 22px;
+}
+
+.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-toolbar-container {
+  height: 22px
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container {
+  height: 100%;
+}
+
+.monaco-workbench.mac .part.titlebar > .titlebar-container {
+  line-height: 22px
+}
+
+.monaco-workbench.linux .part.titlebar > .titlebar-container .monaco-workbench.web .part.titlebar > .titlebar-container .monaco-workbench.windows .part.titlebar > .titlebar-container {
+  line-height: 22px
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-drag-region {
+  height: 100%;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left .monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right {
+  height: 100%
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
+  height: 22px;
+}
+
+.monaco-workbench.linux .part.titlebar > .titlebar-container > .resizer .monaco-workbench.windows .part.titlebar > .titlebar-container > .resizer {
+  height: 4px;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left > .window-appicon {
+  height: 100%;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left > .window-appicon.codicon {
+  line-height: 30px
+}
+
+.monaco-workbench .part.titlebar .window-controls-container {
+  height: 100%;
+}
+
+.monaco-workbench.web .part.titlebar .titlebar-right .window-controls-container {
+  height: env(titlebar-area-height, 35px);
+}
+
+.monaco-workbench.web .part.titlebar .titlebar-left .window-controls-container {
+  height: env(titlebar-area-height, 35px);
+}
+
+.monaco-workbench .part.titlebar .window-controls-container > .window-icon {
+  height: 100%;
+}
+
+.monaco-workbench .part.titlebar .window-controls-container > .window-icon:before {
+  height: 16px;
+  line-height: 16px
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container {
+  height: 100%;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .badge .badge-content {
+  height: 16px;
+  line-height: 11px;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .action-item.icon .badge.compact {
+  height: 100%;
+}
+
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-right > .action-toolbar-container .monaco-action-bar .action-item.icon .badge.compact .badge-content {
+  height: 12px;
+  line-height: 12px;
+}
+
+.issue-reporter input[type=text] .issue-reporter textarea {
+  line-height: 1.5;
+}
+
+.issue-reporter select {
+  height: calc(2.25rem + 2px);
+  line-height: 1.5;
+}
+
+.issue-reporter html {
+  height: 100%
+}
+
+.issue-reporter body {
+  height: 100%;
+}
+
+.issue-reporter textarea {
+  height: 200px
+}
+
+.issue-reporter ::-webkit-scrollbar-thumb {
+  min-height: 20px
+}
+
+.issue-reporter .issues-container {
+  max-height: 92px;
+}
+
+.issue-reporter-body input[type=text] .issue-reporter-body textarea {
+  line-height: 1.5;
+}
+
+.issue-reporter-body select {
+  height: calc(2.25rem + 2px);
+  line-height: 1.5;
+}
+
+.issue-reporter-body html {
+  height: 100%
+}
+
+body.issue-reporter-body {
+  height: 100% !important;
+}
+
+.issue-reporter-body textarea {
+  height: 200px
+}
+
+.issue-reporter-body::-webkit-scrollbar-thumb {
+  min-height: 20px
+}
+
+.issue-reporter-body .issues-container {
+  max-height: 92px;
+}

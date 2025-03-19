@@ -56,6 +56,11 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows*/
+.explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-contents {
+  font-family: var(--norm-type) !important;
+  font-size: var(--norm-size) !important;
+}
+
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-twistie:before {
   display: none !important;
 }
@@ -80,14 +85,20 @@
 }
 
 /*--------------------------------------------------------------------------------------------*/
+/*list-rows*/
+.quick-input-list {
+  line-height: var(--norm-high) !important;
+}
+
+/*--------------------------------------------------------------------------------------------*/
 /*tab*/
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
   padding-right: var(--norm-wide) !important;
+  font-size: var(--norm-size);
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
   padding-left: var(--norm-wide) !important;
-  box-sizing: border-box;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,
@@ -208,9 +219,13 @@
 /*text*/
 .label-name {
   line-height: var(--norm-high) !important;
+  height: var(--norm-high) !important;
   font-weight: var(--norm-kind) !important;
   font-family: var(--norm-type) !important;
   font-size: var(--norm-size) !important;
+  vertical-align: middle !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -264,11 +279,11 @@
 
 :root {
   --text-type: 'PragmataPro Mono Liga', monospace;
-  --text-high: calc(var(--text-size) * 1.25);
+  --text-high: calc(1.375 * var(--text-size));
   --text-size: 16px;
   --text-wide: 8px;
   --norm-type: 'PragmataPro Mono Liga', monospace;
-  --norm-high: calc(var(--norm-size) * 1.25);
+  --norm-high: calc(1.375 * var(--norm-size));
   --norm-size: 12px;
   --norm-wide: 6px;
 }
