@@ -97,7 +97,7 @@
         config.prefer_to_spawn_tabs = false;
         config.mouse_wheel_scrolls_tabs = true;
         config.max_fps = 60;
-        config.line_height = 1.25;
+        config.line_height = 1.375;
         config.hide_tab_bar_if_only_one_tab = false;
         config.hide_mouse_cursor_when_typing = true;
         config.front_end = "OpenGL";

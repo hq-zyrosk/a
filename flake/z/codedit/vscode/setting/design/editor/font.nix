@@ -3,7 +3,7 @@ let
   text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   text-norm = "normal";
   text-bold = "bold";
-  text-high = 1.25;
+  text-high = 1.375;
   text-wrap = 96;
   text-tall = 0;
   text-size = 16;
