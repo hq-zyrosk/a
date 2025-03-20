@@ -16,7 +16,7 @@
     packages = {
       ${system} = {
         homeConfigurations = {
-          "z@x" = home-manager.lib.homeManagerConfiguration {
+          "a@x" = home-manager.lib.homeManagerConfiguration {
             extraSpecialArgs = {};
             modules = [
               {
@@ -58,6 +58,12 @@
 
     formatter = {
       ${system} = (treefmt-nix.lib.evalModule pkgs ./treefmt.nix).config.build.wrapper;
+    };
+
+    nix = {
+      nixPath = [
+        "nixpkgs=${nixpkgs}"
+      ];
     };
   };
 

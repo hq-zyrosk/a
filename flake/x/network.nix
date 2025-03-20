@@ -2,6 +2,11 @@
   services = {
     tor = {
       client = {
+        socksListenAddress = {
+          IsolateDestAddr = true;
+          addr = "127.0.0.1";
+          port = 9050;
+        };
         dns = {
           enable = true;
         };
@@ -19,16 +24,18 @@
 
   networking = {
     networkmanager = {
-      enable = false;
-    };
-    wireless = {
       enable = true;
     };
+    nameservers = [
+      "8.8.8.8"
+      "1.1.1.1"
+    ];
+    resolvconf = {};
     nftables = {
       enable = true;
     };
     firewall = {
-      enable = false;
+      enable = true;
     };
 
     hostName = "x";

@@ -14,7 +14,7 @@ finder:
   cd /nix/store/ && ls | grep "vscode-insiders" | grep -v '.drv$'
 
 flake-z args="":
-  just flake-c "{{ args }} --impure --flake .#z@x"
+  just flake-c "{{ args }} --impure --flake .#a@x"
   just config
 
 flake-x args="":

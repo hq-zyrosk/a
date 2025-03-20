@@ -93,6 +93,9 @@
       pavucontrol
       obsidian
 
+      alejandra
+      nixd
+      nil
       gcc
     ];
     language = {};

@@ -58,9 +58,6 @@ in {
       just
       file
       eza
-
-      alejandra
-      nil
     ];
     systemPackages = with pkgs; [
       watchexec
@@ -68,8 +65,6 @@ in {
       timelimit
       libnotify
       killall
-
-      lshw
       cyme
     ];
   };
