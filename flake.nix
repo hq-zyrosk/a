@@ -28,6 +28,7 @@
                   pointer-dot-red.overlays.default
                 ];
               }
+
               ./flake/z.nix
             ];
             pkgs = pkgs;
@@ -45,8 +46,10 @@
                   textual-pragmata-pro.overlays.default
                 ];
               }
+
               home-manager.nixosModules.home-manager
               nixos-hardware.nixosModules.apple-t2
+
               /etc/nixos/hardware-configuration.nix
               ./flake/x.nix
             ];

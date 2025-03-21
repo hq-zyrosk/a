@@ -21,11 +21,13 @@
   users = {
     groups = {
       x = {
-        members = ["x"];
+        members = [
+          "x"
+        ];
         name = "x";
       };
     };
-    extraUsers = {
+    users = {
       x = {
         packages = with pkgs; [
           # shadowsocks-rust
@@ -43,8 +45,15 @@
           "audio"
         ];
         useDefaultShell = true;
-        isNormalUser = true;
+        isSystemUser = true;
+        isNormalUser = false;
+        ignoreShellProgramCheck = false;
+        homeMode = "0755";
+        home = "/home/x";
         hashedPassword = "$6$HarayKrsna$/REyoGIFTRfEw.szoS3giVwCnIwPxDpRZWdYc1kjz6n.ZqQJih/DRJ/YnUKAEQJjqEQCkDRN4ULrnqYqjd1cp1";
+        group = "x";
+        description = "User x for system management";
+        createHome = true;
       };
     };
     defaultUserShell = pkgs.fish;
