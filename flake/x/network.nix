@@ -1,12 +1,20 @@
 {lib, ...}: {
   services = {
     resolved = {
-      enable = false;
+      enable = true;
+    };
+    clatd = {
+      enable = true;
     };
   };
 
   networking = {
     networkmanager = {
+      wifi = {
+        scanRandMacAddress = true;
+        powersave = false;
+        backend = "iwd";
+      };
       enable = true;
     };
     nameservers = [

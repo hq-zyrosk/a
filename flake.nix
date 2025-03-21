@@ -21,10 +21,8 @@
               {
                 nixpkgs.overlays = [
                   nix-vscode-extensions.overlays.default
-                  fenix.overlays.default
-
-                  textual-pragmata-pro.overlays.default
                   pointer-dot-red.overlays.default
+                  fenix.overlays.default
                 ];
               }
 

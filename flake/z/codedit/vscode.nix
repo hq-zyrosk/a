@@ -9,8 +9,8 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
           extensions = with pkgs.vscode-marketplace; [
-            # pkgs.fenix.rust-analyzer-vscode-extension
             tamasfe.even-better-toml
+            rust-lang.rust-analyzer
             jnoortheen.nix-ide
             redhat.vscode-yaml
             redhat.vscode-xml
