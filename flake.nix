@@ -4,7 +4,6 @@
     textual-pragmata-pro,
     pointer-dot-red,
     nixpkgs,
-    nixos-hardware,
     nix-vscode-extensions,
     home-manager,
     fenix,
@@ -48,7 +47,6 @@
               }
 
               home-manager.nixosModules.home-manager
-              nixos-hardware.nixosModules.apple-t2
 
               /etc/nixos/hardware-configuration.nix
               ./flake/x.nix
@@ -98,6 +96,15 @@
       };
     };
 
+    fenix = {
+      url = "github:nix-community/fenix";
+      inputs = {
+        nixpkgs = {
+          follows = "nixpkgs";
+        };
+      };
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs = {
@@ -116,21 +123,8 @@
       };
     };
 
-    fenix = {
-      url = "github:nix-community/fenix";
-      inputs = {
-        nixpkgs = {
-          follows = "nixpkgs";
-        };
-      };
-    };
-
     nixpkgs = {
       url = "github:NixOS/nixpkgs/nixos-unstable";
-    };
-
-    nixos-hardware = {
-      url = "github:NixOS/nixos-hardware/master";
     };
   };
 
