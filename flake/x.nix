@@ -36,6 +36,7 @@
           home-manager
         ];
         extraGroups = [
+          "networkmanager"
           "wheel"
           "video"
           "input"

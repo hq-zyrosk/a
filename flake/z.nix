@@ -94,7 +94,6 @@
       obsidian
 
       alejandra
-      nixd
       nil
       gcc
     ];

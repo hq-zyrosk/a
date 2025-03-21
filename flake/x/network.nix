@@ -1,4 +1,4 @@
-{
+{lib, ...}: {
   services = {
     tor = {
       client = {
@@ -20,6 +20,9 @@
     clatd = {
       enable = true;
     };
+    dbus = {
+      enable = true;
+    };
   };
 
   networking = {
@@ -30,14 +33,21 @@
       "8.8.8.8"
       "1.1.1.1"
     ];
-    resolvconf = {};
+
+    interfaces.enp2s0f1u1.useDHCP = true;
+
+    wireless = {
+      enable = false;
+    };
     nftables = {
-      enable = true;
+      enable = false;
     };
     firewall = {
-      enable = true;
+      enable = false;
     };
 
+    usePredictableInterfaceNames = true;
+    useDHCP = lib.mkDefault true;
     hostName = "x";
   };
 }

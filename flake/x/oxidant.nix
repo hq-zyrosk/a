@@ -1,4 +1,4 @@
-{lib, ...}: {
+{
   systemd = {};
 
   system = {
@@ -10,19 +10,23 @@
     stateVersion = "24.11";
   };
 
-  swapDevices = lib.mkForce [];
-
   nix = {
     settings = {
       trusted-users = [
-        "@wheel"
         "root"
+        "x"
       ];
       experimental-features = [
         "nix-command"
         "flakes"
       ];
     };
+  };
+
+  hardware = {
+    enableRedistributableFirmware = true;
+    enableAllHardware = true;
+    enableAllFirmware = true;
   };
 
   boot = {
@@ -46,20 +50,12 @@
         "vm.swappiness" = 0;
       };
     };
-    initrd = {
-      network = {
-        ssh = {
-          hostKeys = [];
-          enable = false;
-        };
-        enable = true;
-      };
-    };
     extraModprobeConfig = ''
       options hid_apple swap_fn_leftctrl=1
       options hid_apple fnmode=2
     '';
     readOnlyNixStore = false;
     isContainer = false;
+    hardwareScan = true;
   };
 }

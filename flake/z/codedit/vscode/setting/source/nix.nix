@@ -37,6 +37,7 @@
         ];
       };
       "diagnostics" = {
+        "excludedFiles" = [];
         "ignored" = [];
       };
     };
@@ -48,7 +49,7 @@
   "[nix]" = {
     "editor.defaultFormatter" = "jnoortheen.nix-ide";
   };
-  "nix.serverPath" = "nixd";
+  "nix.serverPath" = "nil";
   "nix.formatterPath" = "alejandra";
   "nix.enableLanguageServer" = true;
 }

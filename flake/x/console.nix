@@ -60,6 +60,9 @@ in {
       eza
     ];
     systemPackages = with pkgs; [
+      wpa_supplicant
+      iw
+
       watchexec
       xdg-utils
       timelimit
