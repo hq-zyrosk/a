@@ -30,7 +30,7 @@
       package = (pkgs.vscode.override {isInsiders = true;}).overrideAttrs (o2: {
         src = (
           builtins.fetchTarball {
-            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#18";
+            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#168";
           }
         );
         meta = {
@@ -44,8 +44,10 @@
           ${o2.installPhase}
 
           xx="$out/lib/vscode/resources/app/out/vs/workbench"
-          mv                $xx/workbench.desktop.main.css  $xx/workbench.desktop.main.backup.css
-          cp ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
+          mv                                 $xx/workbench.desktop.main.css  $xx/workbench.desktop.main.backup.css
+          cp                  ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
+          sed                                     --in-place 's/22px/16px/g' $xx/workbench.desktop.main.js
+          sed                     --in-place 's/n.top+=t.height/n.top+=16/g' $xx/workbench.desktop.main.js
         '';
       });
       mutableExtensionsDir = true;
