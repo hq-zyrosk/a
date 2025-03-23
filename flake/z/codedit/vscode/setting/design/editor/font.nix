@@ -3,11 +3,11 @@ let
   text-trip = " `'\"_-+=,.:;/|\\~!@#$%^&*?<>[]{}()";
   text-norm = "normal";
   text-bold = "bold";
-  text-high = text-size / 22.0;
+  text-high = 22.0 / text-size;
   text-wrap = 96;
   text-tall = 0;
-  text-size = 18.0;
-  text-wide = 9.0;
+  text-size = 14.0;
+  text-wide = text-size / 2.0;
 in {
   "editor.rulers" = [
     text-wrap
