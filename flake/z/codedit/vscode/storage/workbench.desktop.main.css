@@ -333,8 +333,8 @@
 :root {
   --norm-line: 1px solid rgba(255, 255, 255, 0.25);
   --norm-type: 'PragmataPro Mono Liga', monospace;
-  --norm-high: calc(1 * var(--norm-size));
-  --norm-size: 16px;
-  --norm-wide: 8px;
+  --norm-high: 22px;
+  --norm-size: 18px;
+  --norm-wide: 9px;
   --icon-size: 12px;
 }
