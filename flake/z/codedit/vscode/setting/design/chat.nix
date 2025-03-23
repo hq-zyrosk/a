@@ -7,9 +7,12 @@
     "editing-session" = "first";
   };
   "chat.useFileStorage" = true;
+  "chat.unifiedChatView" = true;
+  "chat.tools.autoApprove" = true;
   "chat.renderRelatedFiles" = true;
   "chat.promptFiles" = true;
   "chat.mcp.discovery.enabled" = true;
+  "chat.focusWindowOnConfirmation" = true;
   "chat.experimental.statusIndicator.enabled" = true;
   "chat.experimental.setupFromDialog" = true;
   "chat.editing.confirmEditRequestRetry" = true;
