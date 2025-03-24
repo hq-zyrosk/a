@@ -12,9 +12,9 @@
       noto-fonts-color-emoji
       textual-pragmata-pro
 
-      # google-fonts
-      # dejavu_fonts
-      # corefonts
+      google-fonts
+      dejavu_fonts
+      corefonts
     ];
     fontconfig = {
       subpixel = {
