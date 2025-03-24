@@ -77,7 +77,7 @@
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
   padding-right: var(--norm-wide);
-  font-size: var(--icon-size);
+  font-size: var(--norm-size);
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
@@ -167,37 +167,37 @@
 /*--------------------------------------------------------------------------------------------*/
 /*icon-activitybar-extension*/
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label:not(.codicon) {
-  font-size: calc(1.5 * var(--icon-size));
+  font-size: calc(1.5 * var(--norm-size));
 }
 
 /*--------------------------------------------------------------------------------------------*/
 /*icon-activitybar-inbuilt*/
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-label.codicon {
-  font-size: calc(1.5 * var(--icon-size));
+  font-size: calc(1.5 * var(--norm-size));
 }
 
 /*--------------------------------------------------------------------------------------------*/
 /*icon-statusbar-custom*/
 .custom-statusbar .monaco-workbench .part.statusbar > .items-container > div.statusbar-item span.codicon {
-  font-size: var(--icon-size);
+  font-size: var(--norm-size);
 }
 
 /*--------------------------------------------------------------------------------------------*/
 /*icon-statusbar*/
 .monaco-workbench .part.statusbar > .items-container > .statusbar-item span.codicon {
-  font-size: var(--icon-size);
+  font-size: var(--norm-size);
 }
 
 /*--------------------------------------------------------------------------------------------*/
 /*icon*/
 .monaco-workbench .codicon[class*=codicon-] {
-  font-size: var(--icon-size);
+  font-size: var(--norm-size);
 }
 
 /*--------------------------------------------------------------------------------------------*/
 /*text*/
 .monaco-workbench .part > .content {
-  font-size: var(--icon-size);
+  font-size: var(--norm-size);
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -335,6 +335,5 @@
   --norm-type: 'PragmataPro Mono Liga', monospace;
   --norm-high: calc(22px / var(--norm-size));
   --norm-size: 14px;
-  --norm-wide: calc(var(--norm-size) / 2px);
-  --icon-size: 14px;
+  --norm-wide: 7px;
 }
