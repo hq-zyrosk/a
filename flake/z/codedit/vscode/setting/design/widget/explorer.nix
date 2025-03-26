@@ -61,6 +61,7 @@
   "explorer.decorations.colors" = true;
   "explorer.decorations.badges" = true;
   "explorer.copyRelativePathSeparator" = "/";
+  "explorer.copyPathSeparator" = "/";
   "explorer.confirmUndo" = "default";
   "explorer.confirmPasteNative" = true;
   "explorer.confirmDragAndDrop" = false;
