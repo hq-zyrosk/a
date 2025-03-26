@@ -26,7 +26,6 @@
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row > .monaco-tl-row > .monaco-tl-contents {
-  font-family: var(--norm-type) !important;
   font-size: var(--norm-size) !important;
 }
 
@@ -52,7 +51,6 @@
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-header*/
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
-  font-family: var(--norm-type);
   font-size: var(--norm-size);
   text-transform: lowercase;
 }
@@ -66,7 +64,7 @@
 }
 
 .monaco-workbench .part > .title {
-  margin: 16px 0 0 0;
+  margin: 17px 0 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -99,7 +97,7 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title {
-  margin: 3px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -331,6 +329,11 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*1*/
+.monaco-workbench.linux {
+  --monaco-monospace-font: var(--norm-type);
+  font-family: var(--norm-type);
+}
+
 :root {
   --norm-line: 1px solid rgba(255, 255, 255, 0.25);
   --norm-type: 'PragmataPro Mono Liga', monospace;
