@@ -85,10 +85,6 @@
         "cargo"
       ])
 
-      android-studio-tools
-      android-studio
-      android-tools
-
       brightnessctl
       pavucontrol
       obsidian
