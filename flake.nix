@@ -122,7 +122,7 @@
     };
 
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/staging-next";
+      url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     };
   };
 

@@ -43,6 +43,13 @@ in {
   "testing.coveredGutterBackground" = c5;
   "testing.coveredBackground" = c5;
   "testing.coverCountBadgeBackground" = c5;
+  "terminalSymbolIcon.optionValueForeground" = c5;
+  "terminalSymbolIcon.optionForeground" = c5;
+  "terminalSymbolIcon.methodForeground" = c5;
+  "terminalSymbolIcon.inlineSuggestionForeground" = c5;
+  "terminalSymbolIcon.folderForeground" = c5;
+  "terminalSymbolIcon.fileForeground" = c5;
+  "terminalSymbolIcon.argumentForeground" = c5;
   "terminalCommandDecoration.successBackground" = c5;
   "terminalCommandDecoration.defaultBackground" = c5;
   "statusBarItem.remoteHoverBackground" = c5;
@@ -67,8 +74,11 @@ in {
   "mergeEditor.change.background" = c5;
   "inlineEdit.wordReplacementView.background" = c5;
   "inlineEdit.indicator.background" = c5;
+  "inlineEdit.gutterIndicator.successfulBorder" = c5;
   "inlineEdit.gutterIndicator.successfulBackground" = c5;
+  "inlineEdit.gutterIndicator.secondaryBorder" = c5;
   "inlineEdit.gutterIndicator.secondaryBackground" = c5;
+  "inlineEdit.gutterIndicator.primaryBorder" = c5;
   "inlineEdit.gutterIndicator.primaryBackground" = c5;
   "inlineEdit.gutterIndicator.background" = c5;
   "inlineChat.background" = c5;

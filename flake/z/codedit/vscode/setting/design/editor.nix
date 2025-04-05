@@ -99,6 +99,7 @@ in {
   "editor.experimental.preferTreeSitter.typescript" = true;
   "editor.experimental.preferTreeSitter.regex" = true;
   "editor.experimental.preferTreeSitter.ini" = true;
+  "editor.experimental.preferTreeSitter.css" = true;
   "editor.experimental.asyncTokenizationVerification" = false;
   "editor.experimental.asyncTokenizationLogging" = false;
   "editor.experimental.asyncTokenization" = true;

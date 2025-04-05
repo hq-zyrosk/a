@@ -33,8 +33,6 @@
           # shadowsocks-rust
           # proxychains
           # proxify
-
-          nodejs_latest
           home-manager
         ];
         extraGroups = [
