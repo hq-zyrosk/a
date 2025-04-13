@@ -13,6 +13,7 @@
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
   "workbench.secondarySideBar.showLabels" = false;
+  "workbench.secondarySideBar.defaultVisibility" = "visible";
   "workbench.sash.size" = 1;
   "workbench.sash.hoverDelay" = 0;
   "workbench.remoteIndicator.showExtensionRecommendations" = false;

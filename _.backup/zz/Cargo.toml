@@ -1,0 +1,29 @@
+[[bin]]
+  doctest = false
+  name    = "zz"
+  path    = "_.rs"
+
+[dependencies]
+  cl = { path = "../cl" }
+  en = { path = "../en" }
+  hq = { path = "../hq" }
+
+[package]
+  authors = [
+    "Zyrosk <hq.zyrosk@gmail.com>",
+  ]
+  categories = [
+    "development-tools::debugging",
+  ]
+  description = "A Chrome DevTools Protocol client"
+  edition = "2024"
+  keywords = [
+    "chrome",
+    "client",
+    "devtools",
+    "protocol",
+  ]
+  license = "MIT OR Apache-2.0"
+  name = "zz"
+  repository = "https://github.com/hq-zyrosk/zz"
+  version = "1.3.6"

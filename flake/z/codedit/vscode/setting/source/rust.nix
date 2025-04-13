@@ -284,6 +284,7 @@
   "rust-analyzer.cargo.target" = null;
   "rust-analyzer.cargo.sysrootSrc" = null;
   "rust-analyzer.cargo.sysroot" = "discover";
+  "rust-analyzer.cargo.noDeps" = false;
   "rust-analyzer.cargo.noDefaultFeatures" = true;
   "rust-analyzer.cargo.buildScripts.useRustcWrapper" = true;
   "rust-analyzer.cargo.buildScripts.rebuildOnSave" = true;

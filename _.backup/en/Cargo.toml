@@ -1,0 +1,28 @@
+[dependencies]
+  cl              = { path = "../cl" }
+  crossbeam-queue = "0.3.12"
+  libc            = "1.0.0-alpha.1"
+
+[lib]
+  doctest = false
+  path    = "_.rs"
+
+[package]
+  authors = [
+    "Zyrosk <hq.zyrosk@gmail.com>",
+  ]
+  categories = [
+    "development-tools::debugging",
+  ]
+  description = "A Chrome DevTools Protocol client"
+  edition = "2024"
+  keywords = [
+    "chrome",
+    "client",
+    "devtools",
+    "protocol",
+  ]
+  license = "MIT OR Apache-2.0"
+  name = "en"
+  repository = "https://github.com/hq-zyrosk/rs"
+  version = "0.1.0"

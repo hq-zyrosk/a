@@ -16,6 +16,7 @@
   "update.showReleaseNotes" = true;
   "update.mode" = "none";
   "telemetry.telemetryLevel" = "off";
+  "telemetry.feedback.enabled" = true;
   "telemetry.disableFeedback" = true;
   "settingsSync.keybindingsPerPlatform" = true;
   "settingsSync.ignoredSettings" = [];
