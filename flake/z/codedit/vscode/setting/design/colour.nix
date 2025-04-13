@@ -23,14 +23,14 @@ in {
     // background;
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
-      {
-        "scope" = [
-          "storage.type.rust"
-        ];
-        "settings" = {
-          "fontStyle" = "strikethrough";
-        };
-      }
+      # {
+      #   "scope" = [
+      #     "storage.type.rust"
+      #   ];
+      #   "settings" = {
+      #     "fontStyle" = "strikethrough";
+      #   };
+      # }
       {
         "scope" = [
           "punctuation"

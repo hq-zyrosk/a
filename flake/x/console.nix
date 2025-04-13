@@ -39,7 +39,7 @@ in {
           end
 
           printf '%s%s%s ' (set_color $prompt_color) (
-            string replace -r "^~[/]?" "" (prompt_pwd)
+            string replace -r "^~" "·" (prompt_pwd)
           ) (set_color normal)
         end
       '';
