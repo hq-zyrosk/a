@@ -12,6 +12,43 @@ let
     ]
   ];
 in {
+  "workbench.editor.languageDetectionHints" = {
+    "untitledEditors" = true;
+    "notebookEditors" = true;
+  };
+  "workbench.editor.autoLockGroups" = {
+    "workbench.input.interactive" = false;
+    "workbench.editors.gettingStartedInput" = false;
+    "workbench.editorinputs.searchEditorInput" = false;
+    "workbench.editor.chatSession" = true;
+    "vscode.videoPreview" = false;
+    "vscode.audioPreview" = false;
+    "terminalEditor" = true;
+    "repl" = false;
+    "mainThreadWebview-simpleBrowser.view" = true;
+    "mainThreadWebview-markdown.preview" = false;
+    "mainThreadWebview-browserPreview" = true;
+    "jupyter-notebook" = false;
+    "jsProfileVisualizer.heapsnapshot.table" = false;
+    "jsProfileVisualizer.heapprofile.table" = false;
+    "jsProfileVisualizer.cpuprofile.table" = false;
+    "imagePreview.previewEditor" = false;
+    "default" = false;
+  };
+  "workbench.editorAssociations" = {};
+  "workbench.editor.centeredLayoutFixedWidth" = false;
+  "workbench.editor.defaultBinaryEditor" = "";
+  "workbench.editor.dragToOpenWindow" = true;
+  "workbench.editor.titleScrollbarSizing" = "default";
+  "workbench.editor.splitOnDragAndDrop" = true;
+  "workbench.editor.splitInGroupLayout" = "horizontal";
+  "workbench.editor.sharedViewState" = false;
+  "workbench.editor.restoreViewState" = true;
+  "workbench.editor.preferHistoryBasedLanguageDetection" = false;
+  "workbench.editor.limit.value" = 64;
+  "workbench.editor.limit.perEditorGroup" = false;
+  "workbench.editor.limit.excludeDirty" = false;
+  "workbench.editor.limit.enabled" = false;
   "editor.unicodeHighlight.allowedLocales" = {};
   "editor.unicodeHighlight.allowedCharacters" = {};
   "editor.pasteAs.preferences" = [];

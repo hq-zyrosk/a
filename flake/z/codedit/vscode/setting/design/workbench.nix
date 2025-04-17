@@ -2,6 +2,9 @@
   "workbench.view.showQuietly" = {
     "workbench.panel.output" = true;
   };
+  "workbench.settings.applyToAllProfiles" = [];
+  "workbench.localHistory.exclude" = {};
+  "workbench.externalUriOpeners" = {};
   "workbench.welcomePage.walkthroughs.openOnInstall" = false;
   "workbench.view.alwaysShowHeaderActions" = true;
   "workbench.trustedDomains.promptInTrustedWorkspace" = false;
@@ -11,6 +14,9 @@
   "workbench.statusBar.visible" = false;
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
+  "workbench.settings.settingsSearchTocBehavior" = "filter";
+  "workbench.settings.openDefaultSettings" = false;
+  "workbench.settings.openDefaultKeybindings" = false;
   "workbench.settings.enableNaturalLanguageSearch" = true;
   "workbench.secondarySideBar.showLabels" = false;
   "workbench.secondarySideBar.defaultVisibility" = "visible";
@@ -24,11 +30,15 @@
   "workbench.panel.opensMaximized" = "preserve";
   "workbench.panel.defaultLocation" = "top";
   "workbench.navigationControl.enabled" = false;
+  "workbench.localHistory.mergeWindow" = 10;
+  "workbench.localHistory.maxFileSize" = 256;
+  "workbench.localHistory.maxFileEntries" = 50;
   "workbench.localHistory.enabled" = true;
   "workbench.layoutControl.type" = "menu";
   "workbench.layoutControl.enabled" = false;
   "workbench.iconTheme" = null;
   "workbench.hover.delay" = 1000;
+  "workbench.externalBrowser" = "";
   "workbench.experimental.share.enabled" = true;
   "workbench.experimental.cloudChanges.partialMatches.enabled" = false;
   "workbench.experimental.cloudChanges.autoStore" = "off";
