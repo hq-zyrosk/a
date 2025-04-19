@@ -8,8 +8,10 @@ let
   plaintext = import ./source/plaintext.nix;
   php = import ./source/php.nix;
   nix = import ./source/nix.nix;
+  md = import ./source/md.nix;
   json = import ./source/json.nix;
   javascript = import ./source/javascript.nix;
+  ipynb = import ./source/ipynb.nix;
   html = import ./source/html.nix;
   css_scss = import ./source/css/scss.nix;
   css_less = import ./source/css/less.nix;
@@ -24,8 +26,10 @@ in
   // plaintext
   // php
   // nix
+  // md
   // json
   // javascript
+  // ipynb
   // html
   // css_scss
   // css_less

@@ -13,7 +13,9 @@ let
   widget_explorer = import ./design/widget/explorer.nix;
   widget_debug = import ./design/widget/debug.nix;
   widget = import ./design/widget.nix;
+  testing = import ./design/testing.nix;
   search = import ./design/search.nix;
+  emmet = import ./design/emmet.nix;
   editor_timeline = import ./design/editor/timeline.nix;
   editor_terminal = import ./design/editor/terminal.nix;
   editor_suggest = import ./design/editor/suggest.nix;
@@ -30,6 +32,7 @@ let
   editor_code_lens = import ./design/editor/code/lens.nix;
   editor_code = import ./design/editor/code.nix;
   editor = import ./design/editor.nix;
+  debug = import ./design/debug.nix;
   cursor = import ./design/cursor.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
@@ -50,7 +53,9 @@ in
   // widget_explorer
   // widget_debug
   // widget
+  // testing
   // search
+  // emmet
   // editor_timeline
   // editor_terminal
   // editor_suggest
@@ -67,6 +72,7 @@ in
   // editor_code_lens
   // editor_code
   // editor
+  // debug
   // cursor
   // colour
   // chat_inline
