@@ -30,10 +30,9 @@
     users = {
       x = {
         packages = with pkgs; [
-          # shadowsocks-rust
-          # proxychains
-          # proxify
           home-manager
+          alejandra
+          nil
         ];
         extraGroups = [
           "networkmanager"

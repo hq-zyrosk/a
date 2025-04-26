@@ -68,31 +68,15 @@
       name = "dot-red";
     };
     packages = with pkgs; [
-      (fenix.combine [
-        fenix.targets.x86_64-pc-windows-gnu.latest.rust-std
-
-        fenix.latest.rust-analyzer-preview
-        fenix.latest.llvm-tools-preview
-        fenix.latest.rustfmt-preview
-        fenix.latest.miri-preview
-        fenix.latest.toolchain
-
-        fenix.latest.rust-analysis
-        fenix.latest.rust-docs
-        fenix.latest.rust-src
-        fenix.latest.rust-std
-        fenix.latest.rustc
-
-        fenix.latest.clippy-preview
-        fenix.latest.cargo
-      ])
+      # shadowsocks-rust
+      # proxychains
+      # proxify
 
       brightnessctl
       pavucontrol
       obsidian
 
-      alejandra
-      nil
+      rustup
       gcc
     ];
     language = {};

@@ -6,7 +6,6 @@
     nixpkgs,
     nix-vscode-extensions,
     home-manager,
-    fenix,
     ...
   }: let
     system = "x86_64-linux";
@@ -22,7 +21,6 @@
                 nixpkgs.overlays = [
                   nix-vscode-extensions.overlays.default
                   pointer-dot-red.overlays.default
-                  fenix.overlays.default
                 ];
               }
 
@@ -87,15 +85,6 @@
 
     nix-vscode-extensions = {
       url = "github:nix-community/nix-vscode-extensions/master";
-      inputs = {
-        nixpkgs = {
-          follows = "nixpkgs";
-        };
-      };
-    };
-
-    fenix = {
-      url = "github:nix-community/fenix";
       inputs = {
         nixpkgs = {
           follows = "nixpkgs";
