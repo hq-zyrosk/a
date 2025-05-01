@@ -45,6 +45,10 @@
     "announcement" = "auto";
     "sound" = "auto";
   };
+  "accessibility.signals.nextEditSuggestion" = {
+    "announcement" = "auto";
+    "sound" = "auto";
+  };
   "accessibility.signals.onDebugBreak" = {
     "announcement" = "auto";
     "sound" = "auto";

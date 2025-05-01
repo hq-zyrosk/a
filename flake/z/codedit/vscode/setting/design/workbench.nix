@@ -14,6 +14,7 @@
   "workbench.statusBar.visible" = false;
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
+  "workbench.settings.showSuggestions" = true;
   "workbench.settings.settingsSearchTocBehavior" = "filter";
   "workbench.settings.openDefaultSettings" = false;
   "workbench.settings.openDefaultKeybindings" = false;

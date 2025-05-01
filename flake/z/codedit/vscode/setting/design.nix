@@ -10,6 +10,7 @@ let
   widget_testing = import ./design/widget/testing.nix;
   widget_stickyscroll = import ./design/widget/stickyscroll.nix;
   widget_security = import ./design/widget/security.nix;
+  widget_remote = import ./design/widget/remote.nix;
   widget_problems = import ./design/widget/problems.nix;
   widget_explorer = import ./design/widget/explorer.nix;
   widget_emmet = import ./design/widget/emmet.nix;
@@ -49,6 +50,7 @@ in
   // widget_testing
   // widget_stickyscroll
   // widget_security
+  // widget_remote
   // widget_problems
   // widget_explorer
   // widget_emmet

@@ -13,6 +13,14 @@
     };
     "inputs" = [];
   };
+  "microsoft-sovereign-cloud.customEnvironment" = {
+    "activeDirectoryEndpointUrl" = "";
+    "activeDirectoryResourceId" = "";
+    "managementEndpointUrl" = "";
+    "name" = "";
+    "portalUrl" = "";
+    "resourceManagerEndpointUrl" = "";
+  };
   "update.showReleaseNotes" = true;
   "update.mode" = "none";
   "telemetry.telemetryLevel" = "off";
@@ -21,6 +29,7 @@
   "settingsSync.keybindingsPerPlatform" = true;
   "settingsSync.ignoredSettings" = [];
   "settingsSync.ignoredExtensions" = [];
+  "microsoft-sovereign-cloud.environment" = "custom";
   "microsoft-authentication.implementation" = "msal";
   "keyboard.dispatch" = "code";
 }

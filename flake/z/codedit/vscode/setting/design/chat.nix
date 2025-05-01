@@ -2,6 +2,9 @@
   "chat.promptFilesLocations" = {
     ".github/prompts" = true;
   };
+  "chat.instructionsFilesLocations" = {
+    ".github/instructions" = true;
+  };
   "chat.implicitContext.enabled" = {
     "panel" = "always";
     "editing-session" = "first";
@@ -10,6 +13,9 @@
   "chat.unifiedChatView" = true;
   "chat.tools.autoApprove" = true;
   "chat.setupFromDialog" = true;
+  "chat.sendElementsToChat.enabled" = true;
+  "chat.sendElementsToChat.attachImages" = true;
+  "chat.sendElementsToChat.attachCSS" = true;
   "chat.renderRelatedFiles" = true;
   "chat.promptFiles" = true;
   "chat.mcp.enabled" = true;

@@ -5,8 +5,14 @@
   "[toml]" = {
     "editor.defaultFormatter" = "tamasfe.even-better-toml";
   };
+  "evenBetterToml.taplo.extraArgs" = [];
+  "evenBetterToml.taplo.environment" = {};
   "evenBetterToml.schema.associations" = {};
   "evenBetterToml.rules" = [];
+  "evenBetterToml.taplo.path" = null;
+  "evenBetterToml.taplo.configFile.path" = null;
+  "evenBetterToml.taplo.configFile.enabled" = true;
+  "evenBetterToml.taplo.bundled" = true;
   "evenBetterToml.syntax.semanticTokens" = true;
   "evenBetterToml.semanticTokens" = true;
   "evenBetterToml.schema.links" = true;
