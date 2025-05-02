@@ -25,6 +25,7 @@ let
   editor_inline = import ./design/editor/inline.nix;
   editor_indent = import ./design/editor/indent.nix;
   editor_hover = import ./design/editor/hover.nix;
+  editor_goto = import ./design/editor/goto.nix;
   editor_font = import ./design/editor/font.nix;
   editor_fold = import ./design/editor/fold.nix;
   editor_find = import ./design/editor/find.nix;
@@ -65,6 +66,7 @@ in
   // editor_inline
   // editor_indent
   // editor_hover
+  // editor_goto
   // editor_font
   // editor_fold
   // editor_find
