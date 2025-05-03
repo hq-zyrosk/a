@@ -89,12 +89,12 @@
             "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
             "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
 
+            "[workspace 1 silent] code-insiders --enable-proposed-api --ozone-platform=wayland"
+            "[workspace 1 silent] alacritty"
+
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
             "[workspace special:command silent] alacritty --command btop"
             "[workspace special:manager silent] obsidian"
-
-            "[workspace 1 silent] code-insiders --ozone-platform=wayland"
-            "[workspace 1 silent] alacritty"
           ];
           env = [
             "XDG_SESSION_TYPE,wayland"

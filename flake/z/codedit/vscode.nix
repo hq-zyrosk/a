@@ -8,20 +8,20 @@
           languageSnippets = import ./vscode/snippet.nix;
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
-          extensions = with pkgs.vscode-marketplace; [
-            tamasfe.even-better-toml
-            rust-lang.rust-analyzer
-            jnoortheen.nix-ide
-            redhat.vscode-yaml
-            redhat.vscode-xml
+          extensions = with pkgs; [
+            vscode-marketplace.tamasfe.even-better-toml
+            vscode-marketplace.rust-lang.rust-analyzer
+            vscode-marketplace.jnoortheen.nix-ide
+            vscode-marketplace.redhat.vscode-yaml
+            vscode-marketplace.redhat.vscode-xml
 
-            nefrob.vscode-just-syntax
-            dbaeumer.vscode-eslint
-            fill-labs.dependi
-            tyriar.sort-lines
+            vscode-marketplace.nefrob.vscode-just-syntax
+            vscode-marketplace.dbaeumer.vscode-eslint
+            vscode-marketplace.fill-labs.dependi
+            vscode-marketplace.tyriar.sort-lines
 
-            github.copilot-chat
-            github.copilot
+            vscode-extensions.github.copilot-chat
+            vscode-extensions.github.copilot
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
