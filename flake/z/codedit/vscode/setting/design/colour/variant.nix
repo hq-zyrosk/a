@@ -14,6 +14,7 @@ in {
   "inlineEdit.modifiedBackground" = yellow_t;
   "inlineEdit.modifiedChangedTextBackground" = yellow_t;
   "inlineEdit.modifiedChangedLineBackground" = yellow_t;
+  "editorGutter.modifiedSecondaryBackground" = yellow_t;
 
   "tab.unfocusedInactiveModifiedBorder" = yellow;
   "tab.unfocusedActiveModifiedBorder" = yellow;
@@ -28,6 +29,7 @@ in {
   "editorOverviewRuler.modifiedForeground" = yellow;
   "editorGutter.modifiedBackground" = yellow;
 
+  "editorGutter.addedSecondaryBackground" = green_t;
   "diffEditorGutter.insertedLineBackground" = green_t;
   "diffEditor.insertedTextBorder" = green_t;
   "diffEditor.insertedTextBackground" = green_t;
@@ -43,6 +45,7 @@ in {
   "editorGutter.addedBackground" = green;
   "diffEditorOverview.insertedForeground" = green;
 
+  "editorGutter.deletedSecondaryBackground" = red_t;
   "diffEditorGutter.removedLineBackground" = red_t;
   "diffEditor.removedTextBorder" = red_t;
   "diffEditor.removedTextBackground" = red_t;

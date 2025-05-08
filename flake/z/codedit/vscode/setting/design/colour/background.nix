@@ -21,6 +21,7 @@ in {
   "radio.activeBackground" = c9;
   "quickInputTitle.background" = c9;
   "quickInput.background" = c9;
+  "prompt.frontMatter.background" = c9;
   "progressBar.background" = c9;
   "peekViewResult.background" = c9;
   "peekViewEditorGutter.background" = c9;
@@ -83,6 +84,7 @@ in {
   "scrollbarSlider.background" = c9;
   "radio.inactiveBackground" = c5;
   "quickInputList.focusBackground" = c5;
+  "prompt.frontMatter.inactiveBackground" = c5;
   "profileBadge.background" = c5;
   "peekViewTitle.background" = c5;
   "peekViewResult.selectionBackground" = c5;
@@ -128,6 +130,7 @@ in {
   "debugToolBar.background" = c5;
   "debugExceptionWidget.background" = c5;
   "commandCenter.background" = c5;
+  "checkbox.disabled.background" = c5;
   "chat.requestBackground" = c5;
   "button.secondaryHoverBackground" = c5;
   "button.secondaryBackground" = c5;

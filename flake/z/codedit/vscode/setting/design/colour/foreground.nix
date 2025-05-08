@@ -198,6 +198,7 @@ in {
   "commandCenter.inactiveForeground" = c5;
   "commandCenter.foreground" = c5;
   "checkbox.foreground" = c5;
+  "checkbox.disabled.foreground" = c5;
   "chat.slashCommandForeground" = c5;
   "chat.editedFileForeground" = c5;
   "charts.lines" = c5;
