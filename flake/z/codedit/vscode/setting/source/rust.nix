@@ -257,7 +257,6 @@
   "rust-analyzer.diagnostics.experimental.enable" = false;
   "rust-analyzer.diagnostics.enable" = true;
   "rust-analyzer.debug.sourceFileMap" = "auto";
-  "rust-analyzer.debug.openDebugPane" = true;
   "rust-analyzer.debug.engine" = "llvm-vs-code-extensions.lldb-dap";
   "rust-analyzer.debug.buildBeforeRestart" = false;
   "rust-analyzer.completion.termSearch.fuel" = 4096;

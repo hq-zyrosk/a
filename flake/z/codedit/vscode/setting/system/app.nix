@@ -9,7 +9,6 @@
   "extensions.webWorker" = true;
   "extensions.verifySignature" = false;
   "extensions.ignoreRecommendations" = true;
-  "extensions.gallery.useUnpkgResourceApi" = true;
   "extensions.experimental.issueQuickAccess" = true;
   "extensions.experimental.deferredStartupFinishedActivation" = false;
   "extensions.closeExtensionDetailsOnViewChange" = false;

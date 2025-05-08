@@ -10,9 +10,7 @@
     "editing-session" = "first";
   };
   "chat.useFileStorage" = true;
-  "chat.unifiedChatView" = true;
   "chat.tools.autoApprove" = true;
-  "chat.setupFromDialog" = true;
   "chat.sendElementsToChat.enabled" = true;
   "chat.sendElementsToChat.attachImages" = true;
   "chat.sendElementsToChat.attachCSS" = true;
@@ -22,8 +20,6 @@
   "chat.mcp.discovery.enabled" = true;
   "chat.focusWindowOnConfirmation" = true;
   "chat.extensionTools.enabled" = true;
-  "chat.experimental.statusIndicator.enabled" = true;
-  "chat.experimental.setupFromDialog" = true;
   "chat.edits2.enabled" = true;
   "chat.editing.confirmEditRequestRetry" = true;
   "chat.editing.confirmEditRequestRemoval" = true;

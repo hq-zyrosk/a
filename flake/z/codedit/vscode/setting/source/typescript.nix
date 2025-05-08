@@ -24,7 +24,6 @@
   "typescript.tsserver.enableRegionDiagnostics" = false;
   "typescript.tsdk" = "node_modules/typescript/lib";
   "typescript.tsc.autoDetect" = "on";
-  "typescript.surveys.enabled" = false;
   "typescript.suggestionActions.enabled" = true;
   "typescript.suggest.paths" = true;
   "typescript.suggest.objectLiteralMethodSnippets.enabled" = true;
