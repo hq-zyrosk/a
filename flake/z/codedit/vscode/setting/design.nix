@@ -37,7 +37,6 @@ let
   cursor = import ./design/cursor.nix;
   colour = import ./design/colour.nix;
   chat_inline = import ./design/chat/inline.nix;
-  chat_github = import ./design/chat/github.nix;
   chat = import ./design/chat.nix;
 in
   workbench_zenmode
@@ -78,5 +77,4 @@ in
   // cursor
   // colour
   // chat_inline
-  // chat_github
   // chat

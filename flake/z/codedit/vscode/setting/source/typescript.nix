@@ -15,12 +15,14 @@
   "typescript.tsserver.web.projectWideIntellisense.enabled" = true;
   "typescript.tsserver.watchOptions" = {};
   "typescript.tsserver.useSyntaxServer" = "never";
+  "typescript.tsserver.pluginPaths" = [];
   "typescript.tsserver.nodePath" = "node";
   "typescript.tsserver.maxTsServerMemory" = 3072;
   "typescript.tsserver.log" = "off";
   "typescript.tsserver.experimental.enableProjectDiagnostics" = true;
   "typescript.tsserver.enableTracing" = true;
   "typescript.tsserver.enableRegionDiagnostics" = false;
+  "typescript.tsdk" = "node_modules/typescript/lib";
   "typescript.tsc.autoDetect" = "on";
   "typescript.surveys.enabled" = false;
   "typescript.suggestionActions.enabled" = true;
@@ -49,6 +51,7 @@
   "typescript.preferences.importModuleSpecifier" = "project-relative";
   "typescript.preferences.autoImportSpecifierExcludeRegexes" = [];
   "typescript.preferences.autoImportFileExcludePatterns" = [];
+  "typescript.npm" = "npm";
   "typescript.locale" = "en";
   "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName" = false;
   "typescript.inlayHints.variableTypes.enabled" = false;
