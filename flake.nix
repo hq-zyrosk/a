@@ -1,11 +1,11 @@
 {
   outputs = {
-    treefmt-nix,
     textual-pragmata-pro,
     pointer-dot-red,
-    nixpkgs,
     nix-vscode-extensions,
     home-manager,
+    treefmt,
+    nixpkgs,
     ...
   }: let
     system = "x86_64-linux";
@@ -54,7 +54,7 @@
     };
 
     formatter = {
-      ${system} = (treefmt-nix.lib.evalModule pkgs ./treefmt.nix).config.build.wrapper;
+      ${system} = (treefmt.lib.evalModule pkgs ./treefmt.nix).config.build.wrapper;
     };
 
     nix = {
@@ -101,7 +101,7 @@
       };
     };
 
-    treefmt-nix = {
+    treefmt = {
       url = "github:numtide/treefmt-nix";
       inputs = {
         nixpkgs = {

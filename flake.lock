@@ -100,7 +100,7 @@
         "nixpkgs": "nixpkgs",
         "pointer-dot-red": "pointer-dot-red",
         "textual-pragmata-pro": "textual-pragmata-pro",
-        "treefmt-nix": "treefmt-nix"
+        "treefmt": "treefmt"
       }
     },
     "systems": {
@@ -134,7 +134,7 @@
       },
       "parent": []
     },
-    "treefmt-nix": {
+    "treefmt": {
       "inputs": {
         "nixpkgs": [
           "nixpkgs"
