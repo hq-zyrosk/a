@@ -1,0 +1,7 @@
+{
+  programs = {
+    wayprompt = {
+      enable = true;
+    };
+  };
+}
