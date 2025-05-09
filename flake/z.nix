@@ -1,7 +1,7 @@
 {pkgs, ...}: {
   imports = [
+    ./z/utility/wayprompt.nix
     ./z/utility/waybar.nix
-    ./z/utility/zellij.nix
     ./z/utility/rofi.nix
     ./z/terminal/alacritty.nix
     ./z/storage/static.nix

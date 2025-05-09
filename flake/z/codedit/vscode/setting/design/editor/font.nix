@@ -6,7 +6,7 @@ let
   text-high = 22.0 / text-size;
   text-wrap = 96;
   text-tall = 0;
-  text-size = 14.0;
+  text-size = 16.0;
   text-wide = text-size / 2.0;
 in {
   "editor.rulers" = [

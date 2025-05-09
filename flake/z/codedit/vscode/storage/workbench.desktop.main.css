@@ -339,6 +339,6 @@
   --norm-line: 1px solid rgba(255, 255, 255, 0.25);
   --norm-type: 'PragmataPro Mono Liga', monospace;
   --norm-high: calc(22px / var(--norm-size));
-  --norm-size: 14px;
-  --norm-wide: 7px;
+  --norm-size: 16px;
+  --norm-wide: 8px;
 }
