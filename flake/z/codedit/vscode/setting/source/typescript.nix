@@ -22,7 +22,7 @@
   "typescript.tsserver.experimental.enableProjectDiagnostics" = true;
   "typescript.tsserver.enableTracing" = true;
   "typescript.tsserver.enableRegionDiagnostics" = false;
-  "typescript.tsdk" = "node_modules/typescript/lib";
+  "typescript.tsdk" = "./node_modules/typescript/lib";
   "typescript.tsc.autoDetect" = "on";
   "typescript.suggestionActions.enabled" = true;
   "typescript.suggest.paths" = true;
