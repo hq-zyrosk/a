@@ -1,5 +1,5 @@
 let
-  color-theme = "Default High Contrast";
+  color-theme = "Empty Dark";
   icons-theme = "Default";
 in {
   "workbench.preferredLightColorTheme" = color-theme;

@@ -81,7 +81,7 @@
   "typescript.format.insertSpaceAfterCommaDelimiter" = true;
   "typescript.format.indentSwitchCase" = false;
   "typescript.format.enable" = true;
-  "typescript.experimental.useTsgo" = true;
+  "typescript.experimental.useTsgo" = false;
   "typescript.experimental.expandableHover" = true;
   "typescript.enablePromptUseWorkspaceTsdk" = false;
   "typescript.disableAutomaticTypeAcquisition" = false;

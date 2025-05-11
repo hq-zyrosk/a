@@ -128,5 +128,5 @@ in {
   "editor.autoClosingComments" = "always";
   "editor.autoClosingBrackets" = "always";
   "editor.accessibilitySupport" = "off";
-  "editor.accessibilityPageSize" = 10;
+  "editor.accessibilityPageSize" = 16;
 }

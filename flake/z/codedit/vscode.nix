@@ -9,13 +9,16 @@
           keybindings = import ./vscode/keybind.nix;
           globalSnippets = {};
           extensions = with pkgs; [
+            vscode-marketplace.ms-vscode.vscode-typescript-next
             vscode-marketplace.tamasfe.even-better-toml
             vscode-marketplace.rust-lang.rust-analyzer
             vscode-marketplace.jnoortheen.nix-ide
             vscode-marketplace.redhat.vscode-yaml
             vscode-marketplace.redhat.vscode-xml
 
+            vscode-marketplace.likebot.vscode-empty-themes
             vscode-marketplace.nefrob.vscode-just-syntax
+
             vscode-marketplace.dbaeumer.vscode-eslint
             vscode-marketplace.fill-labs.dependi
             vscode-marketplace.tyriar.sort-lines
