@@ -42,7 +42,6 @@
   "xml.validation.namespaces.enabled" = "always";
   "xml.validation.enabled" = true;
   "xml.validation.disallowDocTypeDecl" = false;
-  "xml.codeLens.enabled" = false;
   "xml.trace.server" = "off";
   "xml.completion.autoCloseRemovesContent" = true;
   "xml.completion.autoCloseTags" = true;

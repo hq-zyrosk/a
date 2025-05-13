@@ -36,8 +36,6 @@
   "typescript.suggest.classMemberSnippets.enabled" = true;
   "typescript.suggest.autoImports" = true;
   "typescript.reportStyleChecksAsWarnings" = true;
-  "typescript.referencesCodeLens.showOnAllFunctions" = true;
-  "typescript.referencesCodeLens.enabled" = true;
   "typescript.preferGoToSourceDefinition" = true;
   "typescript.preferences.useAliasesForRenames" = false;
   "typescript.preferences.renameMatchingJsxTags" = true;
@@ -60,8 +58,6 @@
   "typescript.inlayHints.parameterNames.enabled" = "none";
   "typescript.inlayHints.functionLikeReturnTypes.enabled" = false;
   "typescript.inlayHints.enumMemberValues.enabled" = false;
-  "typescript.implementationsCodeLens.showOnInterfaceMethods" = true;
-  "typescript.implementationsCodeLens.enabled" = true;
   "typescript.format.semicolons" = "insert";
   "typescript.format.placeOpenBraceOnNewLineForFunctions" = false;
   "typescript.format.placeOpenBraceOnNewLineForControlBlocks" = false;

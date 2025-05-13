@@ -17,5 +17,4 @@
   "diffEditor.experimental.showMoves" = true;
   "diffEditor.experimental.showEmptyDecorations" = true;
   "diffEditor.diffAlgorithm" = "advanced";
-  "diffEditor.codeLens" = true;
 }

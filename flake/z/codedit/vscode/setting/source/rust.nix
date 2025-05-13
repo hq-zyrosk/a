@@ -174,16 +174,6 @@
   "rust-analyzer.numThreads" = "logical";
   "rust-analyzer.notifications.cargoTomlNotFound" = true;
   "rust-analyzer.lru.capacity" = 1024;
-  "rust-analyzer.lens.updateTest.enable" = true;
-  "rust-analyzer.lens.run.enable" = true;
-  "rust-analyzer.lens.references.trait.enable" = true;
-  "rust-analyzer.lens.references.method.enable" = true;
-  "rust-analyzer.lens.references.enumVariant.enable" = true;
-  "rust-analyzer.lens.references.adt.enable" = true;
-  "rust-analyzer.lens.location" = "above_whole_item";
-  "rust-analyzer.lens.implementations.enable" = true;
-  "rust-analyzer.lens.enable" = true;
-  "rust-analyzer.lens.debug.enable" = true;
   "rust-analyzer.joinLines.unwrapTrivialBlock" = true;
   "rust-analyzer.joinLines.removeTrailingComma" = true;
   "rust-analyzer.joinLines.joinElseIf" = true;

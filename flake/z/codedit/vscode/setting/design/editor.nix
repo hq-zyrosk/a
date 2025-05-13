@@ -121,6 +121,9 @@ in {
   "editor.colorDecoratorsLimit" = 1024;
   "editor.colorDecoratorsActivatedOn" = "clickAndHover";
   "editor.colorDecorators" = true;
+  "editor.codeActionWidget.showHeaders" = true;
+  "editor.codeActionWidget.includeNearbyQuickFixes" = true;
+  "editor.codeActions.triggerOnFocusChange" = true;
   "editor.autoSurround" = "languageDefined";
   "editor.autoClosingQuotes" = "always";
   "editor.autoClosingOvertype" = "always";
