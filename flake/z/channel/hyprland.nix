@@ -105,7 +105,7 @@
           dwindle = {
             use_active_for_splits = false;
             split_width_multiplier = 0.5;
-            special_scale_factor = 0.8;
+            special_scale_factor = 0.750;
             smart_split = false;
             smart_resizing = true;
             pseudotile = true;
