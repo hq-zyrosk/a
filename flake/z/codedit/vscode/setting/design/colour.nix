@@ -4,6 +4,7 @@ let
   shadow = import ./colour/shadow.nix;
   rgb = import ./colour/rgb.nix;
   redundant = import ./colour/redundant.nix;
+  indent = import ./colour/indent.nix;
   highlight = import ./colour/highlight.nix;
   hidden = import ./colour/hidden.nix;
   foreground = import ./colour/foreground.nix;
@@ -16,6 +17,7 @@ in {
     // shadow
     // rgb
     // redundant
+    // indent
     // highlight
     // hidden
     // foreground
