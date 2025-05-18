@@ -1,14 +1,14 @@
 {
+  "evenBetterToml.taplo.extraArgs" = [];
+  "evenBetterToml.taplo.environment" = {};
   "evenBetterToml.schema.catalogs" = [
     "https://www.schemastore.org/api/json/catalog.json"
   ];
+  "evenBetterToml.schema.associations" = {};
+  "evenBetterToml.rules" = [];
   "[toml]" = {
     "editor.defaultFormatter" = "tamasfe.even-better-toml";
   };
-  "evenBetterToml.taplo.extraArgs" = [];
-  "evenBetterToml.taplo.environment" = {};
-  "evenBetterToml.schema.associations" = {};
-  "evenBetterToml.rules" = [];
   "evenBetterToml.taplo.path" = null;
   "evenBetterToml.taplo.configFile.path" = null;
   "evenBetterToml.taplo.configFile.enabled" = true;
