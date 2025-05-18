@@ -14,6 +14,7 @@
   "js/ts.implicitProjectConfig.module" = "ESNext";
   "js/ts.implicitProjectConfig.experimentalDecorators" = false;
   "js/ts.implicitProjectConfig.checkJs" = true;
+  "js/ts.hover.maximumLength" = 4096;
   "javascript.validate.enable" = false;
   "javascript.updateImportsOnPaste.enabled" = false;
   "javascript.updateImportsOnFileMove.enabled" = "always";

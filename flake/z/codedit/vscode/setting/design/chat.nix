@@ -11,6 +11,7 @@
   };
   "chat.useFileStorage" = true;
   "chat.tools.autoApprove" = true;
+  "chat.setup.signInWithAlternateProvider" = true;
   "chat.sendElementsToChat.enabled" = true;
   "chat.sendElementsToChat.attachImages" = true;
   "chat.sendElementsToChat.attachCSS" = true;

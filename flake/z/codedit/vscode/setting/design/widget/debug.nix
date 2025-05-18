@@ -37,6 +37,7 @@
   "debug.enableStatusBarColor" = true;
   "debug.disassemblyView.showSourceCode" = true;
   "debug.console.wordWrap" = true;
+  "debug.console.maximumLines" = 65536;
   "debug.console.historySuggestions" = true;
   "debug.console.collapseIdenticalLines" = true;
   "debug.console.closeOnEnd" = false;

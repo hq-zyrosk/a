@@ -1,6 +1,7 @@
 let
   terminal = "alacritty";
 in {
+  "terminal.integrated.suggest.windowsExecutableExtensions" = {};
   "terminal.integrated.suggest.quickSuggestions" = {
     "arguments" = "on";
     "commands" = "on";
@@ -17,24 +18,32 @@ in {
   };
   "terminal.integrated.profiles.osx" = {
     "" = {
-      "path" = "fish";
       "args" = [];
-      "color" = "terminal.ansiWhite";
       "env" = {};
+      "path" = "fish";
+      "color" = "terminal.ansiWhite";
       "icon" = "array";
       "overrideName" = true;
     };
   };
   "terminal.integrated.profiles.linux" = {
     "" = {
-      "path" = "fish";
       "args" = [];
-      "color" = "terminal.ansiWhite";
       "env" = {};
+      "path" = "fish";
+      "color" = "terminal.ansiWhite";
       "icon" = "array";
       "overrideName" = true;
     };
   };
+  "terminal.integrated.localEchoExcludePrograms" = ["nano"];
+  "terminal.integrated.ignoreProcessNames" = [];
+  "terminal.integrated.fontLigatures.fallbackLigatures" = [];
+  "terminal.integrated.env.windows" = {};
+  "terminal.integrated.env.osx" = {};
+  "terminal.integrated.env.linux" = {};
+  "terminal.integrated.commandsToSkipShell" = [];
+  "terminal.integrated.autoReplies" = {};
   "terminal.integrated.allowedLinkSchemes" = [
     "vscode-insiders"
     "vscode"
@@ -48,6 +57,7 @@ in {
   "terminal.integrated.windowsEnableConpty" = true;
   "terminal.integrated.useWslProfiles" = true;
   "terminal.integrated.unicodeVersion" = "11";
+  "terminal.integrated.tabStopWidth" = 2;
   "terminal.integrated.tabs.title" = "\${process}";
   "terminal.integrated.tabs.showActiveTerminal" = "never";
   "terminal.integrated.tabs.showActions" = "never";
@@ -60,8 +70,6 @@ in {
   "terminal.integrated.tabs.description" = "\${task}";
   "terminal.integrated.tabs.defaultIcon" = "array";
   "terminal.integrated.tabs.defaultColor" = "terminal.ansiWhite";
-  "terminal.integrated.tabStopWidth" = 2;
-  "terminal.integrated.suggest.windowsExecutableExtensions" = {};
   "terminal.integrated.suggest.upArrowNavigatesHistory" = true;
   "terminal.integrated.suggest.suggestOnTriggerCharacters" = true;
   "terminal.integrated.suggest.showStatusBar" = true;
@@ -91,25 +99,20 @@ in {
   "terminal.integrated.macOptionClickForcesSelection" = false;
   "terminal.integrated.localEchoStyle" = "bold";
   "terminal.integrated.localEchoLatencyThreshold" = 0;
-  "terminal.integrated.localEchoExcludePrograms" = ["nano"];
   "terminal.integrated.localEchoEnabled" = "off";
+  "terminal.integrated.killGracefully" = true;
   "terminal.integrated.initialHint" = true;
   "terminal.integrated.inheritEnv" = true;
-  "terminal.integrated.ignoreProcessNames" = [];
   "terminal.integrated.ignoreBracketedPasteMode" = false;
   "terminal.integrated.hideOnStartup" = "never";
   "terminal.integrated.hideOnLastClosed" = true;
   "terminal.integrated.gpuAcceleration" = "off";
   "terminal.integrated.fontLigatures.featureSettings" = "";
-  "terminal.integrated.fontLigatures.fallbackLigatures" = [];
   "terminal.integrated.fontLigatures.enabled" = false;
   "terminal.integrated.focusAfterRun" = "terminal";
   "terminal.integrated.fastScrollSensitivity" = 5;
   "terminal.integrated.environmentChangesRelaunch" = true;
   "terminal.integrated.environmentChangesIndicator" = "on";
-  "terminal.integrated.env.windows" = {};
-  "terminal.integrated.env.osx" = {};
-  "terminal.integrated.env.linux" = {};
   "terminal.integrated.enableVisualBell" = false;
   "terminal.integrated.enablePersistentSessions" = true;
   "terminal.integrated.enableMultiLinePasteWarning" = "never";
@@ -126,12 +129,10 @@ in {
   "terminal.integrated.copyOnSelection" = true;
   "terminal.integrated.confirmOnKill" = "always";
   "terminal.integrated.confirmOnExit" = "never";
-  "terminal.integrated.commandsToSkipShell" = [];
   "terminal.integrated.bellDuration" = 1000;
   "terminal.integrated.automationProfile.windows" = null;
   "terminal.integrated.automationProfile.osx" = null;
   "terminal.integrated.automationProfile.linux" = null;
-  "terminal.integrated.autoReplies" = {};
   "terminal.integrated.altClickMovesCursor" = true;
   "terminal.integrated.allowMnemonics" = true;
   "terminal.integrated.allowChords" = true;
