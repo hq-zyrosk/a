@@ -20,13 +20,13 @@
           "#CFCFFF"
           "#FFBEFF"
           "#00EBEB"
-          "#B3B3B3"
+          "#B8B8B8"
         ];
         split = "#404040";
         selection_fg = "#000000";
         selection_bg = "#FFFFFF";
         scrollbar_thumb = "#222222";
-        foreground = "#B3B3B3";
+        foreground = "#B8B8B8";
         cursor_fg = "#FFFFFF";
         cursor_border = "#FFFFFF";
         cursor_bg = "#FF0000";

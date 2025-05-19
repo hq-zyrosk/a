@@ -49,22 +49,22 @@ in {
     "rules" = {
       #
       "formatSpecifier" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       "escapeSequence" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       "builtinAttribute" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       "decorator" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       "macro" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       "function" = {
-        "foreground" = "#B3B3B3FF";
+        "foreground" = "#B8B8B8FF";
       };
       #
       "unresolvedReference" = {

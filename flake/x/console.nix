@@ -82,7 +82,7 @@ in {
       "CFCFFF"
       "FFBEFF"
       "00EBEB"
-      "B3B3B3"
+      "B8B8B8"
 
       "5A5A5A"
       "FFC5C5"

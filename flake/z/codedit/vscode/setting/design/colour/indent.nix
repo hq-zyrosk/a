@@ -1,6 +1,7 @@
 let
-  c5 = "#B3B3B3FF";
-  c1 = "#7C7C7CFF";
+  c9 = "#DFDFDFFF";
+  c5 = "#B8B8B8FF";
+  c1 = "#808080FF";
   c0 = "#00000000";
 in {
   "tree.indentGuidesStroke" = c5;
