@@ -50,7 +50,6 @@ in {
 
   "welcomePage.progress.foreground" = c5;
   "walkthrough.stepTitle.foreground" = c5;
-  "tree.indentGuidesStroke" = c5;
   "titleBar.inactiveForeground" = c5;
   "textPreformat.foreground" = c5;
   "testing.runAction" = c5;

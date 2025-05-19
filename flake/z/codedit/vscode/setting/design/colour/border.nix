@@ -1,7 +1,7 @@
 let
-  c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
-  c5 = _.rgba 0.50000 0.50000 0.50000 1.00000;
-  c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
+  c9 = _.rgba 0.50000 0.50000 0.50000 1.00000;
+  c5 = _.rgba 0.25000 0.25000 0.25000 1.00000;
+  c1 = _.rgba 0.00000 0.00000 0.00000 0.00000;
   _ = import ./_.nix;
 in {
   "window.activeBorder" = c9;
@@ -33,7 +33,6 @@ in {
   "widget.border" = c5;
   "welcomePage.tileBorder" = c5;
   "tree.tableColumnsBorder" = c5;
-  "tree.inactiveIndentGuidesStroke" = c5;
   "titleBar.border" = c5;
   "textBlockQuote.border" = c5;
   "testing.uncoveredBorder" = c5;
