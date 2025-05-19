@@ -1,5 +1,4 @@
 {
-  "rust-analyzer.workspace.discoverConfig" = {};
   "rust-analyzer.vfs.extraIncludes" = [];
   "rust-analyzer.statusBar.showStatusBar" = {
     "documentSelector" = [
@@ -49,11 +48,11 @@
   "rust-analyzer.diagnostics.warningsAsInfo" = [];
   "rust-analyzer.diagnostics.warningsAsHint" = [];
   "rust-analyzer.diagnostics.remapPrefix" = {
-    "error" = "error";
-    "file" = "file";
-    "message" = "message";
-    "note" = "note";
     "warning" = "warning";
+    "note" = "note";
+    "message" = "message";
+    "file" = "file";
+    "error" = "error";
   };
   "rust-analyzer.diagnostics.disabled" = [];
   "rust-analyzer.debug.engineSettings" = {};
@@ -101,11 +100,11 @@
   "rust-analyzer.completion.excludeTraits" = [];
   "rust-analyzer.completion.autoimport.exclude" = [
     {
-      "path" = "core::borrow::Borrow";
+      "path" = "core::borrow::BorrowMut";
       "type" = "methods";
     }
     {
-      "path" = "core::borrow::BorrowMut";
+      "path" = "core::borrow::Borrow";
       "type" = "methods";
     }
   ];
@@ -116,13 +115,13 @@
     "--message-format=json-diagnostic-rendered-ansi"
     "--"
     "-W"
-    "clippy::all"
-    "-W"
     "clippy::pedantic"
     "-W"
     "clippy::nursery"
     "-W"
     "clippy::cargo"
+    "-W"
+    "clippy::all"
   ];
   "rust-analyzer.check.ignore" = [];
   "rust-analyzer.check.features" = [];
@@ -141,6 +140,7 @@
   "rust-analyzer.workspace.symbol.search.scope" = "workspace_and_dependencies";
   "rust-analyzer.workspace.symbol.search.limit" = 256;
   "rust-analyzer.workspace.symbol.search.kind" = "all_symbols";
+  "rust-analyzer.workspace.discoverConfig" = null;
   "rust-analyzer.typing.triggerChars" = "=.";
   "rust-analyzer.typing.continueCommentsOnNewline" = true;
   "rust-analyzer.trace.server" = "off";
