@@ -1,8 +1,7 @@
 let
-  c9 = _.rgba 0.50000 0.50000 0.50000 1.00000;
-  c5 = _.rgba 0.25000 0.25000 0.25000 1.00000;
-  c1 = _.rgba 0.00000 0.00000 0.00000 0.00000;
-  _ = import ./_.nix;
+  c9 = "#B3B3B3FF";
+  c5 = "#7C7C7CFF";
+  c1 = "#00000000";
 in {
   "window.activeBorder" = c9;
   "toolbar.hoverOutline" = c9;

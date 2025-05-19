@@ -1,8 +1,7 @@
 let
-  c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
-  c5 = _.rgba 0.50000 0.50000 0.50000 1.00000;
-  c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
-  _ = import ./_.nix;
+  c9 = "#B3B3B3FF";
+  c5 = "#7C7C7CFF";
+  c1 = "#00000000";
 in {
   "tree.indentGuidesStroke" = c9;
   "editorIndentGuide.activeBackground6" = c9;
@@ -31,10 +30,11 @@ in {
   "editorBracketPairGuide.background3" = c5;
   "editorBracketPairGuide.background2" = c5;
   "editorBracketPairGuide.background1" = c5;
-  "editorBracketHighlight.foreground6" = c5;
-  "editorBracketHighlight.foreground5" = c5;
-  "editorBracketHighlight.foreground4" = c5;
-  "editorBracketHighlight.foreground3" = c5;
-  "editorBracketHighlight.foreground2" = c5;
-  "editorBracketHighlight.foreground1" = c5;
+
+  "editorBracketHighlight.foreground6" = c1;
+  "editorBracketHighlight.foreground5" = c1;
+  "editorBracketHighlight.foreground4" = c1;
+  "editorBracketHighlight.foreground3" = c1;
+  "editorBracketHighlight.foreground2" = c1;
+  "editorBracketHighlight.foreground1" = c1;
 }
