@@ -79,7 +79,7 @@
             no_border_on_floating = false;
             layout = "master";
             gaps_out = 0.0;
-            gaps_in = 0.0;
+            gaps_in = 0.5;
             "col.inactive_border" = "rgba(808080FF)";
             "col.active_border" = "rgba(808080FF)";
             border_size = 0;
