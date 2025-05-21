@@ -2,7 +2,6 @@ let
   c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
   c5 = _.rgba 0.50000 0.50000 0.50000 1.00000;
   c1 = _.rgba 0.25000 0.25000 0.25000 1.00000;
-  a5 = _.rgba 0.50000 0.50000 0.50000 0.50000;
   _ = import ./_.nix;
 in {
   "titleBar.activeForeground" = c9;
@@ -226,6 +225,4 @@ in {
   "disabledForeground" = c1;
   "activityBarTop.inactiveForeground" = c1;
   "activityBar.inactiveForeground" = c1;
-
-  "minimap.foregroundOpacity" = a5;
 }
