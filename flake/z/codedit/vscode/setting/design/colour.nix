@@ -1,26 +1,36 @@
 let
+  word = import ./colour/word.nix;
+  variant_warning = import ./colour/variant/warning.nix;
+  variant_inform = import ./colour/variant/inform.nix;
+  variant_error = import ./colour/variant/error.nix;
   variant = import ./colour/variant.nix;
   unknown = import ./colour/unknown.nix;
   shadow = import ./colour/shadow.nix;
-  rgb = import ./colour/rgb.nix;
+  selection = import ./colour/selection.nix;
   redundant = import ./colour/redundant.nix;
   indent = import ./colour/indent.nix;
   highlight = import ./colour/highlight.nix;
   hidden = import ./colour/hidden.nix;
   foreground = import ./colour/foreground.nix;
+  cursor = import ./colour/cursor.nix;
   border = import ./colour/border.nix;
   background = import ./colour/background.nix;
 in {
   "workbench.colorCustomizations" =
-    variant
+    word
+    // variant_warning
+    // variant_inform
+    // variant_error
+    // variant
     // unknown
     // shadow
-    // rgb
+    // selection
     // redundant
     // indent
     // highlight
     // hidden
     // foreground
+    // cursor
     // border
     // background;
   "editor.tokenColorCustomizations" = {
