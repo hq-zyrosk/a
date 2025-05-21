@@ -5,6 +5,7 @@ let
   _ = import ./_.nix;
 in {
   "terminalOverviewRuler.findMatchForeground" = c9;
+  "terminal.hoverHighlightBackground" = c9;
   "list.highlightForeground" = c9;
   "editorSuggestWidget.highlightForeground" = c9;
   "editorOverviewRuler.wordHighlightTextForeground" = c9;
@@ -12,10 +13,10 @@ in {
   "editorOverviewRuler.rangeHighlightForeground" = c9;
   "editorOverviewRuler.findMatchForeground" = c9;
   "editorHoverWidget.highlightForeground" = c9;
+  "editor.hoverHighlightBackground" = c9;
   "editor.findMatchHighlightForeground" = c9;
   "editor.findMatchForeground" = c9;
 
-  "terminal.hoverHighlightBackground" = c5;
   "terminal.findMatchHighlightBackground" = c5;
   "terminal.findMatchBackground" = c5;
   "searchEditor.findMatchBackground" = c5;
@@ -35,7 +36,6 @@ in {
   "editor.snippetFinalTabstopHighlightBackground" = c5;
   "editor.rangeHighlightBackground" = c5;
   "editor.lineHighlightBackground" = c5;
-  "editor.hoverHighlightBackground" = c5;
   "editor.findRangeHighlightBackground" = c5;
   "editor.findMatchHighlightBackground" = c5;
   "editor.findMatchBackground" = c5;

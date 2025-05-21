@@ -2,15 +2,15 @@ let
   c9 = "#DFDFDFFF";
   c5 = "#B8B8B8FF";
   c1 = "#808080FF";
-  c0 = "#00000000";
 in {
+  "toolbar.hoverOutline" = c9;
+  "sash.hoverBorder" = c9;
+
   "window.activeBorder" = c5;
-  "toolbar.hoverOutline" = c5;
   "textSeparator.foreground" = c5;
   "terminal.tab.activeBorder" = c5;
   "simpleFindWidget.sashBorder" = c5;
   "settings.sashBorder" = c5;
-  "sash.hoverBorder" = c5;
   "radio.activeBorder" = c5;
   "profiles.sashBorder" = c5;
   "preferences.sashBorder" = c5;
@@ -128,6 +128,7 @@ in {
   "editorGroupHeader.tabsBorder" = c1;
   "editorGroup.dropIntoPromptBorder" = c1;
   "editorGroup.border" = c1;
+  "editorGhostText.border" = c1;
   "editorCommentsWidget.unresolvedBorder" = c1;
   "editorCommentsWidget.resolvedBorder" = c1;
   "editorCommentsWidget.rangeBorder" = c1;
@@ -148,6 +149,4 @@ in {
   "activityBarTop.dropBorder" = c1;
   "activityBar.dropBorder" = c1;
   "activityBar.border" = c1;
-
-  "editorGhostText.border" = c0;
 }
