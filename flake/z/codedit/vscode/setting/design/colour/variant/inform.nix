@@ -2,7 +2,7 @@ let
   c9 = _.rgba 0.00000 1.00000 0.00000 1.00000;
   c5 = _.rgba 0.00000 1.00000 0.00000 0.25000;
   c1 = _.rgba 1.00000 1.00000 0.00000 0.06250;
-  _ = import ./_.nix;
+  _ = import ./../_.nix;
 in {
   "testing.message.info.decorationForeground" = c9;
   "search.resultsInfoForeground" = c9;
