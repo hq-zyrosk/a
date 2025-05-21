@@ -1,43 +1,9 @@
 let
-  s9 = _.rgba 1.00000 1.00000 1.00000 0.50000;
-  s5 = _.rgba 1.00000 1.00000 1.00000 0.25000;
-  s1 = _.rgba 1.00000 1.00000 1.00000 0.12500;
-
-  e9 = _.rgba 1.00000 0.00000 1.00000 0.50000;
-  e5 = _.rgba 1.00000 0.00000 1.00000 0.25000;
-  e1 = _.rgba 1.00000 0.00000 1.00000 0.12500;
-
   c9 = _.rgba 1.00000 1.00000 0.00000 0.50000;
   c5 = _.rgba 1.00000 1.00000 0.00000 0.25000;
   c1 = _.rgba 1.00000 1.00000 0.00000 0.12500;
-
   _ = import ./_.nix;
 in {
-  "minimap.selectionOccurrenceHighlight" = s9;
-  "minimap.chatEditHighlight" = s9;
-  "menu.selectionForeground" = s9;
-  "editorOverviewRuler.selectionHighlightForeground" = s9;
-  "editor.selectionForeground" = s9;
-
-  "terminal.selectionBackground" = s5;
-  "terminal.inactiveSelectionBackground" = s5;
-  "selection.background" = s5;
-  "minimap.selectionHighlight" = s5;
-  "editor.selectionBackground" = s5;
-  "editor.inactiveSelectionBackground" = s5;
-  "editor.selectionHighlightBackground" = s5;
-
-  "editor.selectionHighlightBorder" = s1;
-
-  "list.focusHighlightForeground" = e9;
-  "editorSuggestWidget.focusHighlightForeground" = e9;
-  "editorOverviewRuler.wordHighlightStrongForeground" = e9;
-
-  "editor.wordHighlightStrongBackground" = e5;
-  "editor.focusedStackFrameHighlightBackground" = e5;
-
-  "editor.wordHighlightStrongBorder" = e1;
-
   "terminalOverviewRuler.findMatchForeground" = c9;
   "list.highlightForeground" = c9;
   "editorSuggestWidget.highlightForeground" = c9;
