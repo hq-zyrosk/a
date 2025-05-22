@@ -9,83 +9,83 @@ in {
     "sound" = "on";
   };
   "accessibility.signals.terminalQuickFix" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.terminalCommandSucceeded" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.terminalCommandFailed" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.terminalBell" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.taskFailed" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.taskCompleted" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.save" = {
-    "announcement" = "never";
     "sound" = "never";
+    "announcement" = "never";
   };
   "accessibility.signals.progress" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.positionHasWarning" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.positionHasError" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.nextEditSuggestion" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.onDebugBreak" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.notebookCellFailed" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.notebookCellCompleted" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.noInlayHints" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.lineHasWarning" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.lineHasInlineSuggestion" = {
     "sound" = sound;
   };
   "accessibility.signals.lineHasFoldedArea" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.lineHasError" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.lineHasBreakpoint" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.format" = {
     "announcement" = "never";
@@ -115,19 +115,19 @@ in {
     "sound" = sound;
   };
   "accessibility.signals.clear" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.chatUserActionRequired" = {
-    "sound" = "off";
-    "announcement" = "off";
+    "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.chatResponseReceived" = {
     "sound" = sound;
   };
   "accessibility.signals.chatRequestSent" = {
-    "announcement" = announcement;
     "sound" = sound;
+    "announcement" = announcement;
   };
   "accessibility.signals.chatEditModifiedFile" = {
     "sound" = sound;
