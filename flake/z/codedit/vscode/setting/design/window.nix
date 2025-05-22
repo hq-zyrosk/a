@@ -11,6 +11,7 @@
   "window.openFilesInNewWindow" = "off";
   "window.newWindowProfile" = "Default";
   "window.newWindowDimensions" = "default";
+  "window.menuStyle" = "native";
   "window.menuBarVisibility" = "toggle";
   "window.enableMenuBarMnemonics" = true;
   "window.doubleClickIconToClose" = false;
