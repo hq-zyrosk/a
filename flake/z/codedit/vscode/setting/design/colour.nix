@@ -5,6 +5,7 @@ let
   variant_error = import ./colour/variant/error.nix;
   variant = import ./colour/variant.nix;
   unknown = import ./colour/unknown.nix;
+  slider = import ./colour/slider.nix;
   shadow = import ./colour/shadow.nix;
   selection = import ./colour/selection.nix;
   redundant = import ./colour/redundant.nix;
@@ -23,6 +24,7 @@ in {
     // variant_error
     // variant
     // unknown
+    // slider
     // shadow
     // selection
     // redundant
