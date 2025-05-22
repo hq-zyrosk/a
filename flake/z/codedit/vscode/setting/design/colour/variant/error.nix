@@ -1,7 +1,7 @@
 let
   c9 = _.rgba 1.00000 0.00000 0.00000 1.00000;
   c5 = _.rgba 1.00000 0.00000 0.00000 0.25000;
-  c1 = _.rgba 1.00000 1.00000 0.00000 0.06250;
+  c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
   _ = import ./../_.nix;
 in {
   "testing.message.error.decorationForeground" = c9;
@@ -27,6 +27,7 @@ in {
   "debugTokenExpression.error" = c9;
   "debugConsole.errorForeground" = c9;
   "activityErrorBadge.foreground" = c9;
+  "editorError.foreground" = c9;
 
   "testing.message.error.lineBackground" = c5;
   "testing.message.error.badgeBorder" = c5;
@@ -47,6 +48,5 @@ in {
   "editorError.border" = c5;
   "activityErrorBadge.background" = c5;
 
-  "editorError.foreground" = c1;
   "editorError.background" = c1;
 }
