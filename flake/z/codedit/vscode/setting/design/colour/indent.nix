@@ -1,7 +1,7 @@
 let
-  c9 = "#DFDFDFFF";
-  c5 = "#B8B8B8FF";
-  c1 = "#808080FF";
+  c9 = "#B8B8B8FF";
+  c5 = "#808080FF";
+  c1 = "#515151FF";
 in {
   "editorIndentGuide.activeBackground6" = c9;
   "editorIndentGuide.activeBackground5" = c9;
