@@ -30,7 +30,6 @@ in {
   "chart.guide" = c9;
   "chart.axis" = c9;
 
-  "welcomePage.tileHoverBackground" = c5;
   "welcomePage.tileBackground" = c5;
   "welcomePage.progress.background" = c5;
   "welcomePage.background" = c5;
@@ -52,15 +51,11 @@ in {
   "terminalSymbolIcon.argumentForeground" = c5;
   "terminalCommandDecoration.successBackground" = c5;
   "terminalCommandDecoration.defaultBackground" = c5;
-  "statusBarItem.remoteHoverBackground" = c5;
-  "statusBarItem.offlineHoverBackground" = c5;
   "statusBarItem.offlineBackground" = c5;
-  "settings.rowHoverBackground" = c5;
   "settings.numberInputBackground" = c5;
   "settings.focusedRowBackground" = c5;
   "settings.dropdownBackground" = c5;
   "settings.checkboxBackground" = c5;
-  "scmGraph.historyItemHoverDefaultLabelBackground" = c5;
   "notebook.selectedCellBackground" = c5;
   "notebook.outputContainerBackgroundColor" = c5;
   "notebook.focusedCellBackground" = c5;

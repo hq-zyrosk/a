@@ -4,13 +4,18 @@ let
   c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
   _ = import ./_.nix;
 in {
+  "welcomePage.tileHoverBackground" = c9;
   "toolbar.hoverBackground" = c9;
   "terminalStickyScrollHover.background" = c9;
   "tab.unfocusedHoverBackground" = c9;
   "tab.hoverBackground" = c9;
+  "statusBarItem.remoteHoverBackground" = c9;
   "statusBarItem.prominentHoverBackground" = c9;
+  "statusBarItem.offlineHoverBackground" = c9;
   "statusBarItem.hoverBackground" = c9;
   "statusBarItem.compactHoverBackground" = c9;
+  "settings.rowHoverBackground" = c9;
+  "scmGraph.historyItemHoverDefaultLabelBackground" = c9;
   "notebook.cellStatusBarItemHoverBackground" = c9;
   "notebook.cellHoverBackground" = c9;
   "inputOption.hoverBackground" = c9;
