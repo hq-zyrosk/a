@@ -18,6 +18,7 @@ in {
   "scmGraph.historyItemHoverDefaultLabelBackground" = c9;
   "notebook.cellStatusBarItemHoverBackground" = c9;
   "notebook.cellHoverBackground" = c9;
+  "list.hoverBackground" = c9;
   "inputOption.hoverBackground" = c9;
   "extensionButton.prominentHoverBackground" = c9;
   "extensionButton.hoverBackground" = c9;

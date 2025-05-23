@@ -4,6 +4,8 @@ let
   c1 = "#515151FF";
 in {
   "toolbar.hoverOutline" = c9;
+  "tab.unfocusedHoverBorder" = c9;
+  "tab.hoverBorder" = c9;
   "sash.hoverBorder" = c9;
 
   "window.activeBorder" = c5;
