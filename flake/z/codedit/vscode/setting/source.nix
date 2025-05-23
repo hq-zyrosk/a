@@ -9,7 +9,7 @@ let
   php = import ./source/php.nix;
   nix = import ./source/nix.nix;
   md = import ./source/md.nix;
-  just = import ./system/app/just.nix;
+  just = import ./source/just.nix;
   json = import ./source/json.nix;
   javascript = import ./source/javascript.nix;
   ipynb = import ./source/ipynb.nix;
