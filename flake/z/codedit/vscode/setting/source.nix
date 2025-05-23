@@ -9,6 +9,7 @@ let
   php = import ./source/php.nix;
   nix = import ./source/nix.nix;
   md = import ./source/md.nix;
+  just = import ./system/app/just.nix;
   json = import ./source/json.nix;
   javascript = import ./source/javascript.nix;
   ipynb = import ./source/ipynb.nix;
@@ -27,6 +28,7 @@ in
   // php
   // nix
   // md
+  // just
   // json
   // javascript
   // ipynb
