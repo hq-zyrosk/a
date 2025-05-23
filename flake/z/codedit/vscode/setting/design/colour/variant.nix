@@ -37,6 +37,7 @@ in {
 
   "notebook.cellInsertionIndicator" = green;
   "minimapGutter.addedBackground" = green;
+  "minimap.chatEditHighlight" = green;
   "inlineChatDiff.inserted" = green;
   "gitDecoration.addedResourceForeground" = green;
   "editorOverviewRuler.inlineChatInserted" = green;
