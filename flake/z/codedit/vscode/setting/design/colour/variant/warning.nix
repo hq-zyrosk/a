@@ -11,6 +11,7 @@ in {
   "list.warningForeground" = c9;
   "inputValidation.warningForeground" = c9;
   "gauge.warningForeground" = c9;
+  "editorWarning.foreground" = c9;
   "editorOverviewRuler.warningForeground" = c9;
   "debugConsole.warningForeground" = c9;
   "activityWarningBadge.foreground" = c9;
@@ -26,6 +27,5 @@ in {
   "editorMarkerNavigationWarning.background" = c5;
   "activityWarningBadge.background" = c5;
 
-  "editorWarning.foreground" = c1;
   "editorWarning.background" = c1;
 }

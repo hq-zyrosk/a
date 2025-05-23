@@ -14,6 +14,7 @@ in {
   "editorLightBulbAutoFix.foreground" = c9;
   "editorLightBulbAi.foreground" = c9;
   "editorLightBulb.foreground" = c9;
+  "editorInfo.foreground" = c9;
   "editorHint.foreground" = c9;
   "debugConsole.infoForeground" = c9;
 
@@ -24,6 +25,5 @@ in {
   "editorMarkerNavigationInfo.background" = c5;
   "editorInfo.border" = c5;
 
-  "editorInfo.foreground" = c1;
   "editorInfo.background" = c1;
 }
