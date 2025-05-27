@@ -91,9 +91,9 @@
     command = "workbench.files.action.showActiveFileInExplorer";
   }
   {
-    "when" = "viewContainer.workbench.view.explorer.enabled";
-    "key" = "ctrl+shift+e";
-    "command" = "-workbench.view.explorer";
+    when = "viewContainer.workbench.view.explorer.enabled";
+    key = "ctrl+shift+e";
+    command = "-workbench.view.explorer";
   }
 
   {
