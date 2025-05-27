@@ -74,7 +74,9 @@
 
       brightnessctl
       pavucontrol
+
       obsidian
+      ngrok
 
       rustup
       gcc
