@@ -10,21 +10,17 @@
           globalSnippets = {};
           extensions = with pkgs; [
             vscode-marketplace.ms-vscode.vscode-typescript-next
-            vscode-marketplace.tamasfe.even-better-toml
-            vscode-marketplace.rust-lang.rust-analyzer
-            vscode-marketplace.jnoortheen.nix-ide
-            vscode-marketplace.redhat.vscode-yaml
-            vscode-marketplace.redhat.vscode-xml
-
             vscode-marketplace.likebot.vscode-empty-themes
             vscode-marketplace.nefrob.vscode-just-syntax
-
+            vscode-marketplace.tamasfe.even-better-toml
+            vscode-marketplace.rust-lang.rust-analyzer
             vscode-marketplace.dbaeumer.vscode-eslint
-            vscode-marketplace.fill-labs.dependi
+            vscode-marketplace.redhat.vscode-yaml
+            vscode-marketplace.jnoortheen.nix-ide
             vscode-marketplace.tyriar.sort-lines
-
-            vscode-extensions.github.copilot-chat
-            vscode-extensions.github.copilot
+            vscode-marketplace.redhat.vscode-xml
+            vscode-marketplace.fill-labs.dependi
+            vscode-marketplace.continue.continue
           ];
           enableExtensionUpdateCheck = true;
           enableUpdateCheck = true;
