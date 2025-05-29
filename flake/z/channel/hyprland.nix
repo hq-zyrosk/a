@@ -92,9 +92,7 @@
           };
           exec-once = [
             "[workspace 1 silent] code-insiders --enable-proposed-api --no-sandbox --ozone-platform=wayland"
-            "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 google-chrome-stable"
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
-            "[workspace special:command silent] alacritty --command btop"
             "[workspace special:command silent] alacritty"
 
             "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
@@ -111,7 +109,7 @@
           dwindle = {
             use_active_for_splits = false;
             split_width_multiplier = 0.5;
-            special_scale_factor = 0.8;
+            special_scale_factor = 0.64;
             smart_split = false;
             smart_resizing = true;
             pseudotile = true;
