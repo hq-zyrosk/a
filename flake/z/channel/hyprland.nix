@@ -52,8 +52,9 @@
             smart_resizing = true;
             slave_count_for_center_master = 2;
             orientation = "right";
+            new_on_active = "after";
             new_on_top = false;
-            mfact = 0.8;
+            mfact = 0.64;
             inherit_fullscreen = true;
             drop_at_cursor = true;
             always_keep_position = true;
@@ -108,8 +109,8 @@
           ];
           dwindle = {
             use_active_for_splits = false;
-            split_width_multiplier = 0.5;
-            special_scale_factor = 0.64;
+            split_width_multiplier = 0.64;
+            special_scale_factor = 1;
             smart_split = false;
             smart_resizing = true;
             pseudotile = true;

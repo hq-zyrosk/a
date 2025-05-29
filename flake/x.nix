@@ -42,8 +42,8 @@
           "audio"
         ];
         useDefaultShell = true;
-        isSystemUser = true;
-        isNormalUser = false;
+        isSystemUser = false;
+        isNormalUser = true;
         ignoreShellProgramCheck = false;
         homeMode = "0755";
         home = "/home/x";

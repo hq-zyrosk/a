@@ -19,16 +19,19 @@
       vscode-marketplace.redhat.vscode-xml
       vscode-marketplace.fill-labs.dependi
     ];
-    enableExtensionUpdateCheck = true;
-    enableUpdateCheck = true;
   };
 in {
   programs = {
     vscode = {
       profiles = {
-        profile-rs = profile;
-        profile-a = profile;
-        default = profile;
+        rs = profile;
+        a = profile;
+        default =
+          {
+            enableExtensionUpdateCheck = true;
+            enableUpdateCheck = true;
+          }
+          // profile;
       };
       package = (pkgs.vscode.override {isInsiders = true;}).overrideAttrs (o2: {
         src = (
@@ -38,7 +41,7 @@ in {
         );
         meta = {
           name = "vscode-insiders";
-          mainProgram = "code";
+          mainProgram = "code-insiders";
           description = "Visual Studio Code Insiders edition";
         };
         buildInputs = o2.buildInputs ++ [pkgs.krb5];
@@ -51,7 +54,7 @@ in {
           cp ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
         '';
       });
-      mutableExtensionsDir = true;
+      mutableExtensionsDir = false;
       enable = true;
     };
   };
