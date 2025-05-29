@@ -48,10 +48,15 @@
             allow_session_lock_restore = true;
           };
           master = {
-            special_scale_factor = 0.8;
+            special_scale_factor = 1;
+            smart_resizing = true;
+            slave_count_for_center_master = 2;
             orientation = "right";
             new_on_top = false;
-            mfact = 0.6875;
+            mfact = 0.8;
+            inherit_fullscreen = true;
+            drop_at_cursor = true;
+            always_keep_position = true;
             allow_small_split = false;
           };
           input = {
@@ -105,7 +110,7 @@
           dwindle = {
             use_active_for_splits = false;
             split_width_multiplier = 0.5;
-            special_scale_factor = 0.750;
+            special_scale_factor = 0.8;
             smart_split = false;
             smart_resizing = true;
             pseudotile = true;
