@@ -1,5 +1,117 @@
 [
   {
+    when = "editorHoverFocused == true";
+    key = "ctrl+shift+space";
+    command = "workbench.action.focusActiveEditorGroup";
+  }
+  {
+    when = "editorHoverFocused == false";
+    key = "ctrl+shift+space";
+    command = "editor.action.showHover";
+  }
+  {
+    when = "editorHasSignatureHelpProvider && editorTextFocus";
+    key = "ctrl+shift+space";
+    command = "-editor.action.triggerParameterHints";
+  }
+
+  {
+    when = "focusedView == 'workbench.scm'";
+    key = "ctrl+shift+s";
+    command = "workbench.action.focusActiveEditorGroup";
+  }
+  {
+    when = "focusedView != 'workbench.scm'";
+    key = "ctrl+shift+s";
+    command = "workbench.scm.focus";
+  }
+  {
+    key = "ctrl+shift+s";
+    command = "-workbench.action.files.saveAs";
+  }
+
+  {
+    when = "focusedView == 'workbench.view.search'";
+    key = "ctrl+shift+f";
+    command = "workbench.action.focusActiveEditorGroup";
+  }
+  {
+    when = "focusedView != 'workbench.view.search'";
+    key = "ctrl+shift+f";
+    command = "workbench.action.findInFiles";
+  }
+  {
+    key = "ctrl+shift+f";
+    command = "-workbench.action.findInFiles";
+  }
+
+  {
+    when = "focusedView == 'workbench.explorer.fileView'";
+    key = "ctrl+shift+e";
+    command = "workbench.action.focusActiveEditorGroup";
+  }
+  {
+    when = "focusedView != 'workbench.explorer.fileView'";
+    key = "ctrl+shift+e";
+    command = "workbench.files.action.showActiveFileInExplorer";
+  }
+  {
+    when = "viewContainer.workbench.view.explorer.enabled";
+    key = "ctrl+shift+e";
+    command = "-workbench.view.explorer";
+  }
+
+  {
+    when = "";
+    key = "ctrl+shift+a";
+    command = "tabnine.chat.focus";
+  }
+  {
+    when = "editorTextFocus && !editorReadonly";
+    key = "ctrl+shift+a";
+    command = "-editor.action.blockComment";
+  }
+
+  {
+    when = "editorTextFocus && !editorReadonly";
+    key = "ctrl+shift+/";
+    command = "editor.action.blockComment";
+  }
+  {
+    when = "editorTextFocus && !editorReadonly";
+    key = "ctrl+/";
+    command = "editor.action.commentLine";
+  }
+
+  {
+    key = "ctrl+enter";
+    command = "workbench.action.showCommands";
+  }
+  {
+    key = "ctrl+tab";
+    command = "workbench.action.toggleSidebarVisibility";
+  }
+  {
+    key = "ctrl+b";
+    command = "-workbench.action.toggleSidebarVisibility";
+  }
+
+  {
+    when = "inQuickOpen == true";
+    key = "ctrl+t";
+    command = "workbench.action.focusActiveEditorGroup";
+  }
+  {
+    when = "inQuickOpen == false";
+    key = "ctrl+t";
+    command = "workbench.action.quickOpen";
+  }
+  {
+    key = "ctrl+t";
+    command = "-workbench.action.showAllSymbols";
+  }
+
+  {
     key = "ctrl+9";
     command = "workbench.action.openEditorAtIndex9";
   }
@@ -78,127 +190,5 @@
   {
     key = "ctrl+1";
     command = "-workbench.action.focusFirstEditorGroup";
-  }
-
-  {
-    when = "focusedView == 'workbench.explorer.fileView'";
-    key = "ctrl+shift+e";
-    command = "workbench.action.focusActiveEditorGroup";
-  }
-  {
-    when = "focusedView != 'workbench.explorer.fileView'";
-    key = "ctrl+shift+e";
-    command = "workbench.files.action.showActiveFileInExplorer";
-  }
-  {
-    when = "viewContainer.workbench.view.explorer.enabled";
-    key = "ctrl+shift+e";
-    command = "-workbench.view.explorer";
-  }
-
-  {
-    when = "focusedView == 'workbench.panel.chat.view.copilot'";
-    key = "ctrl+shift+a";
-    command = "workbench.action.closeAuxiliaryBar";
-  }
-  {
-    when = "focusedView != 'workbench.panel.chat.view.copilot'";
-    key = "ctrl+shift+a";
-    command = "workbench.action.chat.open";
-  }
-  {
-    when = "editorTextFocus && !editorReadonly";
-    key = "ctrl+shift+a";
-    command = "-editor.action.blockComment";
-  }
-
-  {
-    when = "focusedView == 'workbench.scm'";
-    key = "ctrl+shift+s";
-    command = "workbench.action.focusActiveEditorGroup";
-  }
-  {
-    when = "focusedView != 'workbench.scm'";
-    key = "ctrl+shift+s";
-    command = "workbench.scm.focus";
-  }
-  {
-    key = "ctrl+shift+s";
-    command = "-workbench.action.files.saveAs";
-  }
-
-  {
-    when = "focusedView == 'workbench.view.search'";
-    key = "ctrl+shift+f";
-    command = "workbench.action.focusActiveEditorGroup";
-  }
-  {
-    when = "focusedView != 'workbench.view.search'";
-    key = "ctrl+shift+f";
-    command = "workbench.action.findInFiles";
-  }
-  {
-    key = "ctrl+shift+f";
-    command = "-workbench.action.findInFiles";
-  }
-
-  {
-    when = "editorHoverFocused == true";
-    key = "ctrl+shift+space";
-    command = "workbench.action.focusActiveEditorGroup";
-  }
-  {
-    when = "editorHoverFocused == false";
-    key = "ctrl+shift+space";
-    command = "editor.action.showHover";
-  }
-  {
-    when = "editorHasSignatureHelpProvider && editorTextFocus";
-    key = "ctrl+shift+space";
-    command = "-editor.action.triggerParameterHints";
-  }
-
-  {
-    when = "inQuickOpen == true";
-    key = "ctrl+t";
-    command = "workbench.action.focusActiveEditorGroup";
-  }
-  {
-    when = "inQuickOpen == false";
-    key = "ctrl+t";
-    command = "workbench.action.quickOpen";
-  }
-  {
-    key = "ctrl+t";
-    command = "-workbench.action.showAllSymbols";
-  }
-
-  {
-    when = "editorTextFocus && !editorReadonly";
-    key = "ctrl+shift+/";
-    command = "editor.action.blockComment";
-  }
-  {
-    when = "editorTextFocus && !editorReadonly";
-    key = "ctrl+/";
-    command = "editor.action.commentLine";
-  }
-
-  {
-    key = "ctrl+b";
-    command = "-workbench.action.toggleSidebarVisibility";
-  }
-  {
-    key = "ctrl+tab";
-    command = "workbench.action.toggleSidebarVisibility";
-  }
-
-  {
-    key = "ctrl+shift+p";
-    command = "-workbench.action.showCommands";
-  }
-  {
-    key = "ctrl+enter";
-    command = "workbench.action.showCommands";
   }
 ]
