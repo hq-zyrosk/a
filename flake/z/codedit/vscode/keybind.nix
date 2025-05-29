@@ -62,14 +62,14 @@
   }
 
   {
-    when = "";
-    key = "ctrl+shift+a";
-    command = "tabnine.chat.focus";
-  }
-  {
     when = "editorTextFocus && !editorReadonly";
     key = "ctrl+shift+a";
     command = "-editor.action.blockComment";
+  }
+  {
+    when = "";
+    key = "ctrl+shift+a";
+    command = "tabnine.chat.toggle-focus";
   }
 
   {
