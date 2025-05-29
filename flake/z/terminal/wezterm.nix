@@ -88,7 +88,6 @@
         config.tab_bar_at_bottom = false;
         config.tab_and_split_indices_are_zero_based = false;
         config.switch_to_last_active_tab_when_closing_tab = false;
-        config.show_update_window = false;
         config.show_tabs_in_tab_bar = true;
         config.show_tab_index_in_tab_bar = false;
         config.show_new_tab_button_in_tab_bar = true;

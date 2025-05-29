@@ -92,9 +92,10 @@
           };
           exec-once = [
             "[workspace 1 silent] code-insiders --enable-proposed-api --no-sandbox --ozone-platform=wayland"
+            "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 google-chrome-stable"
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
             "[workspace special:command silent] alacritty --command btop"
-            "[workspace special:manager silent] alacritty"
+            "[workspace special:command silent] alacritty"
 
             "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
             "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
@@ -192,14 +193,10 @@
             "mod4,       b, exec, brightnessctl set 1-"
           ];
           bind = [
-            "mod4 shift, backspace, movetoworkspace, special:command"
-            "mod4,       backspace, togglespecialworkspace, command"
             "mod4 shift, space, movetoworkspace, special:browser"
             "mod4,       space, togglespecialworkspace, browser"
-            "mod4 shift, tab, movetoworkspace, special:manager"
-            "mod4,       tab, togglespecialworkspace, manager"
-            "mod4 shift, return, exec, alacritty --command sh"
-            "mod4,       return, exec, alacritty"
+            "mod4 shift, tab, movetoworkspace, special:command"
+            "mod4,       tab, togglespecialworkspace, command"
 
             "mod4 shift, right, movewindow, r"
             "mod4,       right, movefocus, r"
@@ -210,12 +207,15 @@
             "mod4 shift, up, movewindow, u"
             "mod4,       up, movefocus, u"
 
-            "mod4 shift, t, exec, rofi -show window"
-            "mod4,       t, exec, rofi -show drun"
+            "mod4 shift, return, exec, rofi -show window"
+            "mod4,       return, exec, rofi -show drun"
+            "mod4 shift, t, exec, alacritty"
+            "mod4,       t, exec, wezterm"
             "mod4 shift, f, fullscreen, 1"
             "mod4,       f, fullscreen, 0"
             "mod4 shift, q, exit"
             "mod4,       q, killactive"
+
             "mod4 shift, 9, movetoworkspace, 9"
             "mod4,       9, workspace, 9"
             "mod4 shift, 8, movetoworkspace, 8"
