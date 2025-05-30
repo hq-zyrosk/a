@@ -31,12 +31,6 @@ in {
           // profile;
       };
       package = (pkgs.vscode.override {isInsiders = false;}).overrideAttrs (o2: {
-        meta = {
-          name = "vscode";
-          mainProgram = "code";
-          description = "Visual Studio Code";
-        };
-        buildInputs = o2.buildInputs ++ [pkgs.krb5];
         installPhase = ''
           ${o2.installPhase}
 
@@ -45,7 +39,7 @@ in {
           cp ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
         '';
       });
-      mutableExtensionsDir = true;
+      mutableExtensionsDir = false;
       enable = true;
     };
   };
