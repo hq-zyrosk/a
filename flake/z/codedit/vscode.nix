@@ -13,6 +13,7 @@
       vscode-marketplace.redhat.vscode-xml
       vscode-marketplace.nefrob.vscode-just-syntax
       vscode-marketplace.ms-vscode.vscode-typescript-next
+      vscode-marketplace.ms-vscode.makefile-tools
       vscode-marketplace.likebot.vscode-empty-themes
       vscode-marketplace.jnoortheen.nix-ide
       vscode-marketplace.fill-labs.dependi
