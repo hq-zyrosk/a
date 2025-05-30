@@ -39,7 +39,7 @@
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows {
-  margin: 0 0 0 -21px !important;
+  margin: -22px 0 0 -36px !important;
 }
 
 .monaco-workbench.hc-black .explorer-folders-view .explorer-item,
@@ -50,17 +50,26 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*sidebar-header*/
+.monaco-workbench .part.sidebar .title-actions .action-item {
+  padding: 0 0 0 0;
+  margin-right: 0;
+}
+
+.monaco-action-bar .actions-container {
+  gap: var(--norm-wide);
+}
+
 .monaco-workbench .part.sidebar > .title > .title-label h2 {
   font-size: var(--norm-high);
   text-transform: lowercase;
 }
 
 .monaco-workbench .part > .title > .title-label {
-  padding-left: var(--norm-wide);
+  padding-left: calc(2 * var(--norm-wide));
 }
 
 .monaco-workbench .part > .composite.title {
-  padding: 0;
+  padding: 0 calc(2 * var(--norm-wide)) 0 0;
 }
 
 /*--------------------------------------------------------------------------------------------*/
@@ -71,12 +80,12 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fixed.close-action-off:not(.sticky-compact) {
-  padding-right: var(--norm-wide);
+  padding-right: calc(2 * var(--norm-wide));
   font-size: var(--norm-high);
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
-  padding-left: var(--norm-wide);
+  padding-left: calc(2 * var(--norm-wide));
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label,

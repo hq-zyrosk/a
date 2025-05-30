@@ -24,8 +24,6 @@ in {
   programs = {
     vscode = {
       profiles = {
-        rs = profile;
-        a = profile;
         default =
           {
             enableExtensionUpdateCheck = true;
@@ -33,19 +31,13 @@ in {
           }
           // profile;
       };
-      package = (pkgs.vscode.override {isInsiders = true;}).overrideAttrs (o2: {
-        src = (
-          builtins.fetchTarball {
-            url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64#666666";
-          }
-        );
+      package = (pkgs.vscode.override {isInsiders = false;}).overrideAttrs (o2: {
         meta = {
-          name = "vscode-insiders";
-          mainProgram = "code-insiders";
-          description = "Visual Studio Code Insiders edition";
+          name = "vscode";
+          mainProgram = "code";
+          description = "Visual Studio Code";
         };
         buildInputs = o2.buildInputs ++ [pkgs.krb5];
-        version = "latest";
         installPhase = ''
           ${o2.installPhase}
 
@@ -54,7 +46,7 @@ in {
           cp ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
         '';
       });
-      mutableExtensionsDir = false;
+      mutableExtensionsDir = true;
       enable = true;
     };
   };
