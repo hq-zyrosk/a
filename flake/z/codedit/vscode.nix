@@ -6,17 +6,17 @@
     keybindings = import ./vscode/keybind.nix;
     globalSnippets = {};
     extensions = with pkgs; [
+      vscode-marketplace.tamasfe.even-better-toml
+      vscode-marketplace.tabnine.tabnine-vscode
+      vscode-marketplace.rust-lang.rust-analyzer
+      vscode-marketplace.redhat.vscode-yaml
+      vscode-marketplace.redhat.vscode-xml
+      vscode-marketplace.nefrob.vscode-just-syntax
       vscode-marketplace.ms-vscode.vscode-typescript-next
       vscode-marketplace.likebot.vscode-empty-themes
-      vscode-marketplace.nefrob.vscode-just-syntax
-      vscode-marketplace.tamasfe.even-better-toml
-      vscode-marketplace.rust-lang.rust-analyzer
-      vscode-marketplace.dbaeumer.vscode-eslint
-      vscode-marketplace.tabnine.tabnine-vscode
-      vscode-marketplace.redhat.vscode-yaml
       vscode-marketplace.jnoortheen.nix-ide
-      vscode-marketplace.redhat.vscode-xml
       vscode-marketplace.fill-labs.dependi
+      vscode-marketplace.dbaeumer.vscode-eslint
     ];
   };
 in {
@@ -39,7 +39,7 @@ in {
           cp ${./vscode/storage/workbench.desktop.main.css} $xx/workbench.desktop.main.css
         '';
       });
-      mutableExtensionsDir = false;
+      mutableExtensionsDir = true;
       enable = true;
     };
   };

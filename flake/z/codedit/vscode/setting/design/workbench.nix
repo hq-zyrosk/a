@@ -11,7 +11,7 @@
   "workbench.tree.renderIndentGuides" = "always";
   "workbench.tree.expandMode" = "singleClick";
   "workbench.tips.enabled" = true;
-  "workbench.statusBar.visible" = false;
+  "workbench.statusBar.visible" = true;
   "workbench.sideBar.location" = "left";
   "workbench.settings.useSplitJSON" = false;
   "workbench.settings.showSuggestions" = true;
