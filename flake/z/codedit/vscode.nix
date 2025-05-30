@@ -15,7 +15,6 @@
       vscode-marketplace.tabnine.tabnine-vscode
       vscode-marketplace.redhat.vscode-yaml
       vscode-marketplace.jnoortheen.nix-ide
-      vscode-marketplace.tyriar.sort-lines
       vscode-marketplace.redhat.vscode-xml
       vscode-marketplace.fill-labs.dependi
     ];
