@@ -7,11 +7,11 @@ commit:
   git push
 
 config:
-  sudo chown --recursive --no-dereference    x ~/.config/{Code\ -\ Insiders/User,hypr}/*
-  sudo chmod --recursive                  0777 ~/.config/{Code\ -\ Insiders/User,hypr}/*
+  sudo chown --recursive --no-dereference    x ~/.config/{Code/User,hypr}/*
+  sudo chmod --recursive                  0777 ~/.config/{Code/User,hypr}/*
 
 finder:
-  cd /nix/store/ && ls | grep "vscode-insiders" | grep -v '.drv$'
+  cd /nix/store/ && ls | grep "vscode" | grep -v '.drv$'
 
 flake-z args="":
   just flake-c "{{ args }} --impure --flake .#a@x"

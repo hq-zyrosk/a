@@ -92,7 +92,7 @@
             allow_tearing = false;
           };
           exec-once = [
-            "[workspace 1 silent] code-insiders --enable-proposed-api --no-sandbox --ozone-platform=wayland"
+            "[workspace 1 silent] code --enable-proposed-api --no-sandbox --ozone-platform=wayland"
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
             "[workspace special:command silent] alacritty"
 
