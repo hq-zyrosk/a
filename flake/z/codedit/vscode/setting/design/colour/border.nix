@@ -1,7 +1,7 @@
 let
-  c9 = "#B8B8B8FF";
-  c5 = "#808080FF";
-  c1 = "#515151FF";
+  c9 = "#808080FF";
+  c5 = "#515151FF";
+  c1 = "#222222FF";
 in {
   "toolbar.hoverOutline" = c9;
   "tab.unfocusedHoverBorder" = c9;
