@@ -1,4 +1,6 @@
-{
+let
+  codelens = true;
+in {
   "tabnine.useProxySupport" = true;
   "tabnine.snoozeDuration" = 1;
   "tabnine.receiveBetaChannelUpdates" = true;
@@ -11,6 +13,6 @@
   "tabnine.disableFileRegex" = [];
   "tabnine.debounceMilliseconds" = 0;
   "tabnine.completionsLoadingIndicatorEnabled" = true;
-  "tabnine.codeLensEnabled" = true;
+  "tabnine.codeLensEnabled" = codelens;
   "tabnine.cloudHost" = "";
 }
