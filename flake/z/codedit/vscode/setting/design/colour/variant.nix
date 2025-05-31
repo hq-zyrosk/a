@@ -3,7 +3,7 @@ let
   green_t = "#00F5003F";
   red_t = "#FFC5C580";
   yellow = "#DBDB00FF";
-  white = "#808080FF";
+  white = "#515151FF";
   red = "#FFC5C5FF";
   orange = "#FFC994FF";
   magenta = "#FFBEFFFF";

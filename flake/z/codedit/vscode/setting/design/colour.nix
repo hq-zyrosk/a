@@ -49,7 +49,7 @@ in {
           "keyword"
         ];
         "settings" = {
-          "foreground" = "#5A5A5AFF";
+          "foreground" = "#222222FF";
         };
       }
     ];
@@ -57,25 +57,6 @@ in {
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
-      #
-      "formatSpecifier" = {
-        "foreground" = "#808080FF";
-      };
-      "escapeSequence" = {
-        "foreground" = "#808080FF";
-      };
-      "builtinAttribute" = {
-        "foreground" = "#808080FF";
-      };
-      "decorator" = {
-        "foreground" = "#808080FF";
-      };
-      "macro" = {
-        "foreground" = "#808080FF";
-      };
-      "function" = {
-        "foreground" = "#808080FF";
-      };
       #
       "unresolvedReference" = {
         "foreground" = "#FFC5C5FF";
@@ -145,29 +126,48 @@ in {
         "foreground" = "#959595FF";
       };
       #
+      "formatSpecifier" = {
+        "foreground" = "#808080FF";
+      };
+      "escapeSequence" = {
+        "foreground" = "#808080FF";
+      };
+      "builtinAttribute" = {
+        "foreground" = "#808080FF";
+      };
+      "decorator" = {
+        "foreground" = "#808080FF";
+      };
+      "macro" = {
+        "foreground" = "#808080FF";
+      };
+      "function" = {
+        "foreground" = "#808080FF";
+      };
+      #
       "attributeBracket" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
       };
       "namespace" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
       };
       "operator" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
       };
       "comment" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
       };
       #
       "keyword.controlFlow" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
         "strikethrough" = false;
       };
       "keyword.unsafe" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
         "strikethrough" = false;
       };
       "keyword" = {
-        "foreground" = "#5A5A5AFF";
+        "foreground" = "#515151FF";
       };
       #
       "*.declaration" = {
