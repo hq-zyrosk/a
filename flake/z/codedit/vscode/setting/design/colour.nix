@@ -37,18 +37,11 @@ in {
     "textMateRules" = [
       {
         "scope" = [
-          "variable.language.self"
+          "variable"
         ];
         "settings" = {
-          "foreground" = "#00F500FF";
-        };
-      }
-      {
-        "scope" = [
-          "storage.type.rust"
-        ];
-        "settings" = {
-          "fontStyle" = "strikethrough";
+          "fontStyle" = "";
+          "foreground" = "#00EBEBFF";
         };
       }
       {
@@ -57,7 +50,7 @@ in {
           "keyword"
         ];
         "settings" = {
-          "fontStyle" = "strikethrough";
+          "fontStyle" = "";
           "foreground" = "#222222FF";
         };
       }
@@ -68,69 +61,69 @@ in {
     "rules" = {
       #
       "unresolvedReference" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       "method" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       "property" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       #
       "selfTypeKeyword" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
         "strikethrough" = false;
       };
       "struct" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       "enumMember" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       "enum" = {
-        "foreground" = "#FFC5C5FF";
+        "foreground" = "#FFBEFFFF";
       };
       #
       "boolean" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#FFC5C5FF";
       };
       "number" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#FFC5C5FF";
       };
       "string" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#FFC5C5FF";
       };
       #
       "lifetime" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "generic" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "builtinType" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "typeParameter" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "derive" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "interface" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       "typeAlias" = {
-        "foreground" = "#959595FF";
+        "foreground" = "#DADA00FF";
       };
       #
-      "selfKeyword" = {
-        "foreground" = "#00F500FF";
-        "strikethrough" = false;
-      };
       "parameter" = {
         "foreground" = "#00F500FF";
       };
       #
+      "selfKeyword" = {
+        "foreground" = "#00EBEBFF";
+        "strikethrough" = false;
+      };
       "variable" = {
         "foreground" = "#00EBEBFF";
       };
