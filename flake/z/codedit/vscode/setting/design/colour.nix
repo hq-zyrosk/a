@@ -82,18 +82,6 @@ in {
         "foreground" = "#FFC5C5FF";
       };
       #
-      "selfKeyword" = {
-        "foreground" = "#DBDB00FF";
-        "strikethrough" = false;
-      };
-      "parameter" = {
-        "foreground" = "#DBDB00FF";
-      };
-      #
-      "variable" = {
-        "foreground" = "#FFC994FF";
-      };
-      #
       "boolean" = {
         "foreground" = "#959595FF";
       };
@@ -126,36 +114,48 @@ in {
         "foreground" = "#959595FF";
       };
       #
+      "selfKeyword" = {
+        "foreground" = "#00F500FF";
+        "strikethrough" = false;
+      };
+      "parameter" = {
+        "foreground" = "#00F500FF";
+      };
+      #
+      "variable" = {
+        "foreground" = "#00EBEBFF";
+      };
+      #
       "formatSpecifier" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       "escapeSequence" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       "builtinAttribute" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       "decorator" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       "macro" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       "function" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#CFCFFFFF";
       };
       #
       "attributeBracket" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#808080FF";
       };
       "namespace" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#808080FF";
       };
       "operator" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#808080FF";
       };
       "comment" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#808080FF";
       };
       #
       "keyword.controlFlow" = {
@@ -170,13 +170,13 @@ in {
         "foreground" = "#515151FF";
       };
       #
-      "*.declaration" = {
+      "*.mutable" = {
         "underline" = true;
       };
-      "*.mutable" = {
+      "*.callable" = {
         "italic" = true;
       };
-      "*.callable" = {
+      "*.declaration" = {
         "bold" = true;
       };
     };
