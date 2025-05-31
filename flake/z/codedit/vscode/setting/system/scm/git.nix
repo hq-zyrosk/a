@@ -20,7 +20,7 @@
   "git.useForcePushIfIncludes" = true;
   "git.useEditorAsCommitInput" = true;
   "git.useCommitInputAsStashMessage" = false;
-  "git.untrackedChanges" = "separate";
+  "git.untrackedChanges" = "mixed";
   "git.timeline.showUncommitted" = false;
   "git.timeline.showAuthor" = true;
   "git.timeline.date" = "committed";
