@@ -219,6 +219,7 @@
   "rust-analyzer.hover.show.fields" = 64;
   "rust-analyzer.hover.show.enumVariants" = 64;
   "rust-analyzer.hover.memoryLayout.size" = "both";
+  "rust-analyzer.hover.memoryLayout.padding" = "hexadecimal";
   "rust-analyzer.hover.memoryLayout.offset" = "hexadecimal";
   "rust-analyzer.hover.memoryLayout.niches" = true;
   "rust-analyzer.hover.memoryLayout.enable" = true;

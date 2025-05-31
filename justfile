@@ -18,7 +18,7 @@ flake-z args="":
   just config
 
 flake-x args="":
-  just flake-a "{{ args }} --impure --flake .#x"
+    just flake-a "{{ args }} --impure --flake .#x"
 
 flake-c args:
   home-manager switch {{ args }}
