@@ -1,4 +1,6 @@
-{
+let
+  codelens = true;
+in {
   "rust-analyzer.vfs.extraIncludes" = [];
   "rust-analyzer.statusBar.showStatusBar" = {
     "documentSelector" = [
@@ -174,6 +176,16 @@
   "rust-analyzer.numThreads" = "logical";
   "rust-analyzer.notifications.cargoTomlNotFound" = true;
   "rust-analyzer.lru.capacity" = 1024;
+  "rust-analyzer.lens.updateTest.enable" = codelens;
+  "rust-analyzer.lens.run.enable" = codelens;
+  "rust-analyzer.lens.references.trait.enable" = codelens;
+  "rust-analyzer.lens.references.method.enable" = codelens;
+  "rust-analyzer.lens.references.enumVariant.enable" = codelens;
+  "rust-analyzer.lens.references.adt.enable" = codelens;
+  "rust-analyzer.lens.location" = "above_whole_item";
+  "rust-analyzer.lens.implementations.enable" = codelens;
+  "rust-analyzer.lens.enable" = codelens;
+  "rust-analyzer.lens.debug.enable" = codelens;
   "rust-analyzer.joinLines.unwrapTrivialBlock" = true;
   "rust-analyzer.joinLines.removeTrailingComma" = true;
   "rust-analyzer.joinLines.joinElseIf" = true;

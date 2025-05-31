@@ -9,5 +9,6 @@
   "github.copilot.nextEditSuggestions.fixes" = true;
   "github.copilot.nextEditSuggestions.enabled" = true;
   "github.copilot.editor.enableCodeActions" = true;
+  "github.copilot.chat.generateTests.codeLens" = true;
   "github.copilot.advanced" = {};
 }
