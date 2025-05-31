@@ -35,20 +35,29 @@ in {
     // background;
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
-      # {
-      #   "scope" = [
-      #     "storage.type.rust"
-      #   ];
-      #   "settings" = {
-      #     "fontStyle" = "strikethrough";
-      #   };
-      # }
+      {
+        "scope" = [
+          "variable.language.self"
+        ];
+        "settings" = {
+          "foreground" = "#00F500FF";
+        };
+      }
+      {
+        "scope" = [
+          "storage.type.rust"
+        ];
+        "settings" = {
+          "fontStyle" = "strikethrough";
+        };
+      }
       {
         "scope" = [
           "punctuation"
           "keyword"
         ];
         "settings" = {
+          "fontStyle" = "strikethrough";
           "foreground" = "#222222FF";
         };
       }
