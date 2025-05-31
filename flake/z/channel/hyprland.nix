@@ -197,15 +197,6 @@
             "mod4 shift, tab, movetoworkspace, special:command"
             "mod4,       tab, togglespecialworkspace, command"
 
-            "mod4 shift, right, movewindow, r"
-            "mod4,       right, movefocus, r"
-            "mod4 shift, left, movewindow, l"
-            "mod4,       left, movefocus, l"
-            "mod4 shift, down, movewindow, d"
-            "mod4,       down, movefocus, d"
-            "mod4 shift, up, movewindow, u"
-            "mod4,       up, movefocus, u"
-
             "mod4 shift, return, exec, rofi -show window"
             "mod4,       return, exec, rofi -show drun"
             "mod4 shift, t, exec, alacritty"
@@ -233,6 +224,16 @@
             "mod4,       2, workspace, 2"
             "mod4 shift, 1, movetoworkspace, 1"
             "mod4,       1, workspace, 1"
+
+            "mod4 shift, right, movewindow, r"
+            "mod4 shift, left, movewindow, l"
+            "mod4 shift, down, movewindow, d"
+            "mod4 shift, up, movewindow, u"
+
+            "mod4,       right, movefocus, r"
+            "mod4,       left, movefocus, l"
+            "mod4,       down, movefocus, d"
+            "mod4,       up, movefocus, u"
           ];
           animations = {
             enabled = false;
