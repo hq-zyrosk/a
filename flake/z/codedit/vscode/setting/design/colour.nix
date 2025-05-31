@@ -40,18 +40,7 @@ in {
           "variable"
         ];
         "settings" = {
-          "fontStyle" = "";
           "foreground" = "#00EBEBFF";
-        };
-      }
-      {
-        "scope" = [
-          "punctuation"
-          "keyword"
-        ];
-        "settings" = {
-          "fontStyle" = "";
-          "foreground" = "#222222FF";
         };
       }
     ];
@@ -59,6 +48,46 @@ in {
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
+      #
+      "angle" = "#FFFFFFFF";
+      "semicolon" = "#FFFFFFFF";
+      "punctuation" = "#FFFFFFFF";
+      "brace" = "#FFFFFFFF";
+      "bracket" = "#FFFFFFFF";
+      "parenthesis" = "#FFFFFFFF";
+      "colon" = "#FFFFFFFF";
+      "comma" = "#FFFFFFFF";
+      "dot" = "#FFFFFFFF";
+      #
+      "attributeBracket" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "operator" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "bitwise" = "#FF00FFFF";
+      "macroBang" = "#FF00FFFF";
+      "logical" = "#FF00FFFF";
+      "comparison" = "#FF00FFFF";
+      "arithmetic" = "#FF00FFFF";
+      #
+      "type" = "#FF0000FF";
+      "union" = "#FF0000FF";
+      "toolModule" = "#FF0000FF";
+      "tomlTableKey" = "#FF0000FF";
+      "tomlArrayKey" = "#FF0000FF";
+      "static" = "#FF0000FF";
+      "regexp" = "#FF0000FF";
+      "procMacro" = "#FF0000FF";
+      "label" = "#FF0000FF";
+      "invalidEscapeSequence" = "#FF0000FF";
+      "event" = "#FF0000FF";
+      "deriveHelper" = "#FF0000FF";
+      "constParameter" = "#FF0000FF";
+      "const" = "#FF0000FF";
+      "class" = "#FF0000FF";
+      "character" = "#FF0000FF";
+      "attribute" = "#FF0000FF";
       #
       "unresolvedReference" = {
         "foreground" = "#FFBEFFFF";
@@ -147,27 +176,13 @@ in {
         "foreground" = "#CFCFFFFF";
       };
       #
-      "attributeBracket" = {
-        "foreground" = "#808080FF";
-      };
       "namespace" = {
-        "foreground" = "#808080FF";
-      };
-      "operator" = {
         "foreground" = "#808080FF";
       };
       "comment" = {
         "foreground" = "#808080FF";
       };
       #
-      "keyword.controlFlow" = {
-        "foreground" = "#515151FF";
-        "strikethrough" = false;
-      };
-      "keyword.unsafe" = {
-        "foreground" = "#515151FF";
-        "strikethrough" = false;
-      };
       "keyword" = {
         "foreground" = "#515151FF";
       };
