@@ -181,22 +181,20 @@
           ];
           bindl = [
             "mod4 shift, v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01+"
-            "mod4,       v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01-"
             "mod4 shift, n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 1"
-            "mod4,       n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
             "mod4 shift, m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 1"
-            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 0"
             "mod4 shift, l, exec, sleep 1; hyprctl dispatch dpms off"
-            "mod4,       l, exec, loginctl lock-session"
             "mod4 shift, b, exec, brightnessctl set 1+"
+
+            "mod4,       v, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.01-"
+            "mod4,       n, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0"
+            "mod4,       m, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ 0"
+            "mod4,       l, exec, loginctl lock-session"
             "mod4,       b, exec, brightnessctl set 1-"
           ];
           bind = [
             "mod4 shift, space, movetoworkspace, special:browser"
             "mod4 shift, tab, movetoworkspace, special:command"
-
-            "mod4,       space, togglespecialworkspace, browser"
-            "mod4,       tab, togglespecialworkspace, command"
 
             "mod4 shift, return, exec, rofi -show window"
             "mod4 shift, t, exec, alacritty"
@@ -213,6 +211,14 @@
             "mod4 shift, 2, movetoworkspace, 2"
             "mod4 shift, 1, movetoworkspace, 1"
 
+            "mod4 shift, right, movewindow, r"
+            "mod4 shift, left, movewindow, l"
+            "mod4 shift, down, movewindow, d"
+            "mod4 shift, up, movewindow, u"
+
+            "mod4,       space, togglespecialworkspace, browser"
+            "mod4,       tab, togglespecialworkspace, command"
+
             "mod4,       return, exec, rofi -show drun"
             "mod4,       t, exec, wezterm"
             "mod4,       f, fullscreen, 0"
@@ -227,11 +233,6 @@
             "mod4,       3, workspace, 3"
             "mod4,       2, workspace, 2"
             "mod4,       1, workspace, 1"
-
-            "mod4 shift, right, movewindow, r"
-            "mod4 shift, left, movewindow, l"
-            "mod4 shift, down, movewindow, d"
-            "mod4 shift, up, movewindow, u"
 
             "mod4,       right, movefocus, r"
             "mod4,       left, movefocus, l"
