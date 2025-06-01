@@ -50,52 +50,52 @@ in {
     "rules" = {
       #----------------------------------------------------------------------------------------#
       "type" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "union" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "toolModule" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "tomlTableKey" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "tomlArrayKey" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "static" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "procMacro" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "label" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "invalidEscapeSequence" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "event" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "deriveHelper" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "constParameter" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "const" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "class" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "character" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       "attribute" = {
-        "foreground" = "#FFFFFFFF";
+        "foreground" = "#FF0000FF";
       };
       #----------------------------------------------------------------------------------------#
       "unresolvedReference" = {
@@ -153,6 +153,25 @@ in {
         "foreground" = "#DADA00FF";
       };
       #----------------------------------------------------------------------------------------#
+      "operator" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "macroBang" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "logical" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "comparison" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "bitwise" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "arithmetic" = {
+        "foreground" = "#FF00FFFF";
+      };
+      #----------------------------------------------------------------------------------------#
       "parameter" = {
         "foreground" = "#00F500FF";
       };
@@ -195,25 +214,6 @@ in {
       };
       #
       "comment" = {
-        "foreground" = "#FF00FFFF";
-      };
-      #----------------------------------------------------------------------------------------#
-      "operator" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "macroBang" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "logical" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "comparison" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "bitwise" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "arithmetic" = {
         "foreground" = "#FF00FFFF";
       };
       #----------------------------------------------------------------------------------------#
