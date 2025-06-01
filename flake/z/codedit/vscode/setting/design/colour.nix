@@ -183,38 +183,38 @@ in {
       };
       #
       "comment" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       #
       "semicolon" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "punctuation" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "parenthesis" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "dot" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "comma" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "colon" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "bracket" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "brace" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "attributeBracket" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       "angle" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#FF00FFFF";
       };
       #
       "*.mutable" = {
