@@ -48,43 +48,56 @@ in {
   "editor.semanticTokenColorCustomizations" = {
     "enabled" = true;
     "rules" = {
-      #
-      "operator" = {
-        "foreground" = "#FF00FFFF";
+      #----------------------------------------------------------------------------------------#
+      "type" = {
+        "foreground" = "#FFFFFFFF";
       };
-      "macroBang" = {
-        "foreground" = "#FF00FFFF";
+      "union" = {
+        "foreground" = "#FFFFFFFF";
       };
-      "logical" = {
-        "foreground" = "#FF00FFFF";
+      "toolModule" = {
+        "foreground" = "#FFFFFFFF";
       };
-      "comparison" = {
-        "foreground" = "#FF00FFFF";
+      "tomlTableKey" = {
+        "foreground" = "#FFFFFFFF";
       };
-      "bitwise" = {
-        "foreground" = "#FF00FFFF";
+      "tomlArrayKey" = {
+        "foreground" = "#FFFFFFFF";
       };
-      "arithmetic" = {
-        "foreground" = "#FF00FFFF";
+      "static" = {
+        "foreground" = "#FFFFFFFF";
       };
-      #
-      "type" = "#FF0000FF";
-      "union" = "#FF0000FF";
-      "toolModule" = "#FF0000FF";
-      "tomlTableKey" = "#FF0000FF";
-      "tomlArrayKey" = "#FF0000FF";
-      "static" = "#FF0000FF";
-      "procMacro" = "#FF0000FF";
-      "label" = "#FF0000FF";
-      "invalidEscapeSequence" = "#FF0000FF";
-      "event" = "#FF0000FF";
-      "deriveHelper" = "#FF0000FF";
-      "constParameter" = "#FF0000FF";
-      "const" = "#FF0000FF";
-      "class" = "#FF0000FF";
-      "character" = "#FF0000FF";
-      "attribute" = "#FF0000FF";
-      #
+      "procMacro" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "label" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "invalidEscapeSequence" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "event" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "deriveHelper" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "constParameter" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "const" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "class" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "character" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      "attribute" = {
+        "foreground" = "#FFFFFFFF";
+      };
+      #----------------------------------------------------------------------------------------#
       "unresolvedReference" = {
         "foreground" = "#FFBEFFFF";
       };
@@ -94,10 +107,9 @@ in {
       "property" = {
         "foreground" = "#FFBEFFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "selfTypeKeyword" = {
         "foreground" = "#FFBEFFFF";
-        "strikethrough" = false;
       };
       "struct" = {
         "foreground" = "#FFBEFFFF";
@@ -108,7 +120,7 @@ in {
       "enum" = {
         "foreground" = "#FFBEFFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "boolean" = {
         "foreground" = "#FFC5C5FF";
       };
@@ -118,7 +130,7 @@ in {
       "string" = {
         "foreground" = "#FFC5C5FF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "lifetime" = {
         "foreground" = "#DADA00FF";
       };
@@ -140,18 +152,18 @@ in {
       "typeAlias" = {
         "foreground" = "#DADA00FF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "parameter" = {
         "foreground" = "#00F500FF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "selfKeyword" = {
         "foreground" = "#00EBEBFF";
       };
       "variable" = {
         "foreground" = "#00EBEBFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "formatSpecifier" = {
         "foreground" = "#CFCFFFFF";
       };
@@ -173,11 +185,11 @@ in {
       "function" = {
         "foreground" = "#CFCFFFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "namespace" = {
         "foreground" = "#CFCFFFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "keyword" = {
         "foreground" = "#515151FF";
       };
@@ -185,7 +197,26 @@ in {
       "comment" = {
         "foreground" = "#FF00FFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
+      "operator" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "macroBang" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "logical" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "comparison" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "bitwise" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "arithmetic" = {
+        "foreground" = "#FF00FFFF";
+      };
+      #----------------------------------------------------------------------------------------#
       "semicolon" = {
         "foreground" = "#FF00FFFF";
       };
@@ -216,7 +247,7 @@ in {
       "angle" = {
         "foreground" = "#FF00FFFF";
       };
-      #
+      #----------------------------------------------------------------------------------------#
       "*.mutable" = {
         "underline" = true;
       };
