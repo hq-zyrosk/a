@@ -179,12 +179,13 @@ in {
       "namespace" = {
         "foreground" = "#808080FF";
       };
+      #
       "comment" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#515151FF";
       };
       #
       "keyword" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#222222FF";
       };
       #
       "*.mutable" = {
