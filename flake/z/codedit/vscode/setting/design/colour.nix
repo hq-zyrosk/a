@@ -209,43 +209,43 @@ in {
         "foreground" = "#CFCFFFFF";
       };
       #----------------------------------------------------------------------------------------#
-      "keyword" = {
-        "foreground" = "#515151FF";
-      };
-      #
-      "comment" = {
-        "foreground" = "#FF00FFFF";
-      };
-      #----------------------------------------------------------------------------------------#
       "semicolon" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "punctuation" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "parenthesis" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "dot" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "comma" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "colon" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "bracket" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "brace" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "attributeBracket" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
       };
       "angle" = {
-        "foreground" = "#FF00FFFF";
+        "foreground" = "#808080FF";
+      };
+      #----------------------------------------------------------------------------------------#
+      "comment" = {
+        "foreground" = "#515151FF";
+      };
+      #----------------------------------------------------------------------------------------#
+      "keyword" = {
+        "foreground" = "#222222FF";
       };
       #----------------------------------------------------------------------------------------#
       "*.mutable" = {
