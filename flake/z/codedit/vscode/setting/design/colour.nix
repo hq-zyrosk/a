@@ -49,27 +49,24 @@ in {
     "enabled" = true;
     "rules" = {
       #
-      "angle" = "#FFFFFFFF";
-      "semicolon" = "#FFFFFFFF";
-      "punctuation" = "#FFFFFFFF";
-      "brace" = "#FFFFFFFF";
-      "bracket" = "#FFFFFFFF";
-      "parenthesis" = "#FFFFFFFF";
-      "colon" = "#FFFFFFFF";
-      "comma" = "#FFFFFFFF";
-      "dot" = "#FFFFFFFF";
-      #
-      "attributeBracket" = {
-        "foreground" = "#FF00FFFF";
-      };
       "operator" = {
         "foreground" = "#FF00FFFF";
       };
-      "bitwise" = "#FF00FFFF";
-      "macroBang" = "#FF00FFFF";
-      "logical" = "#FF00FFFF";
-      "comparison" = "#FF00FFFF";
-      "arithmetic" = "#FF00FFFF";
+      "macroBang" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "logical" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "comparison" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "bitwise" = {
+        "foreground" = "#FF00FFFF";
+      };
+      "arithmetic" = {
+        "foreground" = "#FF00FFFF";
+      };
       #
       "type" = "#FF0000FF";
       "union" = "#FF0000FF";
@@ -77,7 +74,6 @@ in {
       "tomlTableKey" = "#FF0000FF";
       "tomlArrayKey" = "#FF0000FF";
       "static" = "#FF0000FF";
-      "regexp" = "#FF0000FF";
       "procMacro" = "#FF0000FF";
       "label" = "#FF0000FF";
       "invalidEscapeSequence" = "#FF0000FF";
@@ -151,7 +147,6 @@ in {
       #
       "selfKeyword" = {
         "foreground" = "#00EBEBFF";
-        "strikethrough" = false;
       };
       "variable" = {
         "foreground" = "#00EBEBFF";
@@ -169,6 +164,9 @@ in {
       "decorator" = {
         "foreground" = "#CFCFFFFF";
       };
+      "regexp" = {
+        "foreground" = "#CFCFFFFF";
+      };
       "macro" = {
         "foreground" = "#CFCFFFFF";
       };
@@ -177,14 +175,45 @@ in {
       };
       #
       "namespace" = {
-        "foreground" = "#808080FF";
-      };
-      #
-      "comment" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#CFCFFFFF";
       };
       #
       "keyword" = {
+        "foreground" = "#515151FF";
+      };
+      #
+      "comment" = {
+        "foreground" = "#222222FF";
+      };
+      #
+      "semicolon" = {
+        "foreground" = "#222222FF";
+      };
+      "punctuation" = {
+        "foreground" = "#222222FF";
+      };
+      "parenthesis" = {
+        "foreground" = "#222222FF";
+      };
+      "dot" = {
+        "foreground" = "#222222FF";
+      };
+      "comma" = {
+        "foreground" = "#222222FF";
+      };
+      "colon" = {
+        "foreground" = "#222222FF";
+      };
+      "bracket" = {
+        "foreground" = "#222222FF";
+      };
+      "brace" = {
+        "foreground" = "#222222FF";
+      };
+      "attributeBracket" = {
+        "foreground" = "#222222FF";
+      };
+      "angle" = {
         "foreground" = "#222222FF";
       };
       #
