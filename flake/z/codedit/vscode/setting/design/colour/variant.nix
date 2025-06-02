@@ -79,12 +79,6 @@ in {
   "scm.historyGraph.green" = green;
   "scm.historyGraph.red" = red;
 
-  "terminal.ansiYellow" = yellow;
-  "terminal.ansiWhite" = white;
-  "terminal.ansiRed" = red;
-  "terminal.ansiMagenta" = magenta;
-  "terminal.ansiGreen" = green;
-  "terminal.ansiCyan" = cyan;
   "terminal.ansiBrightYellow" = yellow;
   "terminal.ansiBrightWhite" = white;
   "terminal.ansiBrightRed" = red;
@@ -92,6 +86,13 @@ in {
   "terminal.ansiBrightGreen" = green;
   "terminal.ansiBrightCyan" = cyan;
   "terminal.ansiBrightBlue" = blue;
+
+  "terminal.ansiYellow" = yellow;
+  "terminal.ansiWhite" = white;
+  "terminal.ansiRed" = red;
+  "terminal.ansiMagenta" = magenta;
+  "terminal.ansiGreen" = green;
+  "terminal.ansiCyan" = cyan;
   "terminal.ansiBlue" = blue;
 
   "charts.yellow" = yellow;
