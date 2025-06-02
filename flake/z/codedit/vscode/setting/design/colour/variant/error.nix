@@ -1,7 +1,7 @@
 let
   c9 = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  c5 = _.rgba 1.00000 0.00000 0.00000 0.25000;
-  c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
+  c5 = _.rgba 0.50000 0.00000 0.00000 1.00000;
+  c1 = _.rgba 0.25000 0.00000 0.00000 1.00000;
   _ = import ./../_.nix;
 in {
   "testing.message.error.decorationForeground" = c9;
@@ -30,23 +30,22 @@ in {
   "editorError.foreground" = c9;
 
   "testing.message.error.lineBackground" = c5;
-  "testing.message.error.badgeBorder" = c5;
   "testing.message.error.badgeBackground" = c5;
   "terminalCommandDecoration.errorBackground" = c5;
   "statusBarItem.errorHoverBackground" = c5;
   "statusBarItem.errorBackground" = c5;
   "minimap.errorHighlight" = c5;
-  "inputValidation.errorBorder" = c5;
   "inputValidation.errorBackground" = c5;
   "gauge.errorBackground" = c5;
-  "editorUnnecessaryCode.border" = c5;
   "editorMarkerNavigationError.headerBackground" = c5;
   "editorMarkerNavigationError.background" = c5;
   "editorGroupHeader.noTabsBackground" = c5;
-  "editorGroup.focusedEmptyBorder" = c5;
   "editorGroup.emptyBackground" = c5;
-  "editorError.border" = c5;
   "activityErrorBadge.background" = c5;
 
-  "editorError.background" = c1;
+  "testing.message.error.badgeBorder" = c1;
+  "inputValidation.errorBorder" = c1;
+  "editorUnnecessaryCode.border" = c1;
+  "editorGroup.focusedEmptyBorder" = c1;
+  "editorError.border" = c1;
 }

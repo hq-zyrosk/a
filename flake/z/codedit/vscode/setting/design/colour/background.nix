@@ -35,6 +35,9 @@ in {
   "statusBarItem.activeBackground" = c5;
   "radio.activeBackground" = c5;
   "inputOption.activeBackground" = c5;
+  "editorWarning.background" = c5;
+  "editorInfo.background" = c5;
+  "editorError.background" = c5;
   "editorCommentsWidget.rangeActiveBackground" = c5;
   "commandCenter.activeBackground" = c5;
   "activityBarTop.activeBackground" = c5;
