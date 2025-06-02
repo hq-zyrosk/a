@@ -43,6 +43,14 @@ in {
           "foreground" = "#00EBEBFF";
         };
       }
+      {
+        "scope" = [
+          "string.quoted.double.nix"
+        ];
+        "settings" = {
+          "foreground" = "#FFC5C5FF";
+        };
+      }
     ];
   };
   "editor.semanticTokenColorCustomizations" = {
@@ -121,16 +129,6 @@ in {
         "foreground" = "#FFBEFFFF";
       };
       #----------------------------------------------------------------------------------------#
-      "boolean" = {
-        "foreground" = "#FFC5C5FF";
-      };
-      "number" = {
-        "foreground" = "#FFC5C5FF";
-      };
-      "string" = {
-        "foreground" = "#FFC5C5FF";
-      };
-      #----------------------------------------------------------------------------------------#
       "lifetime" = {
         "foreground" = "#DADA00FF";
       };
@@ -151,25 +149,6 @@ in {
       };
       "typeAlias" = {
         "foreground" = "#DADA00FF";
-      };
-      #----------------------------------------------------------------------------------------#
-      "operator" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "macroBang" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "logical" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "comparison" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "bitwise" = {
-        "foreground" = "#FF00FFFF";
-      };
-      "arithmetic" = {
-        "foreground" = "#FF00FFFF";
       };
       #----------------------------------------------------------------------------------------#
       "parameter" = {
@@ -209,39 +188,68 @@ in {
         "foreground" = "#CFCFFFFF";
       };
       #----------------------------------------------------------------------------------------#
-      "semicolon" = {
+      "boolean" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "string" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      "number" = {
+        "foreground" = "#FFC5C5FF";
+      };
+      #----------------------------------------------------------------------------------------#
+      "operator" = {
         "foreground" = "#808080FF";
       };
-      "punctuation" = {
+      "macroBang" = {
         "foreground" = "#808080FF";
       };
-      "parenthesis" = {
+      "logical" = {
         "foreground" = "#808080FF";
       };
-      "dot" = {
+      "comparison" = {
         "foreground" = "#808080FF";
       };
-      "comma" = {
+      "bitwise" = {
         "foreground" = "#808080FF";
       };
-      "colon" = {
-        "foreground" = "#808080FF";
-      };
-      "bracket" = {
-        "foreground" = "#808080FF";
-      };
-      "brace" = {
-        "foreground" = "#808080FF";
-      };
-      "attributeBracket" = {
-        "foreground" = "#808080FF";
-      };
-      "angle" = {
+      "arithmetic" = {
         "foreground" = "#808080FF";
       };
       #----------------------------------------------------------------------------------------#
-      "comment" = {
+      "semicolon" = {
         "foreground" = "#515151FF";
+      };
+      "punctuation" = {
+        "foreground" = "#515151FF";
+      };
+      "parenthesis" = {
+        "foreground" = "#515151FF";
+      };
+      "dot" = {
+        "foreground" = "#515151FF";
+      };
+      "comma" = {
+        "foreground" = "#515151FF";
+      };
+      "colon" = {
+        "foreground" = "#515151FF";
+      };
+      "bracket" = {
+        "foreground" = "#515151FF";
+      };
+      "brace" = {
+        "foreground" = "#515151FF";
+      };
+      "attributeBracket" = {
+        "foreground" = "#515151FF";
+      };
+      "angle" = {
+        "foreground" = "#515151FF";
+      };
+      #----------------------------------------------------------------------------------------#
+      "comment" = {
+        "foreground" = "#222222FF";
       };
       #----------------------------------------------------------------------------------------#
       "keyword" = {
