@@ -78,6 +78,7 @@ in {
   "scm.historyGraph.yellow" = yellow;
   "scm.historyGraph.green" = green;
   "scm.historyGraph.red" = red;
+
   "terminal.ansiYellow" = yellow;
   "terminal.ansiWhite" = white;
   "terminal.ansiRed" = red;
@@ -92,6 +93,7 @@ in {
   "terminal.ansiBrightCyan" = cyan;
   "terminal.ansiBrightBlue" = blue;
   "terminal.ansiBlue" = blue;
+
   "charts.yellow" = yellow;
   "charts.red" = red;
   "charts.purple" = magenta;
