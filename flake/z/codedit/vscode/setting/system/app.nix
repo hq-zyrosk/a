@@ -14,7 +14,6 @@
   "extensions.experimental.deferredStartupFinishedActivation" = false;
   "extensions.closeExtensionDetailsOnViewChange" = false;
   "extensions.autoUpdate" = false;
-  "extensions.autoRestart" = true;
   "extensions.autoCheckUpdates" = false;
   "application.shellEnvironmentResolutionTimeout" = 10;
   "application.experimental.rendererProfiling" = true;

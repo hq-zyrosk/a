@@ -7,7 +7,6 @@ let
   task_gulp = import ./system/task/gulp.nix;
   task_grunt = import ./system/task/grunt.nix;
   task = import ./system/task.nix;
-  sort = import ./system/sort.nix;
   scm_git = import ./system/scm/git.nix;
   scm = import ./system/scm.nix;
   npm = import ./system/npm.nix;
@@ -27,7 +26,6 @@ in
   // task_gulp
   // task_grunt
   // task
-  // sort
   // scm_git
   // scm
   // npm

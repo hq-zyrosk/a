@@ -118,10 +118,6 @@ in {
     "sound" = sound;
     "announcement" = announcement;
   };
-  "accessibility.signals.chatUserActionRequired" = {
-    "sound" = sound;
-    "announcement" = announcement;
-  };
   "accessibility.signals.chatResponseReceived" = {
     "sound" = sound;
   };

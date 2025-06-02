@@ -100,7 +100,6 @@ in {
   "terminal.integrated.localEchoStyle" = "bold";
   "terminal.integrated.localEchoLatencyThreshold" = 0;
   "terminal.integrated.localEchoEnabled" = "off";
-  "terminal.integrated.killGracefully" = true;
   "terminal.integrated.initialHint" = true;
   "terminal.integrated.inheritEnv" = true;
   "terminal.integrated.ignoreBracketedPasteMode" = false;

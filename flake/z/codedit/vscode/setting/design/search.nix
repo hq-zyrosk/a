@@ -11,8 +11,6 @@
   "search.showLineNumbers" = false;
   "search.seedWithNearestWord" = false;
   "search.seedOnFocus" = false;
-  "search.searchView.semanticSearchBehavior" = "manual";
-  "search.searchView.keywordSuggestions" = true;
   "search.searchOnTypeDebouncePeriod" = 300;
   "search.searchOnType" = true;
   "search.searchEditor.singleClickBehaviour" = "peekDefinition";
