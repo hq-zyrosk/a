@@ -174,10 +174,6 @@
 
 /*--------------------------------------------------------------------------------------------*/
 /*35*/
-.monaco-workbench .part > .title > .title-label {
-  line-height: var(--norm-size);
-}
-
 .monaco-workbench > .notifications-center > .notifications-center-header,
 .monaco-workbench .part.editor > .content .editor-group-container > .editor-group-container-toolbar,
 .monaco-workbench .part > .title > .title-actions,
@@ -187,116 +183,6 @@
 .monaco-workbench .pane-composite-part > .title > .composite-bar-container > .composite-bar > .monaco-action-bar .action-item.icon,
 .monaco-workbench .activitybar .menubar,
 .monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more {
-  height: var(--norm-size);
-}
-
-/*--------------------------------------------------------------------------------------------*/
-/*22*/
-.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item,
-.open-editors .editor-group .open-editors .open-editor,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .outline-element-icon,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label,
-.extension-list-item > .icon-container .extension-badge.extension-remote-badge,
-.explorer-folders-view .editor-group .explorer-folders-view .explorer-item,
-.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item {
-  line-height: var(--norm-size);
-  height: var(--norm-size);
-}
-
-.settings-editor > .settings-body .settings-toc-container .monaco-list-row .settings-toc-entry,
-.settings-editor > .settings-body .settings-toc-container .monaco-list-row .settings-toc-count,
-.search-view .linematch,
-.search-view .filematch .search-view .foldermatch .search-view .textsearchresult,
-.scm-view .monaco-list-row,
-.review-widget .body .review-comment .review-comment-contents .timestamp,
-.review-widget .body .review-comment .review-comment-contents .isPending,
-.review-widget .body .review-comment .review-comment-contents .author,
-.profiles-editor .contents-container .profile-use-as-default-container .profiles-editor .contents-container .profile-use-for-current-container,
-.profiles-editor .contents-container .profile-content-tree-header,
-.profiles-editor .contents-container .profile-body .profile-row-container .profile-icon-container,
-.monaco-workbench.mac .part.titlebar > .titlebar-container,
-.monaco-workbench.linux .part.titlebar > .titlebar-container,
-.monaco-workbench.web .part.titlebar > .titlebar-container,
-.monaco-workbench.windows .part.titlebar > .titlebar-container,
-.monaco-workbench .part.statusbar > .items-container > .statusbar-item,
-.monaco-workbench .part.editor > .content .walkThroughContent,
-.monaco-workbench .part.editor > .content .gettingStartedContainer,
-.monaco-workbench .notifications-list-container .notification-offset-helper,
-.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-message,
-.monaco-workbench .notebookOverlay.notebook-editor,
-.monaco-workbench .monaco-breadcrumbs-picker .picker-item,
-.monaco-hover .hover-row.status-bar,
-.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message,
-.monaco-dialog-box .dialog-message-row .dialog-message-container .dialog-message-detail,
-.monaco-component.multiDiffEditor .multiDiffEntry .header .header-content .file-path .title,
-.monaco-component.multiDiffEditor .multiDiffEntry .header .header-content .file-path .status,
-.markers-panel .markers-panel-container .tree-container .monaco-tl-contents,
-.markers-panel .markers-panel-container .message-box-container,
-.extensions-viewlet > .extensions .extension-view-header .monaco-action-bar .action-item > .action-label.icon.codicon,
-.extension-editor > .header > .details > .actions-status-container > .status,
-.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .monaco-dropdown .extension-action.action-dropdown .extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item > .extension-action,
-.extension-editor > .body > .content details > summary,
-.extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .footer .extension-editor > .body > .content > .details > .readme-container > .extension-pack-readme > .extension-pack > .header,
-.debug-pane .session .codicon,
-.debug-pane .monaco-list-row,
-.comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-metadata-container .comments-panel .comments-panel-container .tree-container .comment-thread-container .comment-snippet-container,
-.comments-panel .comments-panel-container .message-box-container,
-.action-widget-action-bar .action-label {
-  line-height: var(--norm-size);
-}
-
-.settings-editor > .settings-body .settings-tree-container .setting-toolbar-container,
-.scm-view .monaco-list-row .monaco-icon-label-container,
-.scm-view .monaco-list-row .history-item > .graph-container,
-.scm-history-view .history-item-load-more,
-.review-widget .body .review-comment .comment-actions .monaco-toolbar,
-.remote-help-content .monaco-list .monaco-list-row .remote-help-tree-node-item > .remote-help-tree-node-item-icon,
-.quick-input-list .quick-input-list-icon,
-.ports-view .monaco-list .monaco-list-row .ports-view-actionbar-cell,
-.open-editors .monaco-list .monaco-list-row > .monaco-action-bar .action-close-all-files .open-editors .monaco-list .monaco-list-row > .monaco-action-bar .save-all,
-.monaco-workbench.linux .explorer-folders-view .explorer-item .monaco-inputbox,
-.monaco-workbench.mac .explorer-folders-view .explorer-item .monaco-inputbox,
-.monaco-workbench .viewlet .collapsible.header .actions .action-label,
-.monaco-workbench .screen-reader-detected-explanation .cancel,
-.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center,
-.monaco-workbench .part.statusbar,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-icon-label:before,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .breadcrumbs-below-tabs .breadcrumbs-control .monaco-breadcrumb-item:before,
-.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-toolbar-container,
-.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-icon,
-.monaco-workbench .notebookOverlay .notebook-toolbar-container .monaco-action-bar .action-item,
-.monaco-workbench .notebookOverlay .notebook-toolbar-container .monaco-action-bar .action-item .kernel-label,
-.monaco-workbench .notebookOverlay .cell-statusbar-container,
-.monaco-pane-view .pane > .pane-header,
-.monaco-icon-label:before,
-.monaco-editor .find-widget .codicon-find-selection,
-.monaco-dialog-box .dialog-toolbar-row,
-.menubar .toolbar-toggle-more,
-.markers-panel .monaco-tl-contents .marker-icon,
-.markers-panel .monaco-tl-contents .actions .markers-panel .monaco-tl-contents .multiline-actions .monaco-action-bar,
-.interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button.secondary,
-.interactive-session .chat-editing-session .chat-editing-session-toolbar-actions .monaco-button-dropdown.sidebyside-button > .separator,
-.interactive-result-code-block .interactive-result-vulns-header,
-.interactive-item-container.interactive-response:not(.chat-response-loading) .chat-footer-toolbar,
-.extension-editor > .header > .details > .actions-status-container > .monaco-action-bar > .actions-container > .action-item.action-dropdown-item > .action-dropdown-item-separator,
-.debug-pane .monaco-list-row .expression .value,
-.customview-tree .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-resourceLabel > .custom-view-tree-node-item-icon .timeline-tree-view .monaco-list .monaco-list-row .custom-view-tree-node-item > .custom-view-tree-node-item-icon {
-  height: var(--norm-size);
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title.breadcrumbs .breadcrumbs-control,
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label {
-  line-height: var(--norm-size);
-}
-
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .title-actions,
-.monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .monaco-icon-label:before,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
   height: var(--norm-size);
 }
 
