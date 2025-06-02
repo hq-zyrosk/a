@@ -10,7 +10,6 @@
     "editor.defaultFormatter" = "tamasfe.even-better-toml";
   };
   "evenBetterToml.taplo.path" = null;
-  "evenBetterToml.taplo.configFile.path" = null;
   "evenBetterToml.taplo.configFile.enabled" = true;
   "evenBetterToml.taplo.bundled" = true;
   "evenBetterToml.syntax.semanticTokens" = true;
