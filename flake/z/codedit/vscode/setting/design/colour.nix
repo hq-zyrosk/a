@@ -66,12 +66,6 @@ in {
       "toolModule" = {
         "foreground" = "#FF0000FF";
       };
-      "tomlTableKey" = {
-        "foreground" = "#FF0000FF";
-      };
-      "tomlArrayKey" = {
-        "foreground" = "#FF0000FF";
-      };
       "static" = {
         "foreground" = "#FF0000FF";
       };
@@ -155,6 +149,9 @@ in {
         "foreground" = "#00F500FF";
       };
       #----------------------------------------------------------------------------------------#
+      "tomlArrayKey" = {
+        "foreground" = "#00EBEBFF";
+      };
       "selfKeyword" = {
         "foreground" = "#00EBEBFF";
       };
@@ -162,6 +159,9 @@ in {
         "foreground" = "#00EBEBFF";
       };
       #----------------------------------------------------------------------------------------#
+      "tomlTableKey" = {
+        "foreground" = "#CFCFFFFF";
+      };
       "formatSpecifier" = {
         "foreground" = "#CFCFFFFF";
       };
