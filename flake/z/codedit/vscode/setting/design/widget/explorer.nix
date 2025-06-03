@@ -18,7 +18,7 @@
   "files.candidateGuessEncodings" = [];
   "files.associations" = {};
   "explorer.fileNesting.patterns" = {
-    "justfile" = "*.code-workspace, .gitattributes, .gitignore, *.txt, *.ps1, *.sh";
+    "justfile" = "*.code-workspace, .gitattributes, .gitignore, *.toml, *.txt, *.ps1, *.sh";
     "*.tsx" = "\${capture}.d.tsx, \${capture}.tsx.map";
     "*.nix" = "\${capture}.lock";
   };

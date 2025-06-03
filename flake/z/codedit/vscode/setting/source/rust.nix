@@ -170,7 +170,7 @@ in {
   "rust-analyzer.restartServerOnConfigChange" = true;
   "rust-analyzer.references.excludeTests" = false;
   "rust-analyzer.references.excludeImports" = false;
-  "rust-analyzer.procMacro.server" = "rust-analyzer";
+  "rust-analyzer.procMacro.server" = null;
   "rust-analyzer.procMacro.enable" = true;
   "rust-analyzer.procMacro.attributes.enable" = true;
   "rust-analyzer.numThreads" = "logical";
