@@ -1,7 +1,8 @@
 let
-  c9 = _.rgba 0.25000 0.25000 0.25000 1.00000;
-  c5 = _.rgba 0.12500 0.12500 0.12500 1.00000;
+  c9 = _.rgba 0.50000 0.50000 0.50000 1.00000;
+  c5 = _.rgba 0.25000 0.25000 0.25000 1.00000;
   c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
+  a1 = _.rgba 0.00000 0.00000 0.00000 0.50000;
   _ = import ./_.nix;
 in {
   "welcomePage.tileHoverBackground" = c9;
@@ -35,9 +36,6 @@ in {
   "statusBarItem.activeBackground" = c5;
   "radio.activeBackground" = c5;
   "inputOption.activeBackground" = c5;
-  "editorWarning.background" = c5;
-  "editorInfo.background" = c5;
-  "editorError.background" = c5;
   "editorCommentsWidget.rangeActiveBackground" = c5;
   "commandCenter.activeBackground" = c5;
   "activityBarTop.activeBackground" = c5;
@@ -150,4 +148,8 @@ in {
   "activityBarBadge.background" = c1;
   "activityBar.background" = c1;
   "actionBar.toggledBackground" = c1;
+
+  "editorWarning.background" = a1;
+  "editorInfo.background" = a1;
+  "editorError.background" = a1;
 }

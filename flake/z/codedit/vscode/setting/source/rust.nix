@@ -164,7 +164,7 @@ in {
   "rust-analyzer.semanticHighlighting.nonStandardTokens" = true;
   "rust-analyzer.semanticHighlighting.doc.comment.inject.enable" = true;
   "rust-analyzer.rustfmt.rangeFormatting.enable" = true;
-  "rust-analyzer.rustc.source" = "discover";
+  "rust-analyzer.rustc.source" = null;
   "rust-analyzer.runnables.command" = null;
   "rust-analyzer.runnables.askBeforeUpdateTest" = true;
   "rust-analyzer.restartServerOnConfigChange" = true;
