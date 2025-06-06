@@ -31,7 +31,7 @@ in {
           level = "Normal";
           dynamic_title = true;
           dynamic_padding = false;
-          decorations_theme_variant = "Dark";
+          decorations_theme_variant = "Light";
           decorations = "None";
           blur = false;
         };
