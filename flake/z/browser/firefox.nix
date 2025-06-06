@@ -4,10 +4,10 @@
       profiles = {
         default = {
           settings = {
-            "ui.systemUsesDarkTheme" = 1;
-            "reader.color_scheme" = "dark";
-            "browser.theme.toolbar-theme" = 1;
-            "browser.theme.content-theme" = 1;
+            "ui.systemUsesDarkTheme" = 0;
+            "reader.color_scheme" = "light";
+            "browser.theme.toolbar-theme" = 0;
+            "browser.theme.content-theme" = 0;
           };
         };
       };
