@@ -199,22 +199,22 @@ in {
       };
       #----------------------------------------------------------------------------------------#
       "operator" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       "macroBang" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       "logical" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       "comparison" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       "bitwise" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       "arithmetic" = {
-        "foreground" = "#808080FF";
+        "foreground" = "#BCBCBCFF";
       };
       #----------------------------------------------------------------------------------------#
       "semicolon" = {
