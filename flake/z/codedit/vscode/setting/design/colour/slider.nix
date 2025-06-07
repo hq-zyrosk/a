@@ -3,13 +3,13 @@ let
   c5 = "#888888FF";
   c1 = "#3C3C3CFF";
 in {
-  "scrollbarSlider.hoverBackground" = c9;
-  "notebookScrollbarSlider.hoverBackground" = c9;
-  "minimapSlider.hoverBackground" = c9;
+  "scrollbarSlider.activeBackground" = c9;
+  "notebookScrollbarSlider.activeBackground" = c9;
+  "minimapSlider.activeBackground" = c9;
 
-  "scrollbarSlider.activeBackground" = c5;
-  "notebookScrollbarSlider.activeBackground" = c5;
-  "minimapSlider.activeBackground" = c5;
+  "scrollbarSlider.hoverBackground" = c5;
+  "notebookScrollbarSlider.hoverBackground" = c5;
+  "minimapSlider.hoverBackground" = c5;
 
   "scrollbarSlider.background" = c1;
   "notebookScrollbarSlider.background" = c1;
