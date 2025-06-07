@@ -1,8 +1,8 @@
 let
-  c9 = "#3C3C3CFF";
-  c5 = "#888888FF";
-  c1 = "#CACACAFF";
-  a1 = "#CACACA7F";
+  c9 = "#636363FF";
+  c5 = "#ADADADFF";
+  c1 = "#E0E0E0FF";
+  a1 = "#E0E0E07F";
   _ = import ./_.nix;
 in {
   "titleBar.activeForeground" = c9;
