@@ -2,7 +2,6 @@ let
   c9 = "#3C3C3CFF";
   c5 = "#888888FF";
   c1 = "#CACACAFF";
-  a1 = "#CACACA7F";
   # c9 = "#BCBCBCFF";
   # c5 = "#515151FF";
   # c1 = "#222222FF";

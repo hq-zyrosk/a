@@ -2,8 +2,7 @@ let
   c9 = "#FFFFFFFF";
   c5 = "#FFFFFFFF";
   c1 = "#FFFFFFFF";
-  a1 = "#FFFFFF80";
-  _ = import ./_.nix;
+  a1 = "#FFFFFF7F";
 in {
   "toolbar.activeBackground" = c9;
   "titleBar.activeBackground" = c9;

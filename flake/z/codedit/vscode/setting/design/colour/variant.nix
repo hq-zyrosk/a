@@ -1,7 +1,7 @@
 let
   yellow_t = "#DBDB003F";
   green_t = "#00F5003F";
-  red_t = "#FFC5C580";
+  red_t = "#FFC5C57F";
   yellow = "#DBDB00FF";
   white = "#515151FF";
   red = "#FFC5C5FF";

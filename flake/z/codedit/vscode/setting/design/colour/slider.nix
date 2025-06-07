@@ -1,8 +1,7 @@
 let
-  c9 = _.rgba 1.00000 1.00000 1.00000 1.00000;
-  c5 = _.rgba 0.50000 0.50000 0.50000 1.00000;
-  c1 = _.rgba 0.00000 0.00000 0.00000 1.00000;
-  _ = import ./_.nix;
+  c9 = "#CACACAFF";
+  c5 = "#888888FF";
+  c1 = "#3C3C3CFF";
 in {
   "scrollbarSlider.hoverBackground" = c9;
   "notebookScrollbarSlider.hoverBackground" = c9;
