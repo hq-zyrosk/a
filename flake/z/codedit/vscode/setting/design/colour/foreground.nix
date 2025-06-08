@@ -1,8 +1,8 @@
 let
-  c9 = "#3C3C3CFF";
+  c9 = "#000000FF";
   c5 = "#636363FF";
-  c1 = "#888888FF";
-  a1 = "#8888887F";
+  c1 = "#ADADADFF";
+  a1 = "#ADADAD7F";
 in {
   "titleBar.activeForeground" = c9;
   "textLink.activeForeground" = c9;
