@@ -30,6 +30,11 @@ in {
   "scmGraph.historyItemHoverAdditionsForeground" = c9;
   "scm.historyGraph.historyItemGroupHoverLabelForeground" = c9;
   "list.hoverForeground" = c9;
+  "quickInputList.focusIconForeground" = c9;
+  "quickInputList.focusForeground" = c9;
+  "list.focusForeground" = c9;
+  "editorActionList.focusForeground" = c9;
+  "breadcrumb.focusForeground" = c9;
 
   "welcomePage.progress.foreground" = c5;
   "walkthrough.stepTitle.foreground" = c5;
@@ -104,8 +109,6 @@ in {
   "scmGraph.foreground1" = c5;
   "scm.historyItemDeletionsForeground" = c5;
   "scm.historyItemAdditionsForeground" = c5;
-  "quickInputList.focusIconForeground" = c5;
-  "quickInputList.focusForeground" = c5;
   "quickInput.foreground" = c5;
   "profileBadge.foreground" = c5;
   "ports.iconRunningProcessForeground" = c5;
@@ -124,7 +127,6 @@ in {
   "notebookStatusRunningIcon.foreground" = c5;
   "menubar.selectionForeground" = c5;
   "menu.foreground" = c5;
-  "list.focusForeground" = c5;
   "keybindingLabel.foreground" = c5;
   "input.foreground" = c5;
   "inlineEdit.indicator.foreground" = c5;
@@ -159,7 +161,6 @@ in {
   "editorGroup.dropIntoPromptForeground" = c5;
   "editorCodeLens.foreground" = c5;
   "editorActionList.foreground" = c5;
-  "editorActionList.focusForeground" = c5;
   "editor.inlineValuesForeground" = c5;
   "editor.foreground" = c5;
   "dropdown.foreground" = c5;
@@ -195,7 +196,6 @@ in {
   "button.secondaryForeground" = c5;
   "button.foreground" = c5;
   "breadcrumb.foreground" = c5;
-  "breadcrumb.focusForeground" = c5;
   "banner.iconForeground" = c5;
   "banner.foreground" = c5;
   "badge.foreground" = c5;
