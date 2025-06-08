@@ -2,9 +2,6 @@ let
   a9 = "#0000003F";
   a5 = "#6363633F";
   a1 = "#ADADAD3F";
-  # a9 = "#BCBCBCFF";
-  # a5 = "#515151FF";
-  # a1 = "#222222FF";
 in {
   "window.activeBorder" = a9;
   "toolbar.hoverOutline" = a9;

@@ -199,61 +199,61 @@ in {
       };
       #----------------------------------------------------------------------------------------#
       "operator" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       "macroBang" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       "logical" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       "comparison" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       "bitwise" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       "arithmetic" = {
-        "foreground" = "#BCBCBCFF";
+        "foreground" = "#0000FFFF";
       };
       #----------------------------------------------------------------------------------------#
       "semicolon" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "punctuation" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "parenthesis" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "dot" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "comma" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "colon" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "bracket" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "brace" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "attributeBracket" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       "angle" = {
-        "foreground" = "#515151FF";
+        "foreground" = "#636363FF";
       };
       #----------------------------------------------------------------------------------------#
       "comment" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#ADADADFF";
       };
       #----------------------------------------------------------------------------------------#
       "keyword" = {
-        "foreground" = "#222222FF";
+        "foreground" = "#ADADADFF";
       };
       #----------------------------------------------------------------------------------------#
       "*.mutable" = {

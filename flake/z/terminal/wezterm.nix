@@ -25,7 +25,7 @@
         split = "#404040";
         selection_fg = "#000000";
         selection_bg = "#FFFFFF";
-        scrollbar_thumb = "#222222";
+        scrollbar_thumb = "#ADADAD";
         foreground = "#B8B8B8";
         cursor_fg = "#FFFFFF";
         cursor_border = "#FFFFFF";
