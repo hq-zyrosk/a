@@ -3,7 +3,7 @@ let
   a_green = "#0074003F";
   a_red = "#C900003F";
   yellow = "#DBDB00FF";
-  white = "#636363FF";
+  black = "#636363FF";
   red = "#C90000FF";
   orange = "#FFC994FF";
   magenta = "#FFBEFFFF";
@@ -61,26 +61,26 @@ in {
   "editorGutter.deletedBackground" = red;
   "diffEditorOverview.removedForeground" = red;
 
-  "notebookEditorOverviewRuler.runningCellForeground" = white;
-  "gitDecoration.untrackedResourceForeground" = white;
-  "gitDecoration.submoduleResourceForeground" = white;
-  "gitDecoration.renamedResourceForeground" = white;
-  "gitDecoration.ignoredResourceForeground" = white;
-  "gitDecoration.conflictingResourceForeground" = white;
-  "git.blame.editorDecorationForeground" = white;
-  "editorOverviewRuler.incomingContentForeground" = white;
-  "editorOverviewRuler.currentContentForeground" = white;
-  "editorOverviewRuler.commonContentForeground" = white;
-  "editorOverviewRuler.commentUnresolvedForeground" = white;
-  "editorOverviewRuler.commentForeground" = white;
-  "editorOverviewRuler.bracketMatchForeground" = white;
+  "notebookEditorOverviewRuler.runningCellForeground" = black;
+  "gitDecoration.untrackedResourceForeground" = black;
+  "gitDecoration.submoduleResourceForeground" = black;
+  "gitDecoration.renamedResourceForeground" = black;
+  "gitDecoration.ignoredResourceForeground" = black;
+  "gitDecoration.conflictingResourceForeground" = black;
+  "git.blame.editorDecorationForeground" = black;
+  "editorOverviewRuler.incomingContentForeground" = black;
+  "editorOverviewRuler.currentContentForeground" = black;
+  "editorOverviewRuler.commonContentForeground" = black;
+  "editorOverviewRuler.commentUnresolvedForeground" = black;
+  "editorOverviewRuler.commentForeground" = black;
+  "editorOverviewRuler.bracketMatchForeground" = black;
 
   "scm.historyGraph.yellow" = yellow;
   "scm.historyGraph.green" = green;
   "scm.historyGraph.red" = red;
 
   "terminal.ansiBrightYellow" = yellow;
-  "terminal.ansiBrightWhite" = white;
+  "terminal.ansiBrightWhite" = black;
   "terminal.ansiBrightRed" = red;
   "terminal.ansiBrightMagenta" = magenta;
   "terminal.ansiBrightGreen" = green;
@@ -88,7 +88,7 @@ in {
   "terminal.ansiBrightBlue" = blue;
 
   "terminal.ansiYellow" = yellow;
-  "terminal.ansiWhite" = white;
+  "terminal.ansiWhite" = black;
   "terminal.ansiRed" = red;
   "terminal.ansiMagenta" = magenta;
   "terminal.ansiGreen" = green;
