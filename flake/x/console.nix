@@ -24,6 +24,7 @@ in {
       };
       shellAliases = {
         "ls" = "eza --all --header --hyperlink --long";
+        "do" = "just";
       };
       shellAbbrs = {};
       interactiveShellInit = ''
