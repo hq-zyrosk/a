@@ -3,30 +3,30 @@
     wezterm = {
       colorSchemes = {
         brights = [
-          "#5A5A5A"
+          "#FFFFFF"
           "#C90000"
           "#007400"
           "#666600"
           "#4343FF"
           "#B100B1"
           "#006F6F"
-          "#FFFFFF"
+          "#636363"
         ];
         ansi = [
-          "#000000"
+          "#FFFFFF"
           "#C90000"
           "#007400"
           "#666600"
           "#4343FF"
           "#B100B1"
           "#006F6F"
-          "#B8B8B8"
+          "#636363"
         ];
         split = "#404040";
         selection_fg = "#000000";
         selection_bg = "#FFFFFF";
         scrollbar_thumb = "#ADADAD";
-        foreground = "#B8B8B8";
+        foreground = "#636363";
         cursor_fg = "#FFFFFF";
         cursor_border = "#FFFFFF";
         cursor_bg = "#FF0000";

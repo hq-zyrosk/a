@@ -1,5 +1,5 @@
 let
-  terminal = "alacritty";
+  terminal = "wezterm";
 in {
   "terminal.integrated.suggest.windowsExecutableExtensions" = {};
   "terminal.integrated.suggest.quickSuggestions" = {

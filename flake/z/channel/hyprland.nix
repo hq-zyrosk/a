@@ -94,7 +94,7 @@
           exec-once = [
             "[workspace 1 silent] code --enable-proposed-api --no-sandbox --ozone-platform=wayland"
             "[workspace special:browser silent] MOZ_ENABLE_WAYLAND=1 firefox"
-            "[workspace special:command silent] alacritty"
+            "[workspace special:command silent] wezterm"
 
             "dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
             "systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP"
@@ -197,7 +197,7 @@
             "mod4 shift, tab, movetoworkspace, special:command"
 
             "mod4 shift, return, exec, rofi -show window"
-            "mod4 shift, t, exec, alacritty"
+            "mod4 shift, t, exec, wezterm"
             "mod4 shift, f, fullscreen, 1"
             "mod4 shift, q, exit"
 
