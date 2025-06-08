@@ -1,15 +1,15 @@
 let
   yellow_t = "#DBDB003F";
   green_t = "#00F5003F";
-  red_t = "#FFC5C57F";
+  red_t = "#FF3E3E7F";
   yellow = "#DBDB00FF";
   white = "#636363FF";
-  red = "#FFC5C5FF";
+  red = "#FF3E3EFF";
   orange = "#FFC994FF";
   magenta = "#FFBEFFFF";
   green = "#00F500FF";
-  cyan = "#00EBEBFF";
-  blue = "#CFCFFFFF";
+  cyan = "#009999FF";
+  blue = "#7979FFFF";
 in {
   "inlineEdit.modifiedBackground" = yellow_t;
   "inlineEdit.modifiedChangedTextBackground" = yellow_t;

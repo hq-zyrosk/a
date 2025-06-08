@@ -135,31 +135,31 @@ in {
           normal = {
             yellow = "#DBDB00";
             white = "#B8B8B8";
-            red = "#FFC5C5";
+            red = "#FF3E3E";
             magenta = "#FFBEFF";
             green = "#00F500";
-            cyan = "#00EBEB";
-            blue = "#CFCFFF";
+            cyan = "#009999";
+            blue = "#7979FF";
             black = "#5A5A5A";
           };
           dim = {
             yellow = "#DBDB00";
             white = "#B8B8B8";
-            red = "#FFC5C5";
+            red = "#FF3E3E";
             magenta = "#FFBEFF";
             green = "#00F500";
-            cyan = "#00EBEB";
-            blue = "#CFCFFF";
+            cyan = "#009999";
+            blue = "#7979FF";
             black = "#5A5A5A";
           };
           bright = {
             yellow = "#DBDB00";
             white = "#B8B8B8";
-            red = "#FFC5C5";
+            red = "#FF3E3E";
             magenta = "#FFBEFF";
             green = "#00F500";
-            cyan = "#00EBEB";
-            blue = "#CFCFFF";
+            cyan = "#009999";
+            blue = "#7979FF";
             black = "#5A5A5A";
           };
           draw_bold_text_with_bright_colors = true;

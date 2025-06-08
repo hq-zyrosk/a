@@ -4,22 +4,22 @@
       colorSchemes = {
         brights = [
           "#5A5A5A"
-          "#FFC5C5"
+          "#FF3E3E"
           "#00F500"
           "#DBDB00"
-          "#CFCFFF"
+          "#7979FF"
           "#FFBEFF"
-          "#00EBEB"
+          "#009999"
           "#FFFFFF"
         ];
         ansi = [
           "#000000"
-          "#FFC5C5"
+          "#FF3E3E"
           "#00F500"
           "#DBDB00"
-          "#CFCFFF"
+          "#7979FF"
           "#FFBEFF"
-          "#00EBEB"
+          "#009999"
           "#B8B8B8"
         ];
         split = "#404040";
