@@ -72,6 +72,8 @@
       # proxychains
       # proxify
 
+      warp-terminal
+
       brightnessctl
       pavucontrol
 

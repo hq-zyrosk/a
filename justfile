@@ -13,17 +13,17 @@ config:
 finder:
   cd /nix/store/ && ls | grep "vscode" | grep -v '.drv$'
 
-flake-z args="":
-  just flake-c "{{ args }} --impure --flake .#a@x"
+z args="":
+  just c "{{ args }} --impure --flake .#a@x"
   just config
 
-flake-x args="":
-    just flake-a "{{ args }} --impure --flake .#x"
+x args="":
+    just a "{{ args }} --impure --flake .#x"
 
-flake-c args:
+c args:
   home-manager switch {{ args }}
 
-flake-a args:
+a args:
   sudo nixos-rebuild switch -I nixos-config=/etc/nixos/configuration.nix {{ args }}
 
 format:
