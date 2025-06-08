@@ -1,17 +1,17 @@
 let
-  c9 = "#000000FF";
-  c5 = "#636363FF";
-  c1 = "#ADADADFF";
+  a9 = "#0000007F";
+  a5 = "#6363637F";
+  a1 = "#ADADAD7F";
 in {
-  "scrollbarSlider.hoverBackground" = c9;
-  "scrollbarSlider.activeBackground" = c9;
-  "notebookScrollbarSlider.hoverBackground" = c9;
-  "notebookScrollbarSlider.activeBackground" = c9;
-  "minimapSlider.hoverBackground" = c9;
-  "minimapSlider.activeBackground" = c9;
+  "scrollbarSlider.hoverBackground" = a9;
+  "scrollbarSlider.activeBackground" = a9;
+  "notebookScrollbarSlider.hoverBackground" = a9;
+  "notebookScrollbarSlider.activeBackground" = a9;
+  "minimapSlider.hoverBackground" = a9;
+  "minimapSlider.activeBackground" = a9;
 
-  "scrollbarSlider.background" = c5;
-  "notebookScrollbarSlider.background" = c5;
+  "scrollbarSlider.background" = a5;
+  "notebookScrollbarSlider.background" = a5;
 
-  "minimapSlider.background" = c1;
+  "minimapSlider.background" = a1;
 }
