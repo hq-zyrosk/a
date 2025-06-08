@@ -3,7 +3,6 @@ let
   c5 = "#2E2E2EFF";
   c1 = "#888888FF";
   a1 = "#8888887F";
-  _ = import ./_.nix;
 in {
   "titleBar.activeForeground" = c9;
   "textLink.activeForeground" = c9;
