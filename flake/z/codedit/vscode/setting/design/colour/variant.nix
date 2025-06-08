@@ -1,20 +1,20 @@
 let
-  yellow_t = "#DBDB003F";
-  green_t = "#00F5003F";
-  red_t = "#FF3E3E7F";
+  a_yellow = "#DBDB003F";
+  a_green = "#0074003F";
+  a_red = "#C900003F";
   yellow = "#DBDB00FF";
   white = "#636363FF";
-  red = "#FF3E3EFF";
+  red = "#C90000FF";
   orange = "#FFC994FF";
   magenta = "#FFBEFFFF";
-  green = "#00F500FF";
-  cyan = "#009999FF";
-  blue = "#7979FFFF";
+  green = "#007400FF";
+  cyan = "#006F6FFF";
+  blue = "#4343FFFF";
 in {
-  "inlineEdit.modifiedBackground" = yellow_t;
-  "inlineEdit.modifiedChangedTextBackground" = yellow_t;
-  "inlineEdit.modifiedChangedLineBackground" = yellow_t;
-  "editorGutter.modifiedSecondaryBackground" = yellow_t;
+  "inlineEdit.modifiedBackground" = a_yellow;
+  "inlineEdit.modifiedChangedTextBackground" = a_yellow;
+  "inlineEdit.modifiedChangedLineBackground" = a_yellow;
+  "editorGutter.modifiedSecondaryBackground" = a_yellow;
 
   "tab.unfocusedInactiveModifiedBorder" = yellow;
   "tab.unfocusedActiveModifiedBorder" = yellow;
@@ -29,11 +29,11 @@ in {
   "editorOverviewRuler.modifiedForeground" = yellow;
   "editorGutter.modifiedBackground" = yellow;
 
-  "editorGutter.addedSecondaryBackground" = green_t;
-  "diffEditorGutter.insertedLineBackground" = green_t;
-  "diffEditor.insertedTextBorder" = green_t;
-  "diffEditor.insertedTextBackground" = green_t;
-  "diffEditor.insertedLineBackground" = green_t;
+  "editorGutter.addedSecondaryBackground" = a_green;
+  "diffEditorGutter.insertedLineBackground" = a_green;
+  "diffEditor.insertedTextBorder" = a_green;
+  "diffEditor.insertedTextBackground" = a_green;
+  "diffEditor.insertedLineBackground" = a_green;
 
   "notebook.cellInsertionIndicator" = green;
   "minimapGutter.addedBackground" = green;
@@ -46,11 +46,11 @@ in {
   "editorGutter.addedBackground" = green;
   "diffEditorOverview.insertedForeground" = green;
 
-  "editorGutter.deletedSecondaryBackground" = red_t;
-  "diffEditorGutter.removedLineBackground" = red_t;
-  "diffEditor.removedTextBorder" = red_t;
-  "diffEditor.removedTextBackground" = red_t;
-  "diffEditor.removedLineBackground" = red_t;
+  "editorGutter.deletedSecondaryBackground" = a_red;
+  "diffEditorGutter.removedLineBackground" = a_red;
+  "diffEditor.removedTextBorder" = a_red;
+  "diffEditor.removedTextBackground" = a_red;
+  "diffEditor.removedLineBackground" = a_red;
 
   "minimapGutter.deletedBackground" = red;
   "inlineChatDiff.removed" = red;

@@ -40,7 +40,7 @@ in {
           "variable"
         ];
         "settings" = {
-          "foreground" = "#009999FF";
+          "foreground" = "#006F6FFF";
         };
       }
       {
@@ -48,7 +48,7 @@ in {
           "string.quoted.double.nix"
         ];
         "settings" = {
-          "foreground" = "#FF3E3EFF";
+          "foreground" = "#636363FF";
         };
       }
     ];
@@ -146,56 +146,56 @@ in {
       };
       #----------------------------------------------------------------------------------------#
       "parameter" = {
-        "foreground" = "#00F500FF";
+        "foreground" = "#007400FF";
       };
       #----------------------------------------------------------------------------------------#
       "tomlArrayKey" = {
-        "foreground" = "#009999FF";
+        "foreground" = "#006F6FFF";
       };
       "selfKeyword" = {
-        "foreground" = "#009999FF";
+        "foreground" = "#006F6FFF";
       };
       "variable" = {
-        "foreground" = "#009999FF";
+        "foreground" = "#006F6FFF";
       };
       #----------------------------------------------------------------------------------------#
       "tomlTableKey" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "formatSpecifier" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "escapeSequence" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "builtinAttribute" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "decorator" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "regexp" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "macro" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       "function" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       #----------------------------------------------------------------------------------------#
       "namespace" = {
-        "foreground" = "#7979FFFF";
+        "foreground" = "#4343FFFF";
       };
       #----------------------------------------------------------------------------------------#
       "boolean" = {
-        "foreground" = "#FF3E3EFF";
+        "foreground" = "#636363FF";
       };
       "string" = {
-        "foreground" = "#FF3E3EFF";
+        "foreground" = "#636363FF";
       };
       "number" = {
-        "foreground" = "#FF3E3EFF";
+        "foreground" = "#636363FF";
       };
       #----------------------------------------------------------------------------------------#
       "operator" = {
