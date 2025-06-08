@@ -1,7 +1,7 @@
 let
-  c9 = "#636363FF";
-  c5 = "#ADADADFF";
-  c1 = "#E0E0E0FF";
+  c9 = "#000000FF";
+  c5 = "#2E2E2EFF";
+  c1 = "#888888FF";
 in {
   "scrollbarSlider.activeBackground" = c9;
   "notebookScrollbarSlider.activeBackground" = c9;
