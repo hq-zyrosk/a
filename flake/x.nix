@@ -32,7 +32,7 @@
         packages = with pkgs; [
           home-manager
           alejandra
-          nil
+          nixd
         ];
         extraGroups = [
           "networkmanager"

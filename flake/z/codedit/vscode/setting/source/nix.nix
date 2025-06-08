@@ -21,26 +21,6 @@
         "suppress" = [];
       };
     };
-    "nil" = {
-      "nix" = {
-        "flake" = {
-          "nixpkgsInputName" = "nixpkgs";
-          "autoEvalInputs" = false;
-          "autoArchive" = false;
-        };
-        "maxMemoryMB" = 4096;
-        "binary" = "nix";
-      };
-      "formatting" = {
-        "command" = [
-          "alejandra"
-        ];
-      };
-      "diagnostics" = {
-        "excludedFiles" = [];
-        "ignored" = [];
-      };
-    };
   };
   "nix.hiddenLanguageServerErrors" = [
     "textDocument/documentSymbol"
@@ -49,7 +29,7 @@
   "[nix]" = {
     "editor.defaultFormatter" = "jnoortheen.nix-ide";
   };
-  "nix.serverPath" = "nil";
+  "nix.serverPath" = "nixd";
   "nix.formatterPath" = "alejandra";
   "nix.enableLanguageServer" = true;
 }

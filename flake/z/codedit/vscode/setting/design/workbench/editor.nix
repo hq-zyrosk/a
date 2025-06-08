@@ -41,7 +41,7 @@
   "workbench.editor.pinnedTabsOnSeparateRow" = false;
   "workbench.editor.pinnedTabSizing" = "compact";
   "workbench.editor.openSideBySideDirection" = "right";
-  "workbench.editor.openPositioning" = "left";
+  "workbench.editor.openPositioning" = "right";
   "workbench.editor.navigationScope" = "editorGroup";
   "workbench.editor.mouseBackForwardToNavigate" = true;
   "workbench.editor.limit.value" = 64;

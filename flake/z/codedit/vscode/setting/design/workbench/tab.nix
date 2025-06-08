@@ -5,6 +5,6 @@
   "workbench.editor.tabSizingFixedMaxWidth" = 96;
   "workbench.editor.tabSizing" = "fixed";
   "workbench.editor.tabActionUnpinVisibility" = false;
-  "workbench.editor.tabActionLocation" = "left";
+  "workbench.editor.tabActionLocation" = "right";
   "workbench.editor.tabActionCloseVisibility" = false;
 }
