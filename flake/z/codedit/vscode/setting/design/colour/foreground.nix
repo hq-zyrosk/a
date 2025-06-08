@@ -210,6 +210,9 @@ in {
   "panelTitle.inactiveForeground" = c1;
   "list.inactiveSelectionIconForeground" = c1;
   "list.inactiveSelectionForeground" = c1;
+  "editorWhitespace.foreground" = c1;
+  "editorRuler.foreground" = c1;
+  "editorLineNumber.foreground" = c1;
   "commandCenter.inactiveForeground" = c1;
   "activityBarTop.inactiveForeground" = c1;
   "activityBar.inactiveForeground" = c1;
