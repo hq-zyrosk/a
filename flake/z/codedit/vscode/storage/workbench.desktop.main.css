@@ -12,7 +12,7 @@
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
-  color: #2E2E2EFF;
+  color: #3C3C3CFF;
 }
 
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="true"] {
