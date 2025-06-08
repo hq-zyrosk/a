@@ -79,4 +79,23 @@
       allowUnfree = true;
     };
   };
+
+  environment = {
+    defaultPackages = with pkgs; [
+      nodejs_20
+      curlHTTP3
+      unzip
+      just
+      file
+      eza
+    ];
+    systemPackages = with pkgs; [
+      watchexec
+      xdg-utils
+      timelimit
+      libnotify
+      killall
+      cyme
+    ];
+  };
 }
