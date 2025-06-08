@@ -101,26 +101,26 @@ in {
       };
       #----------------------------------------------------------------------------------------#
       "unresolvedReference" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       "method" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       "property" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       #----------------------------------------------------------------------------------------#
       "selfTypeKeyword" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       "struct" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       "enumMember" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       "enum" = {
-        "foreground" = "#FFBEFFFF";
+        "foreground" = "#B100B1FF";
       };
       #----------------------------------------------------------------------------------------#
       "lifetime" = {

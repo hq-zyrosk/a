@@ -1,12 +1,11 @@
 let
-  a_yellow = "#DBDB003F";
+  a_yellow = "#6666003F";
   a_green = "#0074003F";
   a_red = "#C900003F";
-  yellow = "#DBDB00FF";
+  yellow = "#666600FF";
   black = "#636363FF";
   red = "#C90000FF";
-  orange = "#FFC994FF";
-  magenta = "#FFBEFFFF";
+  magenta = "#B100B1FF";
   green = "#007400FF";
   cyan = "#006F6FFF";
   blue = "#4343FFFF";
@@ -98,7 +97,7 @@ in {
   "charts.yellow" = yellow;
   "charts.red" = red;
   "charts.purple" = magenta;
-  "charts.orange" = orange;
+  "charts.orange" = cyan;
   "charts.green" = green;
   "charts.blue" = blue;
 }
