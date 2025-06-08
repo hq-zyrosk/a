@@ -82,7 +82,7 @@
 
   environment = {
     defaultPackages = with pkgs; [
-      nodejs_20
+      nodejs_latest
       curlHTTP3
       unzip
       just
