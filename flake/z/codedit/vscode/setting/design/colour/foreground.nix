@@ -6,19 +6,10 @@ let
 in {
   "titleBar.activeForeground" = c9;
   "textLink.activeForeground" = c9;
-  "tab.unfocusedActiveForeground" = c9;
-  "tab.activeForeground" = c9;
-  "radio.activeForeground" = c9;
-  "panelTitle.activeForeground" = c9;
-  "list.activeSelectionIconForeground" = c9;
-  "list.activeSelectionForeground" = c9;
-  "inputOption.activeForeground" = c9;
-  "editorLink.activeForeground" = c9;
-  "editorLineNumber.activeForeground" = c9;
-  "commandCenter.activeForeground" = c9;
-  "breadcrumb.activeSelectionForeground" = c9;
   "tab.unfocusedHoverForeground" = c9;
+  "tab.unfocusedActiveForeground" = c9;
   "tab.hoverForeground" = c9;
+  "tab.activeForeground" = c9;
   "statusBarItem.remoteHoverForeground" = c9;
   "statusBarItem.prominentHoverForeground" = c9;
   "statusBarItem.offlineHoverForeground" = c9;
@@ -29,12 +20,21 @@ in {
   "scmGraph.historyItemHoverDefaultLabelForeground" = c9;
   "scmGraph.historyItemHoverAdditionsForeground" = c9;
   "scm.historyGraph.historyItemGroupHoverLabelForeground" = c9;
-  "list.hoverForeground" = c9;
+  "radio.activeForeground" = c9;
   "quickInputList.focusIconForeground" = c9;
   "quickInputList.focusForeground" = c9;
+  "panelTitle.activeForeground" = c9;
+  "list.hoverForeground" = c9;
   "list.focusForeground" = c9;
+  "list.activeSelectionIconForeground" = c9;
+  "list.activeSelectionForeground" = c9;
+  "inputOption.activeForeground" = c9;
+  "editorLink.activeForeground" = c9;
+  "editorLineNumber.activeForeground" = c9;
   "editorActionList.focusForeground" = c9;
+  "commandCenter.activeForeground" = c9;
   "breadcrumb.focusForeground" = c9;
+  "breadcrumb.activeSelectionForeground" = c9;
 
   "testing.iconUnset" = c5;
   "testing.iconSkipped" = c5;
