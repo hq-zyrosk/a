@@ -1,4 +1,9 @@
-{lib, ...}: {
+{lib, ...}: let
+  nameservers = [
+    "8.8.8.8"
+    "1.1.1.1"
+  ];
+in {
   services = {
     resolved = {
       enable = true;
@@ -15,12 +20,10 @@
         powersave = false;
         backend = "iwd";
       };
+      insertNameservers = nameservers;
       enable = true;
+      dns = lib.mkDefault "none";
     };
-    nameservers = [
-      "8.8.8.8"
-      "1.1.1.1"
-    ];
 
     wireless = {
       iwd = {
