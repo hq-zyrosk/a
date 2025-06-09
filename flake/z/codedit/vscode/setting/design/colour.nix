@@ -124,25 +124,25 @@ in {
       };
       #----------------------------------------------------------------------------------------#
       "lifetime" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "generic" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "builtinType" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "typeParameter" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "derive" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "interface" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       "typeAlias" = {
-        "foreground" = "#DADA00FF";
+        "foreground" = "#666600FF";
       };
       #----------------------------------------------------------------------------------------#
       "parameter" = {
