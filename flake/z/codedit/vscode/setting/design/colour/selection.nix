@@ -1,21 +1,20 @@
 let
-  c9 = _.rgba 1.00000 1.00000 1.00000 0.50000;
-  c5 = _.rgba 1.00000 1.00000 1.00000 0.25000;
-  c1 = _.rgba 1.00000 1.00000 1.00000 0.12500;
-  _ = import ./_.nix;
+  a9 = "#0000003F";
+  a5 = "#6363633F";
+  a1 = "#ADADAD3F";
 in {
-  "minimap.selectionOccurrenceHighlight" = c9;
-  "menu.selectionForeground" = c9;
-  "editorOverviewRuler.selectionHighlightForeground" = c9;
-  "editor.selectionForeground" = c9;
+  "minimap.selectionOccurrenceHighlight" = a9;
+  "menu.selectionForeground" = a9;
+  "editorOverviewRuler.selectionHighlightForeground" = a9;
+  "editor.selectionForeground" = a9;
 
-  "terminal.selectionBackground" = c5;
-  "terminal.inactiveSelectionBackground" = c5;
-  "selection.background" = c5;
-  "minimap.selectionHighlight" = c5;
-  "editor.selectionBackground" = c5;
-  "editor.inactiveSelectionBackground" = c5;
-  "editor.selectionHighlightBackground" = c5;
+  "terminal.selectionBackground" = a5;
+  "terminal.inactiveSelectionBackground" = a5;
+  "selection.background" = a5;
+  "minimap.selectionHighlight" = a5;
+  "editor.selectionBackground" = a5;
+  "editor.inactiveSelectionBackground" = a5;
+  "editor.selectionHighlightBackground" = a5;
 
-  "editor.selectionHighlightBorder" = c1;
+  "editor.selectionHighlightBorder" = a1;
 }
