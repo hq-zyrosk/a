@@ -57,52 +57,6 @@ in {
     "enabled" = true;
     "rules" = {
       #----------------------------------------------------------------------------------------#
-      "type" = {
-        "foreground" = "#FF0000FF";
-      };
-      "union" = {
-        "foreground" = "#FF0000FF";
-      };
-      "toolModule" = {
-        "foreground" = "#FF0000FF";
-      };
-      "static" = {
-        "foreground" = "#FF0000FF";
-      };
-      "procMacro" = {
-        "foreground" = "#FF0000FF";
-      };
-      "label" = {
-        "foreground" = "#FF0000FF";
-      };
-      "invalidEscapeSequence" = {
-        "foreground" = "#FF0000FF";
-      };
-      "event" = {
-        "foreground" = "#FF0000FF";
-      };
-      "deriveHelper" = {
-        "foreground" = "#FF0000FF";
-      };
-      "constParameter" = {
-        "foreground" = "#FF0000FF";
-      };
-      "const" = {
-        "foreground" = "#FF0000FF";
-      };
-      "class" = {
-        "foreground" = "#FF0000FF";
-      };
-      "character" = {
-        "foreground" = "#FF0000FF";
-      };
-      "attribute" = {
-        "foreground" = "#FF0000FF";
-      };
-      #----------------------------------------------------------------------------------------#
-      "unresolvedReference" = {
-        "foreground" = "#B100B1FF";
-      };
       "method" = {
         "foreground" = "#B100B1FF";
       };
@@ -246,6 +200,52 @@ in {
       };
       "angle" = {
         "foreground" = "#636363FF";
+      };
+      #----------------------------------------------------------------------------------------#
+      "unresolvedReference" = {
+        "foreground" = "#ADADADFF";
+      };
+      "type" = {
+        "foreground" = "#ADADADFF";
+      };
+      "union" = {
+        "foreground" = "#ADADADFF";
+      };
+      "toolModule" = {
+        "foreground" = "#ADADADFF";
+      };
+      "static" = {
+        "foreground" = "#ADADADFF";
+      };
+      "procMacro" = {
+        "foreground" = "#ADADADFF";
+      };
+      "label" = {
+        "foreground" = "#ADADADFF";
+      };
+      "invalidEscapeSequence" = {
+        "foreground" = "#ADADADFF";
+      };
+      "event" = {
+        "foreground" = "#ADADADFF";
+      };
+      "deriveHelper" = {
+        "foreground" = "#ADADADFF";
+      };
+      "constParameter" = {
+        "foreground" = "#ADADADFF";
+      };
+      "const" = {
+        "foreground" = "#ADADADFF";
+      };
+      "class" = {
+        "foreground" = "#ADADADFF";
+      };
+      "character" = {
+        "foreground" = "#ADADADFF";
+      };
+      "attribute" = {
+        "foreground" = "#ADADADFF";
       };
       #----------------------------------------------------------------------------------------#
       "comment" = {
