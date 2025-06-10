@@ -2,10 +2,10 @@ let
   c9 = "#000000FF";
   c5 = "#636363FF";
   c1 = "#ADADADFF";
-  a1 = "#ADADAD7F";
 in {
   "titleBar.activeForeground" = c9;
   "textLink.activeForeground" = c9;
+  "terminalOverviewRuler.findMatchForeground" = c9;
   "tab.unfocusedHoverForeground" = c9;
   "tab.unfocusedActiveForeground" = c9;
   "tab.hoverForeground" = c9;
@@ -29,9 +29,11 @@ in {
   "list.activeSelectionIconForeground" = c9;
   "list.activeSelectionForeground" = c9;
   "inputOption.activeForeground" = c9;
+  "editorOverviewRuler.findMatchForeground" = c9;
   "editorLink.activeForeground" = c9;
   "editorLineNumber.activeForeground" = c9;
   "editorActionList.focusForeground" = c9;
+  "editor.findMatchForeground" = c9;
   "commandCenter.activeForeground" = c9;
   "breadcrumb.focusForeground" = c9;
   "breadcrumb.activeSelectionForeground" = c9;
@@ -216,17 +218,4 @@ in {
   "activityBarBadge.foreground" = c1;
   "activityBar.inactiveForeground" = c1;
   "activityBar.foreground" = c1;
-
-  "voiceRecording.dimmedBackground" = a1;
-  "list.deemphasizedForeground" = a1;
-  "interactiveEditorInput.placeholderForeground" = a1;
-  "input.placeholderForeground" = a1;
-  "inlineChatInput.placeholderForeground" = a1;
-  "editorWatermark.foreground" = a1;
-  "editorLineNumber.dimmedForeground" = a1;
-  "editorInlayHint.typeForeground" = a1;
-  "editorGhostText.foreground" = a1;
-  "editor.placeholder.foreground" = a1;
-  "editor.foldPlaceholderForeground" = a1;
-  "disabledForeground" = a1;
 }

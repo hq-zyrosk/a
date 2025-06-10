@@ -1,38 +1,34 @@
 let
-  word = import ./colour/word.nix;
-  variant_warning = import ./colour/variant/warning.nix;
-  variant_inform = import ./colour/variant/inform.nix;
-  variant_error = import ./colour/variant/error.nix;
-  variant = import ./colour/variant.nix;
-  unknown = import ./colour/unknown.nix;
-  slider = import ./colour/slider.nix;
-  shadow = import ./colour/shadow.nix;
-  selection = import ./colour/selection.nix;
-  redundant = import ./colour/redundant.nix;
-  highlight = import ./colour/highlight.nix;
-  hidden = import ./colour/hidden.nix;
-  foreground = import ./colour/foreground.nix;
-  cursor = import ./colour/cursor.nix;
-  border = import ./colour/border.nix;
-  background = import ./colour/background.nix;
+  fg_selection = import ./colour/fg/selection.nix;
+  fg_highlight = import ./colour/fg/highlight.nix;
+  fg_element_warning = import ./colour/fg/element/warning.nix;
+  fg_element_inform = import ./colour/fg/element/inform.nix;
+  fg_element_error = import ./colour/fg/element/error.nix;
+  fg_element = import ./colour/fg/element.nix;
+  fg_cursor = import ./colour/fg/cursor.nix;
+  fg = import ./colour/fg.nix;
+  bg_unknown = import ./colour/bg/unknown.nix;
+  bg_slider = import ./colour/bg/slider.nix;
+  bg_shadow = import ./colour/bg/shadow.nix;
+  bg_ignore = import ./colour/bg/ignore.nix;
+  bg_border = import ./colour/bg/border.nix;
+  bg = import ./colour/bg.nix;
 in {
   "workbench.colorCustomizations" =
-    word
-    // variant_warning
-    // variant_inform
-    // variant_error
-    // variant
-    // unknown
-    // slider
-    // shadow
-    // selection
-    // redundant
-    // highlight
-    // hidden
-    // foreground
-    // cursor
-    // border
-    // background;
+    fg_selection
+    // fg_highlight
+    // fg_element_warning
+    // fg_element_inform
+    // fg_element_error
+    // fg_element
+    // fg_cursor
+    // fg
+    // bg_unknown
+    // bg_slider
+    // bg_shadow
+    // bg_ignore
+    // bg_border
+    // bg;
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
       {
