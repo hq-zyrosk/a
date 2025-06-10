@@ -43,3 +43,5 @@ in {
     hostName = "x";
   };
 }
+#TODO: make sure nameservers are properly set
+

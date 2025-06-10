@@ -37,6 +37,8 @@ in {
     "textMateRules" = [
       {
         "scope" = [
+          "entity.other.attribute-name.multipart"
+          "support.type.property-name"
           "variable"
         ];
         "settings" = {
