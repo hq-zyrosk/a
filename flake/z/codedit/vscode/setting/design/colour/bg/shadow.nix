@@ -1,13 +1,15 @@
 let
-  c5 = "#0000003F";
+  c9 = "#000000AF";
+  # c5 = "#0000007F";
+  # c1 = "#0000003F";
 in {
-  "widget.shadow" = c5;
-  "sideBarStickyScroll.shadow" = c5;
-  "scrollbar.shadow" = c5;
-  "panelStickyScroll.shadow" = c5;
-  "minimap.foregroundOpacity" = c5;
-  "listFilterWidget.shadow" = c5;
-  "inlineChat.shadow" = c5;
-  "editorStickyScroll.shadow" = c5;
-  "diffEditor.unchangedRegionShadow" = c5;
+  "widget.shadow" = c9;
+  "sideBarStickyScroll.shadow" = c9;
+  "scrollbar.shadow" = c9;
+  "panelStickyScroll.shadow" = c9;
+  "minimap.foregroundOpacity" = c9;
+  "listFilterWidget.shadow" = c9;
+  "inlineChat.shadow" = c9;
+  "editorStickyScroll.shadow" = c9;
+  "diffEditor.unchangedRegionShadow" = c9;
 }
