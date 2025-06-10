@@ -1,6 +1,5 @@
 let
   c9 = "#FF0000FF";
-  _ = import ./_.nix;
 in {
   "terminal.hoverHighlightBackground" = c9;
   "list.highlightForeground" = c9;
