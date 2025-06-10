@@ -1,6 +1,5 @@
 let
-  c5 = _.rgba 0.50000 0.50000 0.50000 0.50000;
-  _ = import ./_.nix;
+  c5 = "#0000003F";
 in {
   "widget.shadow" = c5;
   "sideBarStickyScroll.shadow" = c5;

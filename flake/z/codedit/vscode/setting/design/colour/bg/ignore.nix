@@ -1,7 +1,7 @@
 let
-  a9 = "#ADADAD3F";
-  a5 = "#00000000";
-  a1 = "default";
+  a9 = "#0000007F";
+  a5 = "#0000003F";
+  a1 = "#00000000";
 in {
   "voiceRecording.dimmedBackground" = a9;
   "list.deemphasizedForeground" = a9;
