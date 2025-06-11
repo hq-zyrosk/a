@@ -21,10 +21,10 @@ in {
   "minimap.warningHighlight" = c5;
   "inputValidation.warningBackground" = c5;
   "gauge.warningBackground" = c5;
+  "editorWarning.background" = c5;
   "editorMarkerNavigationWarning.headerBackground" = c5;
   "editorMarkerNavigationWarning.background" = c5;
   "activityWarningBadge.background" = c5;
-  "editorWarning.background" = c5;
 
   "inputValidation.warningBorder" = c1;
   "editorWarning.border" = c1;
