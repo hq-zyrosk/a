@@ -224,6 +224,11 @@
             "mod4,       f, fullscreen, 0"
             "mod4,       q, killactive"
 
+            "mod4,       right, movefocus, r"
+            "mod4,       left, movefocus, l"
+            "mod4,       down, movefocus, d"
+            "mod4,       up, movefocus, u"
+
             "mod4,       9, workspace, 9"
             "mod4,       8, workspace, 8"
             "mod4,       7, workspace, 7"
@@ -233,11 +238,6 @@
             "mod4,       3, workspace, 3"
             "mod4,       2, workspace, 2"
             "mod4,       1, workspace, 1"
-
-            "mod4,       right, movefocus, r"
-            "mod4,       left, movefocus, l"
-            "mod4,       down, movefocus, d"
-            "mod4,       up, movefocus, u"
           ];
           animations = {
             enabled = false;
