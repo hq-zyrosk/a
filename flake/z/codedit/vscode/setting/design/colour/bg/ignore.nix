@@ -22,7 +22,6 @@ in {
   "tab.activeBorder" = a5;
   "list.focusAndSelectionOutline" = a5;
   "editorOverviewRuler.border" = a5;
-  "editorOverviewRuler.background" = a5;
   "editorGroupHeader.border" = a5;
   "editorBracketMatch.border" = a5;
   "editor.foldBackground" = a5;
@@ -36,6 +35,7 @@ in {
   "list.inactiveFocusBackground" = a1;
   "list.focusBackground" = a1;
   "list.activeSelectionBackground" = a1;
+  "editorOverviewRuler.background" = a1;
   "editorIndentGuide.background" = a1;
   "editorIndentGuide.activeBackground" = a1;
   "editorBracketMatch.background" = a1;
