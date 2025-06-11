@@ -2,7 +2,6 @@ let
   c9 = "#FFFFFFFF";
   c5 = "#FFFFFFFF";
   c1 = "#FFFFFFFF";
-  a1 = "#FFFFFF7F";
 in {
   "editor.wordHighlightStrongBackground" = c9;
   "editor.focusedStackFrameHighlightBackground" = c9;
@@ -173,8 +172,4 @@ in {
   "radio.inactiveBackground" = c1;
   "prompt.frontMatter.inactiveBackground" = c1;
   "tab.unfocusedInactiveBackground" = c1;
-
-  "editorWarning.background" = a1;
-  "editorInfo.background" = a1;
-  "editorError.background" = a1;
 }

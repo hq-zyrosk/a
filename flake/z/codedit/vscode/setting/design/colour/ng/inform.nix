@@ -22,6 +22,7 @@ in {
   "inputValidation.infoBackground" = c5;
   "editorMarkerNavigationInfo.headerBackground" = c5;
   "editorMarkerNavigationInfo.background" = c5;
+  "editorInfo.background" = c5;
 
   "inputValidation.infoBorder" = c1;
   "editorInfo.border" = c1;

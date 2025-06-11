@@ -42,6 +42,7 @@ in {
   "editorGroupHeader.noTabsBackground" = c5;
   "editorGroup.emptyBackground" = c5;
   "activityErrorBadge.background" = c5;
+  "editorError.background" = c5;
 
   "testing.message.error.badgeBorder" = c1;
   "inputValidation.errorBorder" = c1;

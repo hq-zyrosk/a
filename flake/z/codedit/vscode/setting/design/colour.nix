@@ -1,10 +1,10 @@
 let
+  ng_warning = import ./colour/ng/warning.nix;
+  ng_inform = import ./colour/ng/inform.nix;
+  ng_error = import ./colour/ng/error.nix;
+  ng = import ./colour/ng.nix;
   fg_selection = import ./colour/fg/selection.nix;
   fg_highlight = import ./colour/fg/highlight.nix;
-  fg_element_warning = import ./colour/fg/element/warning.nix;
-  fg_element_inform = import ./colour/fg/element/inform.nix;
-  fg_element_error = import ./colour/fg/element/error.nix;
-  fg_element = import ./colour/fg/element.nix;
   fg_cursor = import ./colour/fg/cursor.nix;
   fg = import ./colour/fg.nix;
   bg_unknown = import ./colour/bg/unknown.nix;
@@ -15,12 +15,12 @@ let
   bg = import ./colour/bg.nix;
 in {
   "workbench.colorCustomizations" =
-    fg_selection
+    ng_warning
+    // ng_inform
+    // ng_error
+    // ng
+    // fg_selection
     // fg_highlight
-    // fg_element_warning
-    // fg_element_inform
-    // fg_element_error
-    // fg_element
     // fg_cursor
     // fg
     // bg_unknown
