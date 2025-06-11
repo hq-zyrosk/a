@@ -153,6 +153,7 @@ in {
   "editorWidget.border" = a1;
   "editorSuggestWidget.border" = a1;
   "editorStickyScroll.border" = a1;
+  "editorRuler.foreground" = a1;
   "editorIndentGuide.background6" = a1;
   "editorIndentGuide.background5" = a1;
   "editorIndentGuide.background4" = a1;

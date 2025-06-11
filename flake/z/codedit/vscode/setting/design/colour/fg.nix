@@ -178,7 +178,6 @@ in {
   "editorSuggestWidgetStatus.foreground" = c1;
   "editorSuggestWidget.selectedForeground" = c1;
   "editorSuggestWidget.foreground" = c1;
-  "editorRuler.foreground" = c1;
   "editorLineNumber.foreground" = c1;
   "editorInlayHint.parameterForeground" = c1;
   "editorInlayHint.foreground" = c1;
