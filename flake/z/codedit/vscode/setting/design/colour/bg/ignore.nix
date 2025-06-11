@@ -30,14 +30,15 @@ in {
   "contrastActiveBorder" = a5;
   "bookmarks.overviewRuler" = a5;
 
-  "quickInput.list.focusBackground" = a1;
   "list.inactiveSelectionBackground" = a1;
   "list.inactiveFocusBackground" = a1;
   "list.focusBackground" = a1;
   "list.activeSelectionBackground" = a1;
   "editorOverviewRuler.background" = a1;
-  "editorIndentGuide.background" = a1;
-  "editorIndentGuide.activeBackground" = a1;
   "editorBracketMatch.background" = a1;
-  "editorActiveLineNumber.foreground" = a1;
+
+  "quickInput.list.focusBackground" = "default";
+  "editorIndentGuide.background" = "default";
+  "editorIndentGuide.activeBackground" = "default";
+  "editorActiveLineNumber.foreground" = "default";
 }
