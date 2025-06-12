@@ -38,6 +38,14 @@ in {
           "variable"
         ];
         "settings" = {
+          "foreground" = "#4343FFFF";
+        };
+      }
+      {
+        "scope" = [
+          "entity.name.function"
+        ];
+        "settings" = {
           "foreground" = "#006F6FFF";
         };
       }

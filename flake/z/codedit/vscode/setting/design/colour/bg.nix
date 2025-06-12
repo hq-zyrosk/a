@@ -1,16 +1,13 @@
 let
   c9 = "#FFFFFFFF";
-  c5 = "#FFFFFFFF";
-  c1 = "#FFFFFFFF";
+  c5 = "#FFFFFFAF";
+  c1 = "#FFFFFF3F";
 in {
-  "editor.wordHighlightStrongBackground" = c9;
-  "editor.focusedStackFrameHighlightBackground" = c9;
   "welcomePage.tileHoverBackground" = c9;
   "toolbar.hoverBackground" = c9;
   "toolbar.activeBackground" = c9;
   "titleBar.activeBackground" = c9;
   "terminalStickyScrollHover.background" = c9;
-  "terminal.findMatchHighlightBackground" = c9;
   "terminal.findMatchBackground" = c9;
   "tab.unfocusedHoverBackground" = c9;
   "tab.unfocusedActiveBackground" = c9;
@@ -26,38 +23,19 @@ in {
   "searchEditor.findMatchBackground" = c9;
   "scmGraph.historyItemHoverDefaultLabelBackground" = c9;
   "radio.activeBackground" = c9;
-  "peekViewResult.matchHighlightBackground" = c9;
-  "peekViewEditor.matchHighlightBackground" = c9;
-  "notebook.symbolHighlightBackground" = c9;
   "notebook.cellStatusBarItemHoverBackground" = c9;
   "notebook.cellHoverBackground" = c9;
-  "minimap.findMatchHighlight" = c9;
   "list.hoverBackground" = c9;
   "list.filterMatchBackground" = c9;
-  "interactiveEditor.regionHighlight" = c9;
   "inputOption.hoverBackground" = c9;
   "inputOption.activeBackground" = c9;
-  "inlineChat.regionHighlight" = c9;
   "extensionButton.prominentHoverBackground" = c9;
   "extensionButton.hoverBackground" = c9;
-  "editorUnicodeHighlight.background" = c9;
   "editorStickyScrollHover.background" = c9;
   "editorHoverWidget.statusBarBackground" = c9;
   "editorHoverWidget.background" = c9;
   "editorCommentsWidget.rangeActiveBackground" = c9;
-  "editor.wordHighlightTextBackground" = c9;
-  "editor.wordHighlightBackground" = c9;
-  "editor.symbolHighlightBackground" = c9;
-  "editor.stackFrameHighlightBackground" = c9;
-  "editor.snippetTabstopHighlightBackground" = c9;
-  "editor.snippetFinalTabstopHighlightBackground" = c9;
-  "editor.rangeHighlightBackground" = c9;
-  "editor.lineHighlightBackground" = c9;
-  "editor.hoverHighlightBackground" = c9;
-  "editor.findRangeHighlightBackground" = c9;
-  "editor.findMatchHighlightBackground" = c9;
   "editor.findMatchBackground" = c9;
-  "debugView.valueChangedHighlight" = c9;
   "commandCenter.activeBackground" = c9;
   "button.secondaryHoverBackground" = c9;
   "button.hoverBackground" = c9;
@@ -171,5 +149,4 @@ in {
   "radio.inactiveHoverBackground" = c1;
   "radio.inactiveBackground" = c1;
   "prompt.frontMatter.inactiveBackground" = c1;
-  "tab.unfocusedInactiveBackground" = c1;
 }

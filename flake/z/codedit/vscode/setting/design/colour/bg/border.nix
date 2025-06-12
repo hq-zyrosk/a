@@ -6,7 +6,6 @@ in {
   "window.activeBorder" = a9;
   "toolbar.hoverOutline" = a9;
   "terminal.tab.activeBorder" = a9;
-  "terminal.findMatchHighlightBorder" = a9;
   "terminal.findMatchBorder" = a9;
   "tab.unfocusedHoverBorder" = a9;
   "tab.hoverBorder" = a9;
@@ -16,7 +15,6 @@ in {
   "searchEditor.findMatchBorder" = a9;
   "sash.hoverBorder" = a9;
   "radio.activeBorder" = a9;
-  "peekViewEditor.matchHighlightBorder" = a9;
   "panelTitle.activeBorder" = a9;
   "notebook.focusedEditorBorder" = a9;
   "notebook.focusedCellBorder" = a9;
@@ -29,7 +27,6 @@ in {
   "inputOption.activeBorder" = a9;
   "inlineChatInput.focusBorder" = a9;
   "focusBorder" = a9;
-  "editorUnicodeHighlight.border" = a9;
   "editorIndentGuide.activeBackground6" = a9;
   "editorIndentGuide.activeBackground5" = a9;
   "editorIndentGuide.activeBackground4" = a9;
@@ -43,16 +40,6 @@ in {
   "editorBracketPairGuide.activeBackground3" = a9;
   "editorBracketPairGuide.activeBackground2" = a9;
   "editorBracketPairGuide.activeBackground1" = a9;
-  "editor.wordHighlightTextBorder" = a9;
-  "editor.wordHighlightStrongBorder" = a9;
-  "editor.wordHighlightBorder" = a9;
-  "editor.symbolHighlightBorder" = a9;
-  "editor.snippetTabstopHighlightBorder" = a9;
-  "editor.snippetFinalTabstopHighlightBorder" = a9;
-  "editor.rangeHighlightBorder" = a9;
-  "editor.lineHighlightBorder" = a9;
-  "editor.findRangeHighlightBorder" = a9;
-  "editor.findMatchHighlightBorder" = a9;
   "editor.findMatchBorder" = a9;
   "diffEditor.moveActive.border" = a9;
   "commandCenter.activeBorder" = a9;
