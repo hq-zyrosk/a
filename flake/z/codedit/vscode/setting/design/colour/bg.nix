@@ -23,8 +23,11 @@ in {
   "searchEditor.findMatchBackground" = c9;
   "scmGraph.historyItemHoverDefaultLabelBackground" = c9;
   "radio.activeBackground" = c9;
+  "peekViewEditorGutter.background" = c9;
+  "peekViewEditor.background" = c9;
   "notebook.cellStatusBarItemHoverBackground" = c9;
   "notebook.cellHoverBackground" = c9;
+  "multiDiffEditor.background" = c9;
   "list.hoverBackground" = c9;
   "list.filterMatchBackground" = c9;
   "inputOption.hoverBackground" = c9;
@@ -32,10 +35,14 @@ in {
   "extensionButton.prominentHoverBackground" = c9;
   "extensionButton.hoverBackground" = c9;
   "editorStickyScrollHover.background" = c9;
+  "editorOverviewRuler.background" = c9;
   "editorHoverWidget.statusBarBackground" = c9;
   "editorHoverWidget.background" = c9;
+  "editorGutter.itemBackground" = c9;
+  "editorGutter.background" = c9;
   "editorCommentsWidget.rangeActiveBackground" = c9;
   "editor.findMatchBackground" = c9;
+  "editor.background" = c9;
   "commandCenter.activeBackground" = c9;
   "button.secondaryHoverBackground" = c9;
   "button.hoverBackground" = c9;
@@ -77,8 +84,6 @@ in {
   "peekViewResult.selectionBackground" = c5;
   "peekViewResult.background" = c5;
   "peekViewEditorStickyScroll.background" = c5;
-  "peekViewEditorGutter.background" = c5;
-  "peekViewEditor.background" = c5;
   "panelTitleBadge.background" = c5;
   "panelStickyScroll.background" = c5;
   "panelSectionHeader.background" = c5;
@@ -90,7 +95,6 @@ in {
   "notificationCenterHeader.background" = c5;
   "notebook.cellEditorBackground" = c5;
   "multiDiffEditor.headerBackground" = c5;
-  "multiDiffEditor.background" = c5;
   "minimap.background" = c5;
   "menubar.selectionBackground" = c5;
   "menu.selectionBackground" = c5;
@@ -117,13 +121,10 @@ in {
   "editorInlayHint.typeBackground" = c5;
   "editorInlayHint.parameterBackground" = c5;
   "editorInlayHint.background" = c5;
-  "editorGutter.itemBackground" = c5;
-  "editorGutter.background" = c5;
   "editorGroupHeader.tabsBackground" = c5;
   "editorGroup.dropBackground" = c5;
   "editor.linkedEditingBackground" = c5;
   "editor.inlineValuesBackground" = c5;
-  "editor.background" = c5;
   "dropdown.listBackground" = c5;
   "dropdown.background" = c5;
   "diffEditor.unchangedRegionBackground" = c5;

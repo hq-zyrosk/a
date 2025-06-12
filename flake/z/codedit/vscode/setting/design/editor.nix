@@ -1,4 +1,7 @@
 let
+  scrollbar = {
+    size = 16;
+  };
   brackets = [
     [
       "{"
@@ -45,11 +48,11 @@ in {
   "editor.scrollPredominantAxis" = true;
   "editor.scrollBeyondLastLine" = false;
   "editor.scrollBeyondLastColumn" = 4;
-  "editor.scrollbar.verticalScrollbarSize" = 8;
+  "editor.scrollbar.verticalScrollbarSize" = scrollbar.size;
   "editor.scrollbar.vertical" = "hidden";
   "editor.scrollbar.scrollByPage" = false;
   "editor.scrollbar.ignoreHorizontalScrollbarInContentHeight" = false;
-  "editor.scrollbar.horizontalScrollbarSize" = 8;
+  "editor.scrollbar.horizontalScrollbarSize" = scrollbar.size;
   "editor.scrollbar.horizontal" = "hidden";
   "editor.roundedSelection" = true;
   "editor.renderWhitespace" = "trailing";
