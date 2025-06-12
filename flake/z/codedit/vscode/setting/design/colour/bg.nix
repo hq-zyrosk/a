@@ -1,7 +1,7 @@
 let
   c9 = "#FFFFFFFF";
-  c5 = "#FFFFFFAF";
-  c1 = "#FFFFFF3F";
+  c5 = "#EFEFEFFF";
+  c1 = "#CFCFCFFF";
 in {
   "welcomePage.tileHoverBackground" = c9;
   "toolbar.hoverBackground" = c9;
