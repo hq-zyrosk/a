@@ -3,7 +3,7 @@
   "outline.showTypeParameters" = false;
   "outline.showStructs" = true;
   "outline.showStrings" = false;
-  "outline.showProperties" = false;
+  "outline.showProperties" = true;
   "outline.showPackages" = false;
   "outline.showOperators" = false;
   "outline.showObjects" = false;
