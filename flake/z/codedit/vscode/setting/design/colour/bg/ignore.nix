@@ -26,8 +26,6 @@ in {
   "editor.foldPlaceholderForeground" = a5;
   "editor.foldBackground" = a5;
   "diffEditor.diagonalFill" = a5;
-  "contrastBorder" = a5;
-  "contrastActiveBorder" = a5;
   "bookmarks.overviewRuler" = a5;
 
   "list.inactiveSelectionBackground" = a1;
@@ -36,6 +34,8 @@ in {
   "list.activeSelectionBackground" = a1;
   "editorGhostText.background" = a1;
   "editorBracketMatch.background" = a1;
+  "contrastBorder" = a1;
+  "contrastActiveBorder" = a1;
 
   "quickInput.list.focusBackground" = "default";
   "editorIndentGuide.background" = "default";

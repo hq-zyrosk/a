@@ -30,8 +30,10 @@ in {
   "multiDiffEditor.background" = c9;
   "list.hoverBackground" = c9;
   "list.filterMatchBackground" = c9;
+  "interactiveEditorInput.background" = c9;
   "inputOption.hoverBackground" = c9;
   "inputOption.activeBackground" = c9;
+  "input.background" = c9;
   "extensionButton.prominentHoverBackground" = c9;
   "extensionButton.hoverBackground" = c9;
   "editorStickyScrollHover.background" = c9;
@@ -105,8 +107,6 @@ in {
   "keybindingTable.rowsBackground" = c5;
   "keybindingTable.headerBackground" = c5;
   "keybindingLabel.background" = c5;
-  "interactiveEditorInput.background" = c5;
-  "input.background" = c5;
   "inlineChatInput.background" = c5;
   "gauge.background" = c5;
   "extensionButton.prominentBackground" = c5;
