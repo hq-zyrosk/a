@@ -1,12 +1,14 @@
 let
   c9 = "#FF0000FF";
+  c5 = "#7F0000FF";
   c1 = "#00000000";
 in {
   "terminalOverviewRuler.cursorForeground" = c9;
   "terminalCursor.foreground" = c9;
-  "editorMultiCursor.secondary.foreground" = c9;
   "editorMultiCursor.primary.foreground" = c9;
   "editorCursor.foreground" = c9;
+
+  "editorMultiCursor.secondary.foreground" = c5;
 
   "terminalCursor.background" = c1;
   "editorMultiCursor.secondary.background" = c1;

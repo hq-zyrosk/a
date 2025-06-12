@@ -14,9 +14,11 @@
   left: 2px !important;
 }
 
-/* .monaco-editor .dirty-diff-glyph:before {
+/*
+.monaco-editor .dirty-diff-glyph:before {
   width: 4px;
-} */
+}
+*/
 /*--------------------------------------------------------------------------------------------*/
 /*explorer-rows-colour*/
 .explorer-folders-view > .monaco-list > .monaco-scrollable-element > .monaco-list-rows > .monaco-list-row[aria-expanded="false"] {
