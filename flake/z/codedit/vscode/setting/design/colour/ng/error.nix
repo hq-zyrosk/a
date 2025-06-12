@@ -40,7 +40,6 @@ in {
   "editorMarkerNavigationError.headerBackground" = c5;
   "editorMarkerNavigationError.background" = c5;
   "editorGroupHeader.noTabsBackground" = c5;
-  "editorGroup.emptyBackground" = c5;
   "editorError.background" = c5;
   "activityErrorBadge.background" = c5;
 

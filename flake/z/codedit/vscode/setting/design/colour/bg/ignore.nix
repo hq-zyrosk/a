@@ -35,6 +35,7 @@ in {
   "list.focusBackground" = a1;
   "list.activeSelectionBackground" = a1;
   "editorOverviewRuler.background" = a1;
+  "editorGhostText.background" = a1;
   "editorBracketMatch.background" = a1;
 
   "quickInput.list.focusBackground" = "default";

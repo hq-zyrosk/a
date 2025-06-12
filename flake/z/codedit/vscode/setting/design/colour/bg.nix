@@ -44,12 +44,14 @@ in {
 
   "walkThrough.embeddedEditorBackground" = c5;
   "tree.tableOddRowsBackground" = c5;
+  "titleBar.inactiveBackground" = c5;
   "textCodeBlock.background" = c5;
   "textBlockQuote.background" = c5;
   "testing.peekHeaderBackground" = c5;
   "terminalStickyScroll.background" = c5;
   "terminal.background" = c5;
   "tab.selectedBackground" = c5;
+  "tab.inactiveBackground" = c5;
   "statusBarItem.remoteBackground" = c5;
   "statusBarItem.prominentBackground" = c5;
   "statusBar.offlineBackground" = c5;
@@ -62,9 +64,12 @@ in {
   "sideBar.dropBackground" = c5;
   "sideBar.background" = c5;
   "settings.textInputBackground" = c5;
+  "radio.inactiveHoverBackground" = c5;
+  "radio.inactiveBackground" = c5;
   "quickInputTitle.background" = c5;
   "quickInputList.focusBackground" = c5;
   "quickInput.background" = c5;
+  "prompt.frontMatter.inactiveBackground" = c5;
   "prompt.frontMatter.background" = c5;
   "progressBar.background" = c5;
   "profileBadge.background" = c5;
@@ -116,7 +121,6 @@ in {
   "editorGutter.background" = c5;
   "editorGroupHeader.tabsBackground" = c5;
   "editorGroup.dropBackground" = c5;
-  "editorGhostText.background" = c5;
   "editor.linkedEditingBackground" = c5;
   "editor.inlineValuesBackground" = c5;
   "editor.background" = c5;
@@ -144,9 +148,5 @@ in {
   "activityBar.background" = c5;
   "actionBar.toggledBackground" = c5;
 
-  "titleBar.inactiveBackground" = c1;
-  "tab.inactiveBackground" = c1;
-  "radio.inactiveHoverBackground" = c1;
-  "radio.inactiveBackground" = c1;
-  "prompt.frontMatter.inactiveBackground" = c1;
+  "editorGroup.emptyBackground" = c1;
 }
