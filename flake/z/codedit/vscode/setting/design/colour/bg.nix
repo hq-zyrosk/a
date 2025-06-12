@@ -1,6 +1,6 @@
 let
   c9 = "#FFFFFFFF";
-  c5 = "#EFEFEFFF";
+  c5 = "#FBFBFBFF";
   c1 = "#CFCFCFFF";
 in {
   "welcomePage.tileHoverBackground" = c9;

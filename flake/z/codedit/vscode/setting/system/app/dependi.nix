@@ -8,42 +8,42 @@ let
 in {
   "dependi.decoration.patchAvailable.style" = {
     before = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FFFF00FF";
     };
     after = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FFFF00FF";
     };
   };
   "dependi.decoration.incompatible.style" = {
     before = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FFAA00FF";
     };
     after = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FFAA00FF";
     };
   };
   "dependi.decoration.error.style" = {
     before = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FF0000FF";
     };
     after = {
-      backgroundColor = "#000000FF";
+      backgroundColor = "#FFFFFFFF";
       color = "#FF0000FF";
     };
   };
   "dependi.decoration.compatible.style" = {
     before = {
-      backgroundColor = "#000000FF";
-      color = "#FFFFFFFF";
+      backgroundColor = "#FFFFFFFF";
+      color = "#000000FF";
     };
     after = {
-      backgroundColor = "#000000FF";
-      color = "#FFFFFFFF";
+      backgroundColor = "#FFFFFFFF";
+      color = "#000000FF";
     };
   };
   "dependi.vulnerability.osvQueryURL.single" = "https://api.osv.dev/v1/query";
