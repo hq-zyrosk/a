@@ -1,3 +1,4 @@
+#TODO: make sure nameservers are properly set
 {lib, ...}: let
   # nameservers = [
   #   "8.8.8.8"
@@ -41,5 +42,3 @@ in {
     hostName = "x";
   };
 }
-#TODO: make sure nameservers are properly set
-
