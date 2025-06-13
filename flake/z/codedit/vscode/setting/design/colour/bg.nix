@@ -8,7 +8,6 @@ in {
   "toolbar.activeBackground" = c9;
   "titleBar.activeBackground" = c9;
   "terminalStickyScrollHover.background" = c9;
-  "terminal.findMatchBackground" = c9;
   "tab.unfocusedHoverBackground" = c9;
   "tab.unfocusedActiveBackground" = c9;
   "tab.hoverBackground" = c9;
@@ -20,7 +19,6 @@ in {
   "statusBarItem.compactHoverBackground" = c9;
   "statusBarItem.activeBackground" = c9;
   "settings.rowHoverBackground" = c9;
-  "searchEditor.findMatchBackground" = c9;
   "scmGraph.historyItemHoverDefaultLabelBackground" = c9;
   "radio.activeBackground" = c9;
   "peekViewEditorGutter.background" = c9;
@@ -43,7 +41,6 @@ in {
   "editorGutter.itemBackground" = c9;
   "editorGutter.background" = c9;
   "editorCommentsWidget.rangeActiveBackground" = c9;
-  "editor.findMatchBackground" = c9;
   "editor.background" = c9;
   "commandCenter.activeBackground" = c9;
   "button.secondaryHoverBackground" = c9;
