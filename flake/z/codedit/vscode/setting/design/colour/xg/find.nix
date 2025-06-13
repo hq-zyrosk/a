@@ -1,14 +1,14 @@
 let
   c9 = "#000000FF";
-  c5 = "#FFFFFF3F";
-  c1 = "#ADADADFF";
+  c5 = "#ADADADFF";
+  c1 = "#FFFFFF3F";
 in {
   "editor.findMatchHighlightForeground" = c9;
-  "minimap.findMatchHighlight" = c5;
+  "minimap.findMatchHighlight" = c9;
 
-  "terminal.findMatchBackground" = c9;
-  "searchEditor.findMatchBackground" = c9;
-  "editor.findMatchBackground" = c9;
+  "terminal.findMatchBackground" = c5;
+  "searchEditor.findMatchBackground" = c5;
+  "editor.findMatchBackground" = c5;
   "terminal.findMatchHighlightBackground" = c5;
   "editor.findMatchHighlightBackground" = c5;
 

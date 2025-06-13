@@ -1,7 +1,7 @@
 let
   c9 = "#000000FF";
-  c5 = "#FFFFFF3F";
-  c1 = "#ADADADFF";
+  c5 = "#ADADADFF";
+  c1 = "#FFFFFF3F";
 in {
   "list.highlightForeground" = c9;
   "list.focusHighlightForeground" = c9;

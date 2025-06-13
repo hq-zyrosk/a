@@ -14,8 +14,10 @@ let
   bg_slider = import ./colour/bg/slider.nix;
   bg_shadow = import ./colour/bg/shadow.nix;
   bg_ignore = import ./colour/bg/ignore.nix;
-  bg_border = import ./colour/bg/border.nix;
   bg = import ./colour/bg.nix;
+  ag_indent = import ./colour/ag/indent.nix;
+  ag_braces = import ./colour/ag/braces.nix;
+  ag = import ./colour/ag.nix;
 in {
   "workbench.colorCustomizations" =
     xg_word
@@ -33,8 +35,10 @@ in {
     // bg_slider
     // bg_shadow
     // bg_ignore
-    // bg_border
-    // bg;
+    // bg
+    // ag_indent
+    // ag_braces
+    // ag;
   "editor.tokenColorCustomizations" = {
     "textMateRules" = [
       {
