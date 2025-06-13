@@ -1,10 +1,13 @@
 let
+  xg_word = import ./colour/xg/word.nix;
+  xg_find_range = import ./colour/xg/find/range.nix;
+  xg_find = import ./colour/xg/find.nix;
+  xg = import ./colour/xg.nix;
   ng_warning = import ./colour/ng/warning.nix;
   ng_inform = import ./colour/ng/inform.nix;
   ng_error = import ./colour/ng/error.nix;
   ng = import ./colour/ng.nix;
   fg_selection = import ./colour/fg/selection.nix;
-  fg_highlight = import ./colour/fg/highlight.nix;
   fg_cursor = import ./colour/fg/cursor.nix;
   fg = import ./colour/fg.nix;
   bg_unknown = import ./colour/bg/unknown.nix;
@@ -15,12 +18,15 @@ let
   bg = import ./colour/bg.nix;
 in {
   "workbench.colorCustomizations" =
-    ng_warning
+    xg_word
+    // xg_find_range
+    // xg_find
+    // xg
+    // ng_warning
     // ng_inform
     // ng_error
     // ng
     // fg_selection
-    // fg_highlight
     // fg_cursor
     // fg
     // bg_unknown
