@@ -1,4 +1,6 @@
-{pkgs, ...}: {
+{pkgs, ...}: let
+  ashell = false;
+in {
   wayland = {
     windowManager = {
       hyprland = {
@@ -288,7 +290,14 @@
       enable = true;
     };
     ashell = {
-      enable = true;
+      systemd = {
+        enable = ashell;
+      };
+      settings = {
+        position = "Bottom";
+        outputs = "All";
+      };
+      enable = ashell;
     };
   };
 
