@@ -85,7 +85,6 @@
       nodejs_latest
       curlHTTP3
       unzip
-      nmap
       just
       file
       eza
