@@ -1,8 +1,7 @@
 let
-  c9 = _.rgba 0.00000 0.00000 1.00000 1.00000;
-  c5 = _.rgba 0.00000 0.00000 0.50000 1.00000;
-  c1 = _.rgba 0.00000 0.00000 0.25000 1.00000;
-  _ = import ./../_.nix;
+  c9 = "#0000FFFF";
+  c5 = "#0000FFFF";
+  c1 = "#0000FFFF";
 in {
   "statusBarItem.warningHoverForeground" = c9;
   "statusBarItem.warningForeground" = c9;

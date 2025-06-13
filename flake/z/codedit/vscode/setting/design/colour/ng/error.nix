@@ -1,8 +1,7 @@
 let
-  c9 = _.rgba 1.00000 0.00000 0.00000 1.00000;
-  c5 = _.rgba 0.50000 0.00000 0.00000 1.00000;
-  c1 = _.rgba 0.25000 0.00000 0.00000 1.00000;
-  _ = import ./../_.nix;
+  c9 = "#FF0000FF";
+  c5 = "#FF0000FF";
+  c1 = "#FF0000FF";
 in {
   "testing.message.error.decorationForeground" = c9;
   "testing.message.error.badgeForeground" = c9;
