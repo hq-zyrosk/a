@@ -287,6 +287,9 @@
       };
       enable = true;
     };
+    ashell = {
+      enable = true;
+    };
   };
 
   services = {
