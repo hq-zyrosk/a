@@ -83,7 +83,7 @@ in {
   "editor.links" = true;
   "editor.linkedEditing" = true;
   "editor.lineNumbers" = "off";
-  "editor.lineDecorationsWidth" = 15;
+  "editor.lineDecorationsWidth" = 16;
   "editor.lightbulb.enabled" = "off";
   "editor.largeFileOptimizations" = true;
   "editor.language.colorizedBracketPairs" = brackets;
