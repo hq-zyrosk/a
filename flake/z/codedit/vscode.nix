@@ -7,7 +7,6 @@
     globalSnippets = {};
     extensions = with pkgs; [
       vscode-marketplace.tamasfe.even-better-toml
-      vscode-marketplace.tabnine.tabnine-vscode
       vscode-marketplace.rust-lang.rust-analyzer
       vscode-marketplace.redhat.vscode-yaml
       vscode-marketplace.redhat.vscode-xml
@@ -15,6 +14,7 @@
       vscode-marketplace.ms-vscode.vscode-typescript-next
       vscode-marketplace.likebot.vscode-empty-themes
       vscode-marketplace.jnoortheen.nix-ide
+      vscode-marketplace.github.copilot
       vscode-marketplace.fill-labs.dependi
       vscode-marketplace.dbaeumer.vscode-eslint
     ];
